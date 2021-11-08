@@ -1,27 +1,27 @@
 import './Quiz.css';
-import Parser from 'html-react-parser';
 import { useState } from 'react';
 
 function Quiz({data}){
-  const list = Array.from(new Array(data.length)).map(_=> false);
+  const list = Array.from(new Array(data.length)).map(_=> true);
   const [click, setClick] = useState({list});
-  
-  console.log('data:', data);
+
   function onClick(index) {
-    setClick({...click, [list] : [true, false, false]});
+    const newArray = [...click];
+    newArray[index] = false;
+    console.log('newArray:', newArray)
+    setClick(newArray);
+    console.log(click);
+    // setClick({...click, [list] : [true, false, false]});
   }
   
   const questions = data.map((item, index) => 
   <li className="questions" key={index}> 
     <div className="question">{data[0].subs[0].questiones[index].question}</div>
       <div className="answer" onClick={() => onClick(index)}>
-        {click? "hi": data[0].subs[0].questiones[index].answer}
+        {click ? "<정답>": data[0].subs[0].questiones[index].answer}
       </div><br />
   </li>)
 
-  function showAnswer() {
-    
-  }
   return (
     <div className="Quiz-wrap">
       <div className="header"><h1>[개념 터치 추가 문제] -1</h1><br/></div>
