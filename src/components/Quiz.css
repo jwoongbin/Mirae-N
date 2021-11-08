@@ -1,9 +1,25 @@
 .Quiz-wrap {
-  width: 100%;
+  width: 60%;
   height: 90%;
 }
 .Quiz-wrap >.haeder{
 
 }
 .Quiz-wrap >.haeder{
+}
+
+.Quiz-wrap >.contents >.quiz {
+  font-size: 25px;
+  white-space: pre-wrap;
+}
+.Quiz-wrap >.contents >.quiz >.questions >.question {
+
+}
+.Quiz-wrap >.contents >.quiz >.questions >.answer {
+
+  float: right;
+}
+
+.Quiz-wrap >.contents >.quiz >.questions::marker {  
+  padding-inline-start: 1ch;
 }
