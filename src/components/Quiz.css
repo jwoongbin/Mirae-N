@@ -1,9 +1,6 @@
 .Quiz-wrap {
-  width: 60%;
+  width: 70%;
   height: 90%;
-}
-.Quiz-wrap >.haeder{
-
 }
 .Quiz-wrap >.haeder{
 }
@@ -12,14 +9,19 @@
   font-size: 25px;
   white-space: pre-wrap;
 }
+.Quiz-wrap >.contents >.quiz >.questions{
+  margin-bottom: 20px;
+}
 .Quiz-wrap >.contents >.quiz >.questions >.question {
-
+  line-height: 1.75;
 }
 .Quiz-wrap >.contents >.quiz >.questions >.answer {
-
   float: right;
 }
 
 .Quiz-wrap >.contents >.quiz >.questions::marker {  
   padding-inline-start: 1ch;
+}
+.Quiz-wrap >.footer {
+  text-align: center;
 }
