@@ -1,24 +1,29 @@
 import './Quiz.css';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 function Quiz({data}){
   const list = Array.from(new Array(data.length)).map(_=> true);
-  const [click, setClick] = useState({list});
+  const [click, setClick] = useState(list);
 
   function onClick(index) {
-    const newArray = [...click];
+    let newArray = [...click];
+    // let newArray = Array.from(new Array(data.length)).map(_=> true);
     newArray[index] = false;
-    console.log('newArray:', newArray)
+    console.log('newArray?', newArray)
     setClick(newArray);
-    console.log(click);
+    console.log('click?', click);
     // setClick({...click, [list] : [true, false, false]});
   }
   
+useEffect(()=>{
+  console.log(click,'상태 변경 감지')
+},[click])
+
   const questions = data.map((item, index) => 
   <li className="questions" key={index}> 
     <div className="question">{data[0].subs[0].questiones[index].question}</div>
       <div className="answer" onClick={() => onClick(index)}>
-        {click ? "<정답>": data[0].subs[0].questiones[index].answer}
+        {click[index] ? "<정답>": data[0].subs[0].questiones[index].answer}
       </div><br />
   </li>)
 
