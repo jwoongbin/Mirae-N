@@ -3,13 +3,6 @@ import logo from '../textbook_OGtag.jpg';
 import Contents from './Contents';
 
 function Home({data}){
-  const newArrayData = data.map((item, index) =>{
-    return(
-      <li key={index}>
-        {item.unit}{item.title}{item.subs}
-      </li>  
-    );
-  });  
   return (
     <div className="wrap">
       <div className="container">

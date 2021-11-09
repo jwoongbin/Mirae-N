@@ -5,7 +5,7 @@ import './components/Home.css';
 import Mindmap from './components/Mindmap';
 import Quiz from './components/Quiz';
 
-import {BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (

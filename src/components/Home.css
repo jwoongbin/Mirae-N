@@ -45,7 +45,7 @@ html, body {
   line-height: 30px;
   background-color: grey;
 }
-.wrap >.header >.logo {
+.wrap >.header >.container >.logo {
     display: block;
     margin: 0 auto;
 }
