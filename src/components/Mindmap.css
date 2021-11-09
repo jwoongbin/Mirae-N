@@ -12,4 +12,7 @@
 }
 .mindmap-wrap >.header h1 {}
 .mindmap-wrap >.contents {}
+.mindmap-wrap >.contents >.subject {
+  white-space: pre-wrap;
+}
 .mindmap-wrap >.footer {}

@@ -22,7 +22,11 @@ function Mindmap({data}){
       </div>
       <div className="contents">
         <div className="subject" onClick={() => onClick()}>{data[0].subs[0].mindmap.title}</div>
-        <div className="sub-subject1">{click? data[0].subs[0].mindmap.mind_one : null}</div>
+        <div className="sub-subject1">
+          {click? data[0].subs[0].mindmap.mind_one : null}
+          {click? data[0].subs[0].mindmap.contents_one : null}
+        </div>
+
         <div className="sub-subject2">{click? data[0].subs[0].mindmap.mind_two : null}</div>
         <div className="sub-subject3">{click? data[0].subs[0].mindmap.mind_three : null}</div>
         <div className="quiz"></div>
