@@ -4,8 +4,11 @@ import {BrowserRouter, Link} from 'react-router-dom';
 import './Contents.css'
 import icon from '../icon.png';
 
+
 function Contents({data}) {
+  console.log(data);
   return(
+
     <div className="panel-group" id="accordion">
           <Accordion>
               {data.map((item, index) => (

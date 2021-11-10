@@ -10,7 +10,7 @@ function Mindmap({data}){
   const [click, setClick] = useState(false);
 
   function onClick(){
-    setClick(click => true);
+    setClick(click => !click);
     console.log(click);
   }
   return(

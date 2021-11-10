@@ -7,7 +7,8 @@ function Quiz({data}){
 
   function onClick(index) {
     let newArray = [...click];
-    newArray[index] = false;
+    newArray[index] = !newArray[index]
+    // newArray[index] = false;
     setClick(newArray);
   }
   
