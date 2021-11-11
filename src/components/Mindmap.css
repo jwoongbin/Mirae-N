@@ -1,18 +1,71 @@
 .mindmap-wrap{
+  background: url('/src/frame.png') no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
   width: 100%;
   height: 100%;
   justify-content: center;
+  flex-direction: column;
 }
+
 .mindmap-wrap >.header {
-  display: flex;
-  align-items: center;
 }
 .mindmap-wrap >.header >.logo {
   background-color: white;
 }
-.mindmap-wrap >.header h1 {}
-.mindmap-wrap >.contents {}
-.mindmap-wrap >.contents >.subject {
+.mindmap-wrap >.header h1 {
+  font-size: 38px;
+  color: #6e462c;
+}
+.mindmap-wrap >.contents {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   white-space: pre-wrap;
+}
+
+.mindmap-wrap >.contents >.mindmap-box >.subject {
+  display: flex;
+  position: relative;
+  text-align: center;
+}
+.mindmap-wrap >.contents >.mindmap-box >.subject >.item1 {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  right: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.mindmap-wrap >.contents >.mindmap-box >.subject >.sub-subject1 {
+
+}
+.mindmap-wrap >.contents >.mindmap-box >.subject >.item2 {
+  position: absolute;
+  width: 500px;
+  left: 18rem;
+  bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mindmap-wrap >.contents >.mindmap-box >.subject >.item2 >.sub-subject2 {
+  width: 100px;
+}
+.mindmap-wrap >.contents >.mindmap-box >.subject >.item3 {
+  position: absolute;
+  width: 500px;
+  left:18rem;
+  top: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.mindmap-wrap >.contents >.mindmap-box >.subject >.item3 >.sub-subject3 {
+  width: 100px;
 }
 .mindmap-wrap >.footer {}

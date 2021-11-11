@@ -26,14 +26,13 @@ function Quiz({data}){
 
   return (
     <div className="Quiz-wrap">
-      <div className="header"><h1>[개념 터치 추가 문제] -1</h1><br/></div>
+      <div className="header"></div>
       <div className="contents">
-        <div><h1>정답을 클릭하면 답이 노출됩니다.</h1></div><br/>
         <ol className="quiz">
           {questions}
         </ol>
       </div>
-      <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
+      <div className="footer"></div>
     </div>
 
   );

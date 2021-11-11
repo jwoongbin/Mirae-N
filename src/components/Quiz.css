@@ -1,6 +1,6 @@
 .Quiz-wrap {
-  width: 70%;
-  height: 90%;
+  width: 90%;
+  height: 80%;
 }
 .Quiz-wrap >.haeder{
 }
@@ -13,7 +13,7 @@
   margin-bottom: 20px;
 }
 .Quiz-wrap >.contents >.quiz >.questions >.question {
-  line-height: 1.75;
+
 }
 .Quiz-wrap >.contents >.quiz >.questions >.answer {
   float: right;
