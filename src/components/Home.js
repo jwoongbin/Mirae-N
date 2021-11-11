@@ -5,11 +5,13 @@ import Contents from './Contents';
 function Home({data}){
   return (
     <div className="wrap">
-      <div className="header">
-      {/* <img className="logo" src={logo} width="50%"/> */}
-      </div>
-      <div className="content">
-          <Contents data={data} />
+      <div className="contents">
+        <div className="header">
+        {/* <img className="logo" src={logo} width="50%"/> */}
+        </div>
+        <div className="content">
+            <Contents data={data} />
+        </div>
       </div>
       <div className="footer"></div>
     </div>
