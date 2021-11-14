@@ -1,28 +1,32 @@
 .mindmap-wrap{
   display: flex;
-  width: 100vh;
+  width: 100vw;
   height: 100vh;
-  justify-content: center;
   flex-direction: column;
 }
 
 .mindmap-wrap >.header {
   display:flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 .mindmap-wrap >.header >.logo {
   background-color: white;
 }
 .mindmap-wrap >.header h1 {
-  font-size: 7vh;
+  margin: auto 0;
+  font-size: 5vh;
   color: #6e462c;
 }
 .mindmap-wrap >.contents {
+  font-size: 2vh;
   display: flex;
   height: 100vh;
-  width: 100vh;
+  width: 100vw;
   justify-content: center;
   align-items: center;
   white-space: pre-wrap;
+  margin: 0 auto;
 }
 
 .mindmap-wrap >.contents >.mindmap-box >.subject {
@@ -32,9 +36,10 @@
 }
 .mindmap-wrap >.contents >.mindmap-box >.subject >.item1 {
   position: absolute;
-  width: 200px;
-  height: 250px;
-  right: 20rem;
+  width: 30vw;
+  height: 30vh;
+  top: -7vw;
+  right: 30vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -44,26 +49,24 @@
 }
 .mindmap-wrap >.contents >.mindmap-box >.subject >.item2 {
   position: absolute;
-  width: 500px;
-  left: 18rem;
-  bottom: 5rem;
+  width: 50vw;
+  left: 30vw;
+  bottom: 10vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .mindmap-wrap >.contents >.mindmap-box >.subject >.item2 >.sub-subject2 {
-  width: 100px;
 }
 .mindmap-wrap >.contents >.mindmap-box >.subject >.item3 {
   position: absolute;
-  width: 500px;
-  left:18rem;
-  top: 5rem;
+  width: 50vw;
+  left: 30vw;
+  top: 10vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .mindmap-wrap >.contents >.mindmap-box >.subject >.item3 >.sub-subject3 {
-  width: 100px;
 }
 .mindmap-wrap >.footer {}
