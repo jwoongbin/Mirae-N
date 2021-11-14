@@ -32,8 +32,7 @@ html, body {
 }
 .wrap >.contents >.content{ 
   width: 80%;
-  margin: 0 auto;
-  margin-top: 10%
+  margin: 10% auto;
 }
 .wrap > .footer{
   height: 40px;

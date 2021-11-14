@@ -1,7 +1,6 @@
 import "./Mindmap.css"
 import logo from '../logo.png';
 import book from '../Book.png';
-import frame from '../frame.png'
 import { BrowserRouter, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
