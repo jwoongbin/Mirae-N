@@ -1,6 +1,7 @@
 import "./Mindmap.css"
-import logo from '../logo.png';
-import book from '../Book.png';
+import exit from '../images/exit.png';
+import choco from '../images/choco.png';
+import logo from '../images/logo.png';
 import { BrowserRouter, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
@@ -14,9 +15,12 @@ function Mindmap({ data }) {
   return (
     <div className="mindmap-wrap">
       <div className="header">
-        {/* <img className="logo" src={logo} /> */}
-        <h1>초코 초등 사회 3-1</h1>
-        <Link to="/"><img className="book" src={book} width="50px" /></Link>
+        <img className="logo" src={logo} width="15%" />
+        <div className="center">
+          <img className="choco" src={choco} width= "20%" />
+          <h1 className="book">초등 사회 3-1</h1>
+        </div>
+        <Link to="/"><img className="exit" src={exit} /></Link>
       </div>
       <div className="contents">
         <div className="mindmap-box">
@@ -36,9 +40,8 @@ function Mindmap({ data }) {
             </div>
           </div>
         </div>
-
       </div>
-      <div className="footer"></div>
+      <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
     </div>
 
   );
