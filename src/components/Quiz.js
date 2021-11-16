@@ -1,4 +1,8 @@
 import './Quiz.css';
+import exit from '../images/exit.png';
+import choco from '../images/choco.png';
+import logo from '../images/logo.png';
+import { BrowserRouter, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
 function Quiz({data}){
@@ -26,13 +30,20 @@ function Quiz({data}){
 
   return (
     <div className="Quiz-wrap">
-      <div className="header"></div>
+      <div className="header">
+        <img className="logo" src={logo} width="15%" />
+        <div className="center">
+            <img className="choco" src={choco} width= "20%" />
+            <h1 className="book">초등 사회 3-1</h1>
+        </div>
+        <Link to="/"><img className="exit" src={exit} /></Link>
+      </div>
       <div className="contents">
         <ol className="quiz">
           {questions}
         </ol>
       </div>
-      <div className="footer"></div>
+      <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
     </div>
 
   );
