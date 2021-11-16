@@ -4,7 +4,7 @@ import {BrowserRouter, Link} from 'react-router-dom';
 import './Contents.css'
 import icon from '../icon.png';
 
-
+// unit, sub 
 function Contents({data}) {
   console.log(data);
   return(
