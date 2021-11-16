@@ -43,7 +43,7 @@
 .Quiz-wrap >.contents >.quiz {
   color: rgb(124, 124, 124);
   font-weight: 800;
-  font-size: 3.7vh;
+  font-size: 3vh;
   white-space: pre-wrap;
   counter-reset: item;
   list-style-type: none;
@@ -52,8 +52,7 @@
   margin-top: 3%;
 }
 .Quiz-wrap >.contents >.quiz >.questions{
-  display: block;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .Quiz-wrap >.contents >.quiz >.questions:before{
   content: "0" counter(item) '  '; 
@@ -61,12 +60,12 @@
   color: rgb(201, 103, 103);
   font-size: 5vh;
 }
-.Quiz-wrap >.contents >.quiz >.questions::marker {
+/* .Quiz-wrap >.contents >.quiz >.questions::marker {
   font-size: 5vh;
   color: rgb(201, 103, 103);
-}
+} */
 .Quiz-wrap >.contents >.quiz >.questions >.question{
-  display: contents;
+  display: inline;
 }
 
 .Quiz-wrap >.contents >.quiz >.questions >.answer {
@@ -74,11 +73,11 @@
 }
 
 .Quiz-wrap >.contents >.quiz >.questions::marker {  
-  padding-inline-start: 1ch;
+  /* padding-inline-start: 1ch; */
 }
 .Quiz-wrap >.footer {
   width: 100%;
-  height: 8.5vh;
+  height: 8.7vh;
   background-image: url('../images/bottom.png');
   background-color: #F2D6A5;
   background-size: 100% 100%;
