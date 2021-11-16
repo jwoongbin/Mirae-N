@@ -52,6 +52,8 @@
   margin-top: 3%;
 }
 .Quiz-wrap >.contents >.quiz >.questions{
+  display: flex;
+  align-items: center;
   margin-bottom: 50px;
 }
 .Quiz-wrap >.contents >.quiz >.questions:before{
@@ -60,16 +62,13 @@
   color: rgb(201, 103, 103);
   font-size: 5vh;
 }
-/* .Quiz-wrap >.contents >.quiz >.questions::marker {
-  font-size: 5vh;
-  color: rgb(201, 103, 103);
-} */
-.Quiz-wrap >.contents >.quiz >.questions >.question{
-  display: inline;
+.Quiz-wrap >.contents >.quiz >.questions >.contents {
+  width: 100%;
 }
-
-.Quiz-wrap >.contents >.quiz >.questions >.answer {
-  float: right;
+.Quiz-wrap >.contents >.quiz >.questions >.contents >.qustion {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .Quiz-wrap >.contents >.quiz >.questions::marker {  

@@ -1,5 +1,6 @@
 import './App.css'
 import data from './testjson.json';
+import newdata from './data.json'
 import Home from './components/Home';
 import './components/Home.css';
 import Mindmap from './components/Mindmap';

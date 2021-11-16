@@ -4,6 +4,7 @@ import choco from '../images/choco.png';
 import logo from '../images/logo.png';
 import { BrowserRouter, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import newdata from '../data.json'
 
 function Quiz({data}){
   const list = Array.from(new Array(data.length)).map(_=> true);
@@ -17,24 +18,32 @@ function Quiz({data}){
   }
   
   useEffect(()=>{
-    console.log(click,'상태 변경 감지')
+    // console.log(click,'상태 변경 감지')
   },[click])
 
   const questions = data.map((item, index) => 
   <li className="questions" key={index}> 
-    <div className="question">{data[0].subs[0].questiones[index].question}</div>
-      <div className="answer" onClick={() => onClick(index)}>
-        {click[index] ? "<정답>": data[0].subs[0].questiones[index].answer}
-      </div><br />
-  </li>)
+    <div className="contents">
+      <div className="question">
+        {data[0].subs[0].questiones[index].question} 
+        <div className="answer" onClick={() => onClick(index)}>
+          {click[index] ? "<정답>": data[0].subs[0].questiones[index].answer}
+        </div>
+      </div>
 
+    </div>
+  </li>)
+  
+  const chapter = (newdata.subject + ' ' + newdata.grade);  
+  console.log('newdata:', newdata);
   return (
+  
     <div className="Quiz-wrap">
       <div className="header">
         <img className="logo" src={logo} width="15%" />
         <div className="center">
             <img className="choco" src={choco} width= "20%" />
-            <h1 className="book">초등 사회 3-1</h1>
+            <h1 className="book">{chapter}</h1>
         </div>
         <Link to="/"><img className="exit" src={exit} /></Link>
       </div>
