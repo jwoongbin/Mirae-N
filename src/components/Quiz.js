@@ -6,7 +6,7 @@ import { BrowserRouter, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import newdata from '../data.json'
 
-function Quiz({data}){
+function Quiz({data, indexa}){
   const list = Array.from(new Array(data.length)).map(_=> true);
   const [click, setClick] = useState(list);
 
@@ -21,13 +21,13 @@ function Quiz({data}){
     // console.log(click,'상태 변경 감지')
   },[click])
 
-  const questions = data.map((item, index) => 
+  const questions = data.subs[indexa].questions.map((item, index) => 
   <li className="questions" key={index}> 
     <div className="contents">
       <div className="question">
-        {data[0].subs[0].questiones[index].question} 
+        {item.question} 
         <div className="answer" onClick={() => onClick(index)}>
-          {click[index] ? "<정답>": data[0].subs[0].questiones[index].answer}
+          {click[index] ? "<정답>": item.answer}
         </div>
       </div>
 

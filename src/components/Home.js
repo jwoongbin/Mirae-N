@@ -16,7 +16,7 @@ function Home({data}){
         {/* <img className="logo" src={logo} width="50%"/> */}
         </div>
         <div className="content">
-            <Contents data={newdata.contents} />
+            <Contents data={data} />
         </div>
       </div>
       <div className="footer"></div>

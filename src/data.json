@@ -1,979 +1,1520 @@
-{
-    "subject" : "초등 사회",
-    "grade" : "3-1",
-    "cover_img" : "",
-    "contents" : [
-        {
-            "unit" : 1 ,
-            "title" : "우리 고장의 모습",
-            "subs" : [
-                {
-                    "sub" : "1-1",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기11",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "1-2",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기12",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "1-3",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기13",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },            
-                {
-                    "sub" : "2-1",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기21",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "2-2",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기22",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "2-3",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기23",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                }
+[
+  {
+    "subject": "사회",
+    "grade": 3,
+    "semester": 1,
+    "cover_img": "파일명.jpg",
+    "contents": [
+      {
+        "unit": 1,
+        "title": "우리 고장의 모습",
+        "subs": [
+          {
+            "sub": "1-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_01.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_01.html"
+              }
+            ],
+            "mindmap": {
+              "title": "옛날의 생활 모습과 관련된 옛이야기",
+              "type": 1,
+              "mind_one": "마포 이야기",
+              "contents_one": "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음.\n•전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
+              "image_one": "파일명.jpg",
+              "mind_two": "통영 이야기",
+              "contents_two": "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
+              "image_two": "파일명.jpg",
+              "mind_three": "(차전놀이)",
+              "contents_three": "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
+              "image_three": "파일명.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
+                "answer": "유래",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
+                "answer": "③",
+                "option_one": "① 왕건과 관련된 곳",
+                "option_two": "② 향교가 있었던 곳",
+                "option_three": "③ 나루터가 있었던 곳"
+              },
+              {
+                "num": 3,
+                "question": "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
+                "answer": "통영",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
             ]
-        },
-        {
-            "unit" : 2 ,
-            "title" : "우리가 알아보는 고장 이야기",
-            "subs" : [
-                {
-                    "sub" : "1-1",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기211",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "1-2",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기212",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "1-3",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기213",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },            
-                {
-                    "sub" : "2-1",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기221",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "2-2",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기222",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "2-3",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기223",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                }
-            ]
-        },  
-        {
-            "unit" : 3 ,
-            "title" : "우리가 알아보는 고장 이야기",
-            "subs" : [
-                {
-                    "sub" : "1-1",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기311",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "1-2",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기312",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "1-3",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기313",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },            
-                {
-                    "sub" : "2-1",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기321",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "2-2",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기322",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                },
-                {
-                    "sub" : "2-3",
-                    "btns" : [
-                        {
-                            "btn_name" : "마인드맵",
-                            "btn_url" : "링크"
-                        },
-                        {
-                            "btn_name" : "추가문제",
-                            "btn_url" : "링크"
-                        }
-                    ],
-                    "mindmap" : {
-                        "link" : "주소주소",
-                        "title" : "옛날의 생화 모습과 관련된 옛이야기323",
-                        "type" : 1,
-                        "mind_one" : "마포 이야기",
-                        "contents_one" : "•‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)이/가 있던 곳이 많음./n •전국의 소금 배가 모여 소금 창고가 많이 생기고 소금 장수들이 모여 살던 마을이 생겼음.",
-                        "image_one" : "파일명.jpg",
-                        "mind_two" : "통영 이야기",
-                        "contents_two" : "(이순신)이/가 군대를 훈련하던 통제영이 있었음.",
-                        "image_two" : "파일명.jpg",
-                        "mind_three" : "(차전놀이)",
-                        "contents_three" : "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
-                        "image_three" : "파일명.jpg"
-                    },
-                    "questiones" : [
-                        {
-                            "num" : 1,
-                            "question" : "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 ( )된 것이 많습니다.",
-                            "answer" : "유래",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        },     
-                        {
-                            "num" : 2,
-                            "question" : "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
-                            "answer" : "③",
-                            "option_one" : "① 왕건과 관련된 곳",
-                            "option_two" : "② 향교가 있었던 곳",
-                            "option_three" : "③ 나루터가 있었던 곳"
-                        },
-                        {
-                            "num" : 3,
-                            "question" : "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
-                            "answer" : "통영",
-                            "option_one" : "",
-                            "option_two" : "",
-                            "option_three" : ""
-                        }
-                    ]
-                }
-            ]
-        }
+          },
+          {
+            "sub": "1-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "1-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "2-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "2-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 2,
+        "title": "우리가 알아보는 고장 이야기",
+        "subs": [
+          {
+            "sub": "1-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "1-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "1-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "1-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "2-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "2-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "2-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 3,
+        "title": "교통과 통신 수단의 변화",
+        "subs": [
+          {
+            "sub": "1-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "1-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "1-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "1-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "2-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "2-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "2-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      }
     ]
-}
+  },
+  {
+    "subject": "사회",
+    "grade": 4,
+    "semester": 1,
+    "cover_img": "파일명.jpg",
+    "contents": [
+      {
+        "unit": 1,
+        "title": "지역의 위치와 특성",
+        "subs": [
+          {
+            "sub": "1-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_01.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_01.html"
+              }
+            ],
+            "mindmap": {
+              "title": "지도",
+              "type": 2,
+              "mind_one": "지도의 뜻",
+              "contents_one": "(위)에서 내려다본 땅의 실제 모습을 일정한 형식으로 줄여서 나타낸 그림",
+              "image_one": "(4-1)1-1-1_지도.jpg",
+              "mind_two": "지도의 특징",
+              "contents_two": "• 너무 멀거나 넓어서 한눈에 보기 힘든 곳을 볼 수 있음.\n• 정해진 (약속)에 따라 땅의 생김새나 위치를 나타냄\n• 다양한 정보를 누구나 쉽게 알아볼 수 있음.",
+              "image_two": null,
+              "mind_three": "지도와 항공 사진 비교",
+              "contents_three": "• 공통점: 위에서 내려다본 모습으로 길과 건물을 볼 수 있음.\n• 차이점: 글씨와 그림은 (지도)에만 있음, 내가 가고 싶은 곳을 항공 사진보다 지도에서 쉽게 찾을 수 있음.",
+              "image_three": "(4-1)1-1-1_항공사진.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "지도는 위에서 내려다본 땅의 실제 모습을 일정한 형식으로 ( 늘려서, 줄여서 ) 나타낸 그림입니다.",
+                "answer": "줄여서",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "항공 사진과 지도는 모두 ( )에서 내려다본 모습으로, 길과 건물을 볼 수 있다는 공통점이 있습니다.",
+                "answer": "②",
+                "option_one": "① 옆",
+                "option_two": "② 위",
+                "option_three": "③ 아래"
+              },
+              {
+                "num": 3,
+                "question": "( 지도, 항공 사진 )에서는 내가 찾고 싶은 곳이 어디에 있는 찾기 어렵습니다.",
+                "answer": "항공 사진",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_02.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_02.html"
+              }
+            ],
+            "mindmap": {
+              "title": "방위표",
+              "type": 2,
+              "mind_one": "방위의 뜻",
+              "contents_one": "(나침반)을 기준으로 한 동서남북 방향",
+              "image_one": "(4-1)1-1-2_나침반.jpg",
+              "mind_two": "방위표를 이용하면 좋은 점",
+              "contents_two": "사람이나 건물이 향한 방향과 관계없이 (위치)를 나타낼 수 있음.",
+              "image_two": "(4-1)1-1-2_방위표.jpg",
+              "mind_three": "지도에 방위표가 없을 때",
+              "contents_three": "지도의 위쪽이 북쪽, 아래쪽이 남쪽, 오른쪽이 동쪽, 왼쪽이 (서쪽)임.",
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "방위는 ( )을/를 기준으로 한 동서남북 방향을 뜻합니다.",
+                "answer": "나침반",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "지도에 방위표가 없을 경우에는 지도의 오른쪽이 ( )입니다.",
+                "answer": "②",
+                "option_one": "① 남쪽",
+                "option_two": "② 동쪽",
+                "option_three": "③ 서쪽"
+              },
+              {
+                "num": 3,
+                "question": "나침반에서 빨간 바늘이 멈춘 곳이 ( )입니다.",
+                "answer": "북쪽",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_03.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_03.html"
+              }
+            ],
+            "mindmap": {
+              "title": "기호와 범례",
+              "type": 3,
+              "mind_one": "(기호)",
+              "contents_one": "• 뜻: 땅 위의 모습이나 건물의 모습을 지도에 간단히 나타내는 표시\n• 필요한 까닭: 지도를 쉽게 그릴 수 있음, 학교・병원・우체국 등을 지도에 간단히 나타낼 수 있음.",
+              "image_one": "(4-1)1-1-3_기호.jpg",
+              "mind_two": "(범례)",
+              "contents_two": "• 뜻: 지도에 사용된 여러 가지 기호와 그 뜻을 한곳에 모아 놓은 것\n• 필요한 까닭: 지도에 나타난 정보를 쉽고 정확하게 알 수 있음, 지도마다 정해진 기호가 다를 수 있고, 기호의 뜻을 모두 외우기 어려움.",
+              "image_two": "(4-1)1-1-3_범례.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "( )은/는 땅 위의 모습이나 건물의 모습을 지도에 간단히 나타내는 표시입니다.",
+                "answer": "기호",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "지도마다 정해진 기호가 ( 같으므로, 다르므로 ) 범례가 필요합니다.",
+                "answer": "다르므로",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "지도에서 ‘우체국’ 기호는 일본과 우리나라가 ( 같습니다, 다릅니다 ).",
+                "answer": "다릅니다",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_04.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_04.html"
+              }
+            ],
+            "mindmap": {
+              "title": "축척",
+              "type": 2,
+              "mind_one": "뜻",
+              "contents_one": "지도에서 (실제 거리)를 줄인 정도",
+              "image_one": "(4-1)1-1-4_축척.jpg",
+              "mind_two": "필요한 까닭",
+              "contents_two": "• (실제 크기)로 지도를 그리기 어렵기 때문\n• 지역의 모습을 작은 종이에 그리려면 줄여서 그려야 하기 때문",
+              "image_two": null,
+              "mind_three": "축척과 실제 거리",
+              "contents_three": "• 축척을 이용하면 지도에 있는 두 장소 사이의 실제 거리를 알 수 있음.\n• (축척 막대자)를 이용하면 지도상의 거리와 실제 거리를 같이 확인할 수 있음.",
+              "image_three": "(4-1)1-1-4_지도내축척.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "지역의 모습을 작은 종이에 ( 늘려서, 줄여서 ) 그려야 하기 때문에 축척이 필요합니다.",
+                "answer": "줄여서",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "실제 거리를 조금 줄여서 나타낸 지도는 ( 넓은, 좁은 ) 지역을 자세하게 살펴보기 좋습니다.",
+                "answer": "좁은",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "( )을/를 이용하면 지도상의 거리와 실제 거리를 같이 확인할 수 있습니다.",
+                "answer": "축척 막대자",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➎",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_05.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_05.html"
+              }
+            ],
+            "mindmap": {
+              "title": "지도에서의 땅의 높낮이",
+              "type": 3,
+              "mind_one": "(등고선)",
+              "contents_one": "• 지도에서 땅의 높이가 같은 곳을 연결한 선\n• 지도에서 등고선 간격이 좁을수록 경사가 급함.\n• 지도에서 등고선 간격이 넓을수록 경사가 완만함.",
+              "image_one": "(4-1)1-1-5_등고선.jpg",
+              "mind_two": "색깔",
+              "contents_two": "• 땅의 높이가 낮은 곳에서 높은 곳으로 갈수록 초록색→노란색→갈색→(고동색)의 순서로 나타냄.\n• 지도에 표현된 색은 실제 땅의 색깔이 아님.",
+              "image_two": "(4-1)1-1-5_색깔.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "등고선은 지도에서 땅의 높이가 ( ) 곳을 연결한 선입니다.",
+                "answer": "①",
+                "option_one": "① 같은",
+                "option_two": "② 다른",
+                "option_three": "③ 비슷한"
+              },
+              {
+                "num": 2,
+                "question": "지도에서 땅의 높이가 가장 낮은 곳을 나타내는 색깔은 무엇입니까?",
+                "answer": "③",
+                "option_one": "① 갈색",
+                "option_two": "② 노란색",
+                "option_three": "③ 초록색"
+              },
+              {
+                "num": 3,
+                "question": "지도에서 등고선 간격이 좁을수록 경사가 ( 급합니다, 완만합니다 ).",
+                "answer": "급합니다",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➏",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_06.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_06.html"
+              }
+            ],
+            "mindmap": {
+              "title": "생활 속에서 자주 활용하는 지도",
+              "type": 4,
+              "mind_one": null,
+              "contents_one": "① (학교 안내도): 학교 시설물이 어디 있는지 자세히 알려 주는 지도\n② 약도: 장소를 찾기 쉽게 중요한 것만 간단하게 알려 주는 지도\n③ 지하철 노선도: 타고 내려야 하는 지하철역과 이동 시간 등을 알려 주는 지도\n④ (길도우미): 자동차를 운전할 때 가고자 하는 곳까지의 길을 안내해 주는 지도",
+              "image_one": "(4-1)1-1-6_길도우미.jpg",
+              "mind_two": null,
+              "contents_two": null,
+              "image_two": null,
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "( )은/는 자동차를 운전할 때 가고자 하는 곳까지의 길을 안내해 주는 지도입니다.",
+                "answer": "길도우미",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "지도를 활용하여 여행 계획을 세울 때는 ( )을/를 활용하면 좋습니다.",
+                "answer": "②",
+                "option_one": "① 길도우미",
+                "option_two": "② 관광 안내도",
+                "option_three": "③ 학교 안내도"
+              },
+              {
+                "num": 3,
+                "question": "주제도는 알리고 싶은 정도에 따라 다양하게 표현할 수 있어 종류가 ( 많습니다, 적습니다 ).",
+                "answer": "많습니다",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_07.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_07.html"
+              }
+            ],
+            "mindmap": {
+              "title": "중심지",
+              "type": 2,
+              "mind_one": "중심지의 뜻",
+              "contents_one": "생활을 편리하게 해 주는 시설을 이용하여 어떤 일이나 활동을 하기 위해 사람들이 모이는 곳",
+              "image_one": "(4-1)1-2-1_중심지.jpg",
+              "mind_two": "중심지에 가는 까닭",
+              "contents_two": "• 가게나 상점이 모여 있어 생활에 필요한 (물건)을 손쉽게 구할 수 있음.\n• 여러 가지 시설이 모여 있어 생활과 관련된 일을 편리하게 처리할 수 있음.",
+              "image_two": null,
+              "mind_three": "중심지에서 하는 일",
+              "contents_three": "• 시청・군청: 행정 업무와 복지 업무 등을 봄.\n• (우체국): 편지나 물건을 다른 곳으로 보냄.\n• (은행): 저금을 하거나 다른 곳으로 돈을 보냄.\n• 시장・대형 할인점: 물건을 삼.\n• 공연장: 연극이나 음악 등 문화생활을 즐김.\n• 병원: 아픈 곳을 치료함.",
+              "image_three": "(4-1)1-2-1_은행.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "( )은/는 생활을 편리하게 해 주는 시설을 이용하여 어떤 일이나 활동을 하기 위해 사람들이 모이는 곳입니다.",
+                "answer": "중심지",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "사람들이 중심지에 가는 까닭은 생활에 필요한 물건을 ( 손쉽게, 어렵게 ) 구할 수 있기 때문입니다.",
+                "answer": "손쉽게",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "사람들은 중심지에 있는 시설 중 (  )에서 연극이나 음악 등 문화생활을 즐깁니다.",
+                "answer": "②",
+                "option_one": "① 병원",
+                "option_two": "② 공연장",
+                "option_three": "③ 대형 할인점"
+              }
+            ]
+          },
+          {
+            "sub": "2-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_08.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_08.html"
+              }
+            ],
+            "mindmap": {
+              "title": "중심지와 중심지가 아닌 곳",
+              "type": 3,
+              "mind_one": "중심지",
+              "contents_one": "• 크고 작은 건물이 많음.\n• (도로)와 교통 시설이 발달함.\n• 사람들이 많아 복잡함.",
+              "image_one": "(4-1)1-2-2_중심지.jpg",
+              "mind_two": "중심지가 아닌 곳",
+              "contents_two": "• 주변에 건물이 적음.\n• 주변에 (논과 밭)이 많음.",
+              "image_two": "(4-1)1-2-2_중심지가아닌곳.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "중심지는 교통이 ( 불편하여, 편리하여 ) 사람이 많이 모이는 곳에 발달합니다.",
+                "answer": "편리하여",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "중심지가 아닌 곳의 주변에는 (  )이/가 많습니다.",
+                "answer": "③",
+                "option_one": "① 도로",
+                "option_two": "② 사람",
+                "option_three": "③ 논과 밭"
+              },
+              {
+                "num": 3,
+                "question": "고장마다 중심지의 모습은 ( ) 나타납니다.",
+                "answer": "②",
+                "option_one": "① 똑같이",
+                "option_two": "② 다르게",
+                "option_three": "③ 비슷하게"
+              }
+            ]
+          },
+          {
+            "sub": "2-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_09.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_09.html"
+              }
+            ],
+            "mindmap": {
+              "title": "다양한 중심지",
+              "type": 2,
+              "mind_one": "다양한 중심지가 발달한 까닭",
+              "contents_one": "고장이나 지역에는 대표하는 시설과 사람들이 모이는 까닭이 (다르기) 때문",
+              "image_one": null,
+              "mind_two": "중심지의 종류",
+              "contents_two": "• 행정의 중심지  • 교통의 중심지\n• 상업의 중심지  • 산업의 중심지\n• (관광)의 중심지",
+              "image_two": "(4-1)1-2-3_관광의중심지.jpg",
+              "mind_three": "지역의 다양한 중심지",
+              "contents_three": "• 한 지역에는 다양한 중심지가 있으며, 중심지마다 모습이 다름.\n• 하나의 중심지가 여러 가지 (역할)을 가진 중심지가 될 수 있음.",
+              "image_three": "(4-1)1-2-3_다양한중심지.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "고장이나 지역에는 대표하는 시설과 사람들이 모이는 까닭이 ( 같기, 다르기 ) 때문에 다양한 중심지가 발달합니다.",
+                "answer": "다르기",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "아름다운 자연이나 문화유산 등을 보려고 사람들이 찾는 중심지는 어디입니까?",
+                "answer": "①",
+                "option_one": "① 관광의 중심지",
+                "option_two": "② 교통의 중심지",
+                "option_three": "③ 상업의 중심지"
+              },
+              {
+                "num": 3,
+                "question": "(  )은 우리나라 교통・상업・문화의 중심지로, 교통이 발달하고 다양한 시설이 모여 있습니다.",
+                "answer": "서울",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit": 2,
+        "title": "우리가 알아보는 지역의 역사",
+        "subs": [
+          {
+            "sub": "1-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_11.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_11.html"
+              }
+            ],
+            "mindmap": {
+              "title": "문화재의 종류",
+              "type": 3,
+              "mind_one": "국가 지정 문화재",
+              "contents_one": "• 국가에서 지정하여 관리함.\n• 국가에서 보존할 만한 가치가 있는 (문화유산)을 국가 지정 문화재로 지정함.",
+              "image_one": "map4-1_11_01.jpg",
+              "mind_two": "(시〮도 지정 문화재)",
+              "contents_two": "•시·도에서 지정하여 관리함.\n•시·도에서 보존 가치가 있다고 인정되는 것을 문화재로 지정함.",
+              "image_two": "map4-1_11_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "조상 대대로 전해 내려온 문화 중에서 역사와 문화를 담고 있어 다음 세대에 물려줄 가치가 있는 문화를 뜻하는 말은 무엇입니까?",
+                "answer": "문화유산",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "( ) 문화재는 기능 보유자나 예능 보유자를 통해 이어 오고 있습니다.",
+                "answer": "무형",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "국가에서는 보존할 만한 가치가 있는 문화유산을 ( )(으)로 지정하여 관리하고 있습니다.",
+                "answer": "②",
+                "option_one": "① 무형 문화유산",
+                "option_two": "② 국가 지정 문화재  ",
+                "option_three": "③ 시∙도 지정 문화재"
+              }
+            ]
+          },
+          {
+            "sub": "1-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_12.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_12.html"
+              }
+            ],
+            "mindmap": {
+              "title": "문화유산에 담긴 가치",
+              "type": 1,
+              "mind_one": "강릉 단오제",
+              "contents_one": "• 옛날부터 강원도 강릉시에서 해마다 하는 행사임.\n• 예전의 (단오) 풍습을 이어 오고 있어 역사적 가치가 있음.",
+              "image_one": "map4-1_12_01.jpg",
+              "mind_two": "경주 석빙고",
+              "contents_two": "•옛날에 얼음을 보관하던 창고임.\n•얼음을 차갑게 보관할 수 있도록 설계되어 (과학적 가치)가 있음.",
+              "image_two": "map4-1_12_02.jpg",
+              "mind_three": "(백제 금동 대향로)",
+              "contents_three": "•1,400여 년 전에 만들어진 향로임.\n•옛날 사람들의 상상력과 예술 감각을 발견할 수 있어 예술적 가치가 높음.",
+              "image_three": "map4-1_12_03.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "오늘날에도 예전의 단오 풍습을 이어오고 있는 강릉 단오제에는 ( )가 담겨 있습니다.",
+                "answer": "②",
+                "option_one": "① 과학적 가치",
+                "option_two": "② 역사적 가치",
+                "option_three": "③ 예술적 가치"
+              },
+              {
+                "num": 2,
+                "question": "( )은/는 옛날에 얼음을 보관하던 창고로, 얼음을 차갑게 보관할 수 있도록 설계되어 있습니다.",
+                "answer": "석빙고",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "1,400여 년 전에 만들어진 향로로, 뚜껑에 신선, 동물, 악기를 연주하는 사람이 정교하게 새겨져 있는 문화유산은 무엇입니까?",
+                "answer": "백제 금동 대향로",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_13.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_13.html"
+              }
+            ],
+            "mindmap": {
+              "title": "문화유산 조사 방법",
+              "type": 4,
+              "mind_one": null,
+              "contents_one": "• 문화유산과 관련된 (누리집)에서 문화유산 검색하기\n• (도서관)에서 책, 문서, 기록 찾아보기\n• 전문가에게 문화유산에 대해 여쭈어보기\n• 문화유산 답사하기",
+              "image_one": "map4-1_13_01.jpg\nmap4-1_13_02.jpg\nmap4-1_13_03.jpg\nmap4-1_13_04.jpg",
+              "mind_two": null,
+              "contents_two": null,
+              "image_two": null,
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "문화유산이 있는 곳에 직접 방문하여 문화유산을 눈으로 보고 조사하는 방법은 무엇입니까?",
+                "answer": "답사",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "( )에서는 책, 문서, 기록 등 문화유산과 관련된 여러 가지 자료를 찾아볼 수 있습니다.",
+                "answer": "②",
+                "option_one": "① 기상청",
+                "option_two": "② 도서관",
+                "option_three": "③ 국립 공원"
+              },
+              {
+                "num": 3,
+                "question": "( ) 누리집에서는 ‘문화재 지역별 검색’으로 우리 지역의 문화유산을 검색할 수 있습니다.",
+                "answer": "문화재청",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_14.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_14.html"
+              }
+            ],
+            "mindmap": {
+              "title": "문화유산 소개 방법과 문화유산을 보호해야 하는 까닭",
+              "type": 3,
+              "mind_one": "문화유산 소개 자료 만들기",
+              "contents_one": "• 문화유산의 특징과 위치를 지도에 표시한 (문화유산 안내 지도) 만들기\n• 문화유산 카드를 붙여 병풍 모양으로 만든 문화유산 병풍 만들기",
+              "image_one": "map4-1_14_01.jpg",
+              "mind_two": "문화유산을 보호해야 하는 까닭",
+              "contents_two": "•문화유산을 통해 역사를 알 수 있음.\n•문화유산에는 과학적, 역사적, 예술적 가치가 담겨 있음.\n•문화유산을 (다음 세대)에 물려주어야 함.",
+              "image_two": "map4-1_14_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "사절지를 접어 네 폭 병풍을 만들고, 앞뒷면에 문화유산 카드를 붙여 만든 문화유산 소개 자료는 무엇입니까?",
+                "answer": "문화유산 병풍",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "문화유산 안내 지도는 큰길, 강 등의 밑그림만 있는 ( )에 문화유산의 위치와 특징을 표시한 문화유산 소개 자료입니다.",
+                "answer": "③",
+                "option_one": "① 보고서",
+                "option_two": "② 안내도",
+                "option_three": "③ 백지도"
+              },
+              {
+                "num": 3,
+                "question": "문화유산은 보호하고 가꾸어 ( 조상, 다음 세대 )에게 물려주어야 합니다.",
+                "answer": "다음 세대",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_15.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_15.html"
+              }
+            ],
+            "mindmap": {
+              "title": "나라와 지역의 발전을 위해 노력한 인물",
+              "type": 4,
+              "mind_one": null,
+              "contents_one": "• 정약용: 경기도 남양주 출신의 학자로 백성을 위한 학문을 연구했음.\n• 김종익: 전 재산을 기부하여 그 돈으로 전라남도 순천에 여러 (학교)가 지어짐.\n• 윤희순: 강원도 춘천 출신으로 우리나라 최초의 여성 (의병장)임.\n• 장영실: 동래현에 소속된 노비 출신의 과학자로 다양한 과학 기구를 만듦.\n• (김만덕): 제주도의 상인으로, 흉년 때 쌀을 제주도 백성에게 나누어 줌.",
+              "image_one": "map4-1_15_01.jpg\nmap4-1_15_02.jpg\nmap4-1_15_03.jpg\nmap4-1_15_04.jpg",
+              "mind_two": null,
+              "contents_two": null,
+              "image_two": null,
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "경기도 남양주 출신의 학자인 ( )은/는 백성의 생활에 도움이 되는 학문을 연구하였습니다.",
+                "answer": "정약용",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "( )은/는 강원도 춘천 출신으로, 우리나라 최초의 여성 의병장입니다.",
+                "answer": "②",
+                "option_one": "① 서침               ",
+                "option_two": "② 윤희순",
+                "option_three": "③ 김만덕"
+              },
+              {
+                "num": 3,
+                "question": "경상북도 상주의 선비들이 ‘사랑하는 마음이 있으면 남을 돕게 된다.’라는 의미를 담아 세운 병원의 이름은 무엇입니까?  ",
+                "answer": "존애원",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_16.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_16.html"
+              }
+            ],
+            "mindmap": {
+              "title": "답사 계획서를 작성하는 방법",
+              "type": 4,
+              "mind_one": null,
+              "contents_one": "• 우리 지역의 인물과 관련된 (문화유산) 찾기\n• 답사 날짜를 정하고 가는 방법 조사하기\n• 인물의 생애와 활동 조사하기\n• 답사 장소에서 보아야 할 것 정리하기\n• 답사 장소에서 해결할 (질문) 생각하기",
+              "image_one": "map4-1_16_01.jpg\nmap4-1_16_02.jpg",
+              "mind_two": null,
+              "contents_two": null,
+              "image_two": null,
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "인물과 관련된 문화유산을 답사하기 전에 미리 ( )을/를 작성해야 합니다.",
+                "answer": "①",
+                "option_one": "① 답사 계획서",
+                "option_two": "② 답사 보고서",
+                "option_three": "③ 역할극 대본"
+              },
+              {
+                "num": 2,
+                "question": "인물과 관련된 문화유산 답사 계획을 세울 때 인물의 생애와 활동을 조사하는 까닭은 무엇입니까?",
+                "answer": "②",
+                "option_one": "① 답사 날짜를 정하기 위해",
+                "option_two": "② 인물을 잘 이해하기 위해",
+                "option_three": "③ 역할극의 역할을 정하기 위해"
+              },
+              {
+                "num": 3,
+                "question": "답사 계획서에는 답사 순서, 답사 장소에서 ( 해결할 질문, 알게 된 점 ), 보아야 할 것 등 구체적인 내용을 써야 합니다.",
+                "answer": "해결할 질문",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_17.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_17.html"
+              }
+            ],
+            "mindmap": {
+              "title": "인물과 관련된 문화유산 답사하기",
+              "type": 4,
+              "mind_one": null,
+              "contents_one": "• 답사 장소까지 이동하기\n• 답사 장소에 도착하면 (안내도)를 보고 답사 순서 확인하기\n• 작성해 온 답사 계획서를 확인하며 답사하기\n• 준비한 질문을 문화 관광 해설사에게 여쭈어보기\n• 답사 중 새로 알게 된 내용 기록하기\n• 답사가 끝난 뒤 (답사 보고서) 작성하기",
+              "image_one": "map4-1_17_01.jpg\nmap4-1_17_02.jpg",
+              "mind_two": null,
+              "contents_two": null,
+              "image_two": null,
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "문화유산의 답사가 끝난 뒤에는 답사에서 보고 들은 내용을 정리하여 ( )을/를 작성합니다.",
+                "answer": "답사 보고서",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "답사 장소에 도착하면 ( )을/를 보고 답사 순서를 확인합니다.",
+                "answer": "③",
+                "option_one": "① 대본   ",
+                "option_two": "② 질문지",
+                "option_three": "③ 안내도"
+              },
+              {
+                "num": 3,
+                "question": "답사 보고서에 들어갈 내용으로 알맞은 것은 어느 것입니까?",
+                "answer": "①",
+                "option_one": "① 답사를 하면서 느낀 점 ",
+                "option_two": "② 답사 장소에서 해결할 질문",
+                "option_three": "③ 답사 장소에서 보아야 할 것"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit": 3,
+        "title": "지역의 공공 기관과 주민 참여",
+        "subs": [
+          {
+            "sub": "1-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_19.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_19.html"
+              }
+            ],
+            "mindmap": {
+              "title": "공공 기관의 뜻과 필요한 까닭",
+              "type": 1,
+              "mind_one": "공공 기관이 필요한 까닭",
+              "contents_one": "• 지역의 문제 중 한 사람이나 몇몇 사람이 (해결)하기 어려운 일을 맡아 처리함.\n• 주민들이 안전하고 편리하게 생활할 수 있도록 도와줌.",
+              "image_one": "map4-1_19_03.jpg",
+              "mind_two": "뜻",
+              "contents_two": "•(국가)나 지방 자치 단체가 세우거나 관리하는 기관\n•주민 전체의 이익과 생활의 (편의)를 위해 일하는 곳",
+              "image_two": "map4-1_19_01.jpg",
+              "mind_three": "공공 기관인 곳",
+              "contents_three": "구청, 경찰서, 도서관, 보건소, 소방서, 우체국, 행정 복지 센터 등",
+              "image_three": "map4-1_19_02.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "공공 기관은 ( 개인, 주민 전체 )의 이익과 생활의 편의를 위해 일하는 곳입니다.",
+                "answer": "주민 전체",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "구청, 경찰서, 소방서, 우체국의 공통점은 무엇입니까?",
+                "answer": "①",
+                "option_one": "① 공공 기관인 곳",
+                "option_two": "② 공공 기관이 아닌 곳",
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "공공 기관은 주민들이 ( 안전, 불편 )하고 편리하게 생활할 수 있도록 도와줍니다.",
+                "answer": "안전",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_20.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_20.html"
+              }
+            ],
+            "mindmap": {
+              "title": "공공 기관의 종류와 역할",
+              "type": 4,
+              "mind_one": null,
+              "contents_one": "① 경찰서는 교통정리와 사고 처리, 범죄 예방 등 주민 안전을 위해 일함.\n② 도서관은 책을 읽을 수 있는 공간을 제공하고, 책과 영상 자료를 무료로 빌려줌.\n③ (우체국)은 편지나 소포 등 우편물을 접수하고 배달함.\n④ 행정 복지 센터는 출생 신고, 사망 신고 등 주민들의 행정과 민원 업무를 처리함.\n⑤ 소방서는 화재가 발생하면 불을 끄고, 위급 상황에서 사람을 구조함.\n⑥ (보건소)는 예방 접종 등을 통해 감염병을 예방하고 질병을 치료함.",
+              "image_one": "map4-1_20_01.jpg",
+              "mind_two": null,
+              "contents_two": null,
+              "image_two": null,
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "불을 끄고, 몸이 아프거나 사고를 당한 사람을 구조하는 곳은 어디입니까?",
+                "answer": "소방서",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "상황에 따라 여러 공공 기관이 ( )하면 더욱 효과적으로 지역 주민들을 도울 수 있습니다.",
+                "answer": "협력",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "공공 기관은 학교 앞 횡단보도 만들기, 어두운 길에 가로등 설치와 같은 주민들의 ( 요청, 질병 )을 처리해 줍니다.",
+                "answer": "요청",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_21.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_21.html"
+              }
+            ],
+            "mindmap": {
+              "title": "우리 지역 공공 기관 조사하기",
+              "type": 2,
+              "mind_one": "더 알고 싶은 공공 기관 정하기",
+              "contents_one": "• (디지털 영상 지도)를 활용하여 우리 지역 공공 기관을 찾음.\n• 더 알고 싶은 공공 기관을 정함.",
+              "image_one": "map4-1_21_01.jpg",
+              "mind_two": "공공 기관 조사하기",
+              "contents_two": "어른들께 여쭈어보기, 지역 신문이나 지역 방송 보기, 누리집 방문하기, (견학) 등의 방법으로 공공 기관이 하는 일을 조사함.",
+              "image_two": "map4-1_21_02.jpg",
+              "mind_three": "조사 보고서 작성하기",
+              "contents_three": "조사한 공공 기관의 이름, 조사 방법, 조사를 통해 알게 된 점, 느낀 점, 더 알고 싶은 점 등을 정리하여 (보고서)를 작성함.",
+              "image_three": "map4-1_21_03.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "우리 지역의 공공 기관을 조사할 때 가장 마지막에 하는 일은 무엇입니까?",
+                "answer": "②",
+                "option_one": "① 공공 기관 조사하기",
+                "option_two": "② 조사 보고서 작성하기",
+                "option_three": "③ 더 알고 싶은 공공 기관 정하기"
+              },
+              {
+                "num": 2,
+                "question": "견학 계획을 세울 때 하는 일로 알맞지 않은 것은 어느 것입니까?",
+                "answer": "③",
+                "option_one": "① 준비물 챙기기",
+                "option_two": "② 미리 견학 신청하기",
+                "option_three": "③ 친구들에게 조사한 내용 소개하기"
+              },
+              {
+                "num": 3,
+                "question": "옛날의 공공 기관 중 ( )은/는 도둑이나 죄를 지은 사람을 잡아 벌을 주었습니다.",
+                "answer": "포도청",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_22.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_22.html"
+              }
+            ],
+            "mindmap": {
+              "title": "지역 문제",
+              "type": 1,
+              "mind_one": "종류",
+              "contents_one": "교통 문제, 소음 문제, 안전 문제, 환경 문제, 시설 부족과 불편 문제 등이 있음.",
+              "image_one": "map4-1_22_02.jpg",
+              "mind_two": "뜻",
+              "contents_two": "지역 주민의 삶을 불편하게 하거나 지역 주민들 사이에 (갈등)을 일으키는 문제임.",
+              "image_two": "map4-1_22_01.jpg",
+              "mind_three": "(주민)의 역할",
+              "contents_three": "•서로 도와가며 지역 문제를 해결함.\n•지역 주민 모두가 해결 과정에 참여함.",
+              "image_three": "map4-1_22_03.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "지역 문제란 지역 ( )의 삶을 불편하게 하거나 지역 ( )들 사이에 갈등을 일으키는 문제입니다.",
+                "answer": "주민",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "많은 주민이 한 지역에서 함께 살아가다 보면 불편한 일이나 주민 사이에 ( )이/가 일어나기도 합니다.",
+                "answer": "갈등",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "도로가 좁아 길이 막히는 모습과 관련 있는 지역 문제는 무엇입니까?",
+                "answer": "①",
+                "option_one": "① 교통 문제",
+                "option_two": "② 안전 문제",
+                "option_three": "③ 환경 문제"
+              }
+            ]
+          },
+          {
+            "sub": "2-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_23.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_23.html"
+              }
+            ],
+            "mindmap": {
+              "title": "주민 참여의 뜻과 중요한 까닭",
+              "type": 3,
+              "mind_one": "뜻",
+              "contents_one": "지역 주민이 중심이 되어 지역 문제를 발견하고, 그 해결 과정에 (참여)하는 것",
+              "image_one": "map4-1_23_01.jpg",
+              "mind_two": "중요한 까닭",
+              "contents_two": "• 지역 문제는 그 지역에 사는 주민 모두에게 영향을 미치기 때문\n•지역에 사는 주민들이 그 지역의 문제를 가장 잘 알기 때문\n•정책을 결정할 때 주민들의 의견을 듣고 (반영)하기 때문\n•(공공 기관)이 지역의 일을 제대로 하는지 관심을 갖고 살펴봐야 하기 때문",
+              "image_two": "map4-1_23_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "주민 참여란 지역 주민이 중심이 되어 지역 문제를 발견하고, 그 ( ) 과정에 참여하는 것입니다.",
+                "answer": "해결",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "지역 문제는 그 지역에 사는 주민 ( 대표, 모두 )에게 영향을 미치는 문제입니다.",
+                "answer": "모두",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "지역 문제 해결에 주민 참여가 중요한 까닭은 지역의 ( )을/를 결정할 때 주민 의견을 듣고 반영하기 때문입니다.",
+                "answer": "정책",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_24.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_24.html"
+              }
+            ],
+            "mindmap": {
+              "title": "주민 참여로 지역 문제를 해결하는 과정",
+              "type": 2,
+              "mind_one": "지역 문제 확인과 원인 파악",
+              "contents_one": "• 해결해야 할 지역 문제를 여러 가지 방법으로 알아봄.\n• 여러 가지 자료를 수집하고 (분석)하여 지역 문제의 원인을 찾음.",
+              "image_one": "map4-1_24_01.jpg",
+              "mind_two": "문제 해결 방안 (탐색)과 검토",
+              "contents_two": "• 지역 주민, 공공 기관이나 전문가의 의견 등을 들어 보면서 해결 방안을 찾음.\n•제시된 문제 해결 방안의 장점과 단점, 시간과 비용, 효과 등을 살펴봄.",
+              "image_two": "map4-1_24_02.jpg",
+              "mind_three": "문제 해결 방안 결정과 실천",
+              "contents_three": "• 주민 간의 대화와 (타협)으로 문제 해결 방안을 결정함.\n•결정된 문제 해결 방안을 충실히 실천함.",
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "지역 문제와 관련된 여러 가지 자료를 수집하고, 분석하여 지역 문제의 ( )을/를 찾습니다.",
+                "answer": "원인",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "지역 문제의 해결 방안을 검토할 때 하는 일은?",
+                "answer": "③",
+                "option_one": "① 지역 뉴스 살펴보기",
+                "option_two": "② 문제 해결 방안 결정하기",
+                "option_three": "③ 문제 해결 방안의 장점 살펴보기"
+              },
+              {
+                "num": 3,
+                "question": "주민들의 의견을 모아 문제 해결 방안을 결정하고, 결정된 문제 해결 방안은 충실히 ( 개선, 실천 )합니다.",
+                "answer": "실천",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

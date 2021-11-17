@@ -11,9 +11,27 @@ import {BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-        <Route exact path="/" render={() => <Home data={data}/>}/>
-        <Route path="/mindmap" render={() => <Mindmap data={data}/>} />
-        <Route path="/quiz" render={() => <Quiz data={data}/>} />
+            <Route exact path="/" render={() => <Home data={newdata[1].contents}/>}/>
+      {newdata.map((data, index) => (
+        <>
+          {data.contents.map((content, indexa) => (
+            content.subs.map((sub, indexb) => (
+              sub.btns.map((btn, indexc) => {
+                if(btn.btn_name === "마인드맵"){
+                  console.log(btn.btn_url.replace("https://edubook.mirae-n.com",""));
+                  var a = btn.btn_url.replace("https://edubook.mirae-n.com","");
+                  return <Route key={"" + indexa + indexb + indexc} path={a} render={() => <Mindmap data={data} conindex={indexb} subindex={indexc}/>} />
+                }else if(btn.btn_name === "추가문제"){
+                  var a = btn.btn_url.replace("https://edubook.mirae-n.com","");
+                  return <Route key={"" + indexa + indexb + indexc} path={a} render={() => <Quiz data={data} conindex={indexb} subindex={indexc}/>} />
+                }
+              })
+            ))
+          ))}
+
+        </>
+      ))}
+
     </Router>
   )
 } 
