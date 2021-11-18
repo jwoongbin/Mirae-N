@@ -4,6 +4,7 @@
     "grade": 3,
     "semester": 1,
     "cover_img": "파일명.jpg",
+    "book_url": "https://edubook.mirae-n.com/socie/choco3-1/s3-1_index.html",
     "contents": [
       {
         "unit": 1,
@@ -351,7 +352,8 @@
     "subject": "사회",
     "grade": 4,
     "semester": 1,
-    "cover_img": "파일명.jpg",
+    "cover_img": "filename.jpg",
+    "book_url": "https://edubook.mirae-n.com/socie/choco4-1/s4-1_index.html",
     "contents": [
       {
         "unit": 1,
@@ -374,13 +376,13 @@
               "type": 2,
               "mind_one": "지도의 뜻",
               "contents_one": "(위)에서 내려다본 땅의 실제 모습을 일정한 형식으로 줄여서 나타낸 그림",
-              "image_one": "(4-1)1-1-1_지도.jpg",
+              "image_one": "map4-1_01_01.jpg",
               "mind_two": "지도의 특징",
               "contents_two": "• 너무 멀거나 넓어서 한눈에 보기 힘든 곳을 볼 수 있음.\n• 정해진 (약속)에 따라 땅의 생김새나 위치를 나타냄\n• 다양한 정보를 누구나 쉽게 알아볼 수 있음.",
               "image_two": null,
               "mind_three": "지도와 항공 사진 비교",
               "contents_three": "• 공통점: 위에서 내려다본 모습으로 길과 건물을 볼 수 있음.\n• 차이점: 글씨와 그림은 (지도)에만 있음, 내가 가고 싶은 곳을 항공 사진보다 지도에서 쉽게 찾을 수 있음.",
-              "image_three": "(4-1)1-1-1_항공사진.jpg"
+              "image_three": "map4-1_01_02.jpg"
             },
             "questions": [
               {
@@ -426,10 +428,10 @@
               "type": 2,
               "mind_one": "방위의 뜻",
               "contents_one": "(나침반)을 기준으로 한 동서남북 방향",
-              "image_one": "(4-1)1-1-2_나침반.jpg",
+              "image_one": "map4-1_02_01.jpg",
               "mind_two": "방위표를 이용하면 좋은 점",
               "contents_two": "사람이나 건물이 향한 방향과 관계없이 (위치)를 나타낼 수 있음.",
-              "image_two": "(4-1)1-1-2_방위표.jpg",
+              "image_two": "map4-1_02_02.jpg",
               "mind_three": "지도에 방위표가 없을 때",
               "contents_three": "지도의 위쪽이 북쪽, 아래쪽이 남쪽, 오른쪽이 동쪽, 왼쪽이 (서쪽)임.",
               "image_three": null
@@ -478,10 +480,10 @@
               "type": 3,
               "mind_one": "(기호)",
               "contents_one": "• 뜻: 땅 위의 모습이나 건물의 모습을 지도에 간단히 나타내는 표시\n• 필요한 까닭: 지도를 쉽게 그릴 수 있음, 학교・병원・우체국 등을 지도에 간단히 나타낼 수 있음.",
-              "image_one": "(4-1)1-1-3_기호.jpg",
+              "image_one": "map4-1_03_01.jpg",
               "mind_two": "(범례)",
               "contents_two": "• 뜻: 지도에 사용된 여러 가지 기호와 그 뜻을 한곳에 모아 놓은 것\n• 필요한 까닭: 지도에 나타난 정보를 쉽고 정확하게 알 수 있음, 지도마다 정해진 기호가 다를 수 있고, 기호의 뜻을 모두 외우기 어려움.",
-              "image_two": "(4-1)1-1-3_범례.jpg",
+              "image_two": "map4-1_03_02.jpg",
               "mind_three": null,
               "contents_three": null,
               "image_three": null
@@ -530,13 +532,13 @@
               "type": 2,
               "mind_one": "뜻",
               "contents_one": "지도에서 (실제 거리)를 줄인 정도",
-              "image_one": "(4-1)1-1-4_축척.jpg",
+              "image_one": "map4-1_04_01.jpg",
               "mind_two": "필요한 까닭",
               "contents_two": "• (실제 크기)로 지도를 그리기 어렵기 때문\n• 지역의 모습을 작은 종이에 그리려면 줄여서 그려야 하기 때문",
               "image_two": null,
               "mind_three": "축척과 실제 거리",
               "contents_three": "• 축척을 이용하면 지도에 있는 두 장소 사이의 실제 거리를 알 수 있음.\n• (축척 막대자)를 이용하면 지도상의 거리와 실제 거리를 같이 확인할 수 있음.",
-              "image_three": "(4-1)1-1-4_지도내축척.jpg"
+              "image_three": "map4-1_04_02.jpg"
             },
             "questions": [
               {
@@ -582,10 +584,10 @@
               "type": 3,
               "mind_one": "(등고선)",
               "contents_one": "• 지도에서 땅의 높이가 같은 곳을 연결한 선\n• 지도에서 등고선 간격이 좁을수록 경사가 급함.\n• 지도에서 등고선 간격이 넓을수록 경사가 완만함.",
-              "image_one": "(4-1)1-1-5_등고선.jpg",
+              "image_one": "map4-1_05_01.jpg",
               "mind_two": "색깔",
               "contents_two": "• 땅의 높이가 낮은 곳에서 높은 곳으로 갈수록 초록색→노란색→갈색→(고동색)의 순서로 나타냄.\n• 지도에 표현된 색은 실제 땅의 색깔이 아님.",
-              "image_two": "(4-1)1-1-5_색깔.jpg",
+              "image_two": "map4-1_05_02.jpg",
               "mind_three": null,
               "contents_three": null,
               "image_three": null
@@ -634,7 +636,7 @@
               "type": 4,
               "mind_one": null,
               "contents_one": "① (학교 안내도): 학교 시설물이 어디 있는지 자세히 알려 주는 지도\n② 약도: 장소를 찾기 쉽게 중요한 것만 간단하게 알려 주는 지도\n③ 지하철 노선도: 타고 내려야 하는 지하철역과 이동 시간 등을 알려 주는 지도\n④ (길도우미): 자동차를 운전할 때 가고자 하는 곳까지의 길을 안내해 주는 지도",
-              "image_one": "(4-1)1-1-6_길도우미.jpg",
+              "image_one": "map4-1_06_01.jpg",
               "mind_two": null,
               "contents_two": null,
               "image_two": null,
@@ -686,13 +688,13 @@
               "type": 2,
               "mind_one": "중심지의 뜻",
               "contents_one": "생활을 편리하게 해 주는 시설을 이용하여 어떤 일이나 활동을 하기 위해 사람들이 모이는 곳",
-              "image_one": "(4-1)1-2-1_중심지.jpg",
+              "image_one": "map4-1_07_01.jpg",
               "mind_two": "중심지에 가는 까닭",
               "contents_two": "• 가게나 상점이 모여 있어 생활에 필요한 (물건)을 손쉽게 구할 수 있음.\n• 여러 가지 시설이 모여 있어 생활과 관련된 일을 편리하게 처리할 수 있음.",
               "image_two": null,
               "mind_three": "중심지에서 하는 일",
               "contents_three": "• 시청・군청: 행정 업무와 복지 업무 등을 봄.\n• (우체국): 편지나 물건을 다른 곳으로 보냄.\n• (은행): 저금을 하거나 다른 곳으로 돈을 보냄.\n• 시장・대형 할인점: 물건을 삼.\n• 공연장: 연극이나 음악 등 문화생활을 즐김.\n• 병원: 아픈 곳을 치료함.",
-              "image_three": "(4-1)1-2-1_은행.jpg"
+              "image_three": "map4-1_07_02.jpg"
             },
             "questions": [
               {
@@ -738,10 +740,10 @@
               "type": 3,
               "mind_one": "중심지",
               "contents_one": "• 크고 작은 건물이 많음.\n• (도로)와 교통 시설이 발달함.\n• 사람들이 많아 복잡함.",
-              "image_one": "(4-1)1-2-2_중심지.jpg",
+              "image_one": "map4-1_08_01.jpg",
               "mind_two": "중심지가 아닌 곳",
               "contents_two": "• 주변에 건물이 적음.\n• 주변에 (논과 밭)이 많음.",
-              "image_two": "(4-1)1-2-2_중심지가아닌곳.jpg",
+              "image_two": "map4-1_08_02.jpg",
               "mind_three": null,
               "contents_three": null,
               "image_three": null
@@ -793,10 +795,10 @@
               "image_one": null,
               "mind_two": "중심지의 종류",
               "contents_two": "• 행정의 중심지  • 교통의 중심지\n• 상업의 중심지  • 산업의 중심지\n• (관광)의 중심지",
-              "image_two": "(4-1)1-2-3_관광의중심지.jpg",
+              "image_two": "map4-1_09_01.jpg",
               "mind_three": "지역의 다양한 중심지",
               "contents_three": "• 한 지역에는 다양한 중심지가 있으며, 중심지마다 모습이 다름.\n• 하나의 중심지가 여러 가지 (역할)을 가진 중심지가 될 수 있음.",
-              "image_three": "(4-1)1-2-3_다양한중심지.jpg"
+              "image_three": "map4-1_09_02.jpg"
             },
             "questions": [
               {
@@ -952,7 +954,7 @@
               "type": 4,
               "mind_one": null,
               "contents_one": "• 문화유산과 관련된 (누리집)에서 문화유산 검색하기\n• (도서관)에서 책, 문서, 기록 찾아보기\n• 전문가에게 문화유산에 대해 여쭈어보기\n• 문화유산 답사하기",
-              "image_one": "map4-1_13_01.jpg\nmap4-1_13_02.jpg\nmap4-1_13_03.jpg\nmap4-1_13_04.jpg",
+              "image_one": "1)map4-1_13_01.jpg\n2)map4-1_13_02.jpg\n3)map4-1_13_03.jpg\n4)map4-1_13_04.jpg",
               "mind_two": null,
               "contents_two": null,
               "image_two": null,
@@ -1056,7 +1058,7 @@
               "type": 4,
               "mind_one": null,
               "contents_one": "• 정약용: 경기도 남양주 출신의 학자로 백성을 위한 학문을 연구했음.\n• 김종익: 전 재산을 기부하여 그 돈으로 전라남도 순천에 여러 (학교)가 지어짐.\n• 윤희순: 강원도 춘천 출신으로 우리나라 최초의 여성 (의병장)임.\n• 장영실: 동래현에 소속된 노비 출신의 과학자로 다양한 과학 기구를 만듦.\n• (김만덕): 제주도의 상인으로, 흉년 때 쌀을 제주도 백성에게 나누어 줌.",
-              "image_one": "map4-1_15_01.jpg\nmap4-1_15_02.jpg\nmap4-1_15_03.jpg\nmap4-1_15_04.jpg",
+              "image_one": "\n1)map4-1_15_01.jpg\n2)map4-1_15_02.jpg\n3)map4-1_15_03.jpg\n4)map4-1_15_04.jpg\n",
               "mind_two": null,
               "contents_two": null,
               "image_two": null,
@@ -1108,7 +1110,7 @@
               "type": 4,
               "mind_one": null,
               "contents_one": "• 우리 지역의 인물과 관련된 (문화유산) 찾기\n• 답사 날짜를 정하고 가는 방법 조사하기\n• 인물의 생애와 활동 조사하기\n• 답사 장소에서 보아야 할 것 정리하기\n• 답사 장소에서 해결할 (질문) 생각하기",
-              "image_one": "map4-1_16_01.jpg\nmap4-1_16_02.jpg",
+              "image_one": "2)map4-1_16_01.jpg\n3)map4-1_16_02.jpg",
               "mind_two": null,
               "contents_two": null,
               "image_two": null,
@@ -1160,7 +1162,7 @@
               "type": 4,
               "mind_one": null,
               "contents_one": "• 답사 장소까지 이동하기\n• 답사 장소에 도착하면 (안내도)를 보고 답사 순서 확인하기\n• 작성해 온 답사 계획서를 확인하며 답사하기\n• 준비한 질문을 문화 관광 해설사에게 여쭈어보기\n• 답사 중 새로 알게 된 내용 기록하기\n• 답사가 끝난 뒤 (답사 보고서) 작성하기",
-              "image_one": "map4-1_17_01.jpg\nmap4-1_17_02.jpg",
+              "image_one": "1)map4-1_17_01.jpg\n2)map4-1_17_02.jpg",
               "mind_two": null,
               "contents_two": null,
               "image_two": null,
