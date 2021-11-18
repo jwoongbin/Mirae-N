@@ -6,7 +6,7 @@ import { BrowserRouter, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import newdata from '../data.json'
 
-function Quiz({data, indexa}){
+function Quiz({data, conindex, subindex}){
   const list = Array.from(new Array(data.length)).map(_=> true);
   const [click, setClick] = useState(list);
 
@@ -21,7 +21,7 @@ function Quiz({data, indexa}){
     // console.log(click,'상태 변경 감지')
   },[click])
 
-  const questions = data.subs[indexa].questions.map((item, index) => 
+  const questions = data.contents[conindex].subs[subindex].questions.map((item, index) => 
   <li className="questions" key={index}> 
     <div className="contents">
       <div className="question">
@@ -34,7 +34,7 @@ function Quiz({data, indexa}){
     </div>
   </li>)
   
-  const chapter = (newdata.subject + ' ' + newdata.grade);  
+  const chapter = (data.subject + ' ' + data.grade+'-'+data.semester);  
   console.log('newdata:', newdata);
   return (
   
