@@ -1,7 +1,8 @@
-import "./Mindmap.css"
+import "./Mindmap.scss"
 import exit from '../images/exit.png';
 import choco from '../images/choco.png';
 import logo from '../images/logo.png';
+import background from '../images/background.png'
 import { BrowserRouter, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
@@ -26,18 +27,21 @@ function Mindmap({ data, conindex, subindex }) {
       <div className="contents">
         <div className="mindmap-box">
           <div className="subject">
-            <div onClick={() => onClick()}>{data.contents[conindex].subs[subindex].mindmap.title}</div>
+            <div className="subject-wrap" onClick={() => onClick()}>
+              <img className="background" src={background}/>
+              <div className="text">{data.contents[conindex].subs[subindex].mindmap.title}</div>
+            </div>
             <div className="item1">
-              <div className="sub-subject1">{click ? data.contents[conindex].subs[subindex].mindmap.mind_one : null}</div>
-              <div className="subject1-content">{click ? data.contents[conindex].subs[subindex].mindmap.contents_one : null}</div>
+              <div className="subject">{click ? data.contents[conindex].subs[subindex].mindmap.mind_one : null}</div>
+              <div className="content">{click ? data.contents[conindex].subs[subindex].mindmap.contents_one : null}</div>
             </div>
             <div className="item2">
-              <div className="sub-subject2">{click ? data.contents[conindex].subs[subindex].mindmap.mind_two : null}</div>
-              <div className="subject2-content">{click ? data.contents[conindex].subs[subindex].mindmap.contents_two : null}</div>
+              <div className="subject">{click ? data.contents[conindex].subs[subindex].mindmap.mind_two : null}</div>
+              <div className="content">{click ? data.contents[conindex].subs[subindex].mindmap.contents_two : null}</div>
             </div>
             <div className="item3">
-              <div className="sub-subject3">{click ? data.contents[conindex].subs[subindex].mindmap.mind_three : null}</div>
-              <div className="subject3-content">{click ? data.contents[conindex].subs[subindex].mindmap.contents_three : null}</div>
+              <div className="subject">{click ? data.contents[conindex].subs[subindex].mindmap.mind_three : null}</div>
+              <div className="content">{click ? data.contents[conindex].subs[subindex].mindmap.contents_three : null}</div>
             </div>
           </div>
         </div>
