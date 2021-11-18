@@ -23,7 +23,7 @@ function Mindmap({ data, conindex, subindex }) {
   return (
     <div className="mindmap-wrap">
       <div className="header">
-        <img className="logo" src={logo} width="15%" />
+        <img className="logo" src={logo} width="12%" />
         <div className="center">
           <img className="choco" src={choco} width= "20%" />
           <h1 className="book">초등 사회 3-1</h1>
