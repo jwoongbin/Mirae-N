@@ -1,4 +1,4 @@
-import './Quiz.css';
+import './Quiz.scss';
 import exit from '../images/exit.png';
 import choco from '../images/choco.png';
 import logo from '../images/logo.png';
@@ -7,7 +7,8 @@ import { useEffect, useState } from 'react';
 import newdata from '../data.json'
 
 function Quiz({data, conindex, subindex}){
-  const list = Array.from(new Array(data.length)).map(_=> true);
+  const questionData = data.contents[conindex].subs[subindex].questions
+  const list = Array.from(new Array(questionData.length)).map(_=> true);
   const [click, setClick] = useState(list);
 
   function onClick(index) {
@@ -21,7 +22,7 @@ function Quiz({data, conindex, subindex}){
     // console.log(click,'상태 변경 감지')
   },[click])
 
-  const questions = data.contents[conindex].subs[subindex].questions.map((item, index) => 
+  const questions = questionData.map((item, index) => 
   <li className="questions" key={index}> 
     <div className="contents">
       <div className="question">
