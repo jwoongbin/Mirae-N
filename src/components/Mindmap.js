@@ -32,7 +32,7 @@ function Mindmap({ data, conindex, subindex }) {
       <div className="header">
         <img className="logo" src={logo} width="12%" alt=''/>
         <div className="center">
-          <img className="choco" src={choco} width= "20%" alt='' />
+          <img className="choco" src={choco} alt='' />
           <h1 className="book">초등 사회 3-1</h1>
         </div>
         <Link to="/"><img className="exit" src={exit} alt=''/></Link>

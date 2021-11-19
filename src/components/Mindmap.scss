@@ -1,3 +1,13 @@
+// $sub-themes-color
+// $sub-themes-width:
+// $sub-themes-height: 
+// $sub-themes-font-color:
+$sub-themes-border-radius: 50%;
+$sub-themes-font-size: 2vw;
+$content-font-size: 1.4vw;
+$content-border-radius: 15px;
+
+
 .mindmap-wrap {
   display: flex;
   width: 100vw;
@@ -6,7 +16,7 @@
 
   > {
     .header {
-      height: 99px;
+      height: 10vh;
       background-color: #F2D6A5;
       background-image: url('../images/top.png');
       background-size: 100% 100%;
@@ -17,15 +27,18 @@
       border-radius: 0 0 36px 36px;
       border-color: #996E4B;
       display: flex;
-      justify-content: space-around;
+      justify-content: space-between;
       > .logo {
         margin-left: 8%;
       }
       > .center {
-        margin-right: 5%;
+        width: 30%;
+        margin-right: 10%;
         display: flex;
 
         > .choco {
+          width: 5vw;
+          height: 6vh;
           margin-right: 7%;
         }
 
@@ -37,9 +50,10 @@
         }
       }
 
-      a > .exit {
+      a {
         margin-right: 7%;
-        width: 4vw;
+        >.exit {
+          width: 3.5vw;}
       }
 
       h1 {
@@ -52,7 +66,7 @@
     .contents {
       font-size: 2vh;
       display: flex;
-      height: 80vh;
+      height: 82vh;
       width: 65%;
       align-items: center;
       white-space: pre-wrap;
@@ -73,13 +87,13 @@
             > {
               .background {
                 height: 100%;
-                width: 100%;
+                width: 20vw;
               }
 
               .text {
                 color: rgb(255, 255, 255);
                 font-weight: 800;
-                font-size: 37px;
+                font-size: 2vw;
                 width: 100%;
                 position: absolute;
                 left: 50%;
@@ -93,9 +107,9 @@
           .item1 {
             position: absolute;
             width: 20vw;
-            height: 50vh;
+            height: 45vh;
             top: -10vw;
-            right: 20vw;
+            right: 24vw;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -105,7 +119,7 @@
               position: relative;
               text-align: center;
               color: rgb(84, 84, 84);
-              font-size: 35px;
+              font-size: $sub-themes-font-size;
               font-weight: 800;
               padding: 0 15px;
               display: flex;
@@ -117,19 +131,19 @@
               border: solid rgb(255, 184, 184);
               border-radius: 50%;
               line-height: 1.2;
-              > .arrow{
+              > .arrow {
                   position: absolute;
                   width: 6vw;
-                  height: 7vh;
-                  left: 13vw;
-                  top: 15vh;
+                  height: 10vh;
+                  left: 12vw;
+                  top: 12vh;
               }
-              > .dot_arrow{
+              > .dot_arrow {
                 position: absolute;
                 width: 5vw;
-                height: 12vh;
-                left: -1vw;
-                top: 17vh;
+                height: 14vh;
+                left: 0vw;
+                top: 15vh;
               }
               
             }
@@ -137,13 +151,10 @@
               padding: 0 10px;
               color: #575252;
               font-weight: 800;
-              padding: 0 10px;
-              display: inline-flex;
-              align-items: center;
-              justify-content: center;
-              width: 505px;
-              height: 283px;
-              font-size: 28px;
+              padding: 10px 20px;
+              width: 25vw;
+              height: fit-content;
+              font-size: $content-font-size;
               background-color: #ffe0e0;
               border-width: medium;
               border: solid #ffb8b8;
@@ -158,8 +169,8 @@
 
           .item2 {
             position: absolute;
-            width: 25vw;
-            left: 19vw;
+            width: 20vw;
+            left: 22vw;
             bottom: 9vw;
             display: flex;
             flex-direction: column;
@@ -167,7 +178,7 @@
               position: relative;
               text-align: center;
               color: rgb(84, 84, 84);
-              font-size: 35px;
+              font-size: $sub-themes-font-size;
               font-weight: 800;
               padding: 0 10px;
               display: flex;
@@ -201,14 +212,14 @@
               left: 18vw;
               bottom: 3vh;
               color: #575252;
-              font-size: 28px;
+              font-size: $content-font-size;
               font-weight: 800;
-              padding: 0 10px;
+              padding: 10px 20px;
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 441px;
-              height: 216px;
+              width: 22vw;
+              height: fit-content;
               background-color: #ffe0e0;
               border-width: medium;
               border: solid #ffb8b8;
@@ -218,15 +229,15 @@
 
           .item3 {
             position: absolute;
-            width: 40vw;
-            left: 19vw;
+            width: 20vw;
+            left: 22vw;
             top: 10vw;
             display: flex;
             > .subject {
               text-align: center;
               position: relative;
               color: rgb(84, 84, 84);
-              font-size: 35px;
+              font-size: $sub-themes-font-size;
               font-weight: 800;
               padding: 0 15px;
               display: flex;
@@ -257,16 +268,15 @@
             > .content {
               position: absolute;
               left: 18vw;
-              padding: 10px;
               color: #575252;
-              font-size: 28px;
+              font-size: $content-font-size;
               font-weight: 800;
-              padding: 0 10px;
+              padding: 10px 20px;
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 441px;
-              height: 216px;
+              width: 22vw;
+              height: fit-content;
               background-color: #ffe0e0;
               border-width: medium;
               border: solid #ffb8b8;
@@ -278,7 +288,10 @@
     }
 
     .footer {
-      height: 8.7vh;
+      position: absolute;
+      height: 8vh;
+      width: 100%;
+      bottom: 0;
       background-image: url('../images/bottom.png');
       background-color: #F2D6A5;
       background-size: 100% 100%;
