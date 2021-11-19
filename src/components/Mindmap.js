@@ -17,7 +17,7 @@ import MindContent from "./MindContent";
 function Mindmap({ data, conindex, subindex }) {
   const [click, setClick] = useState(false);
   const mindmapData = data.contents[conindex].subs[subindex].mindmap
-
+  console.log('마인드맵 데이타:',data, conindex);
   var mindContent = (content) =>{
     return <MindContent content={content}/>
   }
@@ -26,6 +26,8 @@ function Mindmap({ data, conindex, subindex }) {
     setClick(click => !click);
   }
 
+  const book_title = data.subject + ' '+  data.grade + '-' + data.semester;
+
   console.log(data, conindex ,subindex)
   return (
     <div className="mindmap-wrap">
@@ -33,7 +35,7 @@ function Mindmap({ data, conindex, subindex }) {
         <img className="logo" src={logo} width="12%" alt=''/>
         <div className="center">
           <img className="choco" src={choco} alt='' />
-          <h1 className="book">초등 사회 3-1</h1>
+          <h1 className="book">초등 {book_title}</h1>
         </div>
         <Link to="/"><img className="exit" src={exit} alt=''/></Link>
       </div>

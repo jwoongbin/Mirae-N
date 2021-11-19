@@ -1,9 +1,9 @@
 // $sub-themes-color
-// $sub-themes-width:
-// $sub-themes-height: 
-// $sub-themes-font-color:
+$sub-themes-width: 13vw;
+$sub-themes-height: 17vh;
+$sub-themes-padding: 15% 5%;
 $sub-themes-border-radius: 50%;
-$sub-themes-font-size: 2vw;
+$sub-themes-font-size: 1.7vw;
 $content-font-size: 1.4vw;
 $content-border-radius: 15px;
 
@@ -125,8 +125,8 @@ $content-border-radius: 15px;
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 244px;
-              height: 164px;
+              width: $sub-themes-width;
+              height: $sub-themes-height;
               background-color: rgb(255, 224, 224);
               border: solid rgb(255, 184, 184);
               border-radius: 50%;
@@ -135,14 +135,14 @@ $content-border-radius: 15px;
                   position: absolute;
                   width: 6vw;
                   height: 10vh;
-                  left: 12vw;
+                  left: 13vw;
                   top: 12vh;
               }
               > .dot_arrow {
                 position: absolute;
                 width: 5vw;
                 height: 14vh;
-                left: 0vw;
+                left: -3vw;
                 top: 15vh;
               }
               
@@ -176,6 +176,7 @@ $content-border-radius: 15px;
             flex-direction: column;
             > .subject {
               position: relative;
+              left: 5%;
               text-align: center;
               color: rgb(84, 84, 84);
               font-size: $sub-themes-font-size;
@@ -184,8 +185,8 @@ $content-border-radius: 15px;
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 244px;
-              height: 164px;
+              width: $sub-themes-width;
+              height: $sub-themes-height;
               background-color: rgb(255, 224, 224);
               border-width: medium;
               border: solid rgb(255, 184, 184);
@@ -195,22 +196,22 @@ $content-border-radius: 15px;
                 position: absolute;
                 width: 9vw;
                 height: 6vh;
-                left: -0.5vw;
+                left: -3vw;
                 top: 18vh;
             }
             > .dot_arrow{
               position: absolute;
-              width: 5vw;
-              height: 10vh;
-              left: 12vw;
-              top: -8vh;
+              width: 8vw;
+              height: 13vh;
+              left: 8vw;
+              top: -14vh;
             }
             }
             > .content {
               position: absolute;
               padding: 0 10px;
               left: 18vw;
-              bottom: 3vh;
+              bottom: 7vh;
               color: #575252;
               font-size: $content-font-size;
               font-weight: 800;
@@ -231,7 +232,7 @@ $content-border-radius: 15px;
             position: absolute;
             width: 20vw;
             left: 22vw;
-            top: 10vw;
+            top: 11vw;
             display: flex;
             > .subject {
               text-align: center;
@@ -243,8 +244,8 @@ $content-border-radius: 15px;
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 244px;
-              height: 164px;
+              width: $sub-themes-width;
+              height: $sub-themes-height;
               background-color: rgb(255, 224, 224);
               border-width: medium;
               border: solid rgb(255, 184, 184);
@@ -252,21 +253,22 @@ $content-border-radius: 15px;
               line-height: 1.2;
               > .arrow{
                 position: absolute;
-                width: 9vw;
-                height: 9vh;
-                left: 13.5vw;
-                top: 14vh;
+                width: 6vw;
+                height: 11vh;
+                left: -6.5vw;
+                top: 3vh;
               }
               > .dot_arrow{
                 position: absolute;
-                width: 5vw;
-                height: 12vh;
-                left: -1vw;
+                width: 9vw;
+                height: 6vh;
+                left: 8vw;
                 top: 17vh;
               }
             }
             > .content {
               position: absolute;
+              bottom: -8vh;
               left: 18vw;
               color: #575252;
               font-size: $content-font-size;
@@ -286,7 +288,6 @@ $content-border-radius: 15px;
         }
       }
     }
-
     .footer {
       position: absolute;
       height: 8vh;
