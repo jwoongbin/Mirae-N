@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="549" height="243.999" viewBox="0 0 549 243.999">
+    <defs>
+        <style>
+            .cls-1{fill:#404040}.cls-2{fill:#ffd939}.cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="그룹_1264" data-name="그룹 1264" transform="translate(-10364 583.999)">
+        <path id="사각형_627" data-name="사각형 627" class="cls-1" transform="translate(10364 -395)" d="M0 0h549v29H0z"/>
+        <path id="패스_2697" data-name="패스 2697" class="cls-2" d="M549.581 4.5H8v189h541.581c2.478 0 4.941-.006 7.419-.006V4.5z" transform="translate(10356 -562.5)"/>
+        <path id="사각형_627-2" data-name="사각형 627" class="cls-1" transform="translate(10364 -395)" d="M0 0h549v29H0z"/>
+        <path id="패스_2697-2" data-name="패스 2697" class="cls-2" d="M549.581 4.5H8v189h541.581c2.478 0 4.941-.006 7.419-.006V4.5z" transform="translate(10356 -562.5)"/>
+        <path id="패스_2699" data-name="패스 2699" class="cls-3" d="M549.394 4.5H8v189.035h541.394c2.477 0 4.939-.006 7.416-.006V4.5z" transform="translate(10356 -588.499)"/>
+        <path id="사각형_630" data-name="사각형 630" class="cls-3" transform="translate(10365 -366)" d="M0 0h548v26H0z"/>
+    </g>
+</svg>

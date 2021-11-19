@@ -29,9 +29,11 @@ function MindContent (content){
     if(splitstring.length%2 === 1){
         splitstring.map((split, index)=>{
             if(index%2 === 0){
-                temp.push(split)
+                temp.push(<span>{split}</span>)
             }else{
-                temp.push(<span className={'answer'+(boollist[spanindex(index)] ? ' on' : '')} onClick={()=>{onClick(spanindex(index))}}><img className={"answer_img"} src ={postfront} alt=''/><span className={'answer_body'} >{split}</span><img className={"answer_img"} src ={postback} alt=''/></span>)    
+                temp.push(<span className={'answer'+(boollist[spanindex(index)] ? ' on' : '')} onClick={()=>{onClick(spanindex(index))}}>{split}</span>)
+                // temp.push(<span className={'answer'+(boollist[spanindex(index)] ? ' on' : '')} onClick={()=>{onClick(spanindex(index))}}><span className={"answer_front"}>{"1"}</span><span className={'answer_body'} >{split}</span><span className={"answer_back"}>{"1"}</span></span>)  
+                // temp.push(<span className={'answer'+(boollist[spanindex(index)] ? ' on' : '')} onClick={()=>{onClick(spanindex(index))}}><img className={"answer_img"} src ={postfront} alt=''/><span className={'answer_body'} >{split}</span><img className={"answer_img"} src ={postback} alt=''/></span>)    
             }
         })
     }else{
@@ -40,7 +42,7 @@ function MindContent (content){
     }
     console.log(temp);
     return (
-        <div className={'content'}>{temp}</div>
+        <div className={'mindcontent'}>{temp}</div>
     )    
     // var boola = false
     // var a = () =>{
