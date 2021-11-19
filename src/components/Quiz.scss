@@ -57,24 +57,33 @@
 
         > .questions {
           display: flex;
-          align-items: center;
+          align-items: baseline;
           margin-bottom: 50px;
 
-          &:before {
-            content: "0" counter(item) "  ";
-            counter-increment: item;
+          >.num {
             color: rgb(201, 103, 103);
-            font-size: 5vh;
+            font-size: 4vh;
           }
 
           > .contents {
             width: 100%;
+            margin-top: 50px;
 
             > .question {
               display: flex;
               width: 100%;
               justify-content: space-between;
-       
+              padding-top: 30px;
+            }
+            .options{
+              width: 90%;
+              display: inline-flex;
+              & .off{
+                display: none;
+              }
+              >.option{
+                padding-right: 100px;
+              }
             }
             .answer{
               float: right;
@@ -89,12 +98,12 @@
                   min-width: 10vw;
                   background-image: none;
                   color : red;
-                  box-shadow: inset 0 -1px 0 black;
+                  box-shadow: inset 0 -2px 0 -1px black;
                   >.answer_text{
                     visibility: visible;
                     color : red;
                   }
-                  >.answer_a{
+                  >.answer_answer{
                     display : none;
                     position: absolute;
                   }
@@ -106,17 +115,17 @@
               >.answer_body{
                 position: relative;
                 padding-left: 20px;
-                padding-right: 20px ;
+                padding-right: 20px;
                 text-align: center;
                 vertical-align: middle;
                 min-width: 10vw;
                 color: white;
                 background-size: 100% 100%;
-                background-image: url('../images/pen/penbody.png');
+                background-image: url('../images/pen/penbody.svg');
                 >.answer_text{
                   color: transparent;
                 }
-                >.answer_a{
+                >.answer_answer{
                   position: absolute;
                   top: 50%;
                   left: 50%;
