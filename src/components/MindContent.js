@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react';
 import { newlineToBr } from '../common/utils.js';
 import "./MindContent.scss"
-import postfront from '../images/postit/postfront.png'
-import postback from '../images/postit/postback.png'
-
 
 function spanindex(index){
     return Math.floor(index/2)
@@ -14,11 +11,11 @@ function MindContent (content){
     
     var splitstring = data.split(/[()]+/)
     console.log(splitstring.length);
-    const [boollist, setBoollist] = useState(new Array(splitstring.length))
+    const [boollist, setBoollist] = useState(new Array(spanindex(splitstring.length)))
 
-    console.log(boollist);
+    var answer_count = 0
 
-    var temp = [];
+    var spanlist = [];
 
     var onClick = (index)=>{
         console.log(index)
@@ -29,18 +26,31 @@ function MindContent (content){
     if(splitstring.length%2 === 1){
         splitstring.map((split, index)=>{
             if(index%2 === 0){
-                temp.push(split)
+                if(split.length !== 0){
+                    spanlist.push(<span>{split}</span>)
+                }
             }else{
-                temp.push(<span className={'answer'+(boollist[spanindex(index)] ? ' on' : '')} onClick={()=>{onClick(spanindex(index))}}><img className={"answer_img"} src ={postfront} alt=''/><span className={'answer_body'} >{split}</span><img className={"answer_img"} src ={postback} alt=''/></span>)    
+                answer_count += 1;
+                spanlist.push(<span className={'answer'+(boollist[spanindex(index)] ? ' on' : '')} onClick={()=>{onClick(spanindex(index))}}>{split}</span>)
+                // temp.push(<span className={'answer'+(boollist[spanindex(index)] ? ' on' : '')} onClick={()=>{onClick(spanindex(index))}}><span className={"answer_front"}>{"1"}</span><span className={'answer_body'} >{split}</span><span className={"answer_back"}>{"1"}</span></span>)  
+                // temp.push(<span className={'answer'+(boollist[spanindex(index)] ? ' on' : '')} onClick={()=>{onClick(spanindex(index))}}><img className={"answer_img"} src ={postfront} alt=''/><span className={'answer_body'} >{split}</span><img className={"answer_img"} src ={postback} alt=''/></span>)    
             }
         })
     }else{
-        temp.push({data})
+        spanlist.push({data})
         console.log("괄호 갯수가 이상한데...?")
     }
-    console.log(temp);
+    console.log(spanlist);
+
+    var returnvalue = <div className={'mindcontent'}>{spanlist}</div>
+    if(answer_count === 1 && spanlist.length === 1){
+        console.log('spanlist : ' ,spanlist);
+        returnvalue = <div className={'mindcontent'+(boollist[spanindex(0)] ? ' on' : ' off')}>{spanlist}</div>
+    }
+
+
     return (
-        <div className={'content'}>{temp}</div>
+        returnvalue
     )    
     // var boola = false
     // var a = () =>{

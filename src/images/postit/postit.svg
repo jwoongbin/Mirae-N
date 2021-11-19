@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="729.093" height="247.023" viewBox="0 0 729.093 247.023" preserveAspectRatio='none'>
+    <defs>
+        <style>
+            .cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="그룹_1268" data-name="그룹 1268" transform="translate(-117.649 -493.552)">
+        <path id="합치기_5" data-name="합치기 5" d="M-9926.932 34H-9951a25 25 0 0 1-25-25V5h49.069V0H-9256v28a6 6 0 0 1-6 6z" transform="translate(10094.152 680.575)" style="fill:#404040"/>
+        <path id="합치기_4" data-name="합치기 4" d="M-9927 217.549V28.632c217.539.518 433.03-8.159 633.33-25.292l19.781-1.888c20.688-1.765 25.947-3.039 25.979 3.137l-.09 177.158c-.2 7.461-12.659 6.585-21.547 8.2-5.325.488-4.016.448-9.373.924-198.229 17.542-412.01 26.7-628.387 26.7q-9.838.004-19.693-.022zm-24.285.025a24.6 24.6 0 0 1-18.665-8.64 24.321 24.321 0 0 1-6.05-15.96V53.175a24.659 24.659 0 0 1 24.717-24.6H-9927v189z" transform="translate(10094.15 494)" style="fill:#ffd939;stroke:transparent;stroke-miterlimit:10"/>
+        <path id="패스_2700" data-name="패스 2700" class="cls-3" d="M24.6 4.5A24.446 24.446 0 0 0 0 28.785V166.79a23.9 23.9 0 0 0 6.025 15.757 24.578 24.578 0 0 0 18.58 8.528h24.178V4.5z" transform="translate(118.15 489.5)"/>
+        <path id="사각형_632" data-name="사각형 632" class="cls-3" transform="translate(715.15 714.575)" d="M0 0h131v26H0z"/>
+    </g>
+</svg>
