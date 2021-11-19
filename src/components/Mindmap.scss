@@ -6,7 +6,7 @@
 
   > {
     .header {
-      height: 11.25vh;
+      height: 99px;
       background-color: #F2D6A5;
       background-image: url('../images/top.png');
       background-size: 100% 100%;
@@ -18,9 +18,11 @@
       border-color: #996E4B;
       display: flex;
       justify-content: space-around;
-
+      > .logo {
+        margin-left: 8%;
+      }
       > .center {
-        margin: 0 5%;
+        margin-right: 5%;
         display: flex;
 
         > .choco {
@@ -36,6 +38,7 @@
       }
 
       a > .exit {
+        margin-right: 7%;
         width: 4vw;
       }
 
@@ -50,7 +53,7 @@
       font-size: 2vh;
       display: flex;
       height: 80vh;
-      width: 100%;
+      width: 65%;
       align-items: center;
       white-space: pre-wrap;
       margin-left: 35%;
@@ -63,8 +66,6 @@
           .subject-wrap {
             position: relative;
             display: flex;
-            width: 17vw;
-            height: 20vh;
             align-items: center;
             display: flex;
             text-align: center;
@@ -78,13 +79,14 @@
               .text {
                 color: rgb(255, 255, 255);
                 font-weight: 800;
-                font-size: 3vh;
+                font-size: 37px;
                 width: 100%;
                 position: absolute;
                 left: 50%;
-                top: 55%;
+                top: 51%;
                 transform: translate(-50%, -50%);
-                padding: 0 20px;
+                padding: 0 10px;
+                line-height: 1.2;
               }
             }
           }
@@ -101,19 +103,20 @@
 
             > .subject {
               position: relative;
+              text-align: center;
               color: rgb(84, 84, 84);
-              font-size: 3vh;
+              font-size: 35px;
               font-weight: 800;
               padding: 0 15px;
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 12vw;
-              height: 15vh;
+              width: 244px;
+              height: 164px;
               background-color: rgb(255, 224, 224);
-              border-width: medium;
               border: solid rgb(255, 184, 184);
               border-radius: 50%;
+              line-height: 1.2;
               > .arrow{
                   position: absolute;
                   width: 6vw;
@@ -133,14 +136,14 @@
             > .content {
               padding: 0 10px;
               color: #575252;
-              font-size: 2vh;
               font-weight: 800;
               padding: 0 10px;
               display: inline-flex;
               align-items: center;
               justify-content: center;
-              width: 25vw;
-              height: 20vh;
+              width: 505px;
+              height: 283px;
+              font-size: 28px;
               background-color: #ffe0e0;
               border-width: medium;
               border: solid #ffb8b8;
@@ -156,25 +159,27 @@
           .item2 {
             position: absolute;
             width: 25vw;
-            left: 17vw;
+            left: 19vw;
             bottom: 9vw;
             display: flex;
             flex-direction: column;
             > .subject {
               position: relative;
+              text-align: center;
               color: rgb(84, 84, 84);
-              font-size: 3vh;
+              font-size: 35px;
               font-weight: 800;
               padding: 0 10px;
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 12vw;
-              height: 15vh;
+              width: 244px;
+              height: 164px;
               background-color: rgb(255, 224, 224);
               border-width: medium;
               border: solid rgb(255, 184, 184);
               border-radius: 50%;
+              line-height: 1.2;
               > .arrow{
                 position: absolute;
                 width: 9vw;
@@ -196,14 +201,14 @@
               left: 18vw;
               bottom: 3vh;
               color: #575252;
-              font-size: 2vh;
+              font-size: 28px;
               font-weight: 800;
               padding: 0 10px;
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 25vw;
-              height: 27vh;
+              width: 441px;
+              height: 216px;
               background-color: #ffe0e0;
               border-width: medium;
               border: solid #ffb8b8;
@@ -214,25 +219,26 @@
           .item3 {
             position: absolute;
             width: 40vw;
-            left: 17vw;
+            left: 19vw;
             top: 10vw;
             display: flex;
             > .subject {
               text-align: center;
               position: relative;
               color: rgb(84, 84, 84);
-              font-size: 3vh;
+              font-size: 35px;
               font-weight: 800;
               padding: 0 15px;
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 12vw;
-              height: 15vh;
+              width: 244px;
+              height: 164px;
               background-color: rgb(255, 224, 224);
               border-width: medium;
               border: solid rgb(255, 184, 184);
               border-radius: 50%;
+              line-height: 1.2;
               > .arrow{
                 position: absolute;
                 width: 9vw;
@@ -253,18 +259,18 @@
               left: 18vw;
               padding: 10px;
               color: #575252;
-              font-size: 2vh;
+              font-size: 28px;
               font-weight: 800;
               padding: 0 10px;
               display: flex;
               align-items: center;
               justify-content: center;
-              width: 25vw;
-              height: 20vh;
+              width: 441px;
+              height: 216px;
               background-color: #ffe0e0;
               border-width: medium;
               border: solid #ffb8b8;
-              border-radius: 25px;
+              border-radius: 15px;
           }
           }
         }
