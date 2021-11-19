@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react';
 import { newlineToBr } from '../common/utils.js';
 import "./MindContent.scss"
-import postfront from '../images/postit/postfront.png'
-import postback from '../images/postit/postback.png'
-
 
 function spanindex(index){
     return Math.floor(index/2)
