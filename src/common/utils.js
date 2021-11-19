@@ -3,3 +3,9 @@ export function newlineToBr(content){
     var replaceString = content.replace('/n', '<br>');
     return replaceString
 }
+
+export function fillParentheses(content){
+
+    var fillString = content.replace('( )','(        )')
+    return fillString
+}
