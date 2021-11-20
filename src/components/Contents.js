@@ -1,6 +1,6 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion'
-import {BrowserRouter, Link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './Contents.css'
 import icon from '../icon.png';
 
@@ -18,9 +18,9 @@ function Contents({data}) {
                   {item.subs.map((subs, index) => (
                     <ul key={subs.sub+index}>
                       {subs.sub}
-                      <div className="img-container">
+                      <div key={subs.sub+index} className="img-container">
                         {subs.btns.map((btn, index) =>(
-                          <Link to={btn.btn_url.replace("https://edubook.mirae-n.com","")}><img width="30px" src={icon}/>{btn.btn_name}</Link>
+                          <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}><img width="30px" src={icon} alt=""/>{btn.btn_name}</Link>
                         ))}
 {/*                  
                         <Link to="/mindmap"><img width="30px" src={icon}/>{}</Link>

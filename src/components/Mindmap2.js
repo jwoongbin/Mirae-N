@@ -1,4 +1,4 @@
-import "./Mindmap2.scss"
+// import "./Mindmap2.scss"
 import exit from '../images/exit.png';
 import choco from '../images/choco.png';
 import logo from '../images/logo.png';

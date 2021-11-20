@@ -9,8 +9,8 @@ import arrow2_dot from '../images/arrow2_dot.png';
 import arrow3 from '../images/arrow3.png';
 import arrow3_dot from '../images/arrow3_dot.png';
 import background from '../images/background.png';
-import { BrowserRouter, Link } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 import MindContent from "./MindContent";
 
 
@@ -21,11 +21,9 @@ function Mindmap({ data, conindex, subindex }) {
   var mindContent = (content) =>{
     return <MindContent content={content}/>
   }
-
   function onClick() {
     setClick(click => !click);
   }
-
   const book_title = data.subject + ' '+  data.grade + '-' + data.semester;
 
   console.log(data, conindex ,subindex)
@@ -45,8 +43,8 @@ function Mindmap({ data, conindex, subindex }) {
       <div className="contents">
         <div className="mindmap-box">
           <div className="subject">
-            <div className="subject-wrap" onClick={() => onClick()}>
-              <img className="background" src={background} alt=''/>
+            <div className="subject-wrap"onClick={() => onClick()} >
+              <img className="background" src={background} alt='' />
               <div className="text">{mindmapData.title}</div>
             </div>
 
@@ -58,16 +56,14 @@ function Mindmap({ data, conindex, subindex }) {
               </div>
               <div className="content">{click ? mindContent(mindmapData.contents_one) : null}</div>
             </div>
-
             <div className="item2" style={{display : click? "" : "none"}}>
-            <div className="content">{click ?mindContent(mindmapData.contents_two) : null}</div>
               <div className="subject">
                 {click ? mindContent(mindmapData.mind_two) : null}
                 {click ? <img className="arrow" src={arrow2} alt=''/> : null}
                 {click ? <img className="dot_arrow" src={arrow2_dot} alt=''/> : null}
               </div>
+              <div className="content">{click ?mindContent(mindmapData.contents_two) : null}</div>
             </div>
-
             <div className="item3" style={{display : click? "" : "none"}}>
               <div className="subject">
                 {click ? mindContent(mindmapData.mind_three) : null}
@@ -76,7 +72,6 @@ function Mindmap({ data, conindex, subindex }) {
               </div>
               <div className="content">{click ? mindContent(mindmapData.contents_three) : null}</div>
             </div>
-
           </div>
         </div>
       </div>

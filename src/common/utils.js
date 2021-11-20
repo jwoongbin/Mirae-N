@@ -1,4 +1,7 @@
 export function newlineToBr(content){
+    if(content === null){
+        return ""
+    }
     console.log(content)
     var replaceString = content.replace('/n', '<br>');
     return replaceString

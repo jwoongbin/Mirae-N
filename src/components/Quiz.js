@@ -4,7 +4,7 @@ import choco from '../images/choco.png';
 import logo from '../images/logo.png';
 import penfront from '../images/pen/penfront.svg'
 import penback from '../images/pen/penback.svg'
-import { BrowserRouter, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import newdata from '../data.json'
 import { fillParentheses } from '../common/utils';
@@ -72,7 +72,7 @@ function Quiz({data, conindex, subindex}){
       <div className="header">
         <img className="logo" src={logo} width="15%" alt=''/>
         <div className="center">
-            <img className="choco" src={choco} width= "20%" />
+            <img className="choco" src={choco} width= "20%" alt='' />
             <h1 className="book">{chapter}</h1>
         </div>
         <Link to="/"><img className="exit" src={exit} alt='' /></Link>
