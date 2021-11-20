@@ -1,11 +1,17 @@
-// $sub-themes-color
+// $sub-themes-background-color
+// $$sub-themes-border
+//$sub-themes-font-color
+$sub-themes-padding: 0 15px;
+$content-padding: 5% 10%;
 $sub-themes-width: 13vw;
 $sub-themes-height: 17vh;
-$sub-themes-padding: 15% 5%;
+$sub-themes-padding: 10% 5%;
 $sub-themes-border-radius: 50%;
 $sub-themes-font-size: 1.7vw;
 $content-font-size: 1.4vw;
 $content-border-radius: 15px;
+$content-arrow-z-index: -99;
+
 
 @media (min-aspect-ratio: 16/9) {
   .mindmap-wrap{
@@ -259,7 +265,8 @@ $content-border-radius: 15px;
                 width: 8vw;
                 height: 13vh;
                 left: 8vw;
-                top: -14vh;
+                top: 14vh;
+                z-index: $content-arrow-z-index;
               }
               }
               > .content {
@@ -360,4 +367,13 @@ $content-border-radius: 15px;
         border-color: #996E4B;
       }
   }
+  @media screen and (max-width: 600px) {
+    .mindmap-wrap{
+      width: 100px;
+    }
+  }
+  @media all and (min-width:768px) and (max-width:1080px) {}
+  /* '모든 디바이스 & 최소 너비가 768 이상 & 최대 너비가 1080 이하'라는 조건을 모두 만족할 때 */
+  @media (min-height: 680px), screen and (orientation: portrait) {}
+  /* '최소 높이가 680 이상'이거나 '세로 모드의 스크린 기기' 중 하나를 만족하는 경우에 적용*/
 }
