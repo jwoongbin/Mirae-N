@@ -5,7 +5,7 @@
         -khtml-user-select: none;
         -webkit-user-select: none;
         user-select: none;
-        // padding: 5px 20px;
+        padding: 5% 10%;
         &.off{
             color: transparent;
             background-size: 100% 100%;
@@ -20,8 +20,8 @@
 }
 .content{
     >.mindcontent{
-        padding-top: 10px;
-        padding-bottom: 10px;
+        // padding-top: 10px;
+        // padding-bottom: 10px;
         .answer{
             -ms-user-select: none; 
             -moz-user-select: '-moz-none';

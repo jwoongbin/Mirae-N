@@ -1,11 +1,17 @@
-// $sub-themes-color
+// $sub-themes-background-color
+// $$sub-themes-border
+//$sub-themes-font-color
+$sub-themes-padding: 0 15px;
+$content-padding: 5% 10%;
 $sub-themes-width: 13vw;
 $sub-themes-height: 17vh;
-$sub-themes-padding: 15% 5%;
+$sub-themes-padding: 10% 5%;
 $sub-themes-border-radius: 50%;
 $sub-themes-font-size: 1.7vw;
 $content-font-size: 1.4vw;
 $content-border-radius: 15px;
+$content-arrow-z-index: -99;
+
 
 
 .mindmap-wrap {
@@ -13,6 +19,7 @@ $content-border-radius: 15px;
   width: 100vw;
   height: 100vh;
   flex-direction: column;
+
 
   > {
     .header {
@@ -106,10 +113,8 @@ $content-border-radius: 15px;
           }
           .item1 {
             position: absolute;
-            width: 20vw;
-            height: 45vh;
             top: -10vw;
-            right: 24vw;
+            right: 23vw;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -121,7 +126,7 @@ $content-border-radius: 15px;
               color: rgb(84, 84, 84);
               font-size: $sub-themes-font-size;
               font-weight: 800;
-              padding: 0 15px;
+              padding: $sub-themes-padding;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -132,26 +137,29 @@ $content-border-radius: 15px;
               border-radius: 50%;
               line-height: 1.2;
               > .arrow {
+                  z-index: $content-arrow-z-index;
                   position: absolute;
                   width: 6vw;
-                  height: 10vh;
-                  left: 13vw;
-                  top: 12vh;
+                  height: 8vh;
+                  left: 12vw;
+                  top: 14vh;
               }
               > .dot_arrow {
+                z-index: $content-arrow-z-index;
                 position: absolute;
-                width: 5vw;
-                height: 14vh;
-                left: -3vw;
-                top: 15vh;
+                width: 4.7vw;
+                height: 11.5vh;
+                left: -2vw;
+                top: 16vh;
               }
               
             }
             > .content {
-              padding: 0 10px;
+              position: absolute;
+              top: 29vh;
               color: #575252;
               font-weight: 800;
-              padding: 10px 20px;
+              padding: $content-padding;
               width: 25vw;
               height: fit-content;
               font-size: $content-font-size;
@@ -169,7 +177,6 @@ $content-border-radius: 15px;
 
           .item2 {
             position: absolute;
-            width: 20vw;
             left: 22vw;
             bottom: 9vw;
             display: flex;
@@ -181,7 +188,7 @@ $content-border-radius: 15px;
               color: rgb(84, 84, 84);
               font-size: $sub-themes-font-size;
               font-weight: 800;
-              padding: 0 10px;
+              padding: $sub-themes-padding;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -200,22 +207,23 @@ $content-border-radius: 15px;
                 top: 18vh;
             }
             > .dot_arrow{
+              z-index: $content-arrow-z-index;
               position: absolute;
               width: 8vw;
-              height: 13vh;
-              left: 8vw;
-              top: -14vh;
+              height: 12vh;
+              left: 7vw;
+              top: -10vh;
             }
             }
             > .content {
               position: absolute;
               padding: 0 10px;
-              left: 18vw;
-              bottom: 7vh;
+              left: 17vw;
+              bottom: 12vh;
               color: #575252;
               font-size: $content-font-size;
               font-weight: 800;
-              padding: 10px 20px;
+              padding: $content-padding;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -230,7 +238,6 @@ $content-border-radius: 15px;
 
           .item3 {
             position: absolute;
-            width: 20vw;
             left: 22vw;
             top: 11vw;
             display: flex;
@@ -240,7 +247,7 @@ $content-border-radius: 15px;
               color: rgb(84, 84, 84);
               font-size: $sub-themes-font-size;
               font-weight: 800;
-              padding: 0 15px;
+              padding: $sub-themes-padding;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -256,24 +263,26 @@ $content-border-radius: 15px;
                 width: 6vw;
                 height: 11vh;
                 left: -6.5vw;
-                top: 3vh;
+                top: 0vh;
+                z-index: $content-arrow-z-index;
               }
               > .dot_arrow{
                 position: absolute;
                 width: 9vw;
                 height: 6vh;
                 left: 8vw;
-                top: 17vh;
+                top: 14vh;
+                z-index: $content-arrow-z-index;
               }
             }
             > .content {
               position: absolute;
-              bottom: -8vh;
+              bottom: -14vh;
               left: 18vw;
               color: #575252;
               font-size: $content-font-size;
               font-weight: 800;
-              padding: 10px 20px;
+              padding: $content-padding;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -307,3 +316,12 @@ $content-border-radius: 15px;
       border-color: #996E4B;
     }
   }
+  @media screen and (max-width: 600px) {
+    .mindmap-wrap{
+      width: 100px;
+    }
+  }
+  @media all and (min-width:768px) and (max-width:1080px) {}
+  /* '모든 디바이스 & 최소 너비가 768 이상 & 최대 너비가 1080 이하'라는 조건을 모두 만족할 때 */
+  @media (min-height: 680px), screen and (orientation: portrait) {}
+  /* '최소 높이가 680 이상'이거나 '세로 모드의 스크린 기기' 중 하나를 만족하는 경우에 적용*/
