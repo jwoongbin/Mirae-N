@@ -28,7 +28,7 @@ function Mindmap3({ data, conindex, subindex }) {
 
   console.log(data, conindex ,subindex)
   return (
-    <div className="mindmap-wrap">
+    <div className="mindmap3-wrap">
       <div className="header">
         <img className="logo" src={logo} alt=''/>
         <div className="center">

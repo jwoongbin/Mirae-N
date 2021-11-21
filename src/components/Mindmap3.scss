@@ -10,7 +10,7 @@ $content-font-family: 'NanumGothic';
 // $content-box-width: 
 
 @media (min-aspect-ratio: 16/9) {
-  .mindmap-wrap{
+  .mindmap3-wrap{
     width: 177.777777vh;
     height: 100%;
     font-size: 1.77vh;
@@ -37,7 +37,7 @@ $content-font-family: 'NanumGothic';
 }
 
 @media (max-aspect-ratio: 16/9) {
-  .mindmap-wrap{
+  .mindmap3-wrap{
     width: 100vw;
     height: 56.25vw;
     font-size: 1vw;
@@ -64,7 +64,7 @@ $content-font-family: 'NanumGothic';
   }
 }
 
-.mindmap-wrap {
+.mindmap3-wrap {
   display: flex;
   align-items: center;
   flex-direction: column;
