@@ -223,6 +223,11 @@ $content-border-radius: 15px;
                   > .contenttext{
                     display: flex;
                   }
+                  >.mindcontent >.line{
+                    text-indent: -0.8em;
+                    padding-left: 1em;
+                    ;
+                  }
              }
 
             }
@@ -289,6 +294,11 @@ $content-border-radius: 15px;
                 border-width: medium;
                 border: $common-border;
                 border-radius: 0.5em;
+                >.mindcontent >.line{
+                  text-indent: -0.8em;
+                  padding-left: 1em;
+                  ;
+                }
               }
             }
             .item3 {
@@ -350,6 +360,11 @@ $content-border-radius: 15px;
                 border-width: medium;
                 border: $common-border;
                 border-radius: 0.5em;
+                >.mindcontent >.line{
+                  text-indent: -0.8em;
+                  padding-left: 1em;
+                  ;
+                }
               }
             }
           }
