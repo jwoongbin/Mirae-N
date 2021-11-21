@@ -13,8 +13,7 @@
         }
         &.on{
             background-image: none;
-            color: red;
-            font-weight: bold;
+            color: #c96767;
         }
     }
 }
@@ -38,9 +37,10 @@
                 background-size: 100% 100%;
                 background-image: url('../images/postit/postit.svg');
                 padding: 1% 5%;
+                font-family: 'NanumGothicExtraBold';
                 &.on{
                     background-image: none;
-                    color: red;
+                    color: #c96767;
                     font-weight: bold;
                     .answer_img{ 
                         height: 35px;
@@ -60,7 +60,7 @@
                         position: relative;
                         text-align: center;
                         vertical-align: middle;
-                        color: red;
+                        color: #c96767;
                         background-size: 100% 100%;
                         background-image: none;
                     }
