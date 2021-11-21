@@ -7,6 +7,8 @@ $sub-themes-font-size: 1.8em;
 $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
+$artwork-max-width: 67%;
+$artwork-max-height: 115%;
 // $content-box-width: 
 
 @media (min-aspect-ratio: 16/9) {
@@ -162,7 +164,7 @@ $content-font-family: 'NanumGothic';
                   left: 50%;
                   top: 51%;
                   transform: translate(-50%, -50%);
-                  padding: 0 2%;
+                  padding: 0 5%;
                   line-height: 1.2;
                 }
               }
@@ -211,8 +213,8 @@ $content-font-family: 'NanumGothic';
                 > .artwork {
                   position: absolute;
                   width: 67%;
-                  top: -50%;
-                  left: -70%;
+                  top: -71%;
+                  left: -74%;
                 }
               }
               > .content {
