@@ -7,6 +7,7 @@ $sub-themes-font-size: 1.8em;
 $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
+$background: rgb(237, 140, 140, 0.25);
 
 @media (min-aspect-ratio: 16/9) {
   .mindmap4-wrap{
@@ -179,10 +180,13 @@ $content-font-family: 'NanumGothic';
               z-index: 2;
               > .arrow {
                 position: absolute;
-                width: 6%;
-                height: 11%;
-                left: 102%;
-                top: 63%;
+                width: 8%;
+                height: 7%;
+                left: 101%;
+                top: 61%;
+            }
+            > .artwork{
+              position: absolute;
             }
               > .content {
                 font-family: $content-font-family;
@@ -192,11 +196,10 @@ $content-font-family: 'NanumGothic';
                 padding: 0.5% 0.5%;
                 width: 35%;
                 height: fit-content;
-                top: 19%;
+                top: 43%;
                 right: -46%;
                 font-size: $content-font-size;
-                background-color: #ffe0e0;
-                border-width: medium;
+                background: $background;
                 border: $common-border;
                 border-radius: $content-border-radius;
                   > .contenttext{
