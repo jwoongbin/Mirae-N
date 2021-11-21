@@ -9,6 +9,9 @@ import arrow2_dot from '../images/arrow2_dot.png';
 import arrow3 from '../images/arrow3.png';
 import arrow3_dot from '../images/arrow3_dot.png';
 import background from '../images/background.png';
+import cow from '../images/artwork/cow.png';
+import game from '../images/artwork/game.png';
+import tugging from '../images/artwork/tugging.png';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import MindContent from "./MindContent";
@@ -53,6 +56,7 @@ function Mindmap({ data, conindex, subindex }) {
                 {click ? mindContent(mindmapData.mind_one) : null}
                 {click ? <img className="arrow" src={arrow1} alt=''/> : null}
                 {click ? <img className="dot_arrow" src={arrow1_dot} alt=''/> : null}
+                {click ? <img className="artwork" src={tugging} alt=''/> : null}
               </div>
               <div className="content">{click ? mindContent(mindmapData.contents_one) : null}</div>
             </div>
@@ -61,6 +65,7 @@ function Mindmap({ data, conindex, subindex }) {
                 {click ? mindContent(mindmapData.mind_two) : null}
                 {click ? <img className="arrow" src={arrow2} alt=''/> : null}
                 {click ? <img className="dot_arrow" src={arrow2_dot} alt=''/> : null}
+                {click ? <img className="artwork" src={game} alt=''/> : null}
               </div>
               <div className="content">{click ?mindContent(mindmapData.contents_two) : null}</div>
             </div>
@@ -69,6 +74,7 @@ function Mindmap({ data, conindex, subindex }) {
                 {click ? mindContent(mindmapData.mind_three) : null}
                 {click ? <img className="arrow" src={arrow3} alt=''/> : null}
                 {click ? <img className="dot_arrow" src={arrow3_dot} alt=''/> : null}
+                {click ? <img className="artwork" src={cow} alt=''/> : null}
               </div>
               <div className="content">{click ? mindContent(mindmapData.contents_three) : null}</div>
             </div>

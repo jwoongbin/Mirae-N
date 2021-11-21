@@ -7,6 +7,7 @@ $sub-themes-font-size: 1.8em;
 $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
+// $content-box-width: 
 
 @media (min-aspect-ratio: 16/9) {
   .mindmap-wrap{
@@ -197,7 +198,7 @@ $content-font-family: 'NanumGothic';
                     position: absolute;
                     width: 40%;
                     height: 42%;
-                    left: 100%;
+                    left: 96%;
                     top: 89%;
                 }
                 > .dot_arrow {
@@ -206,6 +207,12 @@ $content-font-family: 'NanumGothic';
                   height: 80%;
                   left: -16%;
                   top: 100%;
+                }
+                > .artwork {
+                  position: absolute;
+                  width: 67%;
+                  top: -50%;
+                  left: -70%;
                 }
               }
               > .content {
@@ -278,6 +285,12 @@ $content-font-family: 'NanumGothic';
                   left: 53%;
                   top: -71%;
                 }
+                > .artwork {
+                  position: absolute;
+                  width: 67%;
+                  top: -90%;
+                  left: -10%; 
+                }
               }
               > .content {
                 font-family: $content-font-family;
@@ -291,7 +304,7 @@ $content-font-family: 'NanumGothic';
                 padding: 0.5% 0.5%;
                 display: flex;
                 align-items: center;
-                width: 23%;
+                width: 21%;
                 height: fit-content;
                 background-color: #ffe0e0;
                 border-width: medium;
@@ -308,7 +321,7 @@ $content-font-family: 'NanumGothic';
               position: absolute;
               width: 100%;
               height: 50%;
-              margin-top: 27%;
+              margin-top: 28%;
               margin-left: -28%;
               display: flex;
               flex-direction: column;
@@ -336,7 +349,7 @@ $content-font-family: 'NanumGothic';
                   width: 45%;
                   height: 79%;
                   left: -50%;
-                  top: -18%;
+                  top: -14%;
                 }
                 > .dot_arrow{
                   position: absolute;
@@ -345,11 +358,17 @@ $content-font-family: 'NanumGothic';
                   left: 60%;
                   top: 107%;
                 }
+                > .artwork{
+                  position:absolute;
+                  top: 100%;
+                  left: -46%;
+                  width: 67%;
+                }
               }
               > .content {
                 font-family: $content-font-family;
                 position: absolute;
-                bottom: 36%;
+                bottom: 43%;
                 left: 104%;
                 color: #575252;
                 font-size: $content-font-size;
@@ -357,7 +376,7 @@ $content-font-family: 'NanumGothic';
                 padding: 0.5% 0.5%;
                 display: flex;
                 align-items: center;
-                width: 23%;
+                width: 21%;
                 height: fit-content;
                 background-color: #ffe0e0;
                 border-width: medium;
