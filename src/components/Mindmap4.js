@@ -4,6 +4,7 @@ import choco from '../images/choco.png';
 import logo from '../images/logo.png';
 import arrow1 from '../images/4arrow1.png';
 import background from '../images/background.png';
+import tugging from '../images/artwork/tugging.png';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import MindContent from "./MindContent";
@@ -43,10 +44,15 @@ function Mindmap4({ data, conindex, subindex }) {
               <img className="background" src={background} alt='' />
               <div className="text">{mindmapData.title}</div>
             </div>
-
+            {click ? <img className="artwork1" src={tugging} alt=''/> : null}
             <div className="item1" style={{display : click? "" : "none"}}>
               {click ? <img className="arrow" src={arrow1} alt=''/> : null}
-              <div className="content">{click ? mindContent(mindmapData.contents_one) : null}</div>
+              <div className="content">
+                {click ? mindContent(mindmapData.contents_one) : null}
+                {click ? <img className="artwork2" src={tugging} alt=''/> : null}
+                {click ? <img className="artwork3" src={tugging} alt=''/> : null}
+                {click ? <img className="artwork4" src={tugging} alt=''/> : null}
+                </div>
             </div>
           </div>
         </div>

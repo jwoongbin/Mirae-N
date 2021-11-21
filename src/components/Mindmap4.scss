@@ -167,6 +167,11 @@ $background: rgb(237, 140, 140, 0.25);
                 }
               }
             }
+            .artwork1{
+              position: absolute;
+              top: 17%;
+              left: 24%;
+            }
             .item1 {
               position: absolute;
               width: 100%;
@@ -184,10 +189,8 @@ $background: rgb(237, 140, 140, 0.25);
                 height: 7%;
                 left: 101%;
                 top: 61%;
-            }
-            > .artwork{
-              position: absolute;
-            }
+            }          
+     
               > .content {
                 font-family: $content-font-family;
                 position: absolute;
@@ -196,8 +199,9 @@ $background: rgb(237, 140, 140, 0.25);
                 padding: 0.5% 0.5%;
                 width: 35%;
                 height: fit-content;
-                top: 42%;
-                right: -46%;
+                top: 50%;
+                left: 110%;
+                transform: translate(0%, -20%);
                 font-size: $content-font-size;
                 background: $background;
                 border: $common-border;
@@ -209,6 +213,24 @@ $background: rgb(237, 140, 140, 0.25);
                     text-indent: -1.2em;
                     padding-left: 1.2em;
                     ;
+                  }
+                  > .artwork2{
+                    position: absolute;
+                    top: 0%;
+                    right: 63%;
+                    transform: translate(0%, -105%);
+                  }
+                  > .artwork3{
+                    position: absolute;
+                    top: 10%;
+                    right: 0%;
+                    transform: translate(105%, 0%);
+                  }
+                  > .artwork4{
+                    position: absolute;
+                    bottom: 0%;
+                    right: 60%;
+                    transform: translate(0%, 105%);
                   }
              }
 
