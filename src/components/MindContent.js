@@ -92,7 +92,7 @@ function MindContent (content){
     var returnvalue = <div className={'mindcontent'}>{linelist}</div>
     if(answer_count === 1 && linelist.length === 1 && span_count === 0){
         console.log('linelist : ' ,linelist);
-        returnvalue = <div className={'mindcontent'+(boollist[spanindex(0)] ? ' on' : ' off')}>{linelist}</div>
+        returnvalue = <div className={'mindcontent'+(boollist[spanindex(0)] ? ' on' : ' off')} onClick={()=>{onClick(0)}}>{linelist}</div>
     }
 
 

@@ -11,23 +11,29 @@
             color: transparent;
             background-size: 100% 100%;
             background-image: url('../images/postit/postit.svg');
+            >.line .answer{
+                pointer-events: none;
+                white-space: nowrap;
+                background-image: none;
+                padding: 1% 5%;
+            }
         }
         &.on{
             background-image: none;
             color: #c96767;
+            >.line .answer{
+                pointer-events: none;
+                white-space: nowrap;
+                background-image: none;
+                padding: 1% 5%;
+            }
         }
-        .answer{
-            -ms-user-select: none; 
-            -moz-user-select: '-moz-none';
-            -khtml-user-select: none;
-            -webkit-user-select: none;
-            user-select: none;
+        >.line .answer{
             white-space: nowrap;
             color: transparent;
             background-size: 100% 100%;
             background-image: url('../images/postit/postit.svg');
             padding: 1% 5%;
-            font-family: 'NanumGothicExtraBold';
             &.on{
                 background-image: none;
                 color: #c96767;
