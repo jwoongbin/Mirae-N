@@ -8,7 +8,7 @@ $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
 $artwork-max-width: 67%;
-$artwork-max-height: 115%;
+$artwork-max-height: 96%;
 // $content-box-width: 
 
 @media (min-aspect-ratio: 16/9) {
@@ -212,9 +212,10 @@ $artwork-max-height: 115%;
                 }
                 > .artwork {
                   position: absolute;
-                  width: 67%;
-                  top: -71%;
-                  left: -74%;
+                  max-width: $artwork-max-width;
+                  max-height: $artwork-max-height;
+                  bottom: 80%;
+                  right: 103%;
                 }
               }
               > .content {
@@ -289,8 +290,9 @@ $artwork-max-height: 115%;
                 }
                 > .artwork {
                   position: absolute;
-                  max-width: 67%;
-                  top: -58%;
+                  max-width: $artwork-max-width;
+                  max-height: $artwork-max-height;
+                  bottom: 58%;
                   left: 115%; 
                 }
               }

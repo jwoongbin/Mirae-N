@@ -11,7 +11,7 @@ $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
 $background: rgb(237, 140, 140, 0.25);
 $artwork-max-width: 67%;
-$artwork-max-height: 115%;
+$artwork-max-height: 96%;
 // $content-box-width: 
 
 @media (min-aspect-ratio: 16/9) {
@@ -215,7 +215,8 @@ $artwork-max-height: 115%;
                 }
                 > .artwork {
                   position: absolute;
-                  width: 67%;
+                  max-width: $artwork-max-width;
+                  max-height: $artwork-max-height;
                   top: -50%;
                   left: -70%;
                 }
@@ -292,7 +293,7 @@ $artwork-max-height: 115%;
                   position: absolute;
                   max-width: 67%;
                   max-height: 115%;
-                  top: -115%;
+                  bottom: 106%;
                   left: -28%; 
                 }
               }
@@ -364,7 +365,8 @@ $artwork-max-height: 115%;
                   position:absolute;
                   top: 89%;
                   left: -57%;
-                  width: 67%;
+                  max-width: $artwork-max-width;
+                  max-height: $artwork-max-height;
                 }
               }
               > .content {

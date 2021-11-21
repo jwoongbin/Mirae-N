@@ -8,8 +8,8 @@ $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
 $background: rgb(237, 140, 140, 0.25);
-$artwork-max-width: 67%;
-$artwork-max-height: 115%;
+$artwork-max-width: 35%;
+$artwork-max-height: 60%;
 
 @media (min-aspect-ratio: 16/9) {
   .mindmap4-wrap{
@@ -171,9 +171,10 @@ $artwork-max-height: 115%;
             }
             .artwork1{
               position: absolute;
-              top: 17%;
+              top: 69%;
               left: 22%;
-              width: 11%;
+              max-width: 9%;
+              max-height: 40%;
             }
             .item1 {
               position: absolute;
@@ -219,24 +220,27 @@ $artwork-max-height: 115%;
                   }
                   > .artwork2{
                     position: absolute;
-                    top: 0%;
+                    bottom: 60%;
                     right: 63%;
                     transform: translate(0%, -110%);
-                    width: 30%;
+                    max-width: $artwork-max-width;
+                    max-height: $artwork-max-height;
                   }
                   > .artwork3{
                     position: absolute;
                     top: 10%;
                     right: 0%;
                     transform: translate(110%, 0%);
-                    width: 30%;
+                    max-width: $artwork-max-width;
+                    max-height: $artwork-max-height;
                   }
                   > .artwork4{
                     position: absolute;
                     bottom: 0%;
                     right: 60%;
                     transform: translate(0%, 110%);
-                    width: 30%;
+                    max-width: $artwork-max-width;
+                    max-height: $artwork-max-height;
                   }
              }
 
