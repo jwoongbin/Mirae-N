@@ -3,7 +3,7 @@ export function newlineToBr(content){
         return ""
     }
     console.log(content)
-    var replaceString = content.replace('/n', '<br>');
+    var replaceString = content.replaceAll('\n', '<br>');
     return replaceString
 }
 
