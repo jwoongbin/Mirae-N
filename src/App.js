@@ -4,6 +4,7 @@ import Home from './components/Home';
 import './components/Home.css';
 import Mindmap from './components/Mindmap';
 import Mindmap2 from './components/Mindmap2';
+import Mindmap3 from './components/Mindmap3';
 import Mindmap4 from './components/Mindmap4';
 // import Mindmap2 from './components/Mindmap2';
 import Quiz from './components/Quiz';
@@ -30,6 +31,10 @@ function App() {
                     }
                     case 2 : {
                       returnvalue = <Route key={"" + indexa +""+ indexb + "" + indexc} path={mindurl} render={() => <Mindmap2 data={data} conindex={indexa} subindex={indexb}/>} />
+                      break;
+                    }
+                    case 3 : {
+                      returnvalue = <Route key={"" + indexa +""+ indexb + "" + indexc} path={mindurl} render={() => <Mindmap3 data={data} conindex={indexa} subindex={indexb}/>} />
                       break;
                     }
                     case 4 : {
