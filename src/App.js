@@ -3,6 +3,7 @@ import newdata from './data.json'
 import Home from './components/Home';
 import './components/Home.css';
 import Mindmap from './components/Mindmap';
+import Mindmap2 from './components/Mindmap2';
 import Mindmap4 from './components/Mindmap4';
 // import Mindmap2 from './components/Mindmap2';
 import Quiz from './components/Quiz';
@@ -25,6 +26,10 @@ function App() {
                   switch(sub.mindmap.type){
                     case 1 : {
                       returnvalue = <Route key={"" + indexa +""+ indexb + "" + indexc} path={mindurl} render={() => <Mindmap data={data} conindex={indexa} subindex={indexb}/>} />
+                      break;
+                    }
+                    case 2 : {
+                      returnvalue = <Route key={"" + indexa +""+ indexb + "" + indexc} path={mindurl} render={() => <Mindmap2 data={data} conindex={indexa} subindex={indexb}/>} />
                       break;
                     }
                     case 4 : {

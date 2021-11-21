@@ -49,7 +49,7 @@ export function changeMarbleNum(content){
             returnvalue.push(rep)
             break;}
         case '⑥':{ 
-            var bubble = <div className='marble6'>{'6'}</div>
+            var bubble = <div className='marble6'>{' 6 '}</div>
             var rep = content.replace('⑥','');
             returnvalue.push(bubble)
             returnvalue.push(rep)
