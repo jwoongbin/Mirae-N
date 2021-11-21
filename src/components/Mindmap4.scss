@@ -10,6 +10,8 @@ $content-font-family: 'NanumGothic';
 $background: rgb(237, 140, 140, 0.25);
 $artwork-max-width: 35%;
 $artwork-max-height: 60%;
+$text-indent: -0.5;
+$padding-left: 1em;    
 
 @media (min-aspect-ratio: 16/9) {
   .mindmap4-wrap{
@@ -214,8 +216,8 @@ $artwork-max-height: 60%;
                     display: flex;
                   }
                   >.mindcontent >.line{
-                    text-indent: -1.2em;
-                    padding-left: 1.2em;
+                    text-indent: -2em;
+                    padding-left: 2em;
                     ;
                   }
                   > .artwork2{

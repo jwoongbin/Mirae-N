@@ -10,6 +10,8 @@ $content-font-family: 'NanumGothic';
 $background: rgb(237, 140, 140, 0.25);
 $artwork-max-width: 67%;
 $artwork-max-height: 96%;
+$text-padding-left: 1em;
+$text-indent: -0.5em;
 
 @media (min-aspect-ratio: 16/9) {
   .mindmap2-wrap{
@@ -229,9 +231,8 @@ $artwork-max-height: 96%;
                     display: flex;
                   }
                   >.mindcontent >.line{
-                    text-indent: -0.8em;
-                    padding-left: 1em;
-                    ;
+                    text-indent: $text-indent;
+                    padding-left: $text-padding-left;                
                   }
              }
 
@@ -299,8 +300,8 @@ $artwork-max-height: 96%;
                 border: $common-border;
                 border-radius: $content-border-radius;
                 >.mindcontent >.line{
-                  text-indent: -0.8em;
-                  padding-left: 1em;
+                  text-indent: $text-indent;
+                  padding-left: $text-padding-left;    
                   ;
                 }
               }
@@ -364,8 +365,8 @@ $artwork-max-height: 96%;
                 border: $common-border;
                 border-radius: $content-border-radius;
                 >.mindcontent >.line{
-                  text-indent: -0.8em;
-                  padding-left: 1em;
+                  text-indent: $text-indent;
+                  padding-left: $text-padding-left;    
                 }
               }
             }
