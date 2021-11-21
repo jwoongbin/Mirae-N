@@ -48,7 +48,9 @@ function Quiz({data, conindex, subindex}){
           </div>
           <div className={'answer '+(click[index] ? '' : 'on')} onClick={() => onClick(index)}>
           
-              <img className={"answer_img"} src ={penfront} alt=''/>
+              <div className="answer_front">
+                {'11'}
+              </div>
               <div className={"answer_body"}>
                 <div className="answer_text">
                   {item.answer}
@@ -57,7 +59,9 @@ function Quiz({data, conindex, subindex}){
                   {'정답'}
                 </div>
               </div>
-              <img className={"answer_img"} src ={penback} alt=''/>
+              <div className="answer_back">
+                {'0'}
+              </div>
           
           </div>
 
