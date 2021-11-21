@@ -8,6 +8,8 @@ $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
 $background: rgb(237, 140, 140, 0.25);
+$artwork-max-width: 67%;
+$artwork-max-height: 115%;
 
 @media (min-aspect-ratio: 16/9) {
   .mindmap4-wrap{

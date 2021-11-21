@@ -11,6 +11,7 @@ import MindContent from "./MindContent";
 import { typeFourImage } from "../common/utils";
 
 
+
 function Mindmap4({ data, conindex, subindex }) {
     console.log('마인드맵 데이타 : ',data," conindex : ", conindex, " subindex : ",subindex);
   const [click, setClick] = useState(false);
