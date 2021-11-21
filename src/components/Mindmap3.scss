@@ -138,7 +138,7 @@ $content-font-family: 'NanumGothic';
             .subject-wrap {
               height: 26.5%;
               width: 18%;
-              top: 33%;
+              top: 41%;
               left: 39%;
               position: absolute;
               display: flex;
@@ -171,8 +171,8 @@ $content-font-family: 'NanumGothic';
               position: absolute;
               width: 100%;
               height: 50%;
-              top: 14%;
-              left: -64%;
+              top: 18%;
+              left: -63%;
               display: flex;
               flex-direction: column;
               justify-content: space-between;
@@ -196,17 +196,17 @@ $content-font-family: 'NanumGothic';
                 line-height: 1.2;
                 > .arrow {
                     position: absolute;
-                    width: 40%;
-                    height: 42%;
-                    left: 96%;
-                    top: 89%;
+                    width: 41%;
+                    height: 55%;
+                    left: 88%;
+                    top: 93%;
                 }
                 > .dot_arrow {
                   position: absolute;
-                  width: 37%;
-                  height: 80%;
-                  left: -16%;
-                  top: 100%;
+                  width: 22%;
+                  height: 71%;
+                  left: 3%;
+                  top: 101%;
                 }
                 > .artwork {
                   position: absolute;
@@ -221,10 +221,10 @@ $content-font-family: 'NanumGothic';
                 color: #575252;
                 font-weight: 800;
                 padding: 0.5% 0.5%;
-                width: 25%;
+                width: 27%;
                 height: fit-content;
-                top: 68%;
-                right: 6%;
+                top: 63%;
+                right: 2%;
                 font-size: $content-font-size;
                 background-color: #ffe0e0;
                 border-width: medium;
@@ -245,8 +245,8 @@ $content-font-family: 'NanumGothic';
               position: absolute;
               width: 100%;
               height: 50%;
-              top: 21%;
-              left: -32%;
+              top: 14%;
+              left: -30%;
               display: flex;
               flex-direction: column;
               justify-content: space-between;
@@ -272,18 +272,18 @@ $content-font-family: 'NanumGothic';
                 line-height: 1.2;
                 > .arrow{
                   position: absolute;
-                  width: 77%;
-                  height: 45%;
-                  left: -23%;
-                  top: 110%;
+                  width: 51%;
+                  height: 87%;
+                  left: -25%;
+                  top: 102%;
                 }
                 > .dot_arrow{
                   z-index: -99;
                   position: absolute;
-                  width: 64%;
-                  height: 99%;
-                  left: 53%;
-                  top: -71%;
+                  width: 45%;
+                  height: 102%;
+                  left: 104%;
+                  top: 48%;
                 }
                 > .artwork {
                   position: absolute;
@@ -296,15 +296,15 @@ $content-font-family: 'NanumGothic';
                 font-family: $content-font-family;
                 position: absolute;
                 padding: 0 10px;
-                left: 108%;
-                top: -33%;
+                left: 100%;
+                top: 55%;
                 color: #575252;
                 font-size: $content-font-size;
                 font-weight: 800;
                 padding: 0.5% 0.5%;
                 display: flex;
                 align-items: center;
-                width: 21%;
+                width: 24%;
                 height: fit-content;
                 background-color: #ffe0e0;
                 border-width: medium;
@@ -314,77 +314,6 @@ $content-font-family: 'NanumGothic';
                   text-indent: -0.8em;
                   padding-left: 1em;
                   ;
-                }
-              }
-            }
-            .item3 {
-              position: absolute;
-              width: 100%;
-              height: 50%;
-              top: 61%;
-              left: -28%;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-items: flex-end;
-              > .subject {
-                text-align: center;
-                position: relative;
-                color: rgb(84, 84, 84);
-                font-size: $sub-themes-font-size;
-                font-weight: 800;
-                padding: 0 15px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: $sub-themes-width;
-                height: $sub-themes-height;
-                background-color: rgb(255, 224, 224);
-                border-width: medium;
-                border: $common-border;
-                border-radius: $sub-themes-border-radius;
-                line-height: 1.2;
-                > .arrow{
-                  position: absolute;
-                  width: 45%;
-                  height: 79%;
-                  left: -50%;
-                  top: -14%;
-                }
-                > .dot_arrow{
-                  position: absolute;
-                  width: 67%;
-                  height: 40%;
-                  left: 60%;
-                  top: 107%;
-                }
-                > .artwork{
-                  position:absolute;
-                  top: 100%;
-                  left: -46%;
-                  width: 67%;
-                }
-              }
-              > .content {
-                font-family: $content-font-family;
-                position: absolute;
-                bottom: 43%;
-                left: 104%;
-                color: #575252;
-                font-size: $content-font-size;
-                font-weight: bold;
-                padding: 0.5% 0.5%;
-                display: flex;
-                align-items: center;
-                width: 21%;
-                height: fit-content;
-                background-color: #ffe0e0;
-                border-width: medium;
-                border: $common-border;
-                border-radius: $content-border-radius;
-                >.mindcontent >.line{
-                  text-indent: -0.8em;
-                  padding-left: 1em;
                 }
               }
             }

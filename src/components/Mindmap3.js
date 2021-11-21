@@ -2,14 +2,11 @@ import "./Mindmap3.scss"
 import exit from '../images/exit.png';
 import choco from '../images/choco.png';
 import logo from '../images/logo.png';
-import arrow1 from '../images/arrow1.png';
-import arrow1_dot from '../images/arrow1_dot.png';
-import arrow2 from '../images/arrow2.png';
-import arrow2_dot from '../images/arrow2_dot.png';
-import arrow3 from '../images/arrow3.png';
-import arrow3_dot from '../images/arrow3_dot.png';
+import arrow1 from '../images/3arrow1.png';
+import arrow1_dot from '../images/3arrow1_dot.png';
+import arrow2 from '../images/3arrow2.png';
+import arrow2_dot from '../images/3arrow2_dot.png';
 import background from '../images/background.png';
-import cow from '../images/artwork/cow.png';
 import game from '../images/artwork/game.png';
 import tugging from '../images/artwork/tugging.png';
 import { Link } from 'react-router-dom';
@@ -68,15 +65,6 @@ function Mindmap3({ data, conindex, subindex }) {
                 {click ? <img className="artwork" src={game} alt=''/> : null}
               </div>
               <div className="content">{click ?mindContent(mindmapData.contents_two) : null}</div>
-            </div>
-            <div className="item3" style={{display : click? "" : "none"}}>
-              <div className="subject">
-                {click ? mindContent(mindmapData.mind_three) : null}
-                {click ? <img className="arrow" src={arrow3} alt=''/> : null}
-                {click ? <img className="dot_arrow" src={arrow3_dot} alt=''/> : null}
-                {click ? <img className="artwork" src={cow} alt=''/> : null}
-              </div>
-              <div className="content">{click ? mindContent(mindmapData.contents_three) : null}</div>
             </div>
           </div>
         </div>
