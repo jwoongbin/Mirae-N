@@ -11,7 +11,7 @@ $background: rgb(237, 140, 140, 0.25);
 $artwork-max-width: 55%;
 $artwork-max-height: 71%;
 $text-padding-left: 1em;
-$text-indent: -0.5em;
+$text-indent: -0.9em;
 
 @media (min-aspect-ratio: 16/9) {
   .mindmap2-wrap{
@@ -238,7 +238,7 @@ $text-indent: -0.5em;
                     display: flex;
                   }
                   >.mindcontent >.line{
-                    text-indent: $text-indent;
+                    text-indent: 0;
                     padding-left: $text-padding-left;                
                   }
              }

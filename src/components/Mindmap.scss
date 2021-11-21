@@ -12,8 +12,8 @@ $content-font-family: 'NanumGothic';
 $background: rgb(237, 140, 140, 0.25);
 $artwork-max-width: 67%;
 $artwork-max-height: 96%;
-$text-padding-left: 1em;
-$text-indent: -0.5em;
+$text-padding-left: 0.5em;
+$text-indent: 0em;
 // $content-box-width: 
 
 @media (min-aspect-ratio: 16/9) {
@@ -241,8 +241,8 @@ $text-indent: -0.5em;
                     display: flex;
                   }
                   >.mindcontent >.line{
-                    text-indent: -0.5em;
-                    padding-left: 1em;
+                    text-indent: $text-indent;
+                    padding-left: $text-padding-left;
                     
                   }
              }
@@ -317,8 +317,8 @@ $text-indent: -0.5em;
                 border: $common-border;
                 border-radius: $content-border-radius;
                 >.mindcontent >.line{
-                  text-indent: -0.5em;
-                  padding-left: 1em;
+                  text-indent: $text-indent;
+                  padding-left: $text-padding-left;
                   ;
                 }
               }
@@ -388,8 +388,8 @@ $text-indent: -0.5em;
                 border: $common-border;
                 border-radius: $content-border-radius;
                 >.mindcontent >.line{
-                  text-indent: -0.5em;
-                  padding-left: 1em;
+                  text-indent: $text-indent;
+                  padding-left: $text-padding-left;
                 }
               }
             }
