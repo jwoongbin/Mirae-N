@@ -57,7 +57,7 @@ function Mindmap({ data, conindex, subindex }) {
                 {click ? mindContent(mindmapData.mind_one) : null}
                 {click ? <img className="arrow" src={arrow1} alt=''/> : null}
                 {click ? <img className="dot_arrow" src={arrow1_dot} alt=''/> : null}
-                {click ? <img className="artwork" src={'/image/s3-1/'+mindmapData.image_one} alt=''/> : null}
+                {(click && mindmapData.image_one != null) ? <img className="artwork" src={'/image/s3-1/'+mindmapData.image_one} alt=''/> : null}
               </div>
               <div className="content">{click ? mindContent(mindmapData.contents_one) : null}</div>
             </div>
@@ -66,7 +66,7 @@ function Mindmap({ data, conindex, subindex }) {
                 {click ? mindContent(mindmapData.mind_two) : null}
                 {click ? <img className="arrow" src={arrow2} alt=''/> : null}
                 {click ? <img className="dot_arrow" src={arrow2_dot} alt=''/> : null}
-                {click ? <img className="artwork" src={'/image/s3-1/'+mindmapData.image_two} alt=''/> : null}
+                {(click && mindmapData.image_two != null) ? <img className="artwork" src={'/image/s3-1/'+mindmapData.image_two} alt=''/> : null}
               </div>
               <div className="content">{click ?mindContent(mindmapData.contents_two) : null}</div>
             </div>
@@ -75,7 +75,7 @@ function Mindmap({ data, conindex, subindex }) {
                 {click ? mindContent(mindmapData.mind_three) : null}
                 {click ? <img className="arrow" src={arrow3} alt=''/> : null}
                 {click ? <img className="dot_arrow" src={arrow3_dot} alt=''/> : null}
-                {click ? <img className="artwork" src={'/image/s3-1/'+mindmapData.image_three} alt=''/> : null}
+                {(click && mindmapData.image_three != null) ? <img className="artwork" src={'/image/s3-1/'+mindmapData.image_three} alt=''/> : null}
               </div>
               <div className="content">{click ? mindContent(mindmapData.contents_three) : null}</div>
             </div>
