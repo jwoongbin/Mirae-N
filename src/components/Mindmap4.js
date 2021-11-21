@@ -8,6 +8,7 @@ import tugging from '../images/artwork/tugging.png';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import MindContent from "./MindContent";
+import { typeFourImage } from "../common/utils";
 
 
 function Mindmap4({ data, conindex, subindex }) {
@@ -15,6 +16,8 @@ function Mindmap4({ data, conindex, subindex }) {
   const [click, setClick] = useState(false);
   const mindmapData = data.contents[conindex].subs[subindex].mindmap
   
+  var filelist = typeFourImage(mindmapData.image_one)
+
   var mindContent = (content) =>{
     return <MindContent content={content}/>
   }
@@ -44,14 +47,14 @@ function Mindmap4({ data, conindex, subindex }) {
               <img className="background" src={background} alt='' />
               <div className="text">{mindmapData.title}</div>
             </div>
-            {click ? <img className="artwork1" src={tugging} alt=''/> : null}
+            {(click && filelist[0] != '') ? <img className="artwork1" src={'/image/s3-1/'+filelist[0]} alt=''/> : null}
             <div className="item1" style={{display : click? "" : "none"}}>
               {click ? <img className="arrow" src={arrow1} alt=''/> : null}
               <div className="content">
                 {click ? mindContent(mindmapData.contents_one) : null}
-                {click ? <img className="artwork2" src={tugging} alt=''/> : null}
-                {click ? <img className="artwork3" src={tugging} alt=''/> : null}
-                {click ? <img className="artwork4" src={tugging} alt=''/> : null}
+                {(click && filelist[1] != '') ? <img className="artwork2" src={'/image/s3-1/'+filelist[1]} alt=''/> : null}
+                {(click && filelist[2] != '') ? <img className="artwork3" src={'/image/s3-1/'+filelist[2]} alt=''/> : null}
+                {(click && filelist[3] != '') ? <img className="artwork4" src={'/image/s3-1/'+filelist[3]} alt=''/> : null}
                 </div>
             </div>
           </div>
