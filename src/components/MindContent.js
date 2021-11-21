@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { newlineToBr } from '../common/utils.js';
+import { newlineToBr, changeMarbleNum } from '../common/utils.js';
 import "./MindContent.scss"
 
 function spanindex(index){
@@ -31,7 +31,13 @@ function MindContent (content){
     console.log("splitline : ",splitline)
     splitline.map((line) =>{
         var spanlist = []
-        var splitstring = line.split(/[()]+/)
+        var templine = line
+        var mablelist = changeMarbleNum(line)
+        if(mablelist.length === 2){
+            spanlist.push(mablelist[0])
+            templine = mablelist[1]
+        }
+        var splitstring = templine.split(/[()]+/)
         console.log("splitstring : ", splitstring)
         if(splitstring.length%2 === 1){
             splitstring.map((split, index)=>{

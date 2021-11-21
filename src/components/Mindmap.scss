@@ -1,4 +1,4 @@
-$common-border: solid #ffb8b8;
+$common-border: 0.2em solid #ffb8b8;
 $sub-themes-width: 13.5%;
 $sub-themes-height: 38%;
 $sub-themes-padding: 15% 5%;
@@ -77,7 +77,7 @@ $content-font-family: 'NanumGothic';
       display: flex;
       justify-content: center;
       align-items: center;
-      border-bottom: solid;
+      border-bottom: 0.4em solid;
       border-radius: 0 0 1.8em 1.8em;
       border-color: #996E4B;
       display: flex;
@@ -368,7 +368,6 @@ $content-font-family: 'NanumGothic';
                 >.mindcontent >.line{
                   text-indent: -0.8em;
                   padding-left: 1em;
-                  ;
                 }
               }
             }
@@ -387,7 +386,7 @@ $content-font-family: 'NanumGothic';
       display: flex;
       justify-content: center;
       align-items: center;
-      border-top: solid;
+      border-top: 0.3em solid;
       border-radius: 1.8em 1.8em 0 0;
       border-color: #996E4B;
     }

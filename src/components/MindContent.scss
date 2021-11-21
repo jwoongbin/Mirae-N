@@ -5,8 +5,8 @@
         -khtml-user-select: none;
         -webkit-user-select: none;
         user-select: none;
-        padding: 5% 5%;
         &.off{
+            padding: 5% 5%;
             color: transparent;
             background-size: 100% 100%;
             background-image: url('../images/postit/postit.svg');
@@ -24,8 +24,42 @@
         // padding-top: 10px;
         // padding-bottom: 10px;
         .line{
-
-        
+            .marble1{
+                display: inline;
+                color: white;
+                background-size: 100% 100%;
+                background-image: url('../images/marblenum/marble_num1.png');
+            }
+            .marble2{
+                display: inline;
+                color: white;
+                background-size: 100% 100%;
+                background-image: url('../images/marblenum/marble_num2.png');
+            }
+            .marble3{
+                display: inline;
+                color: white;
+                background-size: 100% 100%;
+                background-image: url('../images/marblenum/marble_num3.png');
+            }
+            .marble4{
+                display: inline;
+                color: white;
+                background-size: 100% 100%;
+                background-image: url('../images/marblenum/marble_num4.png');
+            }
+            .marble5{
+                display: inline;
+                color: white;
+                background-size: 100% 100%;
+                background-image: url('../images/marblenum/marble_num5.png');
+            }
+            .marble6{
+                display: inline;
+                color: white;
+                background-size: 100% 100%;
+                background-image: url('../images/marblenum/marble_num6.png');
+            }
             .answer{
                 -ms-user-select: none; 
                 -moz-user-select: '-moz-none';
