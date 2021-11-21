@@ -216,14 +216,14 @@ $padding-left: 1em;
                     display: flex;
                   }
                   >.mindcontent >.line{
-                    text-indent: -2em;
+                    text-indent: -0.8em;
                     padding-left: 2em;
                     ;
                   }
                   > .artwork2{
                     position: absolute;
                     bottom: 60%;
-                    right: 63%;
+                    left: 0%;
                     transform: translate(0%, -110%);
                     max-width: $artwork-max-width;
                     max-height: $artwork-max-height;
