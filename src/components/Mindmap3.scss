@@ -287,9 +287,9 @@ $content-font-family: 'NanumGothic';
                 }
                 > .artwork {
                   position: absolute;
-                  width: 67%;
-                  top: -90%;
-                  left: -10%; 
+                  max-width: 67%;
+                  top: -58%;
+                  left: 115%; 
                 }
               }
               > .content {

@@ -10,6 +10,8 @@ $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
 $background: rgb(237, 140, 140, 0.25);
+$artwork-max-width: 67%;
+$artwork-max-height: 115%;
 // $content-box-width: 
 
 @media (min-aspect-ratio: 16/9) {
@@ -288,8 +290,9 @@ $background: rgb(237, 140, 140, 0.25);
                 }
                 > .artwork {
                   position: absolute;
-                  width: 30%;
-                  top: -86%;
+                  max-width: 67%;
+                  max-height: 115%;
+                  top: -115%;
                   left: -28%; 
                 }
               }
