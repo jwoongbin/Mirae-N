@@ -12,7 +12,7 @@ import {BrowserRouter as Router, Route } from "react-router-dom";
 function App() {
   return (
     <Router>
-            <Route exact path="/" render={() => <Home data={newdata[1].contents}/>}/>
+            <Route exact path="/" render={() => <Home data={newdata[0].contents}/>}/>
       {newdata.map((data) => (
         <>
           {data.contents.map((content, indexa) => (
