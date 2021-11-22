@@ -9,9 +9,6 @@ import arrow2_dot from '../images/arrow2_dot.png';
 import arrow3 from '../images/arrow3.png';
 import arrow3_dot from '../images/arrow3_dot.png';
 import background from '../images/background.png';
-import cow from '../images/artwork/cow.png';
-import game from '../images/artwork/game.png';
-import tugging from '../images/artwork/tugging.png';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import MindContent from "./MindContent";
@@ -28,8 +25,6 @@ function Mindmap({ data, conindex, subindex }) {
     setClick(click => !click);
   }
   const book_title = data.subject + ' '+  data.grade + '-' + data.semester;
-  const img1 = "../images/s3-1/"+mindmapData.image_one;
-  console.log('이미지1@@@', img1);
   console.log(data, conindex ,subindex)
   return (
     <div className="mindmap-wrap">
