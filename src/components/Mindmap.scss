@@ -234,26 +234,18 @@ $text-indent: 0em;
                 >.mindcontent {
                   &.off{
                     animation: forwards;
-                    animation-delay: 4s;
+                    animation-delay: 2s;
                     animation-duration: 0.5s;
                     animation-name: shake;
-                    >.line{
-                      >.answer {
-                        display: inline-block;
-                        animation: none;
-                        animation-delay: none;
-                        animation-duration: none;
-                        animation-name: none;
-                      }
-                    }
                   }
                   >.line{
                     >.answer {
                       display: inline-block;
                       animation: forwards;
-                      animation-delay: 4s;
+                      animation-delay: 2s;
                       animation-duration: 0.5s;
                       animation-name: shake;
+                      pointer-events: none;
                     }
                   }
                 }
@@ -323,6 +315,7 @@ $text-indent: 0em;
                       animation-delay: 4s;
                       animation-duration: 0.5s;
                       animation-name: shake;
+                      pointer-events: none;
                     }
                   }
              }
@@ -364,26 +357,18 @@ $text-indent: 0em;
                 >.mindcontent {
                   &.off{
                     animation: forwards;
-                    animation-delay: 4s;
+                    animation-delay: 2s;
                     animation-duration: 0.5s;
                     animation-name: shake;
-                    >.line{
-                      >.answer {
-                        display: inline-block;
-                        animation: none;
-                        animation-delay: none;
-                        animation-duration: none;
-                        animation-name: none;
-                      }
-                    }
                   }
                   >.line{
                     >.answer {
                       display: inline-block;
                       animation: forwards;
-                      animation-delay: 4s;
+                      animation-delay: 2s;
                       animation-duration: 0.5s;
                       animation-name: shake;
+                      pointer-events: none;
                     }
                   }
                 }
@@ -492,26 +477,18 @@ $text-indent: 0em;
                 >.mindcontent {
                   &.off{
                     animation: forwards;
-                    animation-delay: 4s;
+                    animation-delay: 2s;
                     animation-duration: 0.5s;
                     animation-name: shake;
-                    >.line{
-                      >.answer {
-                        display: inline-block;
-                        animation: none;
-                        animation-delay: none;
-                        animation-duration: none;
-                        animation-name: none;
-                      }
-                    }
                   }
                   >.line{
                     >.answer {
                       display: inline-block;
                       animation: forwards;
-                      animation-delay: 4s;
+                      animation-delay: 2s;
                       animation-duration: 0.5s;
                       animation-name: shake;
+                      pointer-events: none;
                     }
                   }
                 }
