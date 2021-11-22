@@ -16,15 +16,17 @@ $text-padding-left: 0.5em;
 $text-indent: 0em;
 // $content-box-width: 
 
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 100%
+@import 'keyframe.scss';
+
+@keyframes slideout {
+  from { 
+    margin-left: 0%;
+    width: 100%;
   }
 
   to {
-    margin-left: 0%;
-    width: 100%;
+    margin-right: 100%;
+    width: 0%;
   }
 }
 
@@ -210,6 +212,7 @@ $text-indent: 0em;
               z-index: 2;
               > .subject {      
                 opacity:0;
+                
                 animation: forwards;
                 animation-delay: 1s;
                 animation-duration: 1s;
@@ -231,26 +234,25 @@ $text-indent: 0em;
                 line-height: 1.2;
               }
               > .arrow {
-                opacity:0;
                 animation: forwards;
                 animation-duration: 1s;
-                animation-name: fadein;
+                animation-name: item1arrow;
                 position: absolute;
                 width: 5%;
                 height: 18%;
-                left: 99%;
-                top: 31%;
+                right: -4%;
+                bottom: 51%;
               }
               > .dot_arrow {
                 opacity:0;
                 animation: forwards;
                 animation-delay: 2s;
                 animation-duration: 1s;
-                animation-name: fadein;
+                animation-name: item1dotarrow;
                 position: absolute;
                 width: 5%;
                 height: 30%;
-                left: 84%;
+                right: 11%;
                 top: 36%;
               }
               > .artwork {
@@ -330,28 +332,27 @@ $text-indent: 0em;
                 line-height: 1.2;
               }
               > .arrow{
-                opacity:0;
                 animation: forwards;
                 animation-duration: 1s;
-                animation-name: fadein;
+                animation-name: item2arrow;
                 position: absolute;
                 width: 10%;
                 height: 16%;
                 left: 88%;
-                top: 40%;
+                bottom: 44%;
               }
               > .dot_arrow{
                 opacity:0;
                 animation: forwards;
                 animation-delay: 2s;
                 animation-duration: 1s;
-                animation-name: fadein;
+                animation-name: item2dotarrow;
                 z-index: -99;
                 position: absolute;
                 width: 9%;
                 height: 28%;
                 left: 98%;
-                top: -28%;
+                bottom: 99%;
               }
               > .artwork {
                 opacity:0;
@@ -427,10 +428,9 @@ $text-indent: 0em;
                 line-height: 1.2;
               }
               > .arrow{
-                opacity:0;
                 animation: forwards;
                 animation-duration: 1s;
-                animation-name: fadein;
+                animation-name: item3arrow;
                 position: absolute;
                 width: 8%;
                 height: 30%;
@@ -442,7 +442,7 @@ $text-indent: 0em;
                 animation: forwards;
                 animation-delay: 2s;
                 animation-duration: 1s;
-                animation-name: fadein;
+                animation-name: item3dotarrow;
                 position: absolute;
                 width: 11%;
                 height: 14%;
