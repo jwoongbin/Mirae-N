@@ -87,3 +87,12 @@
         transform: rotate(0deg);
     }
 }
+
+@keyframes penwidth {
+    from{
+        width: 200%;
+    }
+    to{
+        width: fit-content;
+    }
+}
