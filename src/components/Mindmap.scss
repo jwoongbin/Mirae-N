@@ -95,7 +95,6 @@ $text-indent: 0em;
 }
 
 .mindmap-wrap {
-  animation: fadeOut 4s 1s infinite linear alternate;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -234,13 +233,13 @@ $text-indent: 0em;
                 >.mindcontent {
                   &.off{
                     animation: forwards;
-                    animation-delay: 2s;
+                    animation-delay: 4s;
                     animation-duration: 0.5s;
                     animation-name: shake;
                   }
                   &.on{
                     animation: forwards;
-                    animation-delay: 2s;
+                    animation-delay: 4s;
                     animation-duration: 0.5s;
                     animation-name: shake;
                   }
@@ -248,7 +247,7 @@ $text-indent: 0em;
                     >.answer {
                       display: inline-block;
                       animation: forwards;
-                      animation-delay: 2s;
+                      animation-delay: 4s;
                       animation-duration: 0.5s;
                       animation-name: shake;
                     }
@@ -361,13 +360,13 @@ $text-indent: 0em;
                 >.mindcontent {
                   &.off{
                     animation: forwards;
-                    animation-delay: 2s;
+                    animation-delay: 4s;
                     animation-duration: 0.5s;
                     animation-name: shake;
                   }
                   &.on{
                     animation: forwards;
-                    animation-delay: 2s;
+                    animation-delay: 4s;
                     animation-duration: 0.5s;
                     animation-name: shake;
                   }
@@ -375,7 +374,7 @@ $text-indent: 0em;
                     >.answer {
                       display: inline-block;
                       animation: forwards;
-                      animation-delay: 2s;
+                      animation-delay: 4s;
                       animation-duration: 0.5s;
                       animation-name: shake;
                     }
@@ -486,13 +485,13 @@ $text-indent: 0em;
                 >.mindcontent {
                   &.off{
                     animation: forwards;
-                    animation-delay: 2s;
+                    animation-delay: 4s;
                     animation-duration: 0.5s;
                     animation-name: shake;
                   }
                   &.on{
                     animation: forwards;
-                    animation-delay: 2s;
+                    animation-delay: 4s;
                     animation-duration: 0.5s;
                     animation-name: shake;
                   }
@@ -500,7 +499,7 @@ $text-indent: 0em;
                     >.answer {
                       display: inline-block;
                       animation: forwards;
-                      animation-delay: 2s;
+                      animation-delay: 4s;
                       animation-duration: 0.5s;
                       animation-name: shake;
                     }
