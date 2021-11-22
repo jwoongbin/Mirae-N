@@ -198,27 +198,27 @@ $text-indent: -0.9em;
                 border: $common-border;
                 border-radius: $sub-themes-border-radius;
                 line-height: 1.2;
-                > .arrow {
-                    position: absolute;
-                    width: 82%;
-                    height: 60%;
-                    left: -89%;
-                    top: 40%;
-                }
-                > .dot_arrow {
-                  position: absolute;
-                  width: 215%;
-                  height: 65%;
-                  left: 106%;
-                  top: -24%;
-                }
-                > .artwork {
-                  position: absolute;
-                  max-width: $artwork-max-width;
-                  max-height: $artwork-max-height;
-                  bottom: 69%;
-                  right: 103%;
-                }
+              }
+              > .arrow {
+                position: absolute;
+                width: 11.5%;
+                height: 58%;
+                left: 74%;
+                top: 41%;
+              }
+              > .dot_arrow {
+                position: absolute;
+                width: 29%;
+                height: 64%;
+                left: 100%;
+                top: -24%;
+              }
+              > .artwork {
+                position: absolute;
+                max-width: $artwork-max-width;
+                max-height: $artwork-max-height;
+                bottom: 75%;
+                right: 15%;
               }
               > .content {
                 font-family: $content-font-family;
@@ -273,27 +273,27 @@ $text-indent: -0.9em;
                 border: $common-border;
                 border-radius: $sub-themes-border-radius;
                 line-height: 1.2;
-                > .arrow{
-                  position: absolute;
-                  width: 43%;
-                  height: 20%;
-                  left: -47%;
-                  top: 40%;
-                }
-                > .dot_arrow{
-                  position: absolute;
-                  width: 36%;
-                  height: 25%;
-                  left: 99%;
-                  top: -7%;
-                }
-                > .artwork {
-                  position: absolute;
-                  max-width: 47%;
-                  max-height: 71%;
-                  bottom: 72%;
-                  right: 100%; 
-                }
+              }
+              > .arrow{
+                position: absolute;
+                width: 6%;
+                height: 20%;
+                left: 84%;
+                top: 38%;
+              }
+              > .dot_arrow{
+                position: absolute;
+                width: 6%;
+                height: 24%;
+                left: 102%;
+                top: -11%;
+              }
+              > .artwork {
+                position: absolute;
+                max-width: 47%;
+                max-height: 71%;
+                top: 99%;
+                right: -6%; 
               }
               > .content {
                 font-family: $content-font-family;
@@ -346,27 +346,27 @@ $text-indent: -0.9em;
                 border: $common-border;
                 border-radius: $sub-themes-border-radius;
                 line-height: 1.2;
-                > .arrow{
-                  position: absolute;
-                  width: 42%;
-                  height: 54%;
-                  left: -39%;
-                  top: -32%;
-                }
-                > .dot_arrow{
-                  position: absolute;
-                  width: 264%;
-                  height: 79%;
-                  left: 103%;
-                  top: 28%;
-                }
-                > .artwork{
-                  position:absolute;
-                  bottom: 43%;
-                  left: 107%;
-                  max-width: $artwork-max-width;
-                  max-height: $artwork-max-height;
-                }
+              }
+              > .arrow{
+                position: absolute;
+                width: 6%;
+                height: 46%;
+                left: 81%;
+                top: -25%;
+              }
+              > .dot_arrow{
+                position: absolute;
+                width: 36%;
+                height: 66%;
+                left: 99%;
+                top: 42%;
+              }
+              > .artwork{
+                position:absolute;
+                top: 26%;
+                left: 77%;
+                max-width: $artwork-max-width;
+                max-height: $artwork-max-height;
               }
               > .content {
                 font-family: $content-font-family;
