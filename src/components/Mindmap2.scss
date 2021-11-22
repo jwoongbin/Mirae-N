@@ -1,5 +1,5 @@
 $common-border: 0.2em solid #ffb8b8;
-$sub-themes-width: 15%;
+$sub-themes-width: 14%;
 $sub-themes-height: 100%;
 $sub-themes-padding: 15% 5%;
 $sub-themes-border-radius: 46%;
@@ -207,17 +207,17 @@ $text-indent: -0.9em;
                 }
                 > .dot_arrow {
                   position: absolute;
-                  width: 196%;
-                  height: 63%;
-                  left: 105%;
-                  top: -16%;
+                  width: 215%;
+                  height: 65%;
+                  left: 106%;
+                  top: -24%;
                 }
                 > .artwork {
                   position: absolute;
                   max-width: $artwork-max-width;
                   max-height: $artwork-max-height;
-                  bottom: 75%;
-                  right: 110%;
+                  bottom: 69%;
+                  right: 103%;
                 }
               }
               > .content {
@@ -226,10 +226,10 @@ $text-indent: -0.9em;
                 color: #575252;
                 font-weight: 800;
                 padding: 0.5% 0.5%;
-                width: 25%;
+                width: 23%;
                 height: fit-content;
-                top: -25%;
-                right: -54%;
+                top: -31%;
+                right: -53%;
                 font-size: $content-font-size;
                 background: $background;
                 border: $common-border;
@@ -249,7 +249,7 @@ $text-indent: -0.9em;
               width: 100%;
               height: 20%;
               top: 39%;
-              left: -59%;
+              left: -62%;
               display: flex;
               flex-direction: column;
               justify-content: space-between;
@@ -257,7 +257,7 @@ $text-indent: -0.9em;
    
               > .subject {
                 position: relative;
-                left: 5%;
+                left: 4%;
                 text-align: center;
                 color: rgb(84, 84, 84);
                 font-size: $sub-themes-font-size;
@@ -275,17 +275,17 @@ $text-indent: -0.9em;
                 line-height: 1.2;
                 > .arrow{
                   position: absolute;
-                  width: 56%;
+                  width: 43%;
                   height: 20%;
-                  left: -62%;
+                  left: -47%;
                   top: 40%;
                 }
                 > .dot_arrow{
                   position: absolute;
-                  width: 30%;
+                  width: 36%;
                   height: 25%;
-                  left: 105%;
-                  top: 31%;
+                  left: 99%;
+                  top: -7%;
                 }
                 > .artwork {
                   position: absolute;
@@ -299,8 +299,8 @@ $text-indent: -0.9em;
                 font-family: $content-font-family;
                 position: absolute;
                 padding: 0 10px;
-                left: 110%;
-                top: -45%;
+                left: 109%;
+                top: -36%;
                 color: #575252;
                 font-size: $content-font-size;
                 font-weight: 800;
@@ -348,21 +348,21 @@ $text-indent: -0.9em;
                 line-height: 1.2;
                 > .arrow{
                   position: absolute;
-                  width: 39%;
+                  width: 42%;
                   height: 54%;
-                  left: -38%;
-                  top: -30%;
+                  left: -39%;
+                  top: -32%;
                 }
                 > .dot_arrow{
                   position: absolute;
-                  width: 235%;
-                  height: 36%;
+                  width: 264%;
+                  height: 79%;
                   left: 103%;
-                  top: 48%;
+                  top: 28%;
                 }
                 > .artwork{
                   position:absolute;
-                  bottom: 54%;
+                  bottom: 43%;
                   left: 107%;
                   max-width: $artwork-max-width;
                   max-height: $artwork-max-height;
@@ -371,15 +371,15 @@ $text-indent: -0.9em;
               > .content {
                 font-family: $content-font-family;
                 position: absolute;
-                top: 1%;
-                left: 134%;
+                top: 14%;
+                left: 136%;
                 color: #575252;
                 font-size: $content-font-size;
                 font-weight: bold;
                 padding: 0.5% 0.5%;
                 display: flex;
                 align-items: center;
-                width: 27%;
+                width: 25%;
                 height: fit-content;
                 background: $background;
                 border-width: medium;
