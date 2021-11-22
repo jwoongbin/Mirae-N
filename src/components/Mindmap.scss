@@ -262,7 +262,7 @@ $text-indent: 0em;
                 position: absolute;
                 max-width: $artwork-max-width;
                 max-height: $artwork-max-height;
-                bottom: 100%;
+                bottom: 102%;
                 right: 4%;
               }
               > .content {
@@ -307,6 +307,11 @@ $text-indent: 0em;
               align-items: flex-end;
    
               > .subject {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 1s;
+                animation-duration: 1s;
+                animation-name: fadein;
                 position: relative;
                 left: 5%;
                 text-align: center;
@@ -323,30 +328,49 @@ $text-indent: 0em;
                 border: $common-border;
                 border-radius: $sub-themes-border-radius;
                 line-height: 1.2;
-                > .arrow{
-                  position: absolute;
-                  width: 77%;
-                  height: 45%;
-                  left: -23%;
-                  top: 110%;
-                }
-                > .dot_arrow{
-                  z-index: -99;
-                  position: absolute;
-                  width: 64%;
-                  height: 99%;
-                  left: 53%;
-                  top: -105%;
-                }
-                > .artwork {
-                  position: absolute;
-                  max-width: $artwork-max-width;
-                  max-height: $artwork-max-height;
-                  bottom: 116%;
-                  right: 61%; 
-                }
+              }
+              > .arrow{
+                opacity:0;
+                animation: forwards;
+                animation-duration: 1s;
+                animation-name: fadein;
+                position: absolute;
+                width: 10%;
+                height: 16%;
+                left: 88%;
+                top: 40%;
+              }
+              > .dot_arrow{
+                opacity:0;
+                animation: forwards;
+                animation-delay: 2s;
+                animation-duration: 1s;
+                animation-name: fadein;
+                z-index: -99;
+                position: absolute;
+                width: 9%;
+                height: 28%;
+                left: 98%;
+                top: -28%;
+              }
+              > .artwork {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 1s;
+                animation-duration: 1s;
+                animation-name: fadein;
+                position: absolute;
+                max-width: $artwork-max-width;
+                max-height: $artwork-max-height;
+                bottom: 102%;
+                right: 3%; 
               }
               > .content {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 3s;
+                animation-duration: 1s;
+                animation-name: fadein;
                 font-family: $content-font-family;
                 position: absolute;
                 padding: 0 10px;
@@ -381,6 +405,11 @@ $text-indent: 0em;
               justify-content: space-between;
               align-items: flex-end;
               > .subject {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 1s;
+                animation-duration: 1s;
+                animation-name: fadein;
                 text-align: center;
                 position: relative;
                 color: rgb(84, 84, 84);
@@ -396,29 +425,48 @@ $text-indent: 0em;
                 border: $common-border;
                 border-radius: $sub-themes-border-radius;
                 line-height: 1.2;
-                > .arrow{
-                  position: absolute;
-                  width: 45%;
-                  height: 79%;
-                  left: -50%;
-                  top: -14%;
-                }
-                > .dot_arrow{
-                  position: absolute;
-                  width: 67%;
-                  height: 40%;
-                  left: 60%;
-                  top: 107%;
-                }
-                > .artwork{
-                  position:absolute;
-                  top: 89%;
-                  right: 93%;
-                  max-width: $artwork-max-width;
-                  max-height: $artwork-max-height;
-                }
+              }
+              > .arrow{
+                opacity:0;
+                animation: forwards;
+                animation-duration: 1s;
+                animation-name: fadein;
+                position: absolute;
+                width: 8%;
+                height: 30%;
+                left: 77%;
+                top: -6%;
+              }
+              > .dot_arrow{
+                opacity:0;
+                animation: forwards;
+                animation-delay: 2s;
+                animation-duration: 1s;
+                animation-name: fadein;
+                position: absolute;
+                width: 11%;
+                height: 14%;
+                left: 92%;
+                top: 39%;
+              }
+              > .artwork{
+                opacity:0;
+                animation: forwards;
+                animation-delay: 1s;
+                animation-duration: 1s;
+                animation-name: fadein;
+                position:absolute;
+                top: 40%;
+                right: 9%;
+                max-width: $artwork-max-width;
+                max-height: $artwork-max-height;
               }
               > .content {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 3s;
+                animation-duration: 1s;
+                animation-name: fadein;
                 font-family: $content-font-family;
                 position: absolute;
                 bottom: 43%;
