@@ -199,7 +199,6 @@ $text-indent: 0em;
               }
             }
             .item1 {
-              
               position: absolute;
               width: 100%;
               height: 50%;
@@ -232,6 +231,32 @@ $text-indent: 0em;
                 border: $common-border;
                 border-radius: $sub-themes-border-radius;
                 line-height: 1.2;
+                >.mindcontent {
+                  &.off{
+                    animation: forwards;
+                    animation-delay: 4s;
+                    animation-duration: 0.5s;
+                    animation-name: shake;
+                    >.line{
+                      >.answer {
+                        display: inline-block;
+                        animation: none;
+                        animation-delay: none;
+                        animation-duration: none;
+                        animation-name: none;
+                      }
+                    }
+                  }
+                  >.line{
+                    >.answer {
+                      display: inline-block;
+                      animation: forwards;
+                      animation-delay: 4s;
+                      animation-duration: 0.5s;
+                      animation-name: shake;
+                    }
+                  }
+                }
               }
               > .arrow {
                 animation: forwards;
@@ -292,7 +317,13 @@ $text-indent: 0em;
                   >.mindcontent >.line{
                     text-indent: $text-indent;
                     padding-left: $text-padding-left;
-                    
+                    >.answer {
+                      display: inline-block;
+                      animation: forwards;
+                      animation-delay: 4s;
+                      animation-duration: 0.5s;
+                      animation-name: shake;
+                    }
                   }
              }
 
@@ -330,6 +361,32 @@ $text-indent: 0em;
                 border: $common-border;
                 border-radius: $sub-themes-border-radius;
                 line-height: 1.2;
+                >.mindcontent {
+                  &.off{
+                    animation: forwards;
+                    animation-delay: 4s;
+                    animation-duration: 0.5s;
+                    animation-name: shake;
+                    >.line{
+                      >.answer {
+                        display: inline-block;
+                        animation: none;
+                        animation-delay: none;
+                        animation-duration: none;
+                        animation-name: none;
+                      }
+                    }
+                  }
+                  >.line{
+                    >.answer {
+                      display: inline-block;
+                      animation: forwards;
+                      animation-delay: 4s;
+                      animation-duration: 0.5s;
+                      animation-name: shake;
+                    }
+                  }
+                }
               }
               > .arrow{
                 animation: forwards;
@@ -391,7 +448,13 @@ $text-indent: 0em;
                 >.mindcontent >.line{
                   text-indent: $text-indent;
                   padding-left: $text-padding-left;
-                  ;
+                  >.answer {
+                    display: inline-block;
+                    animation: forwards;
+                    animation-delay: 4s;
+                    animation-duration: 0.5s;
+                    animation-name: shake;
+                  }
                 }
               }
             }
@@ -426,6 +489,32 @@ $text-indent: 0em;
                 border: $common-border;
                 border-radius: $sub-themes-border-radius;
                 line-height: 1.2;
+                >.mindcontent {
+                  &.off{
+                    animation: forwards;
+                    animation-delay: 4s;
+                    animation-duration: 0.5s;
+                    animation-name: shake;
+                    >.line{
+                      >.answer {
+                        display: inline-block;
+                        animation: none;
+                        animation-delay: none;
+                        animation-duration: none;
+                        animation-name: none;
+                      }
+                    }
+                  }
+                  >.line{
+                    >.answer {
+                      display: inline-block;
+                      animation: forwards;
+                      animation-delay: 4s;
+                      animation-duration: 0.5s;
+                      animation-name: shake;
+                    }
+                  }
+                }
               }
               > .arrow{
                 animation: forwards;
@@ -485,6 +574,13 @@ $text-indent: 0em;
                 >.mindcontent >.line{
                   text-indent: $text-indent;
                   padding-left: $text-padding-left;
+                  >.answer {
+                    display: inline-block;
+                    animation: forwards;
+                    animation-delay: 4s;
+                    animation-duration: 0.5s;
+                    animation-name: shake;
+                  }
                 }
               }
             }

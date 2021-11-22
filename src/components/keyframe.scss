@@ -66,3 +66,24 @@
         height: 14%;
     }
 }
+
+@keyframes shake {
+    from{
+        transform: rotate(0deg);
+    }
+    20%{
+        transform: rotate(10deg);
+    }
+    40%{
+        transform: rotate(-10deg);
+    }
+    60%{
+        transform: rotate(10deg);
+    }
+    80%{
+        transform: rotate(-10deg);
+    }
+    to{
+        transform: rotate(0deg);
+    }
+}
