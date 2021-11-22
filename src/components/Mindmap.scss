@@ -238,6 +238,12 @@ $text-indent: 0em;
                     animation-duration: 0.5s;
                     animation-name: shake;
                   }
+                  &.on{
+                    animation: forwards;
+                    animation-delay: 2s;
+                    animation-duration: 0.5s;
+                    animation-name: shake;
+                  }
                   >.line{
                     >.answer {
                       display: inline-block;
@@ -245,7 +251,6 @@ $text-indent: 0em;
                       animation-delay: 2s;
                       animation-duration: 0.5s;
                       animation-name: shake;
-                      pointer-events: none;
                     }
                   }
                 }
@@ -315,7 +320,6 @@ $text-indent: 0em;
                       animation-delay: 4s;
                       animation-duration: 0.5s;
                       animation-name: shake;
-                      pointer-events: none;
                     }
                   }
              }
@@ -361,6 +365,12 @@ $text-indent: 0em;
                     animation-duration: 0.5s;
                     animation-name: shake;
                   }
+                  &.on{
+                    animation: forwards;
+                    animation-delay: 2s;
+                    animation-duration: 0.5s;
+                    animation-name: shake;
+                  }
                   >.line{
                     >.answer {
                       display: inline-block;
@@ -368,7 +378,6 @@ $text-indent: 0em;
                       animation-delay: 2s;
                       animation-duration: 0.5s;
                       animation-name: shake;
-                      pointer-events: none;
                     }
                   }
                 }
@@ -481,6 +490,12 @@ $text-indent: 0em;
                     animation-duration: 0.5s;
                     animation-name: shake;
                   }
+                  &.on{
+                    animation: forwards;
+                    animation-delay: 2s;
+                    animation-duration: 0.5s;
+                    animation-name: shake;
+                  }
                   >.line{
                     >.answer {
                       display: inline-block;
@@ -488,7 +503,6 @@ $text-indent: 0em;
                       animation-delay: 2s;
                       animation-duration: 0.5s;
                       animation-name: shake;
-                      pointer-events: none;
                     }
                   }
                 }
