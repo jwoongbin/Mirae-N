@@ -13,6 +13,8 @@ $artwork-max-height: 71%;
 $text-padding-left: 1em;
 $text-indent: -0.9em;
 
+@import 'keyframe2.scss';
+
 @media (min-aspect-ratio: 16/9) {
   .mindmap2-wrap{
     width: 177.777777vh;
@@ -183,6 +185,11 @@ $text-indent: -0.9em;
               align-items: flex-end;
               z-index: 2;
               > .subject {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 1s;
+                animation-duration: 1s;
+                animation-name: fadein_2;
                 position: relative;
                 text-align: center;
                 color: rgb(84, 84, 84);
@@ -200,18 +207,26 @@ $text-indent: -0.9em;
                 line-height: 1.2;
               }
               > .arrow {
+                animation: forwards;
+                animation-duration: 1s;
+                animation-name: item1arrow_2;
                 position: absolute;
                 width: 11.5%;
                 height: 58%;
                 left: 74%;
-                top: 41%;
+                bottom: 0%;
               }
               > .dot_arrow {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 2s;
+                animation-duration: 1s;
+                animation-name: item1dotarrow_2;
                 position: absolute;
                 width: 29%;
                 height: 64%;
                 left: 100%;
-                top: -24%;
+                bottom: 55%;
               }
               > .artwork {
                 position: absolute;
@@ -221,6 +236,11 @@ $text-indent: -0.9em;
                 right: 15%;
               }
               > .content {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 3s;
+                animation-duration: 1s;
+                animation-name: fadein_2;
                 font-family: $content-font-family;
                 position: absolute;
                 color: #575252;
@@ -239,7 +259,14 @@ $text-indent: -0.9em;
                   }
                   >.mindcontent >.line{
                     text-indent: 0;
-                    padding-left: $text-padding-left;                
+                    padding-left: $text-padding-left;
+                    >.answer {
+                      display: inline-block;
+                      animation: forwards;
+                      animation-delay: 4s;
+                      animation-duration: 0.5s;
+                      animation-name: shake_2;
+                    }                
                   }
              }
 
@@ -254,8 +281,12 @@ $text-indent: -0.9em;
               flex-direction: column;
               justify-content: space-between;
               align-items: flex-end;
-   
               > .subject {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 1s;
+                animation-duration: 1s;
+                animation-name: fadein_2;
                 position: relative;
                 left: 4%;
                 text-align: center;
@@ -275,6 +306,9 @@ $text-indent: -0.9em;
                 line-height: 1.2;
               }
               > .arrow{
+                animation: forwards;
+                animation-duration: 1s;
+                animation-name: item2arrow_2;
                 position: absolute;
                 width: 6%;
                 height: 20%;
@@ -282,11 +316,16 @@ $text-indent: -0.9em;
                 top: 38%;
               }
               > .dot_arrow{
+                opacity:0;
+                animation: forwards;
+                animation-delay: 2s;
+                animation-duration: 1s;
+                animation-name: item2dotarrow_2;
                 position: absolute;
                 width: 6%;
                 height: 24%;
                 left: 102%;
-                top: -11%;
+                bottom: 87%;
               }
               > .artwork {
                 position: absolute;
@@ -296,6 +335,11 @@ $text-indent: -0.9em;
                 right: -6%; 
               }
               > .content {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 3s;
+                animation-duration: 1s;
+                animation-name: fadein_2;
                 font-family: $content-font-family;
                 position: absolute;
                 padding: 0 10px;
@@ -316,7 +360,13 @@ $text-indent: -0.9em;
                 >.mindcontent >.line{
                   text-indent: $text-indent;
                   padding-left: $text-padding-left;    
-                  ;
+                  >.answer {
+                    display: inline-block;
+                    animation: forwards;
+                    animation-delay: 4s;
+                    animation-duration: 0.5s;
+                    animation-name: shake_2;
+                  }    
                 }
               }
             }
@@ -331,6 +381,11 @@ $text-indent: -0.9em;
               justify-content: space-between;
               align-items: flex-end;
               > .subject {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 1s;
+                animation-duration: 1s;
+                animation-name: fadein_2;
                 text-align: center;
                 position: relative;
                 color: rgb(84, 84, 84);
@@ -348,6 +403,9 @@ $text-indent: -0.9em;
                 line-height: 1.2;
               }
               > .arrow{
+                animation: forwards;
+                animation-duration: 1s;
+                animation-name: item3arrow_2;
                 position: absolute;
                 width: 6%;
                 height: 46%;
@@ -355,11 +413,16 @@ $text-indent: -0.9em;
                 top: -25%;
               }
               > .dot_arrow{
+                opacity:0;
+                animation: forwards;
+                animation-delay: 2s;
+                animation-duration: 1s;
+                animation-name: item3dotarrow_2;
                 position: absolute;
                 width: 36%;
                 height: 66%;
                 left: 99%;
-                top: 42%;
+                bottom: -5%;
               }
               > .artwork{
                 position:absolute;
@@ -369,6 +432,11 @@ $text-indent: -0.9em;
                 max-height: $artwork-max-height;
               }
               > .content {
+                opacity:0;
+                animation: forwards;
+                animation-delay: 3s;
+                animation-duration: 1s;
+                animation-name: fadein_2;
                 font-family: $content-font-family;
                 position: absolute;
                 top: 14%;
@@ -387,7 +455,14 @@ $text-indent: -0.9em;
                 border-radius: $content-border-radius;
                 >.mindcontent >.line{
                   text-indent: $text-indent;
-                  padding-left: $text-padding-left;    
+                  padding-left: $text-padding-left;
+                  >.answer {
+                    display: inline-block;
+                    animation: forwards;
+                    animation-delay: 4s;
+                    animation-duration: 0.5s;
+                    animation-name: shake_2;
+                  }        
                 }
               }
             }
