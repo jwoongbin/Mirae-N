@@ -28,16 +28,7 @@ function Mindmap({ data, conindex, subindex }) {
   console.log(data, conindex ,subindex)
   return (
     <div className="mindmap-wrap">
-      <div className="header">
-        <img className="logo" src={logo} alt=''/>
-        <div className="center">
-          <img className="choco" src={choco} alt='' />
-          <h1 className="book">초등 {book_title}</h1>
-        </div>
-        <Link to="/"><img className="exit" src={exit} alt=''/></Link>
-      </div>
       <div className="contents-wrap">
-
       </div>
       <div className="contents">
         <div className="mindmap-box">
@@ -77,7 +68,6 @@ function Mindmap({ data, conindex, subindex }) {
           </div>
         </div>
       </div>
-      <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
     </div>
 
   );
