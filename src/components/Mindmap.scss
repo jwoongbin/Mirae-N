@@ -11,7 +11,7 @@ $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
 $artwork-max-width: 10%;
-$artwork-max-height: 32%;
+$artwork-max-height: 30%;
 $text-padding-left: 0.5em;
 $text-indent: 0em;
 // $content-box-width: 
@@ -233,8 +233,8 @@ $text-indent: 0em;
                 position: absolute;
                 max-width: $artwork-max-width;
                 max-height: $artwork-max-height;
-                bottom: 102%;
-                right: 4%;
+                bottom: 96%;
+                right: 13%;
               }
               > .content {
                 opacity:0;
@@ -361,7 +361,7 @@ $text-indent: 0em;
                 position: absolute;
                 max-width: $artwork-max-width;
                 max-height: $artwork-max-height;
-                bottom: 102%;
+                bottom: 104%;
                 right: 3%; 
               }
               > .content {

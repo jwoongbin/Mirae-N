@@ -37,13 +37,14 @@ function Common ({data, conindex, subindex, type}) {
       console.log("오류");
     }
   }
+  const book_title = data.subject + ' '+  data.grade + '-' + data.semester;
   return (
   <div className="wrapper">
     <div className="header">
       <img className="logo" src={logo} alt=''/>
       <div className="center">
         <img className="choco" src={choco} alt='' />
-        <h1 className="book">초등 3-1</h1>
+        <h1 className="book">{book_title}</h1>
       </div>
       <a><img className="exit" src={exit} alt=''/></a>
     </div>

@@ -73,20 +73,12 @@ function Quiz({data, conindex, subindex}){
   return (
   
     <div className="Quiz-wrap">
-      <div className="header">
-        <img className="logo" src={logo} alt=''/>
-        <div className="center">
-          <img className="choco" src={choco} alt='' />
-            <h1 className="book">초등 {chapter}</h1>
-        </div>
-        <Link to="/"><img className="exit" src={exit} alt='' /></Link>
-      </div>
+
       <div className="contents">
         <ol className="quiz">
           {questions}
         </ol>
       </div>
-      <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
     </div>
 
   );

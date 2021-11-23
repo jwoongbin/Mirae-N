@@ -1,7 +1,7 @@
 import './App.css'
 import newdata from './data.json'
 import Home from './components/Home';
-import './components/Home.css';
+import './components/Home.scss';
 import Mindmap from './components/Mindmap';
 import Mindmap2 from './components/Mindmap2';
 import Mindmap3 from './components/Mindmap3';
