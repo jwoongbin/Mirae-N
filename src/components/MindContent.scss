@@ -93,18 +93,19 @@
                 user-select: none;
                 white-space: nowrap;
                 color: transparent;
-                background-size: 100% 100%;
-                background-image: url('../images/postit/postit.svg');
                 padding: 1% 5%;
                 font-family: 'NanumGothicExtraBold';
                 &.on{
                     background-image: none;
                     color: #c96767;
                     font-weight: bold;
-                    .answer_img{ 
-                        height: 35px;
-                        visibility: hidden;
-                    }
+                    // .answer_img{ 
+                    //     position: absolute;
+                    //     background-size: 100% 100%;
+                    //     background-image: none;
+                    //     color: transparent;
+                    //     padding: 1% 5%;
+                    // }
                     .answer_front{
                         height: fit-content;
                         position: relative;
@@ -134,7 +135,11 @@
                     }
                 }
                 >.answer_img{
-                    height: 35px;
+                    position: absolute;
+                    background-size: 100% 100%;
+                    background-image: url('../images/postit/postit.svg');
+                    color: transparent;
+                    padding: 1% 5%;
                 }
                 >.answer_front{
                     height: fit-content;

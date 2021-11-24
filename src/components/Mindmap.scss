@@ -16,6 +16,12 @@ $text-padding-left: 0.5em;
 $text-indent: 0em;
 // $content-box-width: 
 
+$animation-duration: 0.5s;
+$animation-step1: 0s;
+$animation-step2: 0s;
+$animation-step3: 0s;
+
+
 @import 'keyframe.scss';
 
 @keyframes slideout {
@@ -212,8 +218,8 @@ $text-indent: 0em;
                 opacity:0;
                 
                 animation: forwards;
-                animation-delay: 1s;
-                animation-duration: 1s;
+                animation-delay: $animation-step1;
+                animation-duration: $animation-duration;
                 animation-name: fadein;
                 position: relative;
                 text-align: center;
@@ -249,14 +255,14 @@ $text-indent: 0em;
                       animation: forwards;
                       animation-delay: 4s;
                       animation-duration: 0.5s;
-                      animation-name: shake;
+                      animation-name: shake;                      
                     }
                   }
                 }
               }
               > .arrow {
                 animation: forwards;
-                animation-duration: 1s;
+                animation-duration: $animation-duration;
                 animation-name: item1arrow;
                 position: absolute;
                 width: 5%;
@@ -267,8 +273,8 @@ $text-indent: 0em;
               > .dot_arrow {
                 opacity:0;
                 animation: forwards;
-                animation-delay: 2s;
-                animation-duration: 1s;
+                animation-delay: $animation-step2;
+                animation-duration: $animation-duration;
                 animation-name: item1dotarrow;
                 position: absolute;
                 width: 5%;
@@ -279,8 +285,8 @@ $text-indent: 0em;
               > .artwork {
                 opacity:0;
                 animation: forwards;
-                animation-delay: 1s;
-                animation-duration: 1s;
+                animation-delay: $animation-step1;
+                animation-duration: $animation-duration;
                 animation-name: fadein;
                 position: absolute;
                 max-width: $artwork-max-width;
@@ -291,9 +297,9 @@ $text-indent: 0em;
               > .content {
                 opacity:0;
                 animation: forwards;
-                animation-delay: 3s;
-                animation-duration: 1s;
-                animation-name: fadein;
+                animation-delay: $animation-step3;
+                animation-duration: $animation-duration;
+                animation-name: fadeinCo1;
                 font-family: $content-font-family;
                 position: absolute;
                 color: #575252;
@@ -319,6 +325,13 @@ $text-indent: 0em;
                       animation-delay: 4s;
                       animation-duration: 0.5s;
                       animation-name: shake;
+                      &.on{
+                        >.answer_img{
+                          animation: forwards;
+                          animation-duration: 1s;
+                          animation-name: slidout;
+                        }
+                      }
                     }
                   }
              }
