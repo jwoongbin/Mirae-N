@@ -1,7 +1,7 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion'
 import {Link} from 'react-router-dom';
-import './Contents.css'
+import './Contents.scss'
 import icon from '../icon.png';
 
 // unit, sub 
