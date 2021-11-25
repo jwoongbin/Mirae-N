@@ -1,5 +1,21 @@
 @import 'keyframe.scss'; 
 
+/*마우스 포인터가 없는 케이스 → 모바일 화면*/
+@media (pointer:coarse) {
+  /* custom css for "touch targets" */
+  .Quiz-wrap{
+    >.contents{
+      overflow: scroll;
+      >.quiz{
+        font-size: 3.5em;
+        >.question{
+          margin: 12% 0;
+        }
+      }
+    }
+  }
+}
+
 @media (min-aspect-ratio: 16/9) {
   .Quiz-wrap{
     width: 177.777777vh;
@@ -41,7 +57,7 @@
         height: 46.1vw;
         width: 100vw;
         position: absolute;
-        top: 51%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
@@ -181,6 +197,7 @@
               float: right;
               display: flex;
               &.on{
+                
                 >.answer_body{
                   position: relative;
                   text-align: center;
