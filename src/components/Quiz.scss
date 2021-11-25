@@ -1,20 +1,38 @@
 @import 'keyframe.scss'; 
 
-/*마우스 포인터가 없는 케이스 → 모바일 화면*/
-@media (pointer:coarse) {
-  /* custom css for "touch targets" */
-  .Quiz-wrap{
-    >.contents{
-      overflow: scroll;
-      >.quiz{
-        font-size: 3.5em;
-        >.question{
-          margin: 12% 0;
-        }
-      }
-    }
+#slide {
+  position: absolute;
+  left: -100px;
+  width: 100px;
+  height: 100px;
+  background: blue;
+  -webkit-animation: slide 1s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1s;
+}
+
+@-webkit-keyframes slide {
+  100% { right: 0; }
+}
+
+@keyframes slide {
+  100% { right: 0; }
+}
+
+@keyframes penout {
+  from{
+      width: 100%;
+  }
+  // 30%{
+  //     opacity: 1;
+  // }
+  to{
+      width: 0;
+      opacity: 0;
   }
 }
+
 
 @media (min-aspect-ratio: 16/9) {
   .Quiz-wrap{
@@ -22,22 +40,12 @@
     height: 100%;
     font-size: 1.77vh;
     >{
-      .header{
-        height: 10%;
-        width: 177.777777vh;
-      }
       .contents{
+        font-size: 1.83em;
         height: 82vh;
         width: 177.77777vh;
         top: calc(10%);
         position: absolute;
-      }
-      .footer{
-        height: 8%;
-        width: 177.777777vh;
-        top: 100vh;
-        transform: translate(0%, -100%);
-        
       }
     }
   }
@@ -46,14 +54,11 @@
 @media (max-aspect-ratio: 16/9) {
   .Quiz-wrap{
     width: 100vw;
-    height: 56.25vw;
+    height: 46.1vw;
     font-size: 1vw;
     >{
-      .header{
-        height: 5.625vw;
-        width: 100%;
-      }
       .contents{
+        font-size: 1.83em;
         height: 46.1vw;
         width: 100vw;
         position: absolute;
@@ -61,11 +66,21 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
-      .footer{
-        height: 4.5vw;
-        width: 100%;
-        top: 100vh;
-        transform: translate(0%, -100%);
+    }
+  }
+}
+
+@media (min-width: 566px) and (max-width: 767.98px) {
+  .Quiz-wrap{
+    >{
+      .contents{
+        font-size: 3em;
+        overflow: scroll;
+        .quiz{
+          .questions{
+            height: 46.1vw !important;
+          }
+        }
       }
     }
   }
@@ -136,7 +151,7 @@
       > .quiz {
         color: rgb(124, 124, 124);
         font-weight: 800;
-        font-size: 1.83em;
+        // font-size: 1.83em;
         //4em;
         white-space: pre-wrap;
         counter-reset: item;
@@ -196,68 +211,96 @@
             .answer{
               float: right;
               display: flex;
+              // &.off{
+              //   >.img{
+              //     visibility: visible;
+              //   }
+              // }  
               &.on{
-                
-                >.answer_body{
-                  position: relative;
-                  text-align: center;
-                  vertical-align: middle;
-                  min-width: 3em;
-                  background-image: none;
-                  color : rgb(70, 108, 197);
-                  box-shadow: inset 0 -0.1em 0 0 black;
-                  >.answer_text{
-                    visibility: visible;
-                    color: rgb(70, 108, 197);
-                  }
-                  >.answer_answer{
-                    display : none;
-                    position: absolute;
-                  }
+                >.text{
+                  visibility: visible;
                 }
-                >.answer_front{
-                  visibility: hidden;
+                >.img{
+                  // visibility: hidden;
+                  -webkit-animation: slide 1s forwards;
+                  -webkit-animation-delay: 2s;
+                  animation: slide 0.5s forwards;
+                  animation-delay: 1s;
                 }
-                >.answer_back{
-                  visibility: hidden;
-                }
+
+
+                // >.answer_body{            
+                //   position: relative;
+                //   text-align: center;
+                //   vertical-align: middle;
+                //   min-width: 3em;
+                //   background-image: none;
+                //   color : rgb(70, 108, 197);
+                //   box-shadow: inset 0 -0.1em 0 0 black;
+                //   >.answer_text{
+                //     visibility: visible;
+                //     color: rgb(70, 108, 197);
+                //   }
+                //   >.answer_answer{
+                //     display : none;
+                //     position: absolute;
+                //   }
+                // }
+                // >.answer_front{
+                //   visibility: hidden;
+                // }
+                // >.answer_back{
+                //   visibility: hidden;
+                // }
               }
-              >.answer_body{
+
+              >.img{visibility: visible;}
+              >.text{
                 position: relative;
                 text-align: center;
                 vertical-align: middle;
-                min-width: 3em;
-                color: white;
-                background-size: 100% 100%;
-                background-image: url('../images/pen/penbody.svg');
-                >.answer_text{
-                  color: transparent;
+                color : rgb(70, 108, 197);
+                box-shadow: inset 0 -0.1em 0 0 black;
+                vertical-align: middle;
+                position:absolute;
+                visibility:hidden;
                 }
-                >.answer_answer{
-                  white-space: nowrap;
-                  font-family: 'NanumGothic';
-                  font-size: 0.8em;
-                  font-weight: bold;
-                  position: absolute;
-                  top: 50%;
-                  left: 50%;
-                  transform: translate(-50%, -50%);
-                }
-              }
-              >.answer_front{
-                margin-right: -1%;
-                background-size: 100% 100%;
-                background-image: url('../images/pen/penfront.svg');
-                color: transparent;
-                visibility: visible;
-              }
-              >.answer_back{
-                margin-left: -1px;
-                background-size: 100% 100%;
-                background-image: url('../images/pen/penback.svg');
-                color: transparent;
-                visibility: visible;
-              }
+              // >.answer_body{
+              //   position: relative;
+              //   text-align: center;
+              //   vertical-align: middle;
+              //   min-width: 3em;
+              //   color: white;
+              //   background-size: 100% 100%;
+              //   background-image: url('../images/pen/pen.png');
+              //   >.answer_text{
+              //     color: transparent;
+              //   }
+              //   >.answer_answer{
+              //     white-space: nowrap;
+              //     font-family: 'NanumGothic';
+              //     font-size: 0.8em;
+              //     font-weight: bold;
+              //     position: absolute;
+              //     top: 50%;
+              //     left: 50%;
+              //     transform: translate(-50%, -50%);
+              //   }
+              // }
+              // >.answer_front{
+              //   margin-right: -1%;
+              //   background-size: 100% 100%;
+              //   background-image: url('../images/pen/penfront.svg');
+              //   color: transparent;
+              //   visibility: visible;
+              // }
+              // >.answer_back{
+              //   margin-left: -1px;
+              //   background-size: 100% 100%;
+              //   background-image: url('../images/pen/penback.svg');
+              //   color: transparent;
+              //   visibility: visible;
+              // }
             }
           }
 

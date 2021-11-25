@@ -162,7 +162,9 @@ $text-indent: -0.9em;
                 bottom: 75%;
                 right: 15%;
               }
-              > .content {
+              > .content {         
+                display: flex;
+                align-items: center;
                 opacity:0;
                 animation: forwards;
                 animation-delay: 3s;
@@ -263,6 +265,8 @@ $text-indent: -0.9em;
                 right: -6%; 
               }
               > .content {
+                display: flex;
+                align-items: center;
                 opacity:0;
                 animation: forwards;
                 animation-delay: 3s;
@@ -361,6 +365,8 @@ $text-indent: -0.9em;
                 max-height: $artwork-max-height;
               }
               > .content {
+                display: flex;
+                align-items: center;
                 opacity:0;
                 animation: forwards;
                 animation-delay: 3s;

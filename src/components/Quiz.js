@@ -4,6 +4,7 @@ import choco from '../images/choco.png';
 import logo from '../images/logo.png';
 import penfront from '../images/pen/penfront.svg'
 import penback from '../images/pen/penback.svg'
+import pen from '../images/pen/pen.png';
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import newdata from '../data.json'
@@ -47,29 +48,30 @@ function Quiz({data, conindex, subindex}){
             </div>
           </div>
           <div className={'answer '+(click[index] ? '' : 'on')} onClick={() => onClick(index)}>
-          
-              <div className="answer_front">
+              <div className="anser_body"></div>
+              <img className="img" src={pen}></img>
+              <div className="text">{item.answer}</div>
+              {/* {'정답'} */}
+              {/* <div className="answer_front">
                 {'11'}
-              </div>
-              <div className={"answer_body"}>
+              </div> */}
+              {/* <div className={"answer_body"}>
                 <div className="answer_text">
-                  {item.answer}
+                  
                 </div>
                 <div className="answer_answer">
-                  {'정답'}
+
                 </div>
-              </div>
-              <div className="answer_back">
+              </div> */}
+              {/* <div className="answer_back">
                 {'0'}
-              </div>
+              </div> */}
           
           </div>
 
         </div>
       </li>)})
   
-  const chapter = (data.subject + ' ' + data.grade+'-'+data.semester);  
-  console.log('newdata:', newdata);
   return (
   
     <div className="Quiz-wrap">
