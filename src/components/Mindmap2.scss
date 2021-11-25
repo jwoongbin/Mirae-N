@@ -21,22 +21,10 @@ $text-indent: -0.9em;
     height: 100%;
     font-size: 1.77vh;
     >{
-      .header{
-        height: 10%;
-        width: 177.777777vh;
-      }
       .contents{
         height: 82vh;
         width: 177.77777vh;
-        top: calc(10%);
         position: absolute;
-      }
-      .footer{
-        height: 8%;
-        width: 177.777777vh;
-        top: 100vh;
-        transform: translate(0%, -100%);
-        
       }
     }
   }
@@ -48,23 +36,13 @@ $text-indent: -0.9em;
     height: 56.25vw;
     font-size: 1vw;
     >{
-      .header{
-        height: 5.625vw;
-        width: 100%;
-      }
       .contents{
-        height: 46.1vw;
+        height: 46.25vw;
         width: 100vw;
         position: absolute;
-        top: 51%;
+        top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-      }
-      .footer{
-        height: 4.5vw;
-        width: 100%;
-        top: 100vh;
-        transform: translate(0%, -100%);
       }
     }
   }
@@ -196,8 +174,9 @@ $text-indent: -0.9em;
                 font-weight: 800;
                 padding: 0.5% 0.5%;
                 width: 23%;
+                min-height: 110%;
                 height: fit-content;
-                top: -31%;
+                top: -45%;
                 right: -53%;
                 font-size: $content-font-size;
                 background: $background;
@@ -301,6 +280,7 @@ $text-indent: -0.9em;
                 display: flex;
                 align-items: center;
                 width: 23%;
+                min-height: 110%;
                 height: fit-content;
                 background: $background;
                 border-width: medium;
@@ -397,6 +377,7 @@ $text-indent: -0.9em;
                 display: flex;
                 align-items: center;
                 width: 25%;
+                min-height: 110%;
                 height: fit-content;
                 background: $background;
                 border-width: medium;
