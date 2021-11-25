@@ -46,7 +46,7 @@ function Common ({data, conindex, subindex, type}) {
         <img className="choco" src={choco} alt='' />
         <h1 className="book">{book_title}</h1>
       </div>
-      <a><img className="exit" src={exit} alt=''/></a>
+      <Link to="/"><img className="exit" src={exit} alt=''/></Link>
     </div>
     <div className="contents">
       {returnvalue}

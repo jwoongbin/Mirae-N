@@ -19,7 +19,7 @@
         }
         &.on{
             background-image: none;
-            color: #c96767;
+            color : rgb(70, 108, 197);
             >.line .answer{
                 white-space: normal;
                 pointer-events: none;
@@ -35,7 +35,7 @@
             padding: 1% 5%;
             &.on{
                 background-image: none;
-                color: #c96767;
+                color : rgb(70, 108, 197);
                 font-weight: bold;
             }
         }
@@ -97,7 +97,7 @@
                 font-family: 'NanumGothicExtraBold';
                 &.on{
                     background-image: none;
-                    color: #c96767;
+                    color : rgb(70, 108, 197);
                     font-weight: bold;
                     // .answer_img{ 
                     //     position: absolute;
@@ -120,7 +120,7 @@
                         position: relative;
                         text-align: center;
                         vertical-align: middle;
-                        color: #c96767;
+                        color : rgb(70, 108, 197);
                         background-size: 100% 100%;
                         background-image: none;
                     }
