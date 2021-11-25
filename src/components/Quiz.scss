@@ -24,9 +24,9 @@
   from{
       width: 100%;
   }
-  // 30%{
-  //     opacity: 1;
-  // }
+  30%{
+      opacity: 1;
+  }
   to{
       width: 0;
       opacity: 0;
@@ -222,9 +222,10 @@
                 }
                 >.img{
                   // visibility: hidden;
-                  -webkit-animation: slide 1s forwards;
-                  -webkit-animation-delay: 2s;
-                  animation: slide 0.5s forwards;
+                  // -webkit-animation: slide 1s forwards;
+                  // -webkit-animation-delay: 2s;
+                  animation-name: penout;
+                  animation: forwards;
                   animation-delay: 1s;
                 }
 
