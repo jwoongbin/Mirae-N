@@ -22,11 +22,8 @@ function Contents({data}) {
                       {subs.sub}
                       <div key={subs.sub+index} className="img-container">
                         {subs.btns.map((btn, index) =>(
-                          <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}><img width="30px" src={icon} alt=""/>{btn.btn_name}</Link>
+                          <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link>
                         ))}
-{/*                  
-                        <Link to="/mindmap"><img width="30px" src={icon}/>{}</Link>
-                        <Link to="/quiz"><img width="30px" src={icon}/></Link> */}
                       </div>
                     </ul>
                   ))}

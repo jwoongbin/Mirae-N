@@ -39,6 +39,7 @@ html, body {
           justify-content: center;
           align-items: center;
           >.frame{
+            z-index: 0;
             display: flex;
             justify-content: center;
             position: relative;
@@ -50,7 +51,7 @@ html, body {
             >.panel-group{
               position: absolute;
               top: 30%;
-              width: 80%;
+              width: 85%;
               >.accrodion{
 
               }
@@ -73,6 +74,7 @@ html, body {
               height: 251px;
             }
             >.footer{
+              z-index: -1;
               display: flex;
               align-items: center;
               justify-content: center;
@@ -95,10 +97,17 @@ html, body {
   margin: 35px 0;
 }
 
+.accordion-item {
+  border: none  !important;
+  >.accordion-header{
+    margin-bottom: 25px;
+  }
+}
 .accordion-button{
   font-size: 25px !important;
   color: white !important;
   background-color: #00b05b !important;
+  border-radius: 15px !important;
 }
 .accordion-button::after{
   width: 1.8rem !important;
