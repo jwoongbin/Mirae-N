@@ -1,18 +1,12 @@
 @import 'keyframe.scss'; 
 @import 'animate.css';
 
-
-@keyframes myAni {
-  from {
-    width: 159px;
-    height: 43px;
-    opacity: 1;
+@keyframes shrinkWidth {
+  0% {
+    width: 100%;
   }
-  to {
-    width: 1px;
-    height: 43px;
-    opacity: 0;
-    transition: all .75s ease;
+  100% {
+    width: 0%;
   }
 }
 
@@ -26,7 +20,6 @@
         font-size: 1.83em;
         height: 82vh;
         width: 177.77777vh;
-        top: calc(10%);
         position: absolute;
       }
     }
@@ -40,6 +33,13 @@
     font-size: 1vw;
     >{
       .contents{
+        height: 46.1vw;
+        width: 100vw;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
         font-size: 1.83em;
         height: 46.1vw;
         width: 100vw;
@@ -56,11 +56,18 @@
   .Quiz-wrap{
     >{
       .contents{
-        font-size: 3em;
+        font-size: 3.5em;
         overflow: scroll;
         .quiz{
           .questions{
             height: 46.1vw !important;
+            .contents{
+              margin-top: 15% !important;
+              >.answer >.imgbox > .img{
+                width: 6em !important;
+                height: 1.6em !important;
+              }
+            }
           }
         }
       }
@@ -191,65 +198,45 @@
               }
             }
             .answer{
+              position: relative;
               float: right;
               display: flex;
               align-items: center;
-              justify-content: center;
-              >.img{
-                right: 0;
-                visibility: visible;
+              >.imgbox{
+                // position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                // visibility: visible;
+                >.img{
+                  width: 8.3em;
+                  height: 2.2em;
+                }
               }
               >.text{
-                visibility:hidden;
+                // visibility:hidden;
                 position: absolute;
-                text-align: center;
-                vertical-align: middle;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                z-index: -99;
+                white-space: nowrap;
                 color : rgb(70, 108, 197);
                 border-bottom: 0.1em solid black;
-                padding-bottom: 3px;
-                vertical-align: middle;
-                position:absolute;
+                // padding-bottom: 1px;
                 }
                 &.on{
-                  >.img{
-                    right:0;
-                    width: 1px;
-                    height: 43px;
-                    opacity: 0;
-                    transition: all 1.5s ease;
-                    // animation-name: myAni;
-                    // animation-name: fadeOut;
-                    // animation-duration: 1s;
-                    // animation-fill-mode: forwards;
-                    // animation: forwards;
+                  >.imgbox {
+                    animation: shrinkWidth 1s ease-out;
+                    animation-fill-mode: forwards;
                   }
-                  >.text{
-                    visibility: visible;
-                  }                  
+                  // >.text{
+                  //   visibility: visible;
+                  // }                  
               }
 
-              // >.answer_body{
-              //   position: relative;
-              //   text-align: center;
-              //   vertical-align: middle;
-              //   min-width: 3em;
-              //   color: white;
-              //   background-size: 100% 100%;
-              //   background-image: url('../images/pen/pen.png');
-              //   >.answer_text{
-              //     color: transparent;
-              //   }
-              //   >.answer_answer{
-              //     white-space: nowrap;
-              //     font-family: 'NanumGothic';
-              //     font-size: 0.8em;
-              //     font-weight: bold;
-              //     position: absolute;
-              //     top: 50%;
-              //     left: 50%;
-              //     transform: translate(-50%, -50%);
-              //   }
-              // }
             }
           }
         }

@@ -48,24 +48,10 @@ function Quiz({data, conindex, subindex}){
             </div>
           </div>
           <div className={'answer '+(click[index] ? '' : 'on')} onClick={() => onClick(index)}>
-              <img className="img" src={pen}></img>
-              <div className="text">{item.answer}</div>
-              {/* {'정답'} */}
-              {/* <div className="answer_front">
-                {'11'}
-              </div> */}
-              {/* <div className={"answer_body"}>
-                <div className="answer_text">
-                  
-                </div>
-                <div className="answer_answer">
-
-                </div>
-              </div> */}
-              {/* <div className="answer_back">
-                {'0'}
-              </div> */}
-          
+              <div className="imgbox">
+                <img className="img" src={pen} alt=""></img>
+              </div>
+              <div className="text">{item.answer}</div>     
           </div>
 
         </div>

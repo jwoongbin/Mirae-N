@@ -21,30 +21,69 @@ html, body {
   justify-content: center;
 }
 
-.wrap {
+.home-wrap {
   width: 100%;
   min-height: 100%;
 
   > {
     .contents {
-      min-height: calc(100vh - 40px);
-
       > {
         .header {
-          background-color: grey;
-          height: 40px;
-        }
 
+        }
         .content {
-          width: 80%;
-          margin: 10% auto;
+          width: 100%;
+          height: 100%;
+          margin: 20% auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          >.frame{
+            display: flex;
+            justify-content: center;
+            position: relative;
+            background-image: url('../images/web/frame.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            width: 746px;
+            height: 819px;
+            >.panel-group{
+              position: absolute;
+              top: 30%;
+              width: 80%;
+              >.accrodion{
+
+              }
+            }
+            >.book-title{
+              position: absolute;
+              top: 5%;
+              right: 35%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 2.8em;
+              width: 62%;
+              height: 13%;
+              border-radius: 0.5em;
+              background-color: rgb(255,255,255);
+            }
+            >.book-cover{
+              width: 189px;
+              height: 251px;
+            }
+            >.footer{
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              position: absolute;
+              bottom: 0;
+              width: 100%;
+              height: 6%;
+            }
+          }
         }
       }
-    }
-
-    .footer {
-      height: 40px;
-      background-color: grey;
     }
   }
 }
@@ -54,4 +93,8 @@ html, body {
   text-align: center;
   white-space: nowrap;
   margin: 35px 0;
+}
+
+.accordion-item{
+  border-radius: 5px;
 }
