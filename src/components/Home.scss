@@ -44,7 +44,7 @@ html, body {
             position: relative;
             background-image: url('../images/web/frame.png');
             background-repeat: no-repeat;
-            background-size: 100% 100%;
+            background-size: 100% 100%; 
             width: 746px;
             height: 819px;
             >.panel-group{
@@ -95,6 +95,15 @@ html, body {
   margin: 35px 0;
 }
 
-.accordion-item{
-  border-radius: 5px;
+.accordion-button{
+  font-size: 25px !important;
+  color: white !important;
+  background-color: #00b05b !important;
+}
+.accordion-button::after{
+  width: 1.8rem !important;
+  height: 1.8rem !important;
+  background-size: 1.8rem !important;
+  background-image: url('../images/web/accordion-botton.png') !important;
+
 }

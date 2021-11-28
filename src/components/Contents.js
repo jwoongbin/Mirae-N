@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 import './Contents.scss'
 import icon from '../icon.png';
 
-// unit, sub 
 function Contents({data}) {
   console.log(data);
   return(
@@ -13,7 +12,10 @@ function Contents({data}) {
           <Accordion>
               {data.map((item, index) => (
               <Accordion.Item eventKey={index} key={index}>
-                <Accordion.Header>{item.unit} {item.title}</Accordion.Header>
+                <Accordion.Header>
+                  {item.unit}
+                  {item.title}
+                </Accordion.Header>
                 <Accordion.Body>
                   {item.subs.map((subs, index) => (
                     <ul key={subs.sub+index}>
