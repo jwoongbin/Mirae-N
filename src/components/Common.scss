@@ -55,6 +55,7 @@
 
 .wrapper{
   .header {
+    z-index: 1;
     top: 0;
     position: absolute;
     background-color: #F2D6A5;
@@ -97,6 +98,7 @@
     }
 }
   .footer {
+    z-index: 1;
     bottom: 0;
     position: absolute;
     background-image: url('../images/bottom.png');

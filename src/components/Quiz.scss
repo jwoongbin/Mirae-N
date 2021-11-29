@@ -1,12 +1,13 @@
 @import 'keyframe.scss'; 
-@import 'animate.css';
+// @import 'animate.css';
 
 @keyframes shrinkWidth {
   0% {
     width: 100%;
   }
   100% {
-    width: 0%;
+    width: 0px;
+    // opacity: 0;
   }
 }
 
@@ -51,9 +52,10 @@
     }
   }
 }
-
+// mobile landscape
 @media (min-width: 566px) and (max-width: 767.98px) {
   .Quiz-wrap{
+    height: 82vh;
     >{
       .contents{
         font-size: 3.5em;
@@ -83,6 +85,7 @@
   user-select: none;
   > {
     .header {
+      z-index: 1;
       top: 0;
       position: absolute;
       background-color: #F2D6A5;
@@ -211,8 +214,8 @@
                 overflow: hidden;
                 // visibility: visible;
                 >.img{
-                  width: 8.3em;
-                  height: 2.2em;
+                  width: 10.5em;
+                  height: 3.2em;
                 }
               }
               >.text{

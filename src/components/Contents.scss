@@ -4,4 +4,25 @@
 .accordion-body ul{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.accordion-header >.accordion-button >.number{
+  position: relative;
+  // background-image: url('/src/images/web/accordion-item.png')
+}
+.accordion-body ul >.img-container >.a {
+  margin-left: 10px;
+
+}
+.accordion-body ul hr {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  margin-bottom: -36px;
+}
+.accordion-body ul:last-child hr{
+  display: none;
 }

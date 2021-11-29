@@ -22,8 +22,11 @@ html, body {
 }
 
 .home-wrap {
+  background-image: url('../images/web/society-background.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
   width: 100%;
-  min-height: 100%;
+  height: 100%;
 
   > {
     .contents {
@@ -32,12 +35,14 @@ html, body {
 
         }
         .content {
+          position: absolute;
+          top: 20%;
           width: 100%;
-          height: 100%;
-          margin: 20% auto;
+          // margin: 20% auto;
           display: flex;
           justify-content: center;
           align-items: center;
+
           >.frame{
             z-index: 0;
             display: flex;
@@ -48,32 +53,49 @@ html, body {
             background-size: 100% 100%; 
             width: 746px;
             height: 819px;
+            >.img-box{
+              position: absolute;
+              bottom: 105%;
+              left: 2%;
+              :first-child{
+                margin-right: 45px;
+              }
+            }
             >.panel-group{
               position: absolute;
-              top: 30%;
-              width: 85%;
+              top: 29%;
+              left: 8%;
+              width: 87%;
               >.accrodion{
 
               }
             }
-            >.book-title{
-              position: absolute;
-              top: 5%;
-              right: 35%;
-              display: flex;
-              justify-content: center;
-              align-items: center;
-              font-size: 2.8em;
-              width: 62%;
-              height: 13%;
-              border-radius: 0.5em;
-              background-color: rgb(255,255,255);
-            }
-            >.book-cover{
-              width: 189px;
-              height: 251px;
+            >.top{
+              >.book-title{
+                position: absolute;
+                top: 5%;
+                right: 35%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 2.8em;
+                width: 62%;
+                height: 13%;
+                border-radius: 0.5em;
+                background-color: rgb(255,255,255);
+              }
+              >.book-cover{
+                position: absolute;
+                left: 70%;
+                bottom: 82%;
+                width: 189px;
+                height: 251px;
+              }
             }
             >.footer{
+              font-size: 15px;
+              font-weight: 800;
+              color: #82593b;
               z-index: -1;
               display: flex;
               align-items: center;
@@ -105,6 +127,7 @@ html, body {
 }
 .accordion-button{
   font-size: 25px !important;
+  padding: 0.5rem 1.25rem !important;
   color: white !important;
   background-color: #00b05b !important;
   border-radius: 15px !important;
@@ -113,6 +136,35 @@ html, body {
   width: 1.8rem !important;
   height: 1.8rem !important;
   background-size: 1.8rem !important;
-  background-image: url('../images/web/accordion-botton.png') !important;
-
+  background-image: url('../images/web/accordion-button.png') !important;
+}
+.accordion-header button >.number{
+  font-size: 35px;
+  width:55px;
+  height: 55px;
+  position: absolute !important;
+  left: -4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5bd59a;
+  border-radius: 50%;
+  border: 3px solid;
+  border-color: #00b05b;
+}
+.accordion-header button >.title{
+  font-weight: 800;
+  position: absolute;
+  left: 6%;
+}
+.accordion-body{
+  font-size: 20px;
+  padding: 0 !important;
+  padding-right: 1rem !important;
+}
+.accordion-body ul{
+  padding-inline-start: 0;
+}
+.accordion-body ul >.img-container a{
+  margin-left: 10px;
 }
