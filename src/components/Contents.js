@@ -13,9 +13,9 @@ function Contents({data}) {
     console.log(newNumber);
     const number = subs.split('-');
     switch(number[1]){
-      case '➊':{ 
+      case '➊':
         newNumber = <span>{'1'}</span>
-        break;}
+        break;
       case '➋':{ 
         newNumber = <span>{'2'}</span>
         break;}
@@ -37,8 +37,7 @@ function Contents({data}) {
     return (<div>
       {number[0]}-
       {newNumber}
-    </div>
-    )
+    </div>)
   }
 
   return(

@@ -38,11 +38,9 @@ html, body {
           position: absolute;
           top: 20%;
           width: 100%;
-          // margin: 20% auto;
           display: flex;
           justify-content: center;
           align-items: center;
-
           >.frame{
             z-index: 0;
             display: flex;
@@ -62,19 +60,18 @@ html, body {
               }
               >.cloud1{ 
                 position:absolute;
-                top: 198%;
-                left: 191%;
+                // top: 198%;
+                // left: 191%;
               
               }
               >.cloud2{ 
                 position: absoulte;
-                left: 200%;
+                // left: 200%;
               }
-               
-                >.clould3{ 
+              >.clould3{ 
                 position: absolute;
-                right: 115%;
-                top: 20%;
+                right: 110%;
+                // top: 20%;
               }
             }
             >.accordion-box{     
