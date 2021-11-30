@@ -9,14 +9,38 @@ import horizentaline from '../images/web/horizentaline.png';
 function Contents({data}) {
 
   const circleParser = (subs) => {
-    const marble = subs.split('-');
+    let newNumber = "";
+    console.log(newNumber);
+    const number = subs.split('-');
+    switch(number[1]){
+      case '➊':{ 
+        newNumber = <span>{'1'}</span>
+        break;}
+      case '➋':{ 
+        newNumber = <span>{'2'}</span>
+        break;}
+      case '➌':{ 
+        newNumber = <span>{'3'}</span>
+        break;}
+      case '➍':{ 
+        newNumber = <span>{'4'}</span>
+        break;}
+      case '➎':{ 
+        newNumber = <span>{'5'}</span>
+        break;}
+      case '➏':{ 
+        newNumber = <span>{'6'}</span>
+        break;}
+      default : {
+        break;}
+    }
     return (<div>
-      {marble[0]}-
-      <span>{marble[1]}</span>
-    </div>)
+      {number[0]}-
+      {newNumber}
+    </div>
+    )
   }
 
-  console.log(data);
   return(
 
     <div className="panel-group" id="accordion">

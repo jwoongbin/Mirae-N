@@ -18,9 +18,10 @@ $text-padding-left: 0.5em;
 $text-indent: 0em;
 // $content-box-width: 
 $animation-duration: 0.5s;
-$animation-step1: 0s;
-$animation-step2: 0s;
-$animation-step3: 0s;
+$animation-step1: 0.5s;
+$animation-step2: 1s;
+$animation-step3: 1.5s;
+$answer-animation-delay: 2s;
 
 
 @import 'keyframe.scss';
@@ -180,7 +181,7 @@ $animation-step3: 0s;
                     >.answer {
                       display: inline-block;
                       animation: forwards;
-                      animation-delay: 4s;
+                      animation-delay: $answer-animation-delay;
                       animation-duration: 0.5s;
                       animation-name: shake;                      
                     }
@@ -250,7 +251,7 @@ $animation-step3: 0s;
                     >.answer {
                       display: inline-block;
                       animation: forwards;
-                      animation-delay: 4s;
+                      animation-delay: 2.5s;
                       animation-duration: 0.5s;
                       animation-name: shake;
                       &.on{
@@ -279,8 +280,8 @@ $animation-step3: 0s;
               > .subject {
                 opacity:0;
                 animation: forwards;
-                animation-delay: 1s;
-                animation-duration: 1s;
+                animation-delay: $animation-step1;
+                animation-duration: $animation-duration;
                 animation-name: fadein;
                 position: relative;
                 top: -1%;
@@ -316,7 +317,7 @@ $animation-step3: 0s;
                     >.answer {
                       display: inline-block;
                       animation: forwards;
-                      animation-delay: 4s;
+                      animation-delay: 2.5s;
                       animation-duration: 0.5s;
                       animation-name: shake;
                     }
@@ -325,7 +326,7 @@ $animation-step3: 0s;
               }
               > .arrow{
                 animation: forwards;
-                animation-duration: 1s;
+                animation-duration: $animation-duration;
                 animation-name: item2arrow;
                 position: absolute;
                 width: 5.5%;
@@ -336,8 +337,8 @@ $animation-step3: 0s;
               > .dot_arrow{
                 opacity:0;
                 animation: forwards;
-                animation-delay: 2s;
-                animation-duration: 1s;
+                animation-delay: $animation-step2;
+                animation-duration: $animation-duration;
                 animation-name: item2dotarrow;
                 z-index: -99;
                 position: absolute;
@@ -349,8 +350,8 @@ $animation-step3: 0s;
               > .artwork {
                 opacity:0;
                 animation: forwards;
-                animation-delay: 1s;
-                animation-duration: 1s;
+                animation-delay: $animation-step1;
+                animation-duration: $animation-duration;
                 animation-name: fadein;
                 position: absolute;
                 max-width: $artwork-max-width;
@@ -361,8 +362,8 @@ $animation-step3: 0s;
               > .content {
                 opacity:0;
                 animation: forwards;
-                animation-delay: 3s;
-                animation-duration: 1s;
+                animation-delay: $animation-step3;
+                animation-duration: $animation-duration;
                 animation-name: fadein;
                 font-family: $content-font-family;
                 position: absolute;
@@ -387,9 +388,16 @@ $animation-step3: 0s;
                   >.answer {
                     display: inline-block;
                     animation: forwards;
-                    animation-delay: 4s;
+                    animation-delay: 2.5s;
                     animation-duration: 0.5s;
                     animation-name: shake;
+                    &.on{
+                      >.answer_img{
+                        animation: forwards;
+                        animation-duration: 1s;
+                        animation-name: slidout;
+                      }
+                    }
                   }
                 }
               }
@@ -409,8 +417,8 @@ $animation-step3: 0s;
                 top: 10%;
                 opacity:0;
                 animation: forwards;
-                animation-delay: 1s;
-                animation-duration: 1s;
+                animation-delay: $animation-step1;
+                animation-duration: $animation-duration;
                 animation-name: fadein;
                 text-align: center;
                 position: relative;
@@ -431,13 +439,13 @@ $animation-step3: 0s;
                   &.off{
                     animation: forwards;
                     animation-delay: 4s;
-                    animation-duration: 0.5s;
+                    animation-duration: $animation-duration;
                     animation-name: shake;
                   }
                   &.on{
                     animation: forwards;
                     animation-delay: 4s;
-                    animation-duration: 0.5s;
+                    animation-duration: $animation-duration;
                     animation-name: shake;
                   }
                   >.line{
@@ -445,7 +453,7 @@ $animation-step3: 0s;
                       display: inline-block;
                       animation: forwards;
                       animation-delay: 4s;
-                      animation-duration: 0.5s;
+                      animation-duration: $animation-duration;
                       animation-name: shake;
                     }
                   }
@@ -453,7 +461,7 @@ $animation-step3: 0s;
               }
               > .arrow{
                 animation: forwards;
-                animation-duration: 1s;
+                animation-duration: $animation-duration;
                 animation-name: item3arrow;
                 position: absolute;
                 width: 7%;
@@ -464,8 +472,8 @@ $animation-step3: 0s;
               > .dot_arrow{
                 opacity:0;
                 animation: forwards;
-                animation-delay: 2s;
-                animation-duration: 1s;
+                animation-delay: $animation-step2;
+                animation-duration: $animation-duration;
                 animation-name: item3dotarrow;
                 position: absolute;
                 width: 8%;
@@ -476,8 +484,8 @@ $animation-step3: 0s;
               > .artwork{
                 opacity:0;
                 animation: forwards;
-                animation-delay: 1s;
-                animation-duration: 1s;
+                animation-delay: $animation-step1;
+                animation-duration: $animation-duration;
                 animation-name: fadein;
                 position:absolute;
                 top: 40%;
@@ -488,8 +496,8 @@ $animation-step3: 0s;
               > .content {
                 opacity:0;
                 animation: forwards;
-                animation-delay: 3s;
-                animation-duration: 1s;
+                animation-delay: $animation-step3;
+                animation-duration: $animation-duration;
                 animation-name: fadein;
                 font-family: $content-font-family;
                 position: absolute;
@@ -513,9 +521,16 @@ $animation-step3: 0s;
                   >.answer {
                     display: inline-block;
                     animation: forwards;
-                    animation-delay: 4s;
-                    animation-duration: 0.5s;
+                    animation-delay: 2.5s;
+                    animation-duration: $animation-duration;
                     animation-name: shake;
+                    &.on{
+                      >.answer_img{
+                        animation: forwards;
+                        animation-duration: 1s;
+                        animation-name: slidout;
+                      }
+                    }
                   }
                 }
               }

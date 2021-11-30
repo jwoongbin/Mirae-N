@@ -52,6 +52,7 @@ function Quiz({data, conindex, subindex}){
                 <img className="img" src={pen} alt=""></img>
               </div>
               <div className="text">{item.answer}</div>     
+
           </div>
 
         </div>

@@ -1,5 +1,6 @@
 .accordion{
   font-family: 'NanumGothicExtrabold',sans-serif;
+  font-weight: 800;
 }
 .accordion-body ul{
   display: flex;
@@ -7,7 +8,9 @@
   align-items: center;
   margin-bottom: 1.5rem;
 }
-
+.accordion-body ul:last-child{
+  margin-bottom: 0;
+}
 .accordion-header >.accordion-button >.number{
   position: relative;
   // background-image: url('/src/images/web/accordion-item.png')
@@ -18,11 +21,25 @@
 }
 .accordion-body ul hr {
   position: absolute;
-  width: 100%;
+  width: 95%;
   background-color: black;
   position: absolute;
   margin-bottom: -36px;
 }
 .accordion-body ul:last-child hr{
   display: none;
+}
+
+.accordion-body ul div span{
+  display: inline-flex;
+  justify-content: center;
+  vertical-align: revert;
+  align-items: center;
+  color: #fff;
+  width: 27px;
+  height: 27px;
+  background-color: #4e4e4e;
+  border-radius: 50%;
+  background-size: 100% 100%;
+  flex-wrap: nowrap;
 }
