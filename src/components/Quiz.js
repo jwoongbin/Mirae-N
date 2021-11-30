@@ -32,7 +32,7 @@ function Quiz({data, conindex, subindex}){
     return(
       <li className="questions" key={index}> 
         <div className="num">{"0"+item.num+" "}</div>
-        <div className="contents">
+        <div className="Quiz-contents">
           <div className="question">
             {fillParentheses(item.question)} 
           </div>
@@ -59,15 +59,9 @@ function Quiz({data, conindex, subindex}){
       </li>)})
   
   return (
-  
-    <div className="Quiz-wrap">
-      <div className="contents">
-        <ol className="quiz">
-          {questions}
-        </ol>
-      </div>
-    </div>
-
+      <ol className="quiz">
+        {questions}
+      </ol>
   );
 }
 

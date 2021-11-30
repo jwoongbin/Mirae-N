@@ -24,10 +24,10 @@ html, body {
 .home-wrap {
   background-image: url('../images/web/society-background.png');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  position: fixed;
   width: 100%;
   height: 100%;
-
   > {
     .contents {
       > {
@@ -48,9 +48,11 @@ html, body {
             position: relative;
             background-image: url('../images/web/frame.png');
             background-repeat: no-repeat;
-            background-size: 100% 100%; 
-            width: 746px;
-            height: 819px;
+            background-size: 100% 100%;
+            width: 38.9vw;
+            height: 75.8vh; 
+            // width: 746px;
+            // height: 819px;
             >.img-box{
               position: absolute;
               bottom: 105%;
@@ -60,15 +62,14 @@ html, body {
               }
               >.cloud1{ 
                 position:absolute;
-                // top: 198%;
-                // left: 191%;
-              
+                top: 198%;
+                left: 191%;
               }
               >.cloud2{ 
-                position: absoulte;
-                // left: 200%;
+                position: absolute;
+                left: 200%;
               }
-              >.clould3{ 
+              >.cloud3{ 
                 position: absolute;
                 right: 110%;
                 // top: 20%;
@@ -82,6 +83,22 @@ html, body {
               position: absolute;
               top: 27%;
               left: 5%;
+              &::-webkit-scrollbar {
+                width: 5px;
+                // height: 5px;
+                background: #ffffff;
+              }
+              &::-webkit-scrollbar-thumb {
+                border-radius: 3.5px;
+                background-color: #ced4da;
+            
+                &:hover {
+                  background-color: #adb5bd;
+                }
+              }
+              &::-webkit-scrollbar-track {
+                background: #ffffff;
+              }
               >.panel-group{
                 position: absolute;
                 top: 2%;
@@ -107,8 +124,10 @@ html, body {
                 position: absolute;
                 left: 70%;
                 bottom: 82%;
-                width: 189px;
-                height: 251px;
+                width: 9.8vw;
+                height: 23.3vh;
+                // width: 189px;
+                // height: 251px;
               }
             }
             >.footer{

@@ -27,11 +27,7 @@ function Mindmap({ data, conindex, subindex }) {
   const book_title = data.subject + ' '+  data.grade + '-' + data.semester;
   console.log(data, conindex ,subindex)
   return (
-    <div className="mindmap-wrap">
-      <div className="contents-wrap">
-      </div>
-      <div className="contents">
-        <div className="mindmap-box">
+        <div className="mindmap1-box">
           <div className="subject">
             <div className="subject-wrap"onClick={() => onClick()} >
               <img className="background" src={background} alt='' />
@@ -67,9 +63,6 @@ function Mindmap({ data, conindex, subindex }) {
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
   );
 
 }

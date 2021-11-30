@@ -47,490 +47,470 @@ $answer-animation-delay: 2s;
   }
 }
 
-@media (min-aspect-ratio: 16/9) {
-  .mindmap-wrap{
-    width: 177.777777vh;
-    height: 100%;
-    font-size: 1.77vh;
-    >{
-      .contents{
-        height: 82vh;
-        width: 177.77777vh;
-        position: absolute;
-      }
+@media (min-aspect-ratio: 16/9) {    
+    .contents{
+      height: 82vh;
+      width: 177.77777vh;
+      position: absolute;
     }
-  }
 }
 
 @media (max-aspect-ratio: 16/9) {
-  .mindmap-wrap{
-    width: 100vw;
-    height: 46.1vw;
-    font-size: 1vw;
-    >{
-      .contents{
-        height: 46.1vw;
-        width: 100vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
+    .contents{
+      height: 46.1vw;
+      width: 100vw;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
-  }
 }
 
-.mindmap-wrap {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  > {
-    .contents {
-      display: flex;
-      align-items: center;
-      white-space: pre-wrap;
-      word-break: keep-all;
+.contents {
+ 
 
-      > .mindmap-box {
-        width: 100%;
-        height: 100%;
-        > .subject {
-          width: 100%;
-          height: 100%;
-          position: relative;
+  > .mindmap1-box {
+    display: flex;
+    align-items: center;
+    white-space: pre-wrap;
+    word-break: keep-all;
+    width: 100%;
+    height: 100%;
+    > .subject {
+      width: 100%;
+      height: 100%;
+      position: relative;
 
+      > {
+        .subject-wrap {
+          height: 26.5%;
+          width: 18%;
+          top: 33%;
+          left: 39%;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          z-index: 1;
           > {
-            .subject-wrap {
-              height: 26.5%;
-              width: 18%;
-              top: 33%;
-              left: 39%;
-              position: absolute;
-              display: flex;
-              align-items: center;
-              display: flex;
-              text-align: center;
-              justify-content: center;
-              z-index: 1;
-              > {
-                .background {
-                  height: 100%;
-                  width: 100%;
-                }
+            .background {
+              height: 100%;
+              width: 100%;
+            }
 
-                .text {
-                  width: 100%;
-                  color: rgb(255, 255, 255);
-                  font-weight: 800;
-                  font-size: 2em;
-                  position: absolute;
-                  left: 50%;
-                  top: 51%;
-                  transform: translate(-50%, -50%);
-                  padding: 0 2%;
-                  line-height: 1.2;
+            .text {
+              width: 100%;
+              color: rgb(255, 255, 255);
+              font-weight: 800;
+              font-size: 2em;
+              position: absolute;
+              left: 50%;
+              top: 51%;
+              transform: translate(-50%, -50%);
+              padding: 0 2%;
+              line-height: 1.2;
+            }
+          }
+        }
+        .item1 {
+          position: absolute;
+          width: 100%;
+          height: 50%;
+          top: 14%;
+          left: -64%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-end;
+          z-index: 2;
+          > .subject {      
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            position: relative;
+            text-align: center;
+            color: rgb(84, 84, 84);
+            font-size: $sub-themes-font-size;
+            font-weight: 800;
+            padding: $sub-themes-padding;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: $sub-themes-width;
+            height: $sub-themes-height;
+            background: $background;
+            border: $common-border;
+            border-radius: $sub-themes-border-radius;
+            line-height: 1.2;
+            >.mindcontent {
+              &.off{
+                animation: forwards;
+                animation-delay: 4s;
+                animation-duration: 0.5s;
+                animation-name: shake;
+              }
+              &.on{
+                animation: forwards;
+                animation-delay: 4s;
+                animation-duration: 0.5s;
+                animation-name: shake;
+              }
+              >.line{
+                >.answer {
+                  display: inline-block;
+                  animation: forwards;
+                  animation-delay: $answer-animation-delay;
+                  animation-duration: 0.5s;
+                  animation-name: shake;                      
                 }
               }
             }
-            .item1 {
-              position: absolute;
-              width: 100%;
-              height: 50%;
-              top: 14%;
-              left: -64%;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-items: flex-end;
-              z-index: 2;
-              > .subject {      
-                opacity:0;
-                animation: forwards;
-                animation-delay: $animation-step1;
-                animation-duration: $animation-duration;
-                animation-name: fadein;
-                position: relative;
-                text-align: center;
-                color: rgb(84, 84, 84);
-                font-size: $sub-themes-font-size;
-                font-weight: 800;
-                padding: $sub-themes-padding;
+          }
+          > .arrow {
+            animation: forwards;
+            animation-duration: $animation-duration;
+            animation-name: item1arrow;
+            position: absolute;
+            width: 5%;
+            height: 18%;
+            right: -4%;
+            bottom: 51%;
+          }
+          > .dot_arrow {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step2;
+            animation-duration: $animation-duration;
+            animation-name: item1dotarrow;
+            position: absolute;
+            width: 5%;
+            height: 30%;
+            right: 10%;
+            top: 36%;
+          }
+          > .artwork {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            position: absolute;
+            max-width: $artwork-max-width;
+            max-height: $artwork-max-height;
+            bottom: 96%;
+            right: 13%;
+          }
+          > .content {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step3;
+            animation-duration: $animation-duration;
+            animation-name: fadeinCo1;
+            font-family: $content-font-family;
+            position: absolute;
+            color: #575252;
+            font-weight: 800;
+            padding: $content-padding;
+            width: 25%;
+            min-height: $content-min-height;
+            height: fit-content;
+            top: 68%;
+            right: 6%;
+            font-size: $content-font-size;
+            background: $background;
+            border: $common-border;
+            border-radius: $content-border-radius;
+              > .contenttext{
                 display: flex;
-                align-items: center;
-                justify-content: center;
-                width: $sub-themes-width;
-                height: $sub-themes-height;
-                background: $background;
-                border: $common-border;
-                border-radius: $sub-themes-border-radius;
-                line-height: 1.2;
-                >.mindcontent {
-                  &.off{
-                    animation: forwards;
-                    animation-delay: 4s;
-                    animation-duration: 0.5s;
-                    animation-name: shake;
-                  }
+              }
+              >.mindcontent >.line{
+                text-indent: $text-indent;
+                padding-left: $text-padding-left;
+                >.answer {
+                  display: inline-block;
+                  animation: forwards;
+                  animation-delay: 2.5s;
+                  animation-duration: 0.5s;
+                  animation-name: shake;
                   &.on{
-                    animation: forwards;
-                    animation-delay: 4s;
-                    animation-duration: 0.5s;
-                    animation-name: shake;
-                  }
-                  >.line{
-                    >.answer {
-                      display: inline-block;
+                    >.answer_img{
                       animation: forwards;
-                      animation-delay: $answer-animation-delay;
-                      animation-duration: 0.5s;
-                      animation-name: shake;                      
+                      animation-duration: 1s;
+                      animation-name: slidout;
                     }
                   }
                 }
               }
-              > .arrow {
-                animation: forwards;
-                animation-duration: $animation-duration;
-                animation-name: item1arrow;
-                position: absolute;
-                width: 5%;
-                height: 18%;
-                right: -4%;
-                bottom: 51%;
-              }
-              > .dot_arrow {
-                opacity:0;
-                animation: forwards;
-                animation-delay: $animation-step2;
-                animation-duration: $animation-duration;
-                animation-name: item1dotarrow;
-                position: absolute;
-                width: 5%;
-                height: 30%;
-                right: 10%;
-                top: 36%;
-              }
-              > .artwork {
-                opacity:0;
-                animation: forwards;
-                animation-delay: $animation-step1;
-                animation-duration: $animation-duration;
-                animation-name: fadein;
-                position: absolute;
-                max-width: $artwork-max-width;
-                max-height: $artwork-max-height;
-                bottom: 96%;
-                right: 13%;
-              }
-              > .content {
-                opacity:0;
-                animation: forwards;
-                animation-delay: $animation-step3;
-                animation-duration: $animation-duration;
-                animation-name: fadeinCo1;
-                font-family: $content-font-family;
-                position: absolute;
-                color: #575252;
-                font-weight: 800;
-                padding: $content-padding;
-                width: 25%;
-                min-height: $content-min-height;
-                height: fit-content;
-                top: 68%;
-                right: 6%;
-                font-size: $content-font-size;
-                background: $background;
-                border: $common-border;
-                border-radius: $content-border-radius;
-                  > .contenttext{
-                    display: flex;
-                  }
-                  >.mindcontent >.line{
-                    text-indent: $text-indent;
-                    padding-left: $text-padding-left;
-                    >.answer {
-                      display: inline-block;
-                      animation: forwards;
-                      animation-delay: 2.5s;
-                      animation-duration: 0.5s;
-                      animation-name: shake;
-                      &.on{
-                        >.answer_img{
-                          animation: forwards;
-                          animation-duration: 1s;
-                          animation-name: slidout;
-                        }
-                      }
-                    }
-                  }
-             }
+          }
 
-            }
-            .item2 {
-              position: absolute;
-              width: 100%;
-              height: 50%;
-              top: 21%;
-              left: -36%;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-items: flex-end;
-   
-              > .subject {
-                opacity:0;
+        }
+        .item2 {
+          position: absolute;
+          width: 100%;
+          height: 50%;
+          top: 21%;
+          left: -36%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-end;
+
+          > .subject {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            position: relative;
+            top: -1%;
+            left: 5%;
+            text-align: center;
+            color: rgb(84, 84, 84);
+            font-size: $sub-themes-font-size;
+            font-weight: 800;
+            padding: $sub-themes-padding;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: $sub-themes-width;
+            height: $sub-themes-height;
+            background: $background;             
+            border: $common-border;
+            border-radius: $sub-themes-border-radius;
+            line-height: 1.2;
+            >.mindcontent {
+              &.off{
                 animation: forwards;
-                animation-delay: $animation-step1;
-                animation-duration: $animation-duration;
-                animation-name: fadein;
-                position: relative;
-                top: -1%;
-                left: 5%;
-                text-align: center;
-                color: rgb(84, 84, 84);
-                font-size: $sub-themes-font-size;
-                font-weight: 800;
-                padding: $sub-themes-padding;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: $sub-themes-width;
-                height: $sub-themes-height;
-                background: $background;             
-                border: $common-border;
-                border-radius: $sub-themes-border-radius;
-                line-height: 1.2;
-                >.mindcontent {
-                  &.off{
-                    animation: forwards;
-                    animation-delay: 4s;
-                    animation-duration: 0.5s;
-                    animation-name: shake;
-                  }
-                  &.on{
-                    animation: forwards;
-                    animation-delay: 4s;
-                    animation-duration: 0.5s;
-                    animation-name: shake;
-                  }
-                  >.line{
-                    >.answer {
-                      display: inline-block;
-                      animation: forwards;
-                      animation-delay: 2.5s;
-                      animation-duration: 0.5s;
-                      animation-name: shake;
-                    }
-                  }
+                animation-delay: 4s;
+                animation-duration: 0.5s;
+                animation-name: shake;
+              }
+              &.on{
+                animation: forwards;
+                animation-delay: 4s;
+                animation-duration: 0.5s;
+                animation-name: shake;
+              }
+              >.line{
+                >.answer {
+                  display: inline-block;
+                  animation: forwards;
+                  animation-delay: 2.5s;
+                  animation-duration: 0.5s;
+                  animation-name: shake;
                 }
               }
-              > .arrow{
+            }
+          }
+          > .arrow{
+            animation: forwards;
+            animation-duration: $animation-duration;
+            animation-name: item2arrow;
+            position: absolute;
+            width: 5.5%;
+            height: 18%;
+            left: 93%;
+            bottom: 44%;
+          }
+          > .dot_arrow{
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step2;
+            animation-duration: $animation-duration;
+            animation-name: item2dotarrow;
+            z-index: -99;
+            position: absolute;
+            width: 9%;
+            height: 28%;
+            left: 99%;
+            bottom: 103%;
+          }
+          > .artwork {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            position: absolute;
+            max-width: $artwork-max-width;
+            max-height: $artwork-max-height;
+            bottom: 104%;
+            right: 3%; 
+          }
+          > .content {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step3;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            font-family: $content-font-family;
+            position: absolute;
+            padding: $content-padding;
+            left: 109%;
+            top: -37%;
+            color: #575252;
+            font-size: $content-font-size;
+            font-weight: 800;
+            padding: 0.5% 0.5%;
+            display: flex;
+            align-items: center;
+            width: 23%;
+            min-height: $content-min-height;
+            height: fit-content;
+            background: $background;
+            border: $common-border;
+            border-radius: $content-border-radius;
+            >.mindcontent >.line{
+              text-indent: $text-indent;
+              padding-left: $text-padding-left;
+              >.answer {
+                display: inline-block;
                 animation: forwards;
-                animation-duration: $animation-duration;
-                animation-name: item2arrow;
-                position: absolute;
-                width: 5.5%;
-                height: 18%;
-                left: 93%;
-                bottom: 44%;
-              }
-              > .dot_arrow{
-                opacity:0;
-                animation: forwards;
-                animation-delay: $animation-step2;
-                animation-duration: $animation-duration;
-                animation-name: item2dotarrow;
-                z-index: -99;
-                position: absolute;
-                width: 9%;
-                height: 28%;
-                left: 99%;
-                bottom: 103%;
-              }
-              > .artwork {
-                opacity:0;
-                animation: forwards;
-                animation-delay: $animation-step1;
-                animation-duration: $animation-duration;
-                animation-name: fadein;
-                position: absolute;
-                max-width: $artwork-max-width;
-                max-height: $artwork-max-height;
-                bottom: 104%;
-                right: 3%; 
-              }
-              > .content {
-                opacity:0;
-                animation: forwards;
-                animation-delay: $animation-step3;
-                animation-duration: $animation-duration;
-                animation-name: fadein;
-                font-family: $content-font-family;
-                position: absolute;
-                padding: $content-padding;
-                left: 109%;
-                top: -37%;
-                color: #575252;
-                font-size: $content-font-size;
-                font-weight: 800;
-                padding: 0.5% 0.5%;
-                display: flex;
-                align-items: center;
-                width: 23%;
-                min-height: $content-min-height;
-                height: fit-content;
-                background: $background;
-                border: $common-border;
-                border-radius: $content-border-radius;
-                >.mindcontent >.line{
-                  text-indent: $text-indent;
-                  padding-left: $text-padding-left;
-                  >.answer {
-                    display: inline-block;
+                animation-delay: 2.5s;
+                animation-duration: 0.5s;
+                animation-name: shake;
+                &.on{
+                  >.answer_img{
                     animation: forwards;
-                    animation-delay: 2.5s;
-                    animation-duration: 0.5s;
-                    animation-name: shake;
-                    &.on{
-                      >.answer_img{
-                        animation: forwards;
-                        animation-duration: 1s;
-                        animation-name: slidout;
-                      }
-                    }
+                    animation-duration: 1s;
+                    animation-name: slidout;
                   }
                 }
               }
             }
-            .item3 {
-              position: absolute;
-              width: 100%;
-              height: 50%;
-              top: 59%;
-              left: -31%;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-items: flex-end;
-              > .subject {
-                left: -1.5%;
-                top: 10%;
-                opacity:0;
+          }
+        }
+        .item3 {
+          position: absolute;
+          width: 100%;
+          height: 50%;
+          top: 59%;
+          left: -31%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-end;
+          > .subject {
+            left: -1.5%;
+            top: 10%;
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            text-align: center;
+            position: relative;
+            color: rgb(84, 84, 84);
+            font-size: $sub-themes-font-size;
+            font-weight: 800;
+            padding: $sub-themes-padding;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: $sub-themes-width;
+            height: $sub-themes-height;
+            background: $background;
+            border: $common-border;
+            border-radius: $sub-themes-border-radius;
+            line-height: 1.2;
+            >.mindcontent {
+              &.off{
                 animation: forwards;
-                animation-delay: $animation-step1;
+                animation-delay: 4s;
                 animation-duration: $animation-duration;
-                animation-name: fadein;
-                text-align: center;
-                position: relative;
-                color: rgb(84, 84, 84);
-                font-size: $sub-themes-font-size;
-                font-weight: 800;
-                padding: $sub-themes-padding;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: $sub-themes-width;
-                height: $sub-themes-height;
-                background: $background;
-                border: $common-border;
-                border-radius: $sub-themes-border-radius;
-                line-height: 1.2;
-                >.mindcontent {
-                  &.off{
-                    animation: forwards;
-                    animation-delay: 4s;
-                    animation-duration: $animation-duration;
-                    animation-name: shake;
-                  }
-                  &.on{
-                    animation: forwards;
-                    animation-delay: 4s;
-                    animation-duration: $animation-duration;
-                    animation-name: shake;
-                  }
-                  >.line{
-                    >.answer {
-                      display: inline-block;
-                      animation: forwards;
-                      animation-delay: 4s;
-                      animation-duration: $animation-duration;
-                      animation-name: shake;
-                    }
-                  }
+                animation-name: shake;
+              }
+              &.on{
+                animation: forwards;
+                animation-delay: 4s;
+                animation-duration: $animation-duration;
+                animation-name: shake;
+              }
+              >.line{
+                >.answer {
+                  display: inline-block;
+                  animation: forwards;
+                  animation-delay: 4s;
+                  animation-duration: $animation-duration;
+                  animation-name: shake;
                 }
               }
-              > .arrow{
+            }
+          }
+          > .arrow{
+            animation: forwards;
+            animation-duration: $animation-duration;
+            animation-name: item3arrow;
+            position: absolute;
+            width: 7%;
+            height: 30%;
+            left: 79%;
+            top: 3%;
+          }
+          > .dot_arrow{
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step2;
+            animation-duration: $animation-duration;
+            animation-name: item3dotarrow;
+            position: absolute;
+            width: 8%;
+            height: 18%;
+            left: 92%;
+            top: 37%;
+          }
+          > .artwork{
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            position:absolute;
+            top: 40%;
+            right: 13%;
+            max-width: $artwork-max-width;
+            max-height: $artwork-max-height;
+          }
+          > .content {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step3;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            font-family: $content-font-family;
+            position: absolute;
+            bottom: 25%;
+            left: 104%;
+            color: #575252;
+            font-size: $content-font-size;
+            font-weight: bold;
+            padding: $content-padding;
+            display: flex;
+            align-items: center;
+            width: 23%;
+            min-height: $content-min-height;
+            height: fit-content;
+            background: $background;
+            border: $common-border;
+            border-radius: $content-border-radius;
+            >.mindcontent >.line{
+              text-indent: $text-indent;
+              padding-left: $text-padding-left;
+              >.answer {
+                display: inline-block;
                 animation: forwards;
+                animation-delay: 2.5s;
                 animation-duration: $animation-duration;
-                animation-name: item3arrow;
-                position: absolute;
-                width: 7%;
-                height: 30%;
-                left: 79%;
-                top: 3%;
-              }
-              > .dot_arrow{
-                opacity:0;
-                animation: forwards;
-                animation-delay: $animation-step2;
-                animation-duration: $animation-duration;
-                animation-name: item3dotarrow;
-                position: absolute;
-                width: 8%;
-                height: 18%;
-                left: 92%;
-                top: 37%;
-              }
-              > .artwork{
-                opacity:0;
-                animation: forwards;
-                animation-delay: $animation-step1;
-                animation-duration: $animation-duration;
-                animation-name: fadein;
-                position:absolute;
-                top: 40%;
-                right: 13%;
-                max-width: $artwork-max-width;
-                max-height: $artwork-max-height;
-              }
-              > .content {
-                opacity:0;
-                animation: forwards;
-                animation-delay: $animation-step3;
-                animation-duration: $animation-duration;
-                animation-name: fadein;
-                font-family: $content-font-family;
-                position: absolute;
-                bottom: 25%;
-                left: 104%;
-                color: #575252;
-                font-size: $content-font-size;
-                font-weight: bold;
-                padding: $content-padding;
-                display: flex;
-                align-items: center;
-                width: 23%;
-                min-height: $content-min-height;
-                height: fit-content;
-                background: $background;
-                border: $common-border;
-                border-radius: $content-border-radius;
-                >.mindcontent >.line{
-                  text-indent: $text-indent;
-                  padding-left: $text-padding-left;
-                  >.answer {
-                    display: inline-block;
+                animation-name: shake;
+                &.on{
+                  >.answer_img{
                     animation: forwards;
-                    animation-delay: 2.5s;
-                    animation-duration: $animation-duration;
-                    animation-name: shake;
-                    &.on{
-                      >.answer_img{
-                        animation: forwards;
-                        animation-duration: 1s;
-                        animation-name: slidout;
-                      }
-                    }
+                    animation-duration: 1s;
+                    animation-name: slidout;
                   }
                 }
               }
@@ -539,6 +519,5 @@ $answer-animation-delay: 2s;
         }
       }
     }
-
   }
 }
