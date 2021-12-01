@@ -1,3 +1,6 @@
+@import 'keyframe.scss';
+
+
 .subject{
     >.mindcontent{
         -ms-user-select: none; 
@@ -5,39 +8,78 @@
         -khtml-user-select: none;
         -webkit-user-select: none;
         user-select: none;
-        &.off{
-            padding: 5% 5%;
-            color: transparent;
-            background-size: 100% 100%;
-            background-image: url('../images/postit/postit.svg');
+        padding-top: 5%;
+        padding-bottom: 5%;
+        &.off,&.ex{
             >.line .answer{
+                color : rgb(70, 108, 197);
                 white-space: normal;
                 pointer-events: none;
                 background-image: none;
                 padding: 1% 5%;
+                >.answer_img{
+                    background-size: 100% 100%;
+                    background-image: none;
+                    position: absolute;
+                    color: transparent;
+                    padding: 1% 5%;
+                }
             }
         }
         &.on{
-            background-image: none;
             color : rgb(70, 108, 197);
             >.line .answer{
+                color : rgb(70, 108, 197);
                 white-space: normal;
                 pointer-events: none;
                 background-image: none;
                 padding: 1% 5%;
+                >.answer_img{
+                    background-size: 100% 100%;
+                    background-image: none;
+                    position: absolute;
+                    color: transparent;
+                    padding: 1% 5%;
+                }
             }
+            >.mindcontent_img{
+                animation: forwards !important;
+                animation-duration: 1s !important;
+                animation-name: slidout !important;
+            }
+        }
+        >.mindcontent_img{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0%;
+            top: 0%;
+            background-size: 100% 100%;
+            background-image: url('../images/postit/postit.svg');
+            color: transparent;
+            z-index: 1;
         }
         >.line .answer{
             white-space: nowrap;
-            color: transparent;
-            background-size: 100% 100%;
-            background-image: url('../images/postit/postit.svg');
+            color : transparent;
             padding: 1% 5%;
             &.on{
-                background-image: none;
                 color : rgb(70, 108, 197);
                 font-weight: bold;
+                >.answer_img{
+                    animation: forwards;
+                    animation-duration: 1s;
+                    animation-name: slidout;
+                }
             }
+            >.answer_img{
+                background-size: 100% 100%;
+                background-image: url('../images/postit/postit.svg');
+                position: absolute;
+                color: transparent;
+                padding: 1% 5%;
+            }
+          
         }
     }
 }
@@ -99,6 +141,11 @@
                     background-image: none;
                     color : rgb(70, 108, 197);
                     font-weight: bold;
+                    >.answer_img{
+                        animation: forwards;
+                        animation-duration: 1s;
+                        animation-name: slidout;
+                    }
                     // .answer_img{ 
                     //     position: absolute;
                     //     background-size: 100% 100%;

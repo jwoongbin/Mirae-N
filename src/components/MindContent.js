@@ -16,11 +16,15 @@ function MindContent (content){
     }
     console.log("findanswer : " ,findanswer.length);
 
-    const [boollist, setBoollist] = useState(new Array(spanindex(findanswer.length)))
-    
+    const [boollist, setBoollist] = useState(Array.from(new Array(findanswer.length)).map((v,i)=> "ex"));
+    console.log("booklist : ",boollist)
     var onClick = (count)=>{
-        console.log("conclick : " , count)
-        boollist[count] = !boollist[count] 
+        console.log("conclick : " , boollist[count])
+        if(boollist[count] === "on"){
+            boollist[count] = "off"
+        }else{
+            boollist[count] = "on"
+        }
         setBoollist([...boollist])
     }
 
@@ -52,7 +56,7 @@ function MindContent (content){
                     console.log("answer_count : ", answer_count)
                     var clickindex = answer_count
                     var spantag = (
-                    <span className={'answer'+(boollist[clickindex] ? ' on' : '')} onClick={()=>{onClick(clickindex)}}>
+                    <span className={'answer '+(boollist[clickindex])} onClick={()=>{onClick(clickindex)}}>
                         <div className={'answer_img'}>{split}</div>
                         {split}
                     </span>
@@ -75,7 +79,10 @@ function MindContent (content){
     var returnvalue = <div className={'mindcontent'}>{linelist}</div>
     if(answer_count === 1 && linelist.length === 1 && span_count === 0){
         console.log('linelist : ' ,linelist);
-        returnvalue = <div className={'mindcontent'+(boollist[spanindex(0)] ? ' on' : ' off')} onClick={()=>{onClick(0)}}>{linelist}</div>
+        returnvalue = <div className={'mindcontent '+(boollist[spanindex(0)])} onClick={()=>{onClick(0)}}>
+            <div className={'mindcontent_img'}/>
+                {linelist}
+            </div>
     }
 
 

@@ -118,7 +118,7 @@
               position: relative;
               float: right;
               display: flex;
-              align-items: center;
+              align-items: right;
               >.imgbox{
                 // position: absolute;
                 top: 0;
@@ -126,18 +126,37 @@
                 width: 100%;
                 height: 100%;
                 overflow: hidden;
+                background-color: white;
                 // visibility: visible;
                 >.img{
                   width: 4.5em;
                   height: 1.2em;
                 }
               }
+              >.textbox{
+                position: absolute;
+                right: 20%;
+                top: 50%;
+                transform: translate(0%, -50%);
+                z-index: -98;
+                white-space: nowrap;
+                color : transparent;
+                // border-bottom: 0.1em solid black;
+                >.boxbox{
+                  width: 100%;
+                  height: 100%;
+                  position: absolute;
+                  left: -3.5em;
+                  background-color: white;
+                  color : transparent;
+                }
+              }
               >.text{
                 visibility: hidden;
                 position: absolute;
-                left: 50%;
+                right: 20%;
                 top: 50%;
-                transform: translate(-50%, -50%);
+                transform: translate(0%, -50%);
                 z-index: -99;
                 white-space: nowrap;
                 color : rgb(70, 108, 197);
@@ -146,14 +165,20 @@
                 text-underline-position: under;
                 // border-bottom: 0.1em solid black;
                 }
-                &.on{
+              &.on{
+                .textbox{
+                  >.boxbox{
+                    animation: shrinkWidth 0.5s 0.5s;
+                    animation-fill-mode: forwards;
+                  }
+                }
                   >.imgbox {
-                    animation: shrinkWidth 1s ease-out;
+                    animation: shrinkWidth 0.5s ease-in ;
                     animation-fill-mode: forwards;
                   }
                   >.text{
                     visibility: visible;
-                                    }                  
+                  }                  
               }
 
             }
