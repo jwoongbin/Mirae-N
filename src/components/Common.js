@@ -48,7 +48,7 @@ function Common ({data, conindex, subindex, type}) {
       </div>
       <Link to="/"><img className="exit" src={exit} alt=''/></Link>
     </div>
-    <div className="contents">
+    <div className={"contents" + (type === 5 ? " q" : "")}>
       {returnvalue}
     </div>
     <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>

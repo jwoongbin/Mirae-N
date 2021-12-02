@@ -22,22 +22,24 @@
 // mobile landscape
 @media (max-width: 767.98px), (max-height: 700px) {     
   .contents{
-    height: 90vh !important;
-    .quiz{
-      height: 100%;
-      font-size: 3.5em;
-      overflow: scroll;
-      .questions{
-        height: 46.1vw !important;
-        .Quiz-contents{
-          margin-top: 15% !important;
-          >.answer >.imgbox > .img{
-            width: 6em !important;
-            height: 1.6em !important;
+    &.q{
+      height: 90vh !important;
+      .quiz{
+        height: 100%;
+        font-size: 3.5em;
+        overflow: scroll;
+        .questions{
+          height: 46.1vw !important;
+          .Quiz-contents{
+            margin-top: 15% !important;
+            >.answer >.imgbox > .img{
+              width: 6em !important;
+              height: 1.6em !important;
+            }
           }
         }
       }
-    }
+    } 
   }
 }
 @media (min-width: 767.99px) and (min-height: 700px) {     
