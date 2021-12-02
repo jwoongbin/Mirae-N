@@ -21,29 +21,28 @@ function Home({data}){
   const { triggerFull } = useFullscreen(onFullS);
   triggerFull();
   return (
-    <div className="home-wrap">
-      <div className="contents">
-        <div className="header"></div>
-        <div className="content">
-          <div className="frame">
-            <div className="img-box">
-              <img src={logo}/>
-              <img src={choco}/>
-              <img src={cloud3} className="cloud3"/>
-              <img src={cloud2} className="cloud2"/>
-              <img src={cloud1} className="cloud1"/>
-            </div>
-            <div className="top">
-              <div className="book-title"><span>초등 사회 3-1</span></div>
-              <img className="book-cover" src={book}/>
-            </div>
-            <div className="accordion-box">
-              <Contents data={data} />
-            </div>
-            <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
+    <div className="home-wrap">      
+      <div className="header"></div>
+      <div className="content">
+        <div className="frame">
+          <div className="img-box">
+            <img src={logo} className="logo"/>
+            <img src={choco} className="choco"/>
+            <img src={cloud3} className="cloud3"/>
+            <img src={cloud2} className="cloud2"/>
+            <img src={cloud1} className="cloud1"/>
           </div>
-        </div>  
-      </div>
+          <div className="top">
+            <div className="book-title"><span>초등 사회 3-1</span></div>
+            <img className="book-cover" src={book}/>
+          </div>
+          <div className="accordion-box">
+            <Contents data={data} />
+          </div>
+          <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
+        </div>
+      </div>  
+      
     </div>
   );
 }

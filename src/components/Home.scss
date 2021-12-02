@@ -1,6 +1,18 @@
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 @import url('bootstrap/dist/css/bootstrap.min.css');
 
+/*
+##Device = Most of the Smartphones Mobiles (Portrait)
+*/
+@media (min-width: 320px) and (max-width: 480px) {
+>.home-wrap{
+  >.content{
+
+  }
+}
+  
+}
+
 html, body {
   width: 100%;
   height: 100%;
@@ -28,124 +40,221 @@ html, body {
   position: fixed;
   width: 100%;
   height: 100%;
-  font-size: 1rem;
-  > {
-    .contents {
-      > {
-        .header {
-
+  font-size: 1vw;
+  
+  .header {
+  }
+  .content {
+    position: absolute;      
+    top: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+    >.frame{
+      z-index: 0;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      background-image: url('../images/web/frame.png');
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      width: 38.9vw;
+      height: 42.7vw; 
+      // min-width: 746px;
+      // min-height: 819px;
+      >.img-box{
+        display: flex;
+        align-items: center;
+        position: absolute;
+        bottom: 105%;
+        right: 35%;
+        :first-child{
+          margin-right: 1vw;
         }
-        .content {
+        >.logo{
+          width: 47.5%;
+        }
+        >.choco{
+          width: 11.1vw;
+        }
+        >.cloud1{ 
+          width: 23%;
+          position:absolute;
+          top: 198%;
+          left: 191%;
+        }
+        >.cloud2{ 
+          width: 52%;
           position: absolute;
-          top: 20%;
-          width: 100%;
+          left: 200%;
+        }
+        >.cloud3{ 
+          width: 72%;
+          position: absolute;
+          right: 110%;
+          // top: 20%;
+        }
+      }
+      >.accordion-box{     
+        display: flex;
+        overflow-y: scroll;
+        width: 90%;
+        height: 70%;
+        position: absolute;
+        top: 23%;
+        left: 5%;
+        &::-webkit-scrollbar {
+          width: 0.3vw;
+          background: #ffffff;
+        }
+        &::-webkit-scrollbar-thumb {
+          // border-radius: 20px;
+          // -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.2);
+          // background-color: rgba(0, 0, 0, 0.2);
+          // background-clip: padding-box;
+          // border: 12px solid transparent;
+          border-radius: 1vw;
+          background-color: #ced4da;
+        }
+        &::-webkit-scrollbar-track {
+          background: #ffffff;
+        }
+        >.panel-group{
+          position: absolute;
+          top: 6%;
+          left: 7%;
+          width: 90%;
+          >.accordion{
+            font-family: 'NanumGothicExtrabold',sans-serif;
+            font-weight: 800;
+            >.accordion-item{
+              border: none  !important;
+              >.accordion-header{
+                margin-bottom: 4.1%;
+                >.accordion-button{
+                  // font-size: 25px !important;
+                  height: 2.5vw;
+                  padding: 0.5vw 1.25vw;
+                  color: white;
+                  background-color: #00b05b;
+                  border-radius: 0.5vw;                        
+                  >.number{
+                    font-size: 2vw;
+                    width: 3vw;
+                    height: 3vw;
+                    // min-width: 55px;
+                    // min-height: 55px;
+                    position: absolute;
+                    left: -4%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-color: #5bd59a;
+                    border-radius: 50%;
+                    border: 0.2vw solid;
+                    border-color: #00b05b;
+                  }
+                  >.title{
+                    font-size: 1.2vw;
+                    font-weight: 800;
+                    position: absolute;
+                    left: 6%;
+                  }
+                  
+                }
+                >.accordion-button::after{
+                  width: 1.5vw;
+                  height: 1.5vw;
+                  background-size: 1.5vw !important;
+                  background-image: url('../images/web/accordion-button.png') !important;
+                }
+              }
+              >.accordion-collapse >.accordion-body{
+                font-size: 1vw;
+                padding: 0 1rem 1rem 1rem;
+                ul:last-child > hr{
+                  display: none !important;
+                }
+                ul {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-bottom: 4%;
+                  padding-inline-start: 0;
+                  >.img-container{
+                    margin-bottom: 1%;
+                  }
+                  >.img-container a{
+                    margin-left: 0.5em;
+                    img{
+                      width: 5vw;
+                    }
+                  }
+                  hr{
+                    position: absolute;
+                    width: 30vw;
+                    background-color: black;
+                    margin-top: 10%;
+                  }
+                }
+                // ul:last-child hr{
+                //   margin-bottom: 0;
+                // }
+                ul div span{
+                  display: inline-flex;
+                  justify-content: center;
+                  vertical-align: revert;
+                  align-items: center;
+                  color: #fff;
+                  // min-width: 27px;
+                  // min-height: 27px;
+                  width: 1.3em;
+                  height: 1.3em;
+                  background-color: #4e4e4e;
+                  border-radius: 50%;
+                  background-size: 100% 100%;
+                  flex-wrap: nowrap;
+                }
+              }                
+            }  
+          }
+        }
+      }
+      >.top{
+        >.book-title{
+          position: absolute;
+          top: 5%;
+          right: 35%;
           display: flex;
           justify-content: center;
           align-items: center;
-          >.frame{
-            z-index: 0;
-            display: flex;
-            justify-content: center;
-            position: relative;
-            background-image: url('../images/web/frame.png');
-            background-repeat: no-repeat;
-            background-size: 100% 100%;
-            width: 38.9vw;
-            height: 75.8vh; 
-            min-width: 746px;
-            min-height: 819px;
-            >.img-box{
-              position: absolute;
-              bottom: 105%;
-              left: 2%;
-              :first-child{
-                margin-right: 45px;
-              }
-              >.cloud1{ 
-                position:absolute;
-                top: 198%;
-                left: 191%;
-              }
-              >.cloud2{ 
-                position: absolute;
-                left: 200%;
-              }
-              >.cloud3{ 
-                position: absolute;
-                right: 110%;
-                // top: 20%;
-              }
-            }
-            >.accordion-box{     
-              display: flex;
-              overflow-y: scroll;
-              width: 90%;
-              height: 64%;
-              position: absolute;
-              top: 27%;
-              left: 5%;
-              &::-webkit-scrollbar {
-                width: 5px;
-                // height: 5px;
-                background: #ffffff;
-              }
-              &::-webkit-scrollbar-thumb {
-                border-radius: 3.5px;
-                background-color: #ced4da;
-            
-                &:hover {
-                  background-color: #adb5bd;
-                }
-              }
-              &::-webkit-scrollbar-track {
-                background: #ffffff;
-              }
-              >.panel-group{
-                position: absolute;
-                top: 2%;
-                left: 7%;
-                width: 90%;
-              }
-            }
-            >.top{
-              >.book-title{
-                position: absolute;
-                top: 5%;
-                right: 35%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                font-size: 2rem;
-                width: 62%;
-                height: 13%;
-                border-radius: 0.5em;
-                background-color: rgb(255,255,255);
-              }
-              >.book-cover{
-                position: absolute;
-                left: 70%;
-                bottom: 82%;
-                width: 9.5vw;
-                height: 20.7vh;
-                min-width: 189px;
-                min-height: 251px;
-              }
-            }
-            >.footer{
-              font-size: 15px;
-              font-weight: 800;
-              color: #82593b;
-              z-index: -1;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              position: absolute;
-              bottom: 0;
-              width: 100%;
-              height: 6%;
-            }
-          }
+          font-size: 2em;
+          width: 62%;
+          height: 13%;
+          border-radius: 0.5em;
+          background-color: rgb(255,255,255);
         }
+        >.book-cover{
+          position: absolute;
+          left: 70%;
+          bottom: 82%;
+          width: 12.1vw;
+          // height: 16.1vw;
+        }
+      }
+      >.footer{
+        font-size: 1em;
+        font-weight: 800;
+        color: #82593b;
+        z-index: -1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 6%;
       }
     }
   }
@@ -158,55 +267,6 @@ html, body {
   margin: 35px 0;
 }
 
-.accordion-item {
-  border: none  !important;
-  >.accordion-header{
-    margin-bottom: 4.1%;
-  }
-}
-.accordion-button{
-  // font-size: 25px !important;
-  height: 3.5vh;
-  padding: 0.5rem 1.25rem !important;
-  color: white !important;
-  background-color: #00b05b !important;
-  border-radius: 15px !important;
-}
-.accordion-button::after{
-  width: 1.8rem !important;
-  height: 1.8rem !important;
-  background-size: 1.8rem !important;
-  background-image: url('../images/web/accordion-button.png') !important;
-}
-.accordion-header button >.number{
-  font-size: 1.4vw;
-  width: 3vw;
-  height: 5.1vh;
-  min-width: 55px;
-  min-height: 55px;
-  position: absolute !important;
-  left: -4%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #5bd59a;
-  border-radius: 50%;
-  border: 3px solid;
-  border-color: #00b05b;
-}
-.accordion-header button >.title{
-  font-size: 1vw;
-  font-weight: 800;
-  position: absolute;
-  left: 6%;
-}
-.accordion-body{
-  font-size: 1vw;
-  padding: 0 1rem 1rem 1rem !important;
-}
-.accordion-body ul{
-  padding-inline-start: 0;
-}
-.accordion-body ul >.img-container a{
-  margin-left: 10px;
-}
+
+
+
