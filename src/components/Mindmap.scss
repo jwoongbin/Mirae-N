@@ -26,6 +26,18 @@ $answer-animation-delay: 2s;
 
 @import 'keyframe.scss';
 
+@keyframes slidout {
+  from { 
+    margin-left: 0%;
+    width: 100%;
+  }
+
+  to {
+    margin-right: 100%;
+    width: 0%;
+  }
+}
+
 @keyframes fadein {
   from {
       opacity:0;
@@ -35,29 +47,7 @@ $answer-animation-delay: 2s;
   }
 }
 
-@media (min-aspect-ratio: 16/9) {    
-    .contents{
-      height: 82vh;
-      width: 177.77777vh;
-      position: absolute;
-    }
-}
-
-@media (max-aspect-ratio: 16/9) {
-    .contents{
-      height: 46.1vw;
-      width: 100vw;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-}
-
-.contents {
- 
-
-  > .mindmap1-box {
+.mindmap1-box {
     display: flex;
     align-items: center;
     white-space: pre-wrap;
@@ -135,14 +125,17 @@ $answer-animation-delay: 2s;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
             >.mindcontent {
-              &.ex{
-                >.mindcontent_img{
-                  display: inline-block;
-                  animation: forwards;
-                  animation-delay: $answer-animation-delay;
-                  animation-duration: 0.5s;
-                  animation-name: shake;     
-                }
+              &.off{
+                animation: forwards;
+                animation-delay: 4s;
+                animation-duration: 0.5s;
+                animation-name: shake;
+              }
+              &.on{
+                animation: forwards;
+                animation-delay: 4s;
+                animation-duration: 0.5s;
+                animation-name: shake;
               }
               >.line{
                 >.answer {
@@ -221,6 +214,13 @@ $answer-animation-delay: 2s;
                   animation-delay: 2.5s;
                   animation-duration: 0.5s;
                   animation-name: shake;
+                  &.on{
+                    >.answer_img{
+                      animation: forwards;
+                      animation-duration: 1s;
+                      animation-name: slidout;
+                    }
+                  }
                 }
               }
           }
@@ -261,27 +261,25 @@ $answer-animation-delay: 2s;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
             >.mindcontent {
-              >.mindcontent_img{
+              &.off{
                 animation: forwards;
-                animation-delay: 2.5s;
+                animation-delay: 4s;
                 animation-duration: 0.5s;
                 animation-name: shake;
               }
-              &.ex{
+              &.on{
                 animation: forwards;
-                animation-delay: 2.5s;
+                animation-delay: 4s;
                 animation-duration: 0.5s;
                 animation-name: shake;
               }
               >.line{
                 >.answer {
-                  >.answer_img{          
-                    display: inline-block;
-                    animation: forwards;
-                    animation-delay: 2.5s;
-                    animation-duration: 0.5s;
-                    animation-name: shake;
-                  }
+                  display: inline-block;
+                  animation: forwards;
+                  animation-delay: 2.5s;
+                  animation-duration: 0.5s;
+                  animation-name: shake;
                 }
               }
             }
@@ -353,6 +351,13 @@ $answer-animation-delay: 2s;
                 animation-delay: 2.5s;
                 animation-duration: 0.5s;
                 animation-name: shake;
+                &.on{
+                  >.answer_img{
+                    animation: forwards;
+                    animation-duration: 1s;
+                    animation-name: slidout;
+                  }
+                }
               }
             }
           }
@@ -391,7 +396,7 @@ $answer-animation-delay: 2s;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
             >.mindcontent {
-              &.ex{
+              &.off{
                 animation: forwards;
                 animation-delay: 4s;
                 animation-duration: $animation-duration;
@@ -479,6 +484,13 @@ $answer-animation-delay: 2s;
                 animation-delay: 2.5s;
                 animation-duration: $animation-duration;
                 animation-name: shake;
+                &.on{
+                  >.answer_img{
+                    animation: forwards;
+                    animation-duration: 1s;
+                    animation-name: slidout;
+                  }
+                }
               }
             }
           }
@@ -486,4 +498,3 @@ $answer-animation-delay: 2s;
       }
     }
   }
-}

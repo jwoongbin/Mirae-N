@@ -22,7 +22,7 @@
 // mobile landscape
 @media (max-width: 767.98px), (max-height: 700px) {     
   .contents{
-    height: 90vh !important;
+    height: 82vh !important;
     .quiz{
       height: 100%;
       font-size: 3.5em;
@@ -105,12 +105,14 @@
               justify-content: space-between;
             }
             .options{
+              text-indent: -1.5em;
               width: 100%;
               display: inline-flex;
               &.off{
                 display: none;
               }
               >.option{
+                padding-left:1.5em;
                 width: 28%;
               }
             }

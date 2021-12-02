@@ -34,7 +34,7 @@ function Home({data}){
               <img src={cloud1} className="cloud1"/>
             </div>
             <div className="top">
-              <div className="book-title">초등 사회 3-1</div>
+              <div className="book-title"><span>초등 사회 3-1</span></div>
               <img className="book-cover" src={book}/>
             </div>
             <div className="accordion-box">

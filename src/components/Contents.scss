@@ -6,17 +6,18 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4%;
+  // margin-bottom: 1.5rem;
 }
 .accordion-body ul:last-child{
   margin-bottom: 0;
 }
 .accordion-header >.accordion-button >.number{
-  position: relative;
+
   // background-image: url('/src/images/web/accordion-item.png')
 }
 .accordion-body ul >.img-container >.a {
-  margin-left: 10px;
+  margin-left: 0.5vw;
 
 }
 .accordion-body ul hr {
@@ -24,7 +25,7 @@
   width: 95%;
   background-color: black;
   position: absolute;
-  margin-bottom: -36px;
+  margin-bottom: -7%;
 }
 .accordion-body ul:last-child hr{
   display: none;
@@ -36,8 +37,10 @@
   vertical-align: revert;
   align-items: center;
   color: #fff;
-  width: 27px;
-  height: 27px;
+  min-width: 27px;
+  min-height: 27px;
+  width: 1.3vw;
+  height: 1.3vw;
   background-color: #4e4e4e;
   border-radius: 50%;
   background-size: 100% 100%;
