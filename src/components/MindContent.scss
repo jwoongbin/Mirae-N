@@ -1,28 +1,27 @@
 @import 'keyframe.scss';
 
 
+$animation-duration: 0.5s;
+
 .subject{
+    transform: translateZ(0);
+    backface-visibility: hidden;
     >.mindcontent{
-        -ms-user-select: none; 
-        -moz-user-select: '-moz-none';
-        -khtml-user-select: none;
-        -webkit-user-select: none;
-        user-select: none;
-        padding-top: 5%;
-        padding-bottom: 5%;
+        padding: 5% 5%;
         &.off,&.ex{
             >.line .answer{
                 color : rgb(70, 108, 197);
                 white-space: normal;
                 pointer-events: none;
                 background-image: none;
-                padding: 1% 5%;
+                padding: 0% 0%;
                 >.answer_img{
+                    display: none;
                     background-size: 100% 100%;
                     background-image: none;
                     position: absolute;
                     color: transparent;
-                    padding: 1% 5%;
+                    padding: 0% 0%;
                 }
             }
         }
@@ -33,18 +32,19 @@
                 white-space: normal;
                 pointer-events: none;
                 background-image: none;
-                padding: 1% 5%;
+                padding: 0% 0%;
                 >.answer_img{
+                    display: none;
                     background-size: 100% 100%;
                     background-image: none;
                     position: absolute;
                     color: transparent;
-                    padding: 1% 5%;
+                    padding: 0% 0%;
                 }
             }
             >.mindcontent_img{
                 animation: forwards !important;
-                animation-duration: 1s !important;
+                animation-duration: $animation-duration !important;
                 animation-name: slidout !important;
             }
         }
@@ -60,24 +60,28 @@
             z-index: 1;
         }
         >.line .answer{
+            display: inline-block;
             white-space: nowrap;
             color : transparent;
-            padding: 1% 5%;
+            padding: 1% 3%;
             &.on{
                 color : rgb(70, 108, 197);
                 font-weight: bold;
                 >.answer_img{
-                    animation: forwards;
-                    animation-duration: 1s;
-                    animation-name: slidout;
+                    animation: forwards !important;
+                    animation-duration: $animation-duration !important;
+                    animation-name: slidout !important;
                 }
             }
             >.answer_img{
+                width: 100%;
+                height: 100%;
+                left: 0%;
+                top: 0%;
                 background-size: 100% 100%;
                 background-image: url('../images/postit/postit.svg');
                 position: absolute;
                 color: transparent;
-                padding: 1% 5%;
             }
           
         }
@@ -128,6 +132,7 @@
                 background-image: url('../images/marblenum/marble_num6.png');
             }
             .answer{
+                display: inline-block;
                 -ms-user-select: none; 
                 -moz-user-select: '-moz-none';
                 -khtml-user-select: none;
@@ -135,16 +140,15 @@
                 user-select: none;
                 white-space: nowrap;
                 color: transparent;
-                padding: 1% 5%;
+                padding: 1% 3%;
                 font-family: 'NanumGothicExtraBold';
                 &.on{
-                    background-image: none;
                     color : rgb(70, 108, 197);
                     font-weight: bold;
                     >.answer_img{
-                        animation: forwards;
-                        animation-duration: 1s;
-                        animation-name: slidout;
+                        animation: forwards !important;
+                        animation-duration: $animation-duration !important;
+                        animation-name: slidout !important;
                     }
                     // .answer_img{ 
                     //     position: absolute;
@@ -153,67 +157,16 @@
                     //     color: transparent;
                     //     padding: 1% 5%;
                     // }
-                    .answer_front{
-                        height: fit-content;
-                        position: relative;
-                        text-align: center;
-                        vertical-align: middle;
-                        color: transparent;
-                        background-size: 100% 100%;
-                        background-image: none;
-                    }
-                    .answer_body{
-                        height: fit-content;
-                        position: relative;
-                        text-align: center;
-                        vertical-align: middle;
-                        color : rgb(70, 108, 197);
-                        background-size: 100% 100%;
-                        background-image: none;
-                    }
-                    .answer_back{
-                        height: fit-content;
-                        position: relative;
-                        text-align: center;
-                        vertical-align: middle;
-                        color: transparent;
-                        background-size: 100% 100%;
-                        background-image: none;
-                    }
                 }
                 >.answer_img{
+                    width: 100%;
+                    height: 100%;
+                    left: 0%;
+                    top: 0%;
                     position: absolute;
                     background-size: 100% 100%;
                     background-image: url('../images/postit/postit.svg');
                     color: transparent;
-                    padding: 1% 5%;
-                }
-                >.answer_front{
-                    height: fit-content;
-                    position: relative;
-                    text-align: center;
-                    vertical-align: middle;
-                    color: transparent;
-                    // background-size: 100% 100%;
-                    // background-image: url('../images/postit/postfront.svg');
-                }
-                >.answer_body{
-                    height: fit-content;
-                    position: relative;
-                    text-align: center;
-                    vertical-align: middle;
-                    color: transparent;
-                    // background-size: 100% 100%;
-                    // background-image: url('../images/postit/postbody.svg');
-                }
-                >.answer_back{
-                    height: fit-content;
-                    position: relative;
-                    text-align: center;
-                    vertical-align: middle;
-                    color: transparent;
-                    // background-size: 100% 100%;
-                    // background-image: url('../images/postit/postback.svg');
                 }
             }
         }
