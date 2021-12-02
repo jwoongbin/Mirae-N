@@ -134,26 +134,27 @@ $answer-animation-delay: 2s;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
-            >.mindcontent {
-              &.ex{
-                >.mindcontent_img{
-                  display: inline-block;
-                  animation: forwards;
-                  animation-delay: $answer-animation-delay;
-                  animation-duration: 0.5s;
-                  animation-name: shake;     
-                }
-              }
-              >.line{
-                >.answer {
-                  display: inline-block;
-                  animation: forwards;
-                  animation-delay: $answer-animation-delay;
-                  animation-duration: 0.5s;
-                  animation-name: shake;                      
-                }
-              }
-            }
+            // >.mindcontent {
+            //   &.ex{
+            //     >.mindcontent_img{
+            //       animation: forwards;
+            //       animation-delay: $answer-animation-delay;
+            //       animation-duration: $animation-duration;
+            //       animation-name: shake;
+            //     }
+            //   }
+            //   >.line{
+            //     >.answer {
+            //       &.ex{
+            //         display: inline-block;
+            //         animation: forwards;
+            //         animation-delay: $answer-animation-delay;
+            //         animation-duration: $animation-duration;
+            //         animation-name: shake;
+            //       }
+            //     }
+            //   }
+            // }
           }
           > .arrow {
             animation: forwards;
@@ -190,6 +191,8 @@ $answer-animation-delay: 2s;
             right: 13%;
           }
           > .content {
+            display: flex;
+            align-items: center;
             opacity:0;
             animation: forwards;
             animation-delay: $animation-step3;
@@ -209,20 +212,17 @@ $answer-animation-delay: 2s;
             background: $background;
             border: $common-border;
             border-radius: $content-border-radius;
-              > .contenttext{
-                display: flex;
-              }
-              >.mindcontent >.line{
-                text-indent: $text-indent;
-                padding-left: $text-padding-left;
-                >.answer {
-                  display: inline-block;
-                  animation: forwards;
-                  animation-delay: 2.5s;
-                  animation-duration: 0.5s;
-                  animation-name: shake;
-                }
-              }
+            // >.mindcontent >.line{
+            //   text-indent: $text-indent;
+            //   padding-left: $text-padding-left;
+            //   >.answer {
+            //     display: inline-block;
+            //     animation: forwards;
+            //     animation-delay: $answer-animation-delay;
+            //     animation-duration: $animation-duration;
+            //     animation-name: shake;
+            //   }
+            // }
           }
 
         }
@@ -260,31 +260,27 @@ $answer-animation-delay: 2s;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
-            >.mindcontent {
-              >.mindcontent_img{
-                animation: forwards;
-                animation-delay: 2.5s;
-                animation-duration: 0.5s;
-                animation-name: shake;
-              }
-              &.ex{
-                animation: forwards;
-                animation-delay: 2.5s;
-                animation-duration: 0.5s;
-                animation-name: shake;
-              }
-              >.line{
-                >.answer {
-                  >.answer_img{          
-                    display: inline-block;
-                    animation: forwards;
-                    animation-delay: 2.5s;
-                    animation-duration: 0.5s;
-                    animation-name: shake;
-                  }
-                }
-              }
-            }
+            // >.mindcontent {
+            //   &.ex{
+            //     >.mindcontent_img{
+            //       animation: forwards;
+            //       animation-delay: $answer-animation-delay;
+            //       animation-duration: $animation-duration;
+            //       animation-name: shake;
+            //     }
+            //   }
+            //   >.line{
+            //     >.answer {
+            //       &.ex{
+            //         display: inline-block;
+            //         animation: forwards;
+            //         animation-delay: $answer-animation-delay;
+            //         animation-duration: $animation-duration;
+            //         animation-name: shake;
+            //       }
+            //     }
+            //   }
+            // }
           }
           > .arrow{
             animation: forwards;
@@ -344,17 +340,19 @@ $answer-animation-delay: 2s;
             background: $background;
             border: $common-border;
             border-radius: $content-border-radius;
-            >.mindcontent >.line{
-              text-indent: $text-indent;
-              padding-left: $text-padding-left;
-              >.answer {
-                display: inline-block;
-                animation: forwards;
-                animation-delay: 2.5s;
-                animation-duration: 0.5s;
-                animation-name: shake;
-              }
-            }
+            // >.mindcontent >.line{
+            //   text-indent: $text-indent;
+            //   padding-left: $text-padding-left;
+            //   >.answer {
+            //     display: inline-block;
+            //     animation: forwards;
+            //     &.ex{
+            //       animation-name: shake;
+            //       animation-delay: $answer-animation-delay;
+            //       animation-duration: $animation-duration;
+            //     }
+            //   }
+            // }
           }
         }
         .item3 {
@@ -390,29 +388,25 @@ $answer-animation-delay: 2s;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
-            >.mindcontent {
-              &.ex{
-                animation: forwards;
-                animation-delay: 4s;
-                animation-duration: $animation-duration;
-                animation-name: shake;
-              }
-              &.on{
-                animation: forwards;
-                animation-delay: 4s;
-                animation-duration: $animation-duration;
-                animation-name: shake;
-              }
-              >.line{
-                >.answer {
-                  display: inline-block;
-                  animation: forwards;
-                  animation-delay: 4s;
-                  animation-duration: $animation-duration;
-                  animation-name: shake;
-                }
-              }
-            }
+            // >.mindcontent {
+            //   &.ex{
+            //     >.mindcontent_img{
+            //       animation: forwards;
+            //       animation-delay: $answer-animation-delay;
+            //       animation-duration: $animation-duration;
+            //       animation-name: shake;
+            //     }
+            //   }
+            //   >.line{
+            //     >.answer {
+            //       display: inline-block;
+            //       animation: forwards;
+            //       animation-delay: $answer-animation-delay;
+            //       animation-duration: $animation-duration;
+            //       animation-name: shake;
+            //     }
+            //   }
+            // }
           }
           > .arrow{
             animation: forwards;
@@ -470,18 +464,56 @@ $answer-animation-delay: 2s;
             background: $background;
             border: $common-border;
             border-radius: $content-border-radius;
-            >.mindcontent >.line{
-              text-indent: $text-indent;
-              padding-left: $text-padding-left;
-              >.answer {
-                display: inline-block;
-                animation: forwards;
-                animation-delay: 2.5s;
-                animation-duration: $animation-duration;
-                animation-name: shake;
-              }
-            }
+            // >.mindcontent >.line{
+            //   text-indent: $text-indent;
+            //   padding-left: $text-padding-left;
+            //   >.answer {
+            //     display: inline-block;
+            //     animation: forwards;
+            //     animation-delay: $answer-animation-delay;
+            //     animation-duration: $animation-duration;
+            //     animation-name: shake;
+            //   }
+            // }
           }
+        }
+      }
+    }
+    .subject{
+      >.mindcontent {
+        animation: forwards;
+        animation-name: shake;
+        &.ex{
+          >.mindcontent_img{
+            animation: forwards;
+            animation-delay: $answer-animation-delay;
+            animation-duration: $animation-duration;
+            animation-name: shake;
+          }
+        }
+        >.line{
+          >.answer {
+            animation: forwards;
+            animation-name: shake;
+            &.ex{
+              animation-delay: $answer-animation-delay;
+              animation-duration: $animation-duration;
+            }         
+          }
+        }
+      }
+    }
+    .content{
+      >.mindcontent >.line{
+        text-indent: $text-indent;
+        padding-left: $text-padding-left;
+        >.answer {
+          animation: forwards;
+          animation-name: shake;
+          &.ex{
+            animation-delay: $answer-animation-delay;
+            animation-duration: $animation-duration;
+          }         
         }
       }
     }
