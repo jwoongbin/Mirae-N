@@ -119,4 +119,26 @@
         opacity:1;
         top: 68%
     }
-  }
+}
+
+@keyframes fadeinCo2 {
+    from {
+        opacity:0;
+        left: 108%;
+    }
+    to {
+        opacity:1;
+        left: 109%
+    }
+}
+
+@keyframes fadeinCo3 {
+    from {
+        opacity:0;
+        left: 103%;
+    }
+    to {
+        opacity:1;
+        left: 104%
+    }
+}
