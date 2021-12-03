@@ -322,7 +322,7 @@ $answer-animation-delay: 2s;
             animation: forwards;
             animation-delay: $animation-step3;
             animation-duration: $animation-duration;
-            animation-name: fadein;
+            animation-name: fadeinCo2;
             font-family: $content-font-family;
             position: absolute;
             padding: $content-padding;
@@ -447,7 +447,7 @@ $answer-animation-delay: 2s;
             animation: forwards;
             animation-delay: $animation-step3;
             animation-duration: $animation-duration;
-            animation-name: fadein;
+            animation-name: fadeinCo3;
             font-family: $content-font-family;
             position: absolute;
             bottom: 25%;
@@ -481,8 +481,7 @@ $answer-animation-delay: 2s;
     }
     .subject{
       >.mindcontent {
-        animation: forwards;
-        animation-name: shake;
+        position: relative;
         &.ex{
           >.mindcontent_img{
             animation: forwards;
@@ -493,9 +492,10 @@ $answer-animation-delay: 2s;
         }
         >.line{
           >.answer {
-            animation: forwards;
-            animation-name: shake;
+            position: relative;
             &.ex{
+              animation: forwards;
+              animation-name: shake;
               animation-delay: $answer-animation-delay;
               animation-duration: $animation-duration;
             }         
@@ -508,9 +508,10 @@ $answer-animation-delay: 2s;
         text-indent: $text-indent;
         padding-left: $text-padding-left;
         >.answer {
-          animation: forwards;
-          animation-name: shake;
+          position: relative;
           &.ex{
+            animation: forwards;
+            animation-name: shake;
             animation-delay: $answer-animation-delay;
             animation-duration: $animation-duration;
           }         
