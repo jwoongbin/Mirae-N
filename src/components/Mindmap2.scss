@@ -403,14 +403,15 @@ $answer-animation-delay: 2s;
         }
       }
     }
-    >.content{
+    .content{
       >.mindcontent >.line{
         text-indent: $text-indent;
         padding-left: $text-padding-left;
         >.answer {
-          animation: forwards;
-          animation-name: shake;
+          position: relative;
           &.ex{
+            animation: forwards;
+            animation-name: shake;
             animation-delay: $answer-animation-delay;
             animation-duration: $animation-duration;
           }         
