@@ -96,7 +96,7 @@ html, body {
         top: 23%;
         left: 5%;
         &::-webkit-scrollbar {
-          width: 0.3vw;
+          width: 1vw;
           background: #ffffff;
         }
         &::-webkit-scrollbar-thumb {
@@ -300,10 +300,10 @@ html, body {
         >.top{
           >.book-title{
             font-size: 4em;
-            top: 9%;
-            right: 39%;
-            width: 57%;
-            height: 9%;
+            top: 4%;
+            right: 36%;
+            width: 59%;
+            height: 14%;
           }
           >.book-cover{
             left: 69%;
@@ -321,6 +321,7 @@ html, body {
                   >.accordion-button{
                     height: 8.5vw;
                     border-radius: 1.5vw;
+                    padding: 1.5vw 2.25vw;
                     >.number{
                       font-size: 5vw;
                       width: 10vw;

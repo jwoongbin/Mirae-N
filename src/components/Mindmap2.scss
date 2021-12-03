@@ -10,402 +10,412 @@ $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
 $artwork-max-width: 55%;
 $artwork-max-height: 71%;
-$text-padding-left: 1em;
-$text-indent: -0.9em;
+$text-padding-left: 0.5em;
+$text-indent: 0em;
+$animation-duration: 0.5s;
+$animation-step1: 0.5s;
+$animation-step2: 1s;
+$animation-step3: 1.5s;
+$answer-animation-delay: 2s;
+
 
 @import 'keyframe2.scss';
 
-@media (min-aspect-ratio: 16/9) {
-  .mindmap2-wrap{
-    width: 177.777777vh;
-    height: 100%;
-    font-size: 1.77vh;
-    >{
-      .contents{
-        height: 82vh;
-        width: 177.77777vh;
-        position: absolute;
-      }
-    }
+@media (min-aspect-ratio: 16/9) {    
+  .contents{
+    height: 82vh;
+    width: 177.77777vh;
+    position: absolute;
   }
 }
 
 @media (max-aspect-ratio: 16/9) {
-  .mindmap2-wrap{
+  .contents{
+    height: 46.1vw;
     width: 100vw;
-    height: 56.25vw;
-    font-size: 1vw;
-    >{
-      .contents{
-        height: 46.25vw;
-        width: 100vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
-.mindmap2-wrap {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  > {
-    .contents {
-      display: flex;
-      align-items: center;
-      white-space: pre-wrap;
-      word-break: keep-all;
-
-      > .mindmap-box {
-        width: 100%;
-        height: 100%;
-        > .subject {
-          width: 100%;
-          height: 100%;
-          position: relative;
-
+.contents {
+  > .mindmap2-box {
+    display: flex;
+    align-items: center;
+    white-space: pre-wrap;
+    word-break: keep-all;
+    width: 100%;
+    height: 100%;
+    > .subject {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      > {
+        .subject-wrap {
+          height: 26.5%;
+          width: 18%;
+          top: 34%;
+          left: 4%;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          z-index: 1;
           > {
-            .subject-wrap {
-              height: 26.5%;
-              width: 18%;
-              top: 34%;
-              left: 4%;
-              position: absolute;
-              display: flex;
-              align-items: center;
-              display: flex;
-              text-align: center;
-              justify-content: center;
-              z-index: 1;
-              > {
-                .background {
-                  height: 100%;
-                  width: 100%;
-                }
+            .background {
+              height: 100%;
+              width: 100%;
+            }
 
-                .text {
-                  width: 100%;
-                  color: rgb(255, 255, 255);
-                  font-weight: 800;
-                  font-size: 2em;
-                  position: absolute;
-                  left: 50%;
-                  top: 51%;
-                  transform: translate(-50%, -50%);
-                  padding: 0 2%;
-                  line-height: 1.2;
-                }
-              }
-            }
-            .item1 {
-              position: absolute;
+            .text {
               width: 100%;
-              height: 20%;
-              top: 14%;
-              left: -58%;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-items: flex-end;
-              z-index: 2;
-              > .subject {
-                opacity:0;
-                animation: forwards;
-                animation-delay: 1s;
-                animation-duration: 1s;
-                animation-name: fadein_2;
-                position: relative;
-                text-align: center;
-                color: rgb(84, 84, 84);
-                font-size: $sub-themes-font-size;
-                font-weight: 800;
-                padding: 0 1%;
+              color: rgb(255, 255, 255);
+              font-weight: 800;
+              font-size: 2em;
+              position: absolute;
+              left: 50%;
+              top: 51%;
+              transform: translate(-50%, -50%);
+              padding: 0 2%;
+              line-height: 1.2;
+            }
+          }
+        }
+        .item1 {
+          position: absolute;
+          width: 100%;
+          height: 20%;
+          top: 14%;
+          left: -58%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-end;
+          z-index: 2;
+          > .subject {
+            opacity:0;
+            animation: forwards;
+            animation-delay:  $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            position: relative;
+            text-align: center;
+            color: rgb(84, 84, 84);
+            font-size: $sub-themes-font-size;
+            font-weight: 800;
+            padding: 0 1%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: $sub-themes-width;
+            height: $sub-themes-height;
+            background: $background;
+            border: $common-border;
+            border-radius: $sub-themes-border-radius;
+            line-height: 1.2;
+          }
+          > .arrow {
+            animation: forwards;
+            animation-duration: $animation-duration;
+            animation-name: item1arrow_2;
+            position: absolute;
+            width: 11.5%;
+            height: 58%;
+            left: 74%;
+            bottom: 0%;
+          }
+          > .dot_arrow {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step2;
+            animation-duration: $animation-duration;
+            animation-name: item1dotarrow_2;
+            position: absolute;
+            width: 29%;
+            height: 64%;
+            left: 100%;
+            bottom: 55%;
+          }
+          > .artwork {
+            position: absolute;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            max-width: $artwork-max-width;
+            max-height: $artwork-max-height;
+            bottom: 75%;
+            right: 15%;
+          }
+          > .content {         
+            display: flex;
+            align-items: center;
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step3;
+            animation-duration:  $animation-duration;
+            animation-name: fadein;
+            font-family: $content-font-family;
+            position: absolute;
+            color: #575252;
+            font-weight: 800;
+            padding: 0.5% 0.5%;
+            width: 23%;
+            min-height: 110%;
+            height: fit-content;
+            top: -45%;
+            right: -53%;
+            font-size: $content-font-size;
+            background: $background;
+            border: $common-border;
+            border-radius: $content-border-radius;
+              > .contenttext{
                 display: flex;
-                align-items: center;
-                justify-content: center;
-                width: $sub-themes-width;
-                height: $sub-themes-height;
-                background: $background;
-                border: $common-border;
-                border-radius: $sub-themes-border-radius;
-                line-height: 1.2;
               }
-              > .arrow {
-                animation: forwards;
-                animation-duration: 1s;
-                animation-name: item1arrow_2;
-                position: absolute;
-                width: 11.5%;
-                height: 58%;
-                left: 74%;
-                bottom: 0%;
-              }
-              > .dot_arrow {
-                opacity:0;
-                animation: forwards;
-                animation-delay: 2s;
-                animation-duration: 1s;
-                animation-name: item1dotarrow_2;
-                position: absolute;
-                width: 29%;
-                height: 64%;
-                left: 100%;
-                bottom: 55%;
-              }
-              > .artwork {
-                position: absolute;
-                max-width: $artwork-max-width;
-                max-height: $artwork-max-height;
-                bottom: 75%;
-                right: 15%;
-              }
-              > .content {         
-                display: flex;
-                align-items: center;
-                opacity:0;
-                animation: forwards;
-                animation-delay: 3s;
-                animation-duration: 1s;
-                animation-name: fadein_2;
-                font-family: $content-font-family;
-                position: absolute;
-                color: #575252;
-                font-weight: 800;
-                padding: 0.5% 0.5%;
-                width: 23%;
-                min-height: 110%;
-                height: fit-content;
-                top: -45%;
-                right: -53%;
-                font-size: $content-font-size;
-                background: $background;
-                border: $common-border;
-                border-radius: $content-border-radius;
-                  > .contenttext{
-                    display: flex;
-                  }
-                  >.mindcontent >.line{
-                    text-indent: 0;
-                    padding-left: $text-padding-left;
-                    >.answer {
-                      display: inline-block;
-                      animation: forwards;
-                      animation-delay: 4s;
-                      animation-duration: 0.5s;
-                      animation-name: shake_2;
-                    }                
-                  }
-             }
+              // >.mindcontent >.line{
+              //   text-indent: 0;
+              //   padding-left: $text-padding-left;
+              //   >.answer {
+              //     display: inline-block;
+              //     animation: forwards;
+              //     animation-delay: 4s;
+              //     animation-duration: 0.5s;
+              //     animation-name: shake_2;
+              //   }                
+              // }
+         }
 
-            }
-            .item2 {
-              position: absolute;
-              width: 100%;
-              height: 20%;
-              top: 39%;
-              left: -62%;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-items: flex-end;
-              > .subject {
-                opacity:0;
-                animation: forwards;
-                animation-delay: 1s;
-                animation-duration: 1s;
-                animation-name: fadein_2;
-                position: relative;
-                left: 4%;
-                text-align: center;
-                color: rgb(84, 84, 84);
-                font-size: $sub-themes-font-size;
-                font-weight: 800;
-                padding: 0 10px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: $sub-themes-width;
-                height: $sub-themes-height;
-                background: $background;
-                border-width: medium;
-                border: $common-border;
-                border-radius: $sub-themes-border-radius;
-                line-height: 1.2;
-              }
-              > .arrow{
-                animation: forwards;
-                animation-duration: 1s;
-                animation-name: item2arrow_2;
-                position: absolute;
-                width: 6%;
-                height: 20%;
-                left: 84%;
-                top: 38%;
-              }
-              > .dot_arrow{
-                opacity:0;
-                animation: forwards;
-                animation-delay: 2s;
-                animation-duration: 1s;
-                animation-name: item2dotarrow_2;
-                position: absolute;
-                width: 6%;
-                height: 24%;
-                left: 102%;
-                bottom: 87%;
-              }
-              > .artwork {
-                position: absolute;
-                max-width: 47%;
-                max-height: 71%;
-                top: 99%;
-                right: -6%; 
-              }
-              > .content {
-                display: flex;
-                align-items: center;
-                opacity:0;
-                animation: forwards;
-                animation-delay: 3s;
-                animation-duration: 1s;
-                animation-name: fadein_2;
-                font-family: $content-font-family;
-                position: absolute;
-                padding: 0 10px;
-                left: 109%;
-                top: -36%;
-                color: #575252;
-                font-size: $content-font-size;
-                font-weight: 800;
-                padding: 0.5% 0.5%;
-                display: flex;
-                align-items: center;
-                width: 23%;
-                min-height: 110%;
-                height: fit-content;
-                background: $background;
-                border-width: medium;
-                border: $common-border;
-                border-radius: $content-border-radius;
-                >.mindcontent >.line{
-                  text-indent: $text-indent;
-                  padding-left: $text-padding-left;    
-                  >.answer {
-                    display: inline-block;
-                    animation: forwards;
-                    animation-delay: 4s;
-                    animation-duration: 0.5s;
-                    animation-name: shake_2;
-                  }    
-                }
-              }
-            }
-            .item3 {
-              position: absolute;
-              width: 100%;
-              height: 20%;
-              top: 65%;
-              left: -64%;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-items: flex-end;
-              > .subject {
-                opacity:0;
-                animation: forwards;
-                animation-delay: 1s;
-                animation-duration: 1s;
-                animation-name: fadein_2;
-                text-align: center;
-                position: relative;
-                color: rgb(84, 84, 84);
-                font-size: $sub-themes-font-size;
-                font-weight: 800;
-                padding: 0 15px;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                width: $sub-themes-width;
-                height: $sub-themes-height;
-                background: $background;
-                border: $common-border;
-                border-radius: $sub-themes-border-radius;
-                line-height: 1.2;
-              }
-              > .arrow{
-                animation: forwards;
-                animation-duration: 1s;
-                animation-name: item3arrow_2;
-                position: absolute;
-                width: 6%;
-                height: 46%;
-                left: 81%;
-                top: -25%;
-              }
-              > .dot_arrow{
-                opacity:0;
-                animation: forwards;
-                animation-delay: 2s;
-                animation-duration: 1s;
-                animation-name: item3dotarrow_2;
-                position: absolute;
-                width: 36%;
-                height: 66%;
-                left: 99%;
-                bottom: -5%;
-              }
-              > .artwork{
-                position:absolute;
-                top: 26%;
-                left: 77%;
-                max-width: $artwork-max-width;
-                max-height: $artwork-max-height;
-              }
-              > .content {
-                display: flex;
-                align-items: center;
-                opacity:0;
-                animation: forwards;
-                animation-delay: 3s;
-                animation-duration: 1s;
-                animation-name: fadein_2;
-                font-family: $content-font-family;
-                position: absolute;
-                top: 14%;
-                left: 136%;
-                color: #575252;
-                font-size: $content-font-size;
-                font-weight: bold;
-                padding: 0.5% 0.5%;
-                display: flex;
-                align-items: center;
-                width: 25%;
-                min-height: 110%;
-                height: fit-content;
-                background: $background;
-                border-width: medium;
-                border: $common-border;
-                border-radius: $content-border-radius;
-                >.mindcontent >.line{
-                  text-indent: $text-indent;
-                  padding-left: $text-padding-left;
-                  >.answer {
-                    display: inline-block;
-                    animation: forwards;
-                    animation-delay: 4s;
-                    animation-duration: 0.5s;
-                    animation-name: shake_2;
-                  }        
-                }
-              }
-            }
+        }
+        .item2 {
+          position: absolute;
+          width: 100%;
+          height: 20%;
+          top: 39%;
+          left: -62%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-end;
+          > .subject {
+            opacity:0;
+            animation: forwards;
+            animation: forwards;
+            animation-delay:  $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            position: relative;
+            left: 4%;
+            text-align: center;
+            color: rgb(84, 84, 84);
+            font-size: $sub-themes-font-size;
+            font-weight: 800;
+            padding: 0 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: $sub-themes-width;
+            height: $sub-themes-height;
+            background: $background;
+            border-width: medium;
+            border: $common-border;
+            border-radius: $sub-themes-border-radius;
+            line-height: 1.2;
+          }
+          > .arrow{
+            animation: forwards;
+            animation-duration: $animation-duration;
+            animation-name: item2arrow_2;
+            position: absolute;
+            width: 6%;
+            height: 20%;
+            left: 84%;
+            top: 38%;
+          }
+          > .dot_arrow{
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step2;
+            animation-duration: $animation-duration;
+            animation-name: item2dotarrow_2;
+            position: absolute;
+            width: 6%;
+            height: 24%;
+            left: 102%;
+            bottom: 87%;
+          }
+          > .artwork {
+            position: absolute;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            max-width: 47%;
+            max-height: 71%;
+            top: 99%;
+            right: -6%; 
+          }
+          > .content {
+            display: flex;
+            align-items: center;
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step3;
+            animation-duration:  $animation-duration;
+            animation-name: fadein;
+            font-family: $content-font-family;
+            position: absolute;
+            padding: 0 10px;
+            left: 109%;
+            top: -36%;
+            color: #575252;
+            font-size: $content-font-size;
+            font-weight: 800;
+            padding: 0.5% 0.5%;
+            display: flex;
+            align-items: center;
+            width: 23%;
+            min-height: 110%;
+            height: fit-content;
+            background: $background;
+            border-width: medium;
+            border: $common-border;
+            border-radius: $content-border-radius;
+            // >.mindcontent >.line{
+            //   text-indent: $text-indent;
+            //   padding-left: $text-padding-left;    
+            //   >.answer {
+            //     display: inline-block;
+            //     animation: forwards;
+            //     animation-delay: 4s;
+            //     animation-duration: 0.5s;
+            //     animation-name: shake_2;
+            //   }    
+            // }
+          }
+        }
+        .item3 {
+          position: absolute;
+          width: 100%;
+          height: 20%;
+          top: 65%;
+          left: -64%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-end;
+          > .subject {
+            opacity:0;
+            animation: forwards;
+            animation: forwards;
+            animation-delay:  $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            text-align: center;
+            position: relative;
+            color: rgb(84, 84, 84);
+            font-size: $sub-themes-font-size;
+            font-weight: 800;
+            padding: 0 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: $sub-themes-width;
+            height: $sub-themes-height;
+            background: $background;
+            border: $common-border;
+            border-radius: $sub-themes-border-radius;
+            line-height: 1.2;
+          }
+          > .arrow{
+            animation: forwards;
+            animation-duration: $animation-duration;
+            animation-name: item3arrow_2;
+            position: absolute;
+            width: 6%;
+            height: 46%;
+            left: 81%;
+            top: -25%;
+          }
+          > .dot_arrow{
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step2;
+            animation-duration: $animation-duration;
+            animation-name: item3dotarrow_2;
+            position: absolute;
+            width: 36%;
+            height: 66%;
+            left: 99%;
+            bottom: -5%;
+          }
+          > .artwork{
+            position:absolute;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            top: 26%;
+            left: 77%;
+            max-width: $artwork-max-width;
+            max-height: $artwork-max-height;
+          }
+          > .content {
+            display: flex;
+            align-items: center;
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step3;
+            animation-duration:  $animation-duration;
+            animation-name: fadein;
+            font-family: $content-font-family;
+            position: absolute;
+            top: 14%;
+            left: 136%;
+            color: #575252;
+            font-size: $content-font-size;
+            font-weight: bold;
+            padding: 0.5% 0.5%;
+            display: flex;
+            align-items: center;
+            width: 25%;
+            min-height: 110%;
+            height: fit-content;
+            background: $background;
+            border-width: medium;
+            border: $common-border;
+            border-radius: $content-border-radius;
+            // >.mindcontent >.line{
+            //   text-indent: $text-indent;
+            //   padding-left: $text-padding-left;
+            //   >.answer {
+            //     display: inline-block;
+            //     animation: forwards;
+            //     animation-delay: 4s;
+            //     animation-duration: 0.5s;
+            //     animation-name: shake_2;
+            //   }        
+            // }
           }
         }
       }
     }
-
+    >.content{
+      >.mindcontent >.line{
+        text-indent: $text-indent;
+        padding-left: $text-padding-left;
+        >.answer {
+          animation: forwards;
+          animation-name: shake;
+          &.ex{
+            animation-delay: $answer-animation-delay;
+            animation-duration: $animation-duration;
+          }         
+        }
+      }
+    }
   }
 }
