@@ -11,11 +11,10 @@ import Quiz from './components/Quiz';
 import Common from './components/Common';
 
 import {BrowserRouter as Router, Route } from "react-router-dom";
-
 function App() {
   return (
     <Router>
-            <Route exact path="/" render={() => <Home data={newdata[0].contents}/>}/>
+          <Route exact path={newdata[0].book_url.replace("https://edubook.mirae-n.com","")} render={() => <Home data={newdata[0].contents}/>}/>
       {newdata.map((data) => (
         <>
           {data.contents.map((content, indexa) => (
