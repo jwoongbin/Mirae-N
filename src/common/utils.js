@@ -84,3 +84,39 @@ export function typeFourImage(content){
     })
     return filelist
 }
+
+export function circleParser(subs) {
+    var number = subs.split('-');
+    switch(number[1]){
+        case '①':
+            var returnvalue = '1';
+            console.log(returnvalue);
+            return (<div>
+                {number[0]}-
+                <span>{returnvalue}</span>
+              </div>)
+            break;
+        case '②':{ 
+            var returnvalue = <span>{' 2 '}</span>
+            break;}
+        case '③':{ 
+            var returnvalue = <span>{' 3 '}</span>
+            break;}
+        case '④':{ 
+            var returnvalue = <span>{' 4 '}</span>
+            break;}
+        case '⑤':{ 
+            var returnvalue = <span>{' 5 '}</span>
+            break;}
+        case '⑥':{ 
+            var returnvalue = <span>{' 6 '}</span>
+            break;}
+        default : {
+            break;}
+    }
+    console.log(returnvalue);
+    return (<div>
+      {number[0]}-{returnvalue}
+      {/* <span>{returnvalue}</span> */}
+    </div>)
+  }
