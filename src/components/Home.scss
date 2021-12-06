@@ -171,6 +171,7 @@ html, body {
                   display: none;
                 }
                 ul {
+                  position: relative;
                   display: flex;
                   justify-content: space-between;
                   align-items: center;
@@ -186,12 +187,21 @@ html, body {
                       width: 5vw;
                     }
                   }
-                  hr{
+                  &::after {
+                    content: "";
+                    left: 0;
+                    right: 0;
+                    bottom: 0;
                     position: absolute;
-                    width: 30vw;
-                    background-color: black;
-                    margin-top: 6vh;
+                    width: 100%;
+                    border: solid 0.1px #ddd;
                   }
+                  // hr{
+                  //   position: absolute;
+                  //   width: 30vw;
+                  //   background-color: black;
+                  //   margin-top: 6vh;
+                  // }
                 }
                 // ul:last-child hr{
                 //   margin-bottom: 0;
@@ -356,9 +366,8 @@ html, body {
                       >.img-container a img{
                         width: 15vw;
                       }
-                      hr{
-                        width: 69vw;
-                        margin-top: 11vh;
+                      &::after {
+                        
                       }
                     }
                   }

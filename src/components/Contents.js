@@ -58,7 +58,7 @@ function Contents({data}) {
                         {subs.btns.map((btn, index) =>(
                           <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name==="마인드맵"? <img src={mindmap_icon}/> : <img src={quiz_icon}/> }</Link>
                         ))}
-                      </div><hr/>
+                      </div>
                       {/* <img className="line" src={horizentaline}/> */}
                     </ul>
                   ))}
