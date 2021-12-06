@@ -54,6 +54,9 @@ $answer-animation-delay: 2s;
       position: relative;
       > {
         .subject-wrap {
+          animation-name: shake;
+          animation-delay: 0.5s;
+          animation-duration: $animation-duration;
           height: 26.5%;
           width: 18%;
           top: 34%;
@@ -430,9 +433,14 @@ $answer-animation-delay: 2s;
       }
     }
     .content{
-      >.mindcontent >.line{
-        text-indent: $text-indent;
-        padding-left: $text-padding-left;
+      >.mindcontent{
+        >.line.circle{
+          text-indent: -0.9em;
+          padding-left: 1.5em;
+        }
+        >.line {
+        // text-indent: $text-indent;
+           padding-left: 1em;
         >.answer {
           position: relative;
           &.ex{
@@ -443,6 +451,7 @@ $answer-animation-delay: 2s;
           }         
         }
       }
+     } 
     }
   }
 }

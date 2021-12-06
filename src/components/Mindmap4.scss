@@ -12,6 +12,11 @@ $artwork-max-width: 35%;
 $artwork-max-height: 60%;
 $text-indent: -0.5;
 $padding-left: 1em;    
+$animation-duration: 0.5s;
+$animation-step1: 0.5s;
+$animation-step2: 1s;
+$animation-step3: 1.5s;
+$answer-animation-delay: 2s;
 
 @media (min-aspect-ratio: 16/9) {
   .mindmap4-wrap{
@@ -67,6 +72,9 @@ $padding-left: 1em;
 
           > {
             .subject-wrap {
+              animation-name: shake;
+              animation-delay: 0.5s;
+              animation-duration: $animation-duration;
               height: 26.5%;
               width: 18%;
               margin-top: 15%;

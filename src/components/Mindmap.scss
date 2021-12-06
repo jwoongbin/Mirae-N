@@ -61,6 +61,9 @@ $answer-animation-delay: 2s;
       position: relative;
       > {
         .subject-wrap {
+          animation-name: shake;
+          animation-delay: 0.5s;
+          animation-duration: $animation-duration;
           height: 26.5%;
           width: 18%;
           top: 33%;
