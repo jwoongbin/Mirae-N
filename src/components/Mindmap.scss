@@ -127,27 +127,6 @@ $answer-animation-delay: 2s;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
-            // >.mindcontent {
-            //   &.ex{
-            //     >.mindcontent_img{
-            //       animation: forwards;
-            //       animation-delay: $answer-animation-delay;
-            //       animation-duration: $animation-duration;
-            //       animation-name: shake;
-            //     }
-            //   }
-            //   >.line{
-            //     >.answer {
-            //       &.ex{
-            //         display: inline-block;
-            //         animation: forwards;
-            //         animation-delay: $answer-animation-delay;
-            //         animation-duration: $animation-duration;
-            //         animation-name: shake;
-            //       }
-            //     }
-            //   }
-            // }
           }
           > .arrow {
             animation: forwards;
@@ -205,17 +184,6 @@ $answer-animation-delay: 2s;
             background: $background;
             border: $common-border;
             border-radius: $content-border-radius;
-            // >.mindcontent >.line{
-            //   text-indent: $text-indent;
-            //   padding-left: $text-padding-left;
-            //   >.answer {
-            //     display: inline-block;
-            //     animation: forwards;
-            //     animation-delay: $answer-animation-delay;
-            //     animation-duration: $animation-duration;
-            //     animation-name: shake;
-            //   }
-            // }
           }
 
         }
@@ -229,7 +197,6 @@ $answer-animation-delay: 2s;
           flex-direction: column;
           justify-content: space-between;
           align-items: flex-end;
-
           > .subject {
             opacity:0;
             animation: forwards;
@@ -253,27 +220,6 @@ $answer-animation-delay: 2s;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
-            // >.mindcontent {
-            //   &.ex{
-            //     >.mindcontent_img{
-            //       animation: forwards;
-            //       animation-delay: $answer-animation-delay;
-            //       animation-duration: $animation-duration;
-            //       animation-name: shake;
-            //     }
-            //   }
-            //   >.line{
-            //     >.answer {
-            //       &.ex{
-            //         display: inline-block;
-            //         animation: forwards;
-            //         animation-delay: $answer-animation-delay;
-            //         animation-duration: $animation-duration;
-            //         animation-name: shake;
-            //       }
-            //     }
-            //   }
-            // }
           }
           > .arrow{
             animation: forwards;
@@ -333,19 +279,6 @@ $answer-animation-delay: 2s;
             background: $background;
             border: $common-border;
             border-radius: $content-border-radius;
-            // >.mindcontent >.line{
-            //   text-indent: $text-indent;
-            //   padding-left: $text-padding-left;
-            //   >.answer {
-            //     display: inline-block;
-            //     animation: forwards;
-            //     &.ex{
-            //       animation-name: shake;
-            //       animation-delay: $answer-animation-delay;
-            //       animation-duration: $animation-duration;
-            //     }
-            //   }
-            // }
           }
         }
         .item3 {
@@ -381,25 +314,6 @@ $answer-animation-delay: 2s;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
-            // >.mindcontent {
-            //   &.ex{
-            //     >.mindcontent_img{
-            //       animation: forwards;
-            //       animation-delay: $answer-animation-delay;
-            //       animation-duration: $animation-duration;
-            //       animation-name: shake;
-            //     }
-            //   }
-            //   >.line{
-            //     >.answer {
-            //       display: inline-block;
-            //       animation: forwards;
-            //       animation-delay: $answer-animation-delay;
-            //       animation-duration: $animation-duration;
-            //       animation-name: shake;
-            //     }
-            //   }
-            // }
           }
           > .arrow{
             animation: forwards;
@@ -457,17 +371,6 @@ $answer-animation-delay: 2s;
             background: $background;
             border: $common-border;
             border-radius: $content-border-radius;
-            // >.mindcontent >.line{
-            //   text-indent: $text-indent;
-            //   padding-left: $text-padding-left;
-            //   >.answer {
-            //     display: inline-block;
-            //     animation: forwards;
-            //     animation-delay: $answer-animation-delay;
-            //     animation-duration: $animation-duration;
-            //     animation-name: shake;
-            //   }
-            // }
           }
         }
       }
