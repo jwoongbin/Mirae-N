@@ -16,178 +16,222 @@ $animation-duration: 0.5s;
 $animation-step1: 0.5s;
 $animation-step2: 1s;
 $animation-step3: 1.5s;
-$answer-animation-delay: 2s;
+$answer-animation-delay: 1s;
 
 @media (min-aspect-ratio: 16/9) {
-  .mindmap4-wrap{
-    width: 177.777777vh;
-    height: 100%;
-    font-size: 1.77vh;
-    >{
-      .contents{
-        height: 82vh;
-        width: 177.77777vh;
-        position: absolute;
-      }
-    }
+  .contents{
+    height: 82vh;
+    width: 177.77777vh;
+    position: absolute;
   }
 }
 
 @media (max-aspect-ratio: 16/9) {
-  .mindmap4-wrap{
+  .contents{
+    height: 46.1vw;
     width: 100vw;
-    height: 56.25vw;
-    font-size: 1vw;
-    >{
-      .contents{
-        height: 46.1vw;
-        width: 100vw;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-    }
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
-.mindmap4-wrap {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  > {
-    .contents {
-      display: flex;
-      align-items: center;
-      white-space: pre-wrap;
-      word-break: keep-all;
-
-      > .mindmap-box {
-        width: 100%;
-        height: 100%;
-        > .subject {
-          width: 100%;
-          height: 100%;
-          position: relative;
-
+.contents {
+  > .mindmap4-box {
+    display: flex;
+    align-items: center;
+    white-space: pre-wrap;
+    word-break: keep-all;
+    width: 100%;
+    height: 100%;
+    > .subject {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      > {
+        .subject-wrap {
+          animation-name: shake;
+          animation-delay: 0.5s;
+          animation-duration: $animation-duration;
+          height: 26.5%;
+          width: 18%;
+          margin-top: 15%;
+          margin-left: 18%;
+          position: absolute;
+          display: flex;
+          align-items: center;
+          display: flex;
+          text-align: center;
+          justify-content: center;
+          z-index: 3;
           > {
-            .subject-wrap {
-              animation-name: shake;
-              animation-delay: 0.5s;
-              animation-duration: $animation-duration;
-              height: 26.5%;
-              width: 18%;
-              margin-top: 15%;
-              margin-left: 18%;
-              position: absolute;
-              display: flex;
-              align-items: center;
-              display: flex;
-              text-align: center;
-              justify-content: center;
-              z-index: 3;
-              > {
-                .background {
-                  height: 100%;
-                  width: 100%;
-                }
-
-                .text {
-                  width: 100%;
-                  color: rgb(255, 255, 255);
-                  font-weight: 800;
-                  font-size: 2em;
-                  position: absolute;
-                  left: 50%;
-                  top: 51%;
-                  transform: translate(-50%, -50%);
-                  padding: 0 2%;
-                  line-height: 1.2;
-                }
-              }
-            }
-            .artwork1{
-              position: absolute;
-              bottom: 69%;
-              left: 22%;
-              max-width: 9%;
-              max-height: 40%;
-            }
-            .item1 {
-              position: absolute;
+            .background {
+              height: 100%;
               width: 100%;
-              height: 50%;
-              margin-top: 6%;
-              margin-left: -64%;
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              align-items: flex-end;
-              z-index: 2;
-              > .arrow {
-                position: absolute;
-                width: 8%;
-                height: 7%;
-                left: 101%;
-                top: 61%;
-            }          
-     
-              > .content {
-                display: flex;
-                align-items: center;
-                font-family: $content-font-family;
-                position: absolute;
-                color: #575252;
-                font-weight: 800;
-                padding: 2% 1%;
-                width: 35%;
-                min-height: 50%;
-                height: fit-content;
-                top: 50%;
-                left: 110%;
-                transform: translate(0%, -20%);
-                font-size: $content-font-size;
-                background: $background;
-                border: $common-border;
-                border-radius: $content-border-radius;
-                  > .contenttext{
-                    display: flex;
-                  }
-                  >.mindcontent >.line{
-                    text-indent: -1.4em;
-                    padding-left: 2em;
-                    ;
-                  }
-                  > .artwork2{
-                    position: absolute;
-                    top: 0%;
-                    left: 0%;
-                    transform: translate(0%, -110%);
-                    max-width: $artwork-max-width;
-                    max-height: $artwork-max-height;
-                  }
-                  > .artwork3{
-                    position: absolute;
-                    top: 10%;
-                    right: 0%;
-                    transform: translate(110%, 0%);
-                    max-width: $artwork-max-width;
-                    max-height: $artwork-max-height;
-                  }
-                  > .artwork4{
-                    position: absolute;
-                    bottom: 0%;
-                    right: 60%;
-                    transform: translate(0%, 110%);
-                    max-width: $artwork-max-width;
-                    max-height: $artwork-max-height;
-                  }
-             }
-
+            }
+            .text {
+              width: 100%;
+              color: rgb(255, 255, 255);
+              font-weight: 800;
+              font-size: 2em;
+              position: absolute;
+              left: 50%;
+              top: 51%;
+              transform: translate(-50%, -50%);
+              padding: 0 2%;
+              line-height: 1.2;
             }
           }
         }
+        .artwork1{
+          position: absolute;
+          bottom: 69%;
+          left: 22%;
+          max-width: 9%;
+          max-height: 40%;
+        }
+        .item1 {
+          position: absolute;
+          width: 100%;
+          height: 50%;
+          margin-top: 6%;
+          margin-left: -64%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: flex-end;
+          z-index: 2;
+          > .arrow {
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: item1arrow_4;
+            position: absolute;
+            width: 8%;
+            height: 7%;
+            left: 101%;
+            top: 61%;
+        }          
+          > .content {
+            // opacity:0;
+            // animation: forwards;
+            // animation-delay: 1s;
+            // animation-duration: $animation-duration;
+            // animation-name: fadeinCo1_4;
+            display: flex;
+            align-items: center;
+            font-family: $content-font-family;
+            position: absolute;
+            color: #575252;
+            font-weight: 800;
+            padding: 2% 1%;
+            width: 35%;
+            min-height: 50%;
+            height: fit-content;
+            top: 50%;
+            left: 110%;
+            transform: translate(0%, -20%);
+            font-size: $content-font-size;
+            background: $background;
+            border: $common-border;
+            border-radius: $content-border-radius;
+              // > .contenttext{
+              //   display: flex;
+              // }
+              // >.mindcontent >.line{
+              //   text-indent: -1.4em;
+              //   padding-left: 2em;
+              //   ;
+              // }
+              > .artwork2{
+                opacity:0;
+                animation: forwards;
+                animation-delay: $animation-step1;
+                animation-duration: $animation-duration;
+                animation-name: fadein;
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                transform: translate(0%, -110%);
+                max-width: $artwork-max-width;
+                max-height: $artwork-max-height;
+              }
+              > .artwork3{
+                opacity:0;
+                animation: forwards;
+                animation-delay: $animation-step1;
+                animation-duration: $animation-duration;
+                animation-name: fadein;
+                position: absolute;
+                top: 10%;
+                right: 0%;
+                transform: translate(110%, 0%);
+                max-width: $artwork-max-width;
+                max-height: $artwork-max-height;
+              }
+              > .artwork4{
+                position: absolute;
+                opacity:0;
+                animation: forwards;
+                animation-delay: $animation-step1;
+                animation-duration: $animation-duration;
+                animation-name: fadein;
+                bottom: 0%;
+                right: 60%;
+                transform: translate(0%, 110%);
+                max-width: $artwork-max-width;
+                max-height: $artwork-max-height;
+              }
+         }
+
+        }
       }
+    }
+    .subject{
+      >.mindcontent {
+        position: relative;
+        &.ex{
+          >.mindcontent_img{
+            animation: forwards;
+            animation-delay: $answer-animation-delay;
+            animation-duration: $animation-duration;
+            animation-name: shake;
+          }
+        }
+        >.line{
+          >.answer {
+            position: relative;
+            &.ex{
+              animation: forwards;
+              animation-name: shake;
+              animation-delay: $answer-animation-delay;
+              animation-duration: $animation-duration;
+            }         
+          }
+        }
+      }
+    }
+    .content{
+      >.mindcontent{
+        >.line.circle{
+          text-indent: -0.9em;
+          padding-left: 1.5em;
+        }
+        >.line {
+           padding-left: 1em;
+        >.answer {
+          position: relative;
+          text-indent: 0;
+          &.ex{
+            animation: forwards;
+            animation-name: shake;
+            animation-delay: $answer-animation-delay;
+            animation-duration: $animation-duration;
+          }         
+        }
+      }
+     } 
     }
   }
 }

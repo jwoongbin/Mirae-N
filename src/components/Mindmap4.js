@@ -29,33 +29,24 @@ function Mindmap4({ data, conindex, subindex }) {
 
   console.log(data, conindex ,subindex)
   return (
-    <div className="mindmap4-wrap">
-
-      <div className="contents-wrap">
-
-      </div>
-      <div className="contents">
-        <div className="mindmap-box">
-          <div className="subject">
-            <div className="subject-wrap"onClick={() => onClick()} >
-              <img className="background" src={background} alt='' />
-              <div className="text">{mindmapData.title}</div>
+    <div className="mindmap4-box">
+      <div className="subject">
+        <div className="subject-wrap"onClick={() => onClick()} >
+          <img className="background" src={background} alt='' />
+          <div className="text">{mindmapData.title}</div>
+        </div>
+        {(click && filelist[0] != '') ? <img className="artwork1" src={'/image/s3-1/'+filelist[0]} alt=''/> : null}
+        <div className="item1" style={{display : click? "" : "none"}}>
+          {click ? <img className="arrow" src={arrow1} alt=''/> : null}
+          <div className="content">
+            {click ? mindContent(mindmapData.contents_one) : null}
+            {(click && filelist[1] != '') ? <img className="artwork2" src={'/image/s3-1/'+filelist[1]} alt=''/> : null}
+            {(click && filelist[2] != '') ? <img className="artwork3" src={'/image/s3-1/'+filelist[2]} alt=''/> : null}
+            {(click && filelist[3] != '') ? <img className="artwork4" src={'/image/s3-1/'+filelist[3]} alt=''/> : null}
             </div>
-            {(click && filelist[0] != '') ? <img className="artwork1" src={'/image/s3-1/'+filelist[0]} alt=''/> : null}
-            <div className="item1" style={{display : click? "" : "none"}}>
-              {click ? <img className="arrow" src={arrow1} alt=''/> : null}
-              <div className="content">
-                {click ? mindContent(mindmapData.contents_one) : null}
-                {(click && filelist[1] != '') ? <img className="artwork2" src={'/image/s3-1/'+filelist[1]} alt=''/> : null}
-                {(click && filelist[2] != '') ? <img className="artwork3" src={'/image/s3-1/'+filelist[2]} alt=''/> : null}
-                {(click && filelist[3] != '') ? <img className="artwork4" src={'/image/s3-1/'+filelist[3]} alt=''/> : null}
-                </div>
-            </div>
-          </div>
         </div>
       </div>
     </div>
-
   );
 
 }

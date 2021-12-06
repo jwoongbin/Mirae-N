@@ -402,7 +402,7 @@ $answer-animation-delay: 2s;
     .content{
       >.mindcontent{
         >.line.circle{
-          text-indent: -1.2em;
+          text-indent: -0.9em;
           padding-left: 1.5em;
         }
         >.line {
@@ -410,6 +410,7 @@ $answer-animation-delay: 2s;
            padding-left: 1em;
         >.answer {
           position: relative;
+          text-indent: 0;
           &.ex{
             animation: forwards;
             animation-name: shake;

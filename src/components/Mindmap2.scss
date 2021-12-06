@@ -443,6 +443,7 @@ $answer-animation-delay: 2s;
            padding-left: 1em;
         >.answer {
           position: relative;
+          text-indent: 0;
           &.ex{
             animation: forwards;
             animation-name: shake;

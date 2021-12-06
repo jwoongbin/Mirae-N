@@ -306,8 +306,8 @@ $answer-animation-delay: 2s;
               animation: forwards;
               animation-name: shake;
               animation-delay: $answer-animation-delay;
-              animation-duration: $animation-duration;
-            }         
+              animation-duration: $animation-duration;  
+            }    
           }
         }
       }
@@ -323,6 +323,7 @@ $answer-animation-delay: 2s;
            padding-left: 1em;
         >.answer {
           position: relative;
+          text-indent: 0;
           &.ex{
             animation: forwards;
             animation-name: shake;

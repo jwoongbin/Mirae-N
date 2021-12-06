@@ -27,7 +27,7 @@ function Home({data}){
         <div className="frame">
           <div className="img-box">
             <img src={logo} className="logo"/>
-            <img src={choco} className="choco"/>
+            <img src={choco}/>
             <img src={cloud3} className="cloud3"/>
             <img src={cloud2} className="cloud2"/>
             <img src={cloud1} className="cloud1"/>
