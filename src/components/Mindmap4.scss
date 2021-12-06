@@ -86,6 +86,11 @@ $answer-animation-delay: 1s;
           }
         }
         .artwork1{
+          opacity:0;
+          animation: forwards;
+          animation-delay: $animation-step1;
+          animation-duration: $animation-duration;
+          animation-name: fadein;
           position: absolute;
           bottom: 69%;
           left: 22%;
