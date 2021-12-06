@@ -18,6 +18,7 @@ $animation-step2: 1s;
 $animation-step3: 1.5s;
 $answer-animation-delay: 1s;
 
+@import 'keyframe4.scss';
 @media (min-aspect-ratio: 16/9) {
   .contents{
     height: 82vh;
@@ -104,7 +105,6 @@ $answer-animation-delay: 1s;
           z-index: 2;
           > .arrow {
             animation: forwards;
-            animation-delay: $animation-step1;
             animation-duration: $animation-duration;
             animation-name: item1arrow_4;
             position: absolute;
@@ -112,13 +112,13 @@ $answer-animation-delay: 1s;
             height: 7%;
             left: 101%;
             top: 61%;
-        }          
+          }          
           > .content {
-            // opacity:0;
-            // animation: forwards;
-            // animation-delay: 1s;
-            // animation-duration: $animation-duration;
-            // animation-name: fadeinCo1_4;
+            opacity: 0;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadeinCo1_4;
             display: flex;
             align-items: center;
             font-family: $content-font-family;
@@ -183,7 +183,7 @@ $answer-animation-delay: 1s;
                 max-width: $artwork-max-width;
                 max-height: $artwork-max-height;
               }
-         }
+          }
 
         }
       }
