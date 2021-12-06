@@ -6,6 +6,10 @@ function spanindex(index){
     return Math.floor(index/2)
 }
 
+function dotChecker( spanlist ) {
+  return spanlist.find( span=> span.props.children[0][0] === "•")? true : false;
+}
+
 function MindContent (content){
     var data = newlineToBr(content.content)
     
@@ -72,20 +76,21 @@ function MindContent (content){
             console.log("괄호 갯수가 이상한데...?")
         }
         console.log("spanlist : ",spanlist)
-        var linetag = <div className='line'>{spanlist}</div>;
+        var linetag = <div className={`line ${dotChecker(spanlist)? "circle" : ""}`}>{spanlist}</div>;
         linelist.push(linetag)
     })
 
     var returnvalue = <div className={'mindcontent'}>{linelist}</div>
     if(answer_count === 1 && linelist.length === 1 && span_count === 0){
         console.log('linelist : ' ,linelist);
+        console.log(linelist[0][0]);
         returnvalue = <div className={'mindcontent '+(boollist[spanindex(0)])} onClick={()=>{onClick(0)}}>
             <div className={'mindcontent_img'}/>
                 {linelist}
             </div>
     }
 
-
+    console.log(returnvalue);
     return (
         returnvalue
     )    

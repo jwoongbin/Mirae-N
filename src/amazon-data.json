@@ -1,0 +1,1017 @@
+[
+  {
+    "subject": "사회",
+    "grade": 3,
+    "semester": 1,
+    "cover_img": "SOC_3-1_1,4.PDF\nSOC_3-1_1,4.ai",
+    "book_url": "https://edubook.mirae-n.com/socie/choco3-1/s3-1_index.html",
+    "contents": [
+      {
+        "unit": 1,
+        "title": "우리 고장의 모습",
+        "subs": [
+          {
+            "sub": "1-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "우리 고장의 여러 장소",
+              "type": 3,
+              "mind_one": "(장소)의 뜻",
+              "contents_one": "학교, 놀이터, 공원 같은 시설이 있고 놀이, 등산, 휴식 등의 활동이 이루어지는 곳 ",
+              "image_one": null,
+              "mind_two": "우리 고장의 여러 장소",
+              "contents_two": "• 학교: 공부하는 장소            • 문구점: 학용품을 사는 장소\n• 놀이터: 친구들과 노는 장소   • 도서관: 책을 보는 장소\n• (공원): 산책하는 장소          • 산: 숲을 체험하는 장소",
+              "image_two": "map3-1_01_01.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "여러 시설이 있고 놀이, 등산, 휴식 등의 활동이 이루어지는 곳은 (     )입니다.",
+                "answer": "장소",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "학용품을 사는 장소는 다음 중 어느 곳입니까?",
+                "answer": "③",
+                "option_one": "① 학교",
+                "option_two": "② 도서관",
+                "option_three": "③ 문구점"
+              },
+              {
+                "num": 3,
+                "question": "가장 중요하게 생각하는 장소를 그리는 것은 우리 고장의 모습을 그리는 방법 중 몇 번째 순서입니까?",
+                "answer": "첫 번째",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "우리 고장의 모습을 비교하는 방법",
+              "type": 4,
+              "mind_one": null,
+              "contents_one": "• 두 그림에 모두 있는 장소 찾기\n• 어느 한 그림에만 있는 장소 찾기\n• 두 그림에서 찾은 장소의 위치와 (크기) 비교하기\n• 두 그림에서 찾은 장소의 모양이나 (색깔) 비교하기",
+              "image_one": "2)map3-1_02_03.jpg",
+              "mind_two": null,
+              "contents_two": null,
+              "image_two": null,
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "우리 고장의 모습을 비교하는 방법으로 옳지 않은 것은 무엇입니까?",
+                "answer": "③",
+                "option_one": "① 두 그림에 모두 있는 장소 찾기",
+                "option_two": "② 한 그림에만 있는 장소 찾기",
+                "option_three": "③ 두 그림에서 찾은 장소의 이름 비교하기"
+              },
+              {
+                "num": 2,
+                "question": "두 그림에서 찾은 장소의 위치와 (      )을/를 비교하면 고장의 모습을 비교할 수 있습니다.",
+                "answer": "크기",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "두 그림에서 찾은 장소의 모양이나 ( 색깔, 위치 )을/를 비교하면 고장의 모습을 비교할 수 있습니다.",
+                "answer": "색깔",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "고장의 모습에 관한 서로의 생각을 들어보기 ",
+              "type": 3,
+              "mind_one": "놀이터에 관한 친구들의 \n경험과 기억",
+              "contents_one": "• 친구들은 놀이터에서 모두 다른 (경험)을 함.\n• 놀이터에서 즐거운 경험을 한 친구도 있고, 즐겁지 않은 경험을 한 친구도 있음. ",
+              "image_one": "map3-1_03_01.jpg ",
+              "mind_two": "장소에 관한 친구들의 생각과 느낌 ",
+              "contents_two": "• 장소에 관한 경험과 기억 등이 다르면 고장에 관한 생각과 느낌도 다름. \n• 장소나 고장에 관한 생각과 느낌이 다르더라도 서로 이해하고 (존중)해야 함. ",
+              "image_two": "map3-1_03_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "사람들은 공원에서 산책하기도 하고 축구를 하기도 합니다. 같은 장소에서도 다른 (       )을/를 할 수 있습니다.",
+                "answer": "경험",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "친구들은 장소에 관한 경험과 (       ) 등이 달라 우리 고장에 관한 생각과 느낌도 서로 다릅니다.",
+                "answer": "기억",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "장소나 고장에 관한 생각과 느낌이 다르더라도 가져야 할 태도로 옳은 것은 무엇입니까?",
+                "answer": "③",
+                "option_one": "① 서로 비난하기",
+                "option_two": "② 자신의 의견을 주장하기",
+                "option_three": "③ 서로 이해하고 존중하기"
+              }
+            ]
+          },
+          {
+            "sub": "2-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "디지털 영상 지도  ",
+              "type": 2,
+              "mind_one": "디지털 영상 지도의 뜻 ",
+              "contents_one": "비행기나 (인공위성)에서 찍은 고장 사진을 이용해 만든 지도",
+              "image_one": null,
+              "mind_two": "디지털 영상 지도의 좋은 점",
+              "contents_two": "• 컴퓨터와 스마트폰 등에서 쉽게 이용할 수 있음.\n• 우리 고장의 어디에 위치하는지, 우리 고장의 (전체적인) 모습과 자세한 모습을 알 수 있음. ",
+              "image_two": null,
+              "mind_three": "디지털 영상 지도의 기능",
+              "contents_three": "• 위치 찾기 기능\n• 지도 바꾸기 기능\n• 위치 이동 기능\n• (확대)와 축소 기능",
+              "image_three": "map3-1_04_01.jpg map3-1_04_02.jpg "
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "디지털 영상 지도는 비행기나 (         )에서 찍은 고장 사진을 이용해 만든 지도입니다.",
+                "answer": "인공위성",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "디지털 영상 지도에 대한 좋은 점으로 옳지 않은 것은 무엇입니까?",
+                "answer": "①",
+                "option_one": "① 인터넷 없이도 이용할 수 있음.",
+                "option_two": "② 고장의 위치를 알 수 있음. ",
+                "option_three": "③ 고장의 자세한 모습을 볼 수 있음."
+              },
+              {
+                "num": 3,
+                "question": "원하는 지도를 눌러 지도의 종류를 바꿀 수 있는 디지털 영상 지도의 기능은 무엇입니까?",
+                "answer": "지도 바꾸기 기능",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "백지도에 우리 고장의 주요 장소 나타내기",
+              "type": 3,
+              "mind_one": "백지도의 뜻",
+              "contents_one": "• 백지도는 자세한 것 없이 큰길, 강 등의 (밑그림)만 그려져 있는 지도임.\n• 주요 장소를 백지도에 나타내면 주요 장소의 위치를 쉽게 알 수 있음.",
+              "image_one": "map3-1_05_01.jpg ",
+              "mind_two": "백지도에 우리 고장의 주요 장소를 나타내는 순서",
+              "contents_two": "① 가장 중요하게 생각하는 장소를 그리기 \n② 선택한 장소의 위치를 디지털 영상 지도에서 찾기 \n③ 디지털 영상 지도에서 찾은 우리 고장의 주요 장소를 백지도에 표시하기",
+              "image_two": "map3-1_05_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "자세한 것 없이 큰길, 강 등의 밑그림만 그려져 있는 지도는 (       )입니다.",
+                "answer": "백지도",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "백지도에 우리 고장의 주요 장소를 나타내는 두 번째 단계는 선택한 장소의 위치를 ( 백지도, 디지털 영상 지도 )에서 찾는 것입니다. ",
+                "answer": "디지털 영상 지도",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "디지털 영상 지도에서 찾은 우리 고장의 주요 장소를 백지도에 표시할 때 가장 먼저 하는 것은 무엇입니까?",
+                "answer": "①",
+                "option_one": "① 주요 도로를 찾아 색칠하기",
+                "option_two": "② 주요 장소를 찾아 표시하기",
+                "option_three": "③ 장소의 특징이 나타나도록 색칠하거나 그림 그리기"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit": 2,
+        "title": "우리가 알아보는 고장 이야기",
+        "subs": [
+          {
+            "sub": "1-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "우리 고장의 옛이야기",
+              "type": 1,
+              "mind_one": "전라북도 남원시의 옛이야기",
+              "contents_one": "•『춘향전』 : 인물과 관련된 옛이야기\n•향교동 : (생활 모습)을 알 수 있는 옛이야기\n•산내면 : (자연환경)과 관련된 옛이야기",
+              "image_one": "map3-1_07_01.jpg",
+              "mind_two": "왕건 이야기",
+              "contents_two": "팔공산과 주변의 (지명)이 생긴 까닭을 알 수 있음.",
+              "image_two": "map3-1_07_02.jpg",
+              "mind_three": "수로왕 이야기",
+              "contents_three": "김해시 지명과 장소에 수로왕이나 거북이와 관련된 것이 많음.",
+              "image_three": "map3-1_07_03.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "(     )(이)라는 옛이야기의 배경이 된 남원에는 ‘춘향로’라는 도로가 있으며, 매년 ‘춘향제’라는 축제도 열립니다.",
+                "answer": "춘향전",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "(     )와/과 관련된 옛이야기를 통해 팔공산과 주변의 지명이 생긴 까닭을 알 수 있습니다.",
+                "answer": "①",
+                "option_one": "① 왕건",
+                "option_two": "② 춘향전",
+                "option_three": "③ 수로왕"
+              },
+              {
+                "num": 3,
+                "question": "수로왕 이야기가 전해 와 지명이나 장소에 수로왕이나 거북이와 관련된 것이 많은 고장은 어디입니까?",
+                "answer": "②",
+                "option_one": "① 대구광역시",
+                "option_two": "② 경상남도 김해시",
+                "option_three": "③ 전라북도 남원시"
+              }
+            ]
+          },
+          {
+            "sub": "1-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "옛날의 생활 모습과 관련된 옛이야기",
+              "type": 1,
+              "mind_one": "마포 이야기",
+              "contents_one": "‘포’나 ‘진’이라는 한자어가 들어간 지명은 (나루터)가 있던 곳이 많음.",
+              "image_one": "map3-1_08_01.jpg",
+              "mind_two": "통영 이야기",
+              "contents_two": "(이순신)이 군대를 훈련하던 통제영이 있었음.",
+              "image_two": "map3-1_08_02.jpg",
+              "mind_three": "(차전놀이)",
+              "contents_three": "옛날 경상북도 안동 지역에 쳐들어온 적군을 물리친 싸움에서 유래됨.",
+              "image_three": "map3-1_08_03.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "오늘날 고장의 지명이나 축제는 고장의 옛이야기에서 (     )된 것이 많습니다.",
+                "answer": "유래",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "‘마포’, ‘노량진’, ‘양화진’과 같은 지명들의 공통점은 무엇입니까?",
+                "answer": "③",
+                "option_one": "① 왕건과 관련된 곳",
+                "option_two": "향교가 있었던 곳",
+                "option_three": "③ 나루터가 있었던 곳"
+              },
+              {
+                "num": 3,
+                "question": "경상남도의 ( 통영, 안심동 )(이)라는 이름은 옛날 이순신 장군이 군대를 훈련하던 통제영에서 유래되었습니다.",
+                "answer": "통영",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "자연환경과 관련된 옛이야기",
+              "type": 3,
+              "mind_one": "고장의 자연환경을 담은 이야기",
+              "contents_one": "제주시에는 용이 되지 못한 이무기의 이야기인 (용두암) 이야기가 전해옴.",
+              "image_one": "map3-1_09_01.jpg",
+              "mind_two": "고장의 자연환경을 담은 지명",
+              "contents_two": "•(마이산) : 말의 귀를 닮은 산\n•칠곡군 : (골짜기)가 많은 고을\n•동해시와 남해군 : 바다와 맞닿은 고장",
+              "image_two": "map3-1_09_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "제주시의 용두암 이야기와 같이 고장에는 (     )와/과 관련된 옛이야기가 전해 옵니다.",
+                "answer": "자연환경",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "경상북도 (     )은/는 ‘골짜기가 많은 마을’이라는 뜻으로 붙여진 이름입니다.",
+                "answer": "①",
+                "option_one": "① 칠곡군",
+                "option_two": "② 얼음골",
+                "option_three": "③ 동해시"
+              },
+              {
+                "num": 3,
+                "question": "마이산, 칠곡군, 두물머리처럼 고장의 ( 지명, 주소 )은/는 산, 골짜기, 바다 등 자연의 모습을 담고 있기도 합니다.",
+                "answer": "지명",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "고장의 옛이야기를 조사하고 소개하는 방법",
+              "type": 3,
+              "mind_one": "고장의 옛이야기 (조사) 방법",
+              "contents_one": "•시청, 군청, 구청 누리집 방문하기\n•고장의 어른께 여쭈어보기\n•옛이야기와 관련된 장소 방문하기\n•문화 관광 해설사에게 여쭈어 보기",
+              "image_one": "map3-1_10_01.jpg",
+              "mind_two": "고장의 옛이야기 (소개) 방법",
+              "contents_two": "•안내 지도 만들기   •노래 부르기\n•동영상 만들기       •그림 자료 만들기\n•구연동화 만들기    •역할극 만들기",
+              "image_two": "map3-1_10_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "시청, 군청, 구청 등 지역 기관 (     )에서 우리 고장의 옛이야기를 조사할 수 있습니다.",
+                "answer": "누리집",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "고장에 대해 조사・연구하고 있는 문화원에서 관람객에게 문화 유적지나 관광지를 설명해 주는 사람은 누구입니까?",
+                "answer": "②",
+                "option_one": "① 고장의 어른",
+                "option_two": "② 문화 관광 해설사",
+                "option_three": "③ 같은 모둠의 친구"
+              },
+              {
+                "num": 3,
+                "question": "고장의 옛이야기 조사를 계획할 때 무엇을 조사할지 정하고, 조사할 내용에 대한 ( 질문, 보고서 )을/를 만듭니다.",
+                "answer": "질문",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_11.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "문화유산",
+              "type": 1,
+              "mind_one": "(종묘)",
+              "contents_one": "조선의 임금님들이 나라가 안정되고 백성이 잘 살 수 있도록 조상에게 제사를 드리던 곳",
+              "image_one": "map3-1_11_01.jpg",
+              "mind_two": "미암일기",
+              "contents_two": "약 500년 전 (유희춘)이라는 관리가 쓴 일기",
+              "image_two": "map3-1_11_02.jpg",
+              "mind_three": "다대포 후리소리",
+              "contents_three": "부산광역시 다대포에서 전해지는 (멸치)를 잡을 때 부르던 노래",
+              "image_three": "map3-1_11_03.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "부산광역시 다대포에서 전해지며 멸치를 잡는 과정이 담겨 있는 노래는 무엇입니까?",
+                "answer": "다대포 후리소리",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "경주 최씨 고택뿐만 아니라, 최씨 집안의 (     )도 우리가 다음 세대에 전해 주어야 할 소중한 문화유산입니다.",
+                "answer": "③",
+                "option_one": "① 기와집",
+                "option_two": "② 미암일기",
+                "option_three": "③ 베풂 정신"
+              },
+              {
+                "num": 3,
+                "question": "경상남도 남해군에 전해 오는 멸치잡이 방법으로, 오늘날 우리나라의 여러 어촌에서 여전히 지키고 있는 것은 무엇입니까?",
+                "answer": "①",
+                "option_one": "① 죽방렴",
+                "option_two": "② 놋다리밟기",
+                "option_three": "③ 다대포 후리소리"
+              }
+            ]
+          },
+          {
+            "sub": "2-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "문화유산의 종류",
+              "type": 3,
+              "mind_one": "유형 문화유산",
+              "contents_one": "궁궐, 석탑 등 형태가 (있는) 문화유산\n- 구례 화엄사 사사자 삼층 석탑, 울산 효자비, 충렬사, 벼루",
+              "image_one": "map3-1_12_01.jpg",
+              "mind_two": "무형 문화유산",
+              "contents_two": "음악이나 놀이, 작품을 만드는 기술 등 형태가 (없는) 문화유산\n- 놋다리밟기, 침선장, 줄타기",
+              "image_two": "map3-1_12_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "궁궐, 석탑 등 형태가 있는 문화유산을 (     ) 문화유산이라고 합니다.",
+                "answer": "유형",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "(     )은/는 병든 부모를 10여 년 동안 정성껏 보살핀 효자를 칭찬하기 위해 세운 비석으로 유형 문화유산입니다.",
+                "answer": "②",
+                "option_one": "① 충렬사",
+                "option_two": "② 울산 효자비",
+                "option_three": "③ 구례 화엄사 사사자 삼층 석탑"
+              },
+              {
+                "num": 3,
+                "question": "공중에 매어 놓은 줄 위에서 재미있는 이야기와 동작으로 재주를 부리는 전통 놀이를 ( 줄타기, 놋다리밟기 )라고 합니다.",
+                "answer": "줄타기",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_13.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "문화유산 조사 과정",
+              "type": 4,
+              "mind_one": null,
+              "contents_one": "① 고장의 문화유산 중 조사할 대상을 정함.\n② 조사할 문화유산의 사진을 (관찰)함.\n③ 문화유산에 대한 (질문)을 만들고, 자신의 예상 답변을 써 봄.\n④ 문화유산을 어떤 방법으로 조사할지 정함.\n⑤ 선택한 (조사) 방법으로 준비한 질문의 답을 찾아봄.\n⑥ 조사 활동으로 알게 된 내용을 정리함.",
+              "image_one": "1)map3-1_13_01.jpg",
+              "mind_two": null,
+              "contents_two": null,
+              "image_two": null,
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "고장의 문화유산을 조사할 때는 문화유산의 사진을 보고 (     )한 후 문화유산에 대한 질문을 만들어야 합니다.",
+                "answer": "관찰",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "지역 기관 누리집 방문하기, 책이나 신문에서 찾기, 답사하기, 문화 관광 해설사에게 여쭈어보기 등은 문화유산을 조사할 때 어떠한 과정입니까?",
+                "answer": "①",
+                "option_one": "① 조사 방법 정하기",
+                "option_two": "② 조사한 내용 정리하기",
+                "option_three": "③ 조사할 문화유산 정하기"
+              },
+              {
+                "num": 3,
+                "question": "문화유산 조사 활동을 할 때에는 어디서 찾은 내용인지 ( 출처, 질문 )을/를 확인해야 합니다.",
+                "answer": "출처",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "unit": 3,
+        "title": "교통과 통신수단의 변화",
+        "subs": [
+          {
+            "sub": "1-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_15.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "옛날 교통수단의 종류와 특징",
+              "type": 3,
+              "mind_one": "종류",
+              "contents_one": "•땅에서 이용한 교통수단: 말, 가마, 당나귀, 달구지 등\n•물에서 이용한 교통수단: (뗏목), 돛단배 등",
+              "image_one": "map3-1_15_02.jpg",
+              "mind_two": "특징",
+              "contents_two": "•사람과 동물, (자연)의 힘을 이용했음.\n•(환경)이 오염되지 않았음.\n• 힘이 많이 들고, 시간이 오래 걸렸음.\n•사람과 물건을 한 번에 옮기기 어려웠음.",
+              "image_two": "map3-1_15_01.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "말, 가마, 당나귀, 달구지 등은 (     )에서 이용한 옛날 교통수단입니다. ",
+                "answer": "①",
+                "option_one": "① 땅",
+                "option_two": "② 물",
+                "option_three": "③ 하늘"
+              },
+              {
+                "num": 2,
+                "question": "옛날에는 바람의 힘을 이용하는 (     )을/를 타고 강을 건넜습니다.",
+                "answer": "돛단배",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "옛날 교통수단은 사람이나 물건을 한 번에 많이 옮기기 ( 쉬웠습니다, 어려웠습니다 ).",
+                "answer": "어려웠습니다 ",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "오늘날 교통수단의 종류와 특징",
+              "type": 3,
+              "mind_one": "종류",
+              "contents_one": "•(땅): 버스, 승용차, 기차, 택시, 트럭 등\n•물: 유람선, 쾌속선 등\n•(하늘): 비행기 등\n•기타: 자전거, 킥보드, 지하철 등",
+              "image_one": "map3-1_16_01.jpg",
+              "mind_two": "특징",
+              "contents_two": "•주로 (기계)의 힘을 이용함.\n•한꺼번에 많은 (사람)과 물건을 실어 나를 수 있게 됨.\n•먼 곳이나 예전에는 가기 어려웠던 곳을 빠르고 편리하게 갈 수 있음.",
+              "image_two": "map3-1_16_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "(     )이/가 발달하면서 새로운 교통수단이 생겨났습니다. ",
+                "answer": "과학 기술",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "서울에서 부산까지 가장 빨리 갈 수 있는 교통수단은 무엇입니까? ",
+                "answer": "①",
+                "option_one": "① 비행기",
+                "option_two": "② 고속버스 ",
+                "option_three": "③ 증기 기관차"
+              },
+              {
+                "num": 3,
+                "question": "자전거, 킥보드와 같은 교통수단의 공통점은 무엇입니까?",
+                "answer": "②",
+                "option_one": "① 학생용 교통수단 ",
+                "option_two": "② 개인용 교통수단",
+                "option_three": "③ 손님용 교통수단"
+              }
+            ]
+          },
+          {
+            "sub": "1-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "교통수단의 발달로 달라진 생활 모습",
+              "type": 1,
+              "mind_one": "변화된 생활 모습",
+              "contents_one": "•고장 간에 오고 가는 사람들이 늘어남. \n•길과 다리, 터널 등을 이용해 다른 (지역)으로 빠르게 이동함.\n•교통 관련 시설과 직업이 생겨남.",
+              "image_one": "map3-1_17_03.jpg",
+              "mind_two": "새로 생긴 (시설)",
+              "contents_two": "횡단보도, 택시 정류장, 주차장, 공항, 관제탑, 휴게소, 주유소 등",
+              "image_two": "map3-1_17_01.jpg",
+              "mind_three": "새로 생긴 (직업)",
+              "contents_three": "운전사, 택배 기사, 휴게소 직원, 관제사 등",
+              "image_three": "map3-1_17_02.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "공항에서 비행기의 움직임을 관리하고 통제하는 사람은 누구입니까?",
+                "answer": "②",
+                "option_one": "① 운전사",
+                "option_two": "② 관제사",
+                "option_three": "③ 택배 기사"
+              },
+              {
+                "num": 2,
+                "question": "오늘날 새롭게 생겨난 교통 관련 시설은 무엇입니까?",
+                "answer": "③",
+                "option_one": "① 주막",
+                "option_two": "② 마구간",
+                "option_three": "③ 휴게소"
+              },
+              {
+                "num": 3,
+                "question": "교통수단이 발달하면서 고장 간에 오고 가는 사람들이 점점 ( 줄어들었습니다, 늘어났습니다 ).",
+                "answer": "늘어났습니다",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "1-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "고장의 교통수단과 미래의 교통수단",
+              "type": 3,
+              "mind_one": "고장의 환경에 따른 교통수단",
+              "contents_one": "•산과 길이 험한 고장: 모노레일, 사륜 구동형 택시 등\n•바다나 갯벌이 있는 고장: 카페리, 갯배, 뻘배 등\n•(농사)를 짓는 고장: 경운기\n•사람과 차가 많고, 길이 많이 막히는 고장: 지하철\n•(관광업)이 발달한 고장: 케이블카, 유람선 등",
+              "image_one": "map3-1_18_01.jpg",
+              "mind_two": "미래의 교통수단",
+              "contents_two": "•드론 카: 하늘을 날아서 이동하는 차\n•(위그선): 물 위에 떠서 이동하는 날개 달린 배\n•호버보드: 공중에 떠서 이동하는 전동바퀴가 달린 보드",
+              "image_two": "map3-1_18_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "카페리를 주로 이용하는 고장은 어디입니까?",
+                "answer": "②",
+                "option_one": "① 농사를 짓는 고장",
+                "option_two": " ② 바다가 있는 고장 ",
+                "option_three": "③ 길이 많이 막히는 고장"
+              },
+              {
+                "num": 2,
+                "question": "산이나 길이 험한 고장에서는 ( 지하철, 모노레일 )을 많이 이용합니다. ",
+                "answer": "모노레일",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "(     )은/는 하늘을 날아서 이동할 수 있는 미래의 차입니다.",
+                "answer": "드론 카",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➊",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "옛날 통신수단의 종류와 특징",
+              "type": 3,
+              "mind_one": "종류",
+              "contents_one": "•평상시: 서찰, 방, 새 등\n•(나라)의 중요한 일이나 위급한 일을 알릴 때: 봉수, 파발, 북, 신호 (연) 등",
+              "image_one": "map3-1_19_02.jpg",
+              "mind_two": "특징",
+              "contents_two": "•(직접) 가서 소식을 전했음.\n•소식을 전하는 데 시간이 오래 걸렸음.\n•한 번에 여러 사람에게 소식을 전하기 어려웠음.\n•비나 눈이 내리면 소식을 전하기가 더욱 힘들었음.",
+              "image_two": "map3-1_19_01.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "옛날에는 사람이 많이 모이는 곳에 (      )을/를 붙여 소식을 전했습니다. ",
+                "answer": "방",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "옛날에 연기나 불빛으로 위급한 소식을 전했던 통신수단은 무엇입니까? ",
+                "answer": "②",
+                "option_one": "① 파발 ",
+                "option_two": "② 봉수 ",
+                "option_three": "③ 신호 연"
+              },
+              {
+                "num": 3,
+                "question": "옛날 통신수단은 소식을 전하는 데 시간이 ( 오래, 짧게 ) 걸렸습니다.",
+                "answer": "오래",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➋",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_20.html"
+              }
+            ],
+            "mindmap": {
+              "title": "오늘날 통신수단의 종류와 특징",
+              "type": 3,
+              "mind_one": "종류",
+              "contents_one": "•휴대 전화, 텔레비전, 모바일 (메신저), 길도우미 등\n•(편지)와 같이 옛날부터 이용한 통신수단도 계속 사용함. ",
+              "image_one": "map3-1_20_01.jpg",
+              "mind_two": "특징",
+              "contents_two": "•여러 사람과 동시에 연락하기도 함.\n•한 번에 많은 정보를 실시간으로 주고받을 수 있음.\n•하나의 (통신수단)으로 다양한 통신 방법을 이용할 수 있음.",
+              "image_two": "map3-1_20_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "(      )이/가 발달하면서 정보를 쉽고 빠르게 주고받을 수 있는 통신수단이 생겨났습니다.",
+                "answer": "과학 기술",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "자동차를 타고 갈 때 목적지까지 안내하는 통신수단은 무엇입니까? ",
+                "answer": "①",
+                "option_one": "①  길도우미 ",
+                "option_two": "② 텔레비전 ",
+                "option_three": "③ 전자 우편"
+              },
+              {
+                "num": 3,
+                "question": "오늘날에는 통신수단을 이용하여 ( 한, 여러 ) 사람과 동시에 연락을 주고받을 수 있습니다.",
+                "answer": "여러",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_21.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "통신수단의 발달로 달라진 생활 모습",
+              "type": 2,
+              "mind_one": "전화기의 발달",
+              "contents_one": "교환원이 있는 전화 → (유선) 전화 → 무선 전화 → 스마트폰",
+              "image_one": "map3-1_21_01.jpg",
+              "mind_two": "집, 학교, 회사에서의 변화",
+              "contents_two": "•집: 휴대 전화나 컴퓨터로 물건 구매, 은행 업무, 여가 생활을 함.\n•(학교): 아침 방송 조회를 함, 화상 수업을 함.\n•회사: 회사 메신저로 대화하며 업무를 함, 화상 회의를 함.",
+              "image_two": "map3-1_21_03.jpg",
+              "mind_three": "새로 생긴 시설과 직업",
+              "contents_three": "•새로 생긴 시설: 통신 기지국, 무선 인터넷망 등\n•새로 생긴 (직업): 휴대 전화 판매원, 개인 미디어 콘텐츠 제작자 등",
+              "image_three": "map3-1_21_02.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "전화기가 발명된 초기에는 (      )이/가 전화를 건 사람과 받는 사람을 연결해 주었습니다.",
+                "answer": "교환원 ",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "통신수단이 발달하면서 휴대 전화로 게임이나 오락과 같은 ( 종교, 여가 ) 생활을 합니다.",
+                "answer": "여가",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "통신수단의 발달로 새로 생긴 직업은 무엇입니까? ",
+                "answer": "③",
+                "option_one": "① 파발꾼 ",
+                "option_two": "② 장사꾼 ",
+                "option_three": "③ 휴대 전화 판매원"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

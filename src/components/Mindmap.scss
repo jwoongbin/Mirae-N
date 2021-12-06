@@ -177,7 +177,7 @@ $answer-animation-delay: 2s;
             position: absolute;
             max-width: $artwork-max-width;
             max-height: $artwork-max-height;
-            bottom: 96%;
+            top: -16%;
             right: 13%;
           }
           > .content {
@@ -317,7 +317,7 @@ $answer-animation-delay: 2s;
             position: absolute;
             padding: $content-padding;
             left: 109%;
-            top: -37%;
+            top: -35%;
             color: #575252;
             font-size: $content-font-size;
             font-weight: 800;
@@ -494,9 +494,14 @@ $answer-animation-delay: 2s;
       }
     }
     .content{
-      >.mindcontent >.line{
-        text-indent: $text-indent;
-        padding-left: $text-padding-left;
+      >.mindcontent{
+        >.line.circle{
+          text-indent: -1.2em;
+          padding-left: 1.5em;
+        }
+        >.line {
+        // text-indent: $text-indent;
+           padding-left: 1em;
         >.answer {
           position: relative;
           &.ex{
@@ -507,6 +512,7 @@ $answer-animation-delay: 2s;
           }         
         }
       }
+     } 
     }
   }
 }
