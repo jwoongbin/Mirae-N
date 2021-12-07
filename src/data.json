@@ -1,5 +1,1000 @@
 [
   {
+    "subject": "국어",
+    "grade": 3,
+    "semester": 1,
+    "cover_img": "파일명",
+    "book_url": "https://edubook.mirae-n.com/korean/pre_open_ex2_k3-1.html",
+    "contents": [
+      {
+        "unit": 1,
+        "title": "재미가 톡톡톡",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/mindmap/pre_open_ex2_m1.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v1.html"
+              }
+            ],
+            "mindmap": {
+              "title": "1. 재미가 톡톡톡",
+              "type": 1,
+              "mind_one": "감각적 표현",
+              "contents_one": "• 눈으로 보고, 귀로 듣고, 입으로 맛보고, 코로 냄새 맡고, 손으로 만지면서 사물을 느끼는 것을 ‘감각’이라고 함.\n• 사물의 느낌을 생생하게 표현한 것을 ‘(감각적 표현)’(이)라고 함.",
+              "image_one": "1_1.jpg",
+              "mind_two": "시, 이야기 속 감각적 표현",
+              "contents_two": "눈으로 본 모습, 귀로 들은 소리, 코로 맡은 냄새, (입)에서 느껴지는 맛, 피부에서 느껴지는 촉감으로 나타남.",
+              "image_two": "1_2.jpg",
+              "mind_three": "이야기를 읽고 생각이나 느낌을 나누는 방법",
+              "contents_three": "• 이야기 속 장면을 상상하며 읽음.\n• 이야기를 읽고 떠오른 생각이나 (느낌)을/를 친구들과 이야기함.",
+              "image_three": "1_3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 2,
+        "title": "문단의 짜임",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/mindmap/pre_open_ex2_m2.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v2.html"
+              }
+            ],
+            "mindmap": {
+              "title": "2. 문단의 짜임",
+              "type": 1,
+              "mind_one": "문단",
+              "contents_one": "• 문장이 몇 개 모여 한 가지 생각을 나타내는 것을 말함.\n• 문단이 모여서 한 편의 (글)이/가 됨.\n• 문단을 시작할 때에는 한 칸을 들여 쓰고, 한 문단이 끝나면 줄을 바꿈.",
+              "image_one": "2_1.jpg",
+              "mind_two": "중심 문장과 뒷받침 문장",
+              "contents_two": "• 문단의 내용을 대표하는 문장을 ‘(중심 문장)’(이)라고 함.\n• 중심 문장을 덧붙여 설명하거나 예를 드는 방법으로 도와주는 문장을 ‘뒷받침 문장’이라고 함.",
+              "image_two": "2_2.jpg",
+              "mind_three": "중심 문장과 뒷받침 문장 파악하기",
+              "contents_three": "• 중심 문장은 전체 내용을 잘 표현한 문장임.\n• (뒷받침 문장)은/는 중심 문장을 덧붙여 설명하거나 예를 드는 방법으로 도와주는 문장임.",
+              "image_three": "2_3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 3,
+        "title": "알맞은 높임 표현",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/mindmap/pre_open_ex2_m3.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v3.html"
+              }
+            ],
+            "mindmap": {
+              "title": "3. 알맞은 높임 표현 ",
+              "type": 1,
+              "mind_one": "높임 표현",
+              "contents_one": "• 대상을 높이기 위한 표현임.\n• 대상을 공경하는 마음이 담김.\n• 듣는 사람, 행동하는 사람, ‘누구에게’에 해당하는 사람이 말하는 사람보다 (웃어른)일 때 사용함.",
+              "image_one": "3_1.jpg",
+              "mind_two": "높임 표현을 사용하는 방법",
+              "contents_two": "• ‘-습니다’ 또는 ‘요’를 써서 문장을 끝맺음.\n• 높임을 나타내는 ‘-시-’를 넣음.\n• 높임의 대상에게 ‘께서’나 ‘께’를 사용함.\n• 높임의 뜻이 있는 특별한 (낱말)을/를 사용함.",
+              "image_two": "3_2.jpg",
+              "mind_three": "언어 예절을 생각하며 대화하기",
+              "contents_three": "• 바른 자세로 듣는 사람을 바라보며 말함.\n• 알맞은 높임 표현을 사용해 예의 바르게 말함.\n• (물건)에는 높임 표현을 사용하지 않음.",
+              "image_three": "3_3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 4,
+        "title": "내 마음을 편지에 담아",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/mindmap/pre_open_ex2_m4.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v4.html"
+              }
+            ],
+            "mindmap": {
+              "title": "4. 내 마음을 편지에 담아",
+              "type": 1,
+              "mind_one": "마음을 전하는 방법",
+              "contents_one": "• 어떤 마음을 전할지 떠올림.\n• 마음을 전하는 말을 하는 까닭이 잘 드러나게 이야기함.",
+              "image_one": "4_1.jpg",
+              "mind_two": "마음을 나타내는 말",
+              "contents_two": "• 고마운 마음은 “고마워.”, “너밖에 없어.” 등으로 나타냄.\n• (축하하는) 마음은 “축하해.”, “기뻐요.” 등으로 나타냄.\n• 위로하는 마음은 “힘들지?.”, “힘내.” 등으로 나타냄.\n• (미안한) 마음은 “미안해.”, “용서해 줘.” 등으로 나타냄.",
+              "image_two": "4_2.jpg",
+              "mind_three": "마음이 잘 드러나게 편지 쓰는 방법",
+              "contents_three": "• 전하고 싶은 마음이 잘 나타나게 씀.\n• 마음을 드러내는 표현과 그때 자신의 생각이나 느낌을 자세히 씀.\n• 편지의 (형식)을/를 갖추어 씀.",
+              "image_three": "4_3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 5,
+        "title": "중요한 내용을 적어요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/mindmap/pre_open_ex2_m5.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v5.html"
+              }
+            ],
+            "mindmap": {
+              "title": "5. 중요한 내용을 적어요",
+              "type": 1,
+              "mind_one": "메모의 필요성",
+              "contents_one": "• 다른 사람에게 말을 전하거나 자신이 기억한 것을 잊지 않으려고 짧게 쓴 글을 (메모)(이)라고 함.\n• 한꺼번에 많은 내용을 들으면 오래 기억하지 못함.\n• 나중에 기억하기 위해서, 중요한 내용을 표시해 두기 위해서 필요함.",
+              "image_one": "5_1.jpg",
+              "mind_two": "내용을 간추리며 듣는 방법",
+              "contents_two": "• 필요한 내용만 간단하게 정리함.\n• 중요한 내용이 빠지지 않게 씀.\n• 중요한 (낱말)을/를 중심으로 짧게 씀.",
+              "image_two": "5_2.jpg",
+              "mind_three": "글을 읽고 내용을 간추리는 방법",
+              "contents_three": "• 각 문단의 (중요한 내용)을/를 정리함.\n• 묶을 수 있는 낱말로 간단하게 정리함.\n• 중요한 내용을 하나로 묶을 때에는 이어 주는 말을 사용하여 연결함.",
+              "image_three": "5_3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 6,
+        "title": "일이 일어난 까닭",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/mindmap/pre_open_ex2_m6.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v6.html"
+              }
+            ],
+            "mindmap": {
+              "title": "6. 일이 일어난 까닭",
+              "type": 1,
+              "mind_one": "원인과 결과",
+              "contents_one": "• 어떤 일이 일어난 까닭을 (원인)(이)라고 함.\n• 원인 때문에 일어난 일을 (결과)(이)라고 함.",
+              "image_one": "6_1.jpg",
+              "mind_two": "원인과 결과를 생각하며 경험 말하기",
+              "contents_two": "• 겪은 일을 알기 쉽게 말할 수 있음.\n• 말하는 내용을 듣는 사람이 쉽게 이해할 수 있음.",
+              "image_two": "6_2.jpg",
+              "mind_three": "원인과 결과를 생각하며 이야기하는 방법",
+              "contents_three": "• 어떤 일이 일어난 까닭과 그 때문에 생긴 일을 찾아봄.\n• 어떤 일이 일어났는지 생각해 봄.\n• ‘그래서’, ‘때문에’와 같은 (이어 주는 말)을/를 사용함.",
+              "image_three": "6_3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 7,
+        "title": "반갑다, 국어사전",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/mindmap/pre_open_ex2_m7.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v7.html"
+              }
+            ],
+            "mindmap": {
+              "title": "7. 반갑다, 국어사전",
+              "type": 1,
+              "mind_one": "국어사전의 내용",
+              "contents_one": "• 한글 자음과 모음 차례대로 낱말을 실음.\n• 낱말의 (발음), 뜻, 예와 같은 정보를 싣고, 사진을 함께 싣기도 함.\n• 부록에는 우리말에 대한 유용한 내용이 실림. ",
+              "image_one": "7_1.jpg",
+              "mind_two": "낱말을 찾는 방법",
+              "contents_two": "낱말은 첫 번째 글자의 첫 (자음자), 모음자, 받침의 차례대로 찾음. ",
+              "image_two": "7_2.jpg",
+              "mind_three": "형태가 바뀌는 낱말을 찾는 방법",
+              "contents_three": "• 움직임 또는 성질이나 상태를 나타내는 낱말은 상황에 따라 형태가 바뀜.\n• 형태가 바뀌지 않는 부분에 ‘-다’를 붙여 (기본형)을/를 만들어 찾음.",
+              "image_three": "7_3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 8,
+        "title": "의견이 있어요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/mindmap/pre_open_ex2_m8.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v8.html"
+              }
+            ],
+            "mindmap": {
+              "title": "8. 의견이 있어요",
+              "type": 1,
+              "mind_one": "의견",
+              "contents_one": "인물의 (말)와/과 행동을 주의 깊게 살펴보며 까닭을 파악함.",
+              "image_one": "8_1.jpg",
+              "mind_two": "글 읽고 인물의 의견과 까닭 파악",
+              "contents_two": "• 글쓴이나 인물이 어떤 대상에게 지니는 생각을 (의견)(이)라고 함.\n• 사람들이 지니는 의견은 같을 수도 다를 수도 있음.",
+              "image_two": "8_2.jpg",
+              "mind_three": "글쓴이의 의견을 파악하는 방법",
+              "contents_three": "• 글 (제목)을/를 살펴봄.\n• 문단의 중심 문장을 정리함.\n• 글쓴이가 글을 쓴 목적을 짐작함.",
+              "image_three": "8_3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 9,
+        "title": "어떤 내용일까",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/mindmap/pre_open_ex2_m9.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v9.html"
+              }
+            ],
+            "mindmap": {
+              "title": "9. 어떤 내용일까",
+              "type": 1,
+              "mind_one": "낱말의 뜻을 짐작하는 방법",
+              "contents_one": "• 낱말의 앞뒤 (문장)(이)나 낱말을 살핌.\n• 짐작한 뜻과 뜻이 비슷한 낱말을 넣어 봄.\n• 그 낱말을 사용한 예를 떠올려 봄.",
+              "image_one": "9_1.jpg",
+              "mind_two": "낱말 뜻을 짐작하며 글을 읽으면 좋은 점",
+              "contents_two": "• 국어사전을 찾지 않아도 되어 시간을 절약할 수 있음.\n• 글을 더 잘 이해하여 재미있게 읽을 수 있음.",
+              "image_two": "9_2.jpg",
+              "mind_three": "생략된 내용을 짐작하며 글 읽는 방법",
+              "contents_three": "• 글에서 찾을 수 있는 (단서)을/를 확인함.\n• 자신의 경험을 떠올림.",
+              "image_three": "9_3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 10,
+        "title": "문학의 향기",
+        "subs": []
+      }
+    ]
+  },
+  {
+    "subject": "국어",
+    "grade": 4,
+    "semester": 1,
+    "cover_img": "파일이름",
+    "book_url": "http://edubook-miraen.cdn.x-cdn.com/korean/pre_open_ex2_k4-1.html",
+    "contents": [
+      {
+        "unit": 1,
+        "title": "생각과 느낌을 나누어요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_01.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_01.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 2,
+        "title": "내용을 간추려요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_02.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_02.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 3,
+        "title": "느낌을 살려 말해요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_03.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_03.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 4,
+        "title": "일에 대한 의견",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_04.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_04.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 5,
+        "title": "내가 만든 이야기",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_05.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_05.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 6,
+        "title": "회의를 해요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_06.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_06.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 7,
+        "title": "사전은 내 친구",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_07.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_07.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 8,
+        "title": "이런 제안 어때요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_08.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_08.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 9,
+        "title": "자랑스러운 한글",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_09.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_09.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 10,
+        "title": "인물의 마음을 알아봐요",
+        "subs": []
+      }
+    ]
+  },
+  {
+    "subject": "국어",
+    "grade": 5,
+    "semester": 1,
+    "cover_img": "파일명",
+    "book_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/pre_open_ex2_c5-1.html",
+    "contents": [
+      {
+        "unit": 1,
+        "title": "대화와 공감",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m1.html.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_01.html.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 2,
+        "title": "작품을 감상해요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m2.html.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_02.html.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 3,
+        "title": "글을 요약해요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m3.html.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_03.html.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 4,
+        "title": "글쓰기의 과정",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m4.html.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_04.html.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 5,
+        "title": "글쓴이의 주장",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m5.html.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_05.html.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 6,
+        "title": "토의하여 해결해요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m6.html.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_06.html.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 7,
+        "title": "기행문을 써요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m7.html.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_07.html.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 8,
+        "title": "아는 것과 새롭게 안 것",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m8.html.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_08.html.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 9,
+        "title": "여러 가지 방법으로 읽어요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m9.html.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_09.html.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 10,
+        "title": "주인공이 되어",
+        "subs": []
+      }
+    ]
+  },
+  {
+    "subject": "국어",
+    "grade": 6,
+    "semester": 1,
+    "cover_img": "파일명",
+    "book_url": "http://edubook-miraen.cdn.x-cdn.com/korean/pre_open_ex2_k6-1.html",
+    "contents": [
+      {
+        "unit": 1,
+        "title": "비유하는 표현",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m1.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v1.html"
+              }
+            ],
+            "mindmap": {
+              "title": "1. 비유하는 표현",
+              "type": 1,
+              "mind_one": "비유하는 표현",
+              "contents_one": "•어떤 현상이나 사물을 비슷한 것들에 빗대어 표현하는 것을 ‘비유하는 표현’이라고 함.\n•비유하는 두 대상 사이에는 (공통점)이/가 있음.",
+              "image_one": "1-1.jpg",
+              "mind_two": "비유하는 표현을 생각하며 시 읽기",
+              "contents_two": "•‘~은/는 ~(이다)’로 빗대어 표현하는 방법을 은유법이라고 함.\n•‘~같이’, ‘~처럼’, ‘~듯이’와 같은 말을 써서 두 대상을 직접 견주어 표현하는 방법을 (직유법)이라고 함.",
+              "image_two": "1-2.jpg",
+              "mind_three": "비유하는 표현을 사용하면 좋은 점",
+              "contents_three": "•상황이나 대상이 (실감) 나게 느껴짐.\n•대상을 새롭게 보게 해 주고, 익숙한 대상도 새롭게 느껴짐.",
+              "image_three": "1-3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 2,
+        "title": "이야기를 간추려요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m2.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v2.html"
+              }
+            ],
+            "mindmap": {
+              "title": "2. 이야기를 간추려요",
+              "type": 3,
+              "mind_one": "이야기 구조",
+              "contents_one": "•이야기 속 중요한 사건의 (흐름)에 따라 나눔.\n•‘발단’은 이야기의 사건이 (시작)되는 부분임.\n• ‘전개’는 사건이 본격적으로 발생하고 갈등이 일어나는 부분임.\n• ‘절정’은 사건 속의 갈등이 커지면서 (긴장감)이/가 가장 높아지는 부분임.\n• ‘결말’은 사건이 해결되는 부분임.",
+              "image_one": "2-1.jpg",
+              "mind_two": "이야기를 읽고 요약하는 방법",
+              "contents_two": "•이야기 구조를 생각하며 각 부분에서 중요한 사건이 무엇인지 찾음.\n•이야기 흐름에서 중요하지 않은 내용은 (삭제)하거나 간단히 씀.\n•중요한 사건이 일어난 (원인)과 그에 따른 (결과)을/를 찾음.\n•여러 사건이 관련 있을 때에는 관련 있는 사건을 하나로 묶음. ",
+              "image_two": "2-2.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 3,
+        "title": "짜임새 있게 구성해요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m3.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v3.html"
+              }
+            ],
+            "mindmap": {
+              "title": "3. 짜임새 있게 구성해요",
+              "type": 1,
+              "mind_one": "공식적인 말하기 상황",
+              "contents_one": "•발표나 연설, 토론처럼 (여러 사람) 앞에서 공식적으로 말하는 상황을 말함.\n• 높임 표현을 사용해서 큰 소리로 또박또박 말함.\n• 바른 자세와 태도로 말함.",
+              "image_one": "3-1.jpg",
+              "mind_two": "공식적인 말하기 상황에서 활용할 수 있는 자료",
+              "contents_two": "• ‘사진’은 설명하는 대상의 모습을 한눈에 정확하게 보여 줌. \n• ‘(표)’은/는 여러 가지 자료의 수량을 비교하기 쉽고, 많은 양의 자료를 간단하게 나타낼 수 있음.\n• ‘도표’는 수량의 변화 정도를 알 수 있고, 정확한 (수치)을/를 나타낼 수 있음.\n• ‘동영상’은 음악이나 자막을 넣어 분위기를 잘 전달할 수 있음.",
+              "image_two": "3-2.jpg",
+              "mind_three": "발표할 내용 정리하기",
+              "contents_three": "•‘시작하는 말’에는 발표 (주제)와/과 제목, 듣는 사람의 주의를 집중시키는 내용을 넣음.\n•‘자료를 설명하는 말’에는 자료의 핵심 내용을 넣음. 자료 종류에 따라 설명 방법을 다르게 하고, 자료를 가져온 곳을 밝힘.\n• ‘끝맺는 말’에는 발표 내용을 간단하게 정리하고, 함께 생각할 점, 발표를 (준비)하며 느낀 점을 넣음. ",
+              "image_three": "3-3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 4,
+        "title": "주장과 근거를 판단해요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m4.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v4.html"
+              }
+            ],
+            "mindmap": {
+              "title": "4. 주장과 근거를 판단해요",
+              "type": 2,
+              "mind_one": "논설문의 특성",
+              "contents_one": "• 읽는 사람을 (설득)하기 위한 글로, 어떤 문제를 놓고 글쓴이가 내세우는 주장과 뒷받침하는 근거로 이루어짐.\n•서론, 본론, 결론으로 이루어짐.\n - 서론: 글을 쓰게 된 (문제 상황)와/과 글쓴이의 주장을 밝힘.\n - 본론: 글쓴이의 주장을 뒷받침하는 근거를 제시함.\n - 결론: 글의 내용을 요약하고 (주장)을/를 다시 한번 강조함.",
+              "image_one": "4-1.jpg",
+              "mind_two": "주장과 근거",
+              "contents_two": "•주장은 문제 상황에 대한 글쓴이의 의견을 말함.\n•근거는 주장을 (뒷받침)하는 내용임.",
+              "image_two": "4-2.jpg",
+              "mind_three": "내용의 타당성과 표현의 적절성 판단하기",
+              "contents_three": "• 내용의 타당성을 판단하려면, 주장이 가치 있고 중요한지, (근거)이/가 주장과 관련 있고 주장을 뒷받침하는지 살펴봄.\n• 표현의 적절성을 판단하려면, 주관적인 표현, (모호)한 표현, 단정적인 표현을 쓰지 않았는지 살펴봄.",
+              "image_three": "4-3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 5,
+        "title": "속담을 활용해요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m5.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v5.html"
+              }
+            ],
+            "mindmap": {
+              "title": "5. 속담을 활용해요",
+              "type": 1,
+              "mind_one": "속담",
+              "contents_one": "•예로부터 민간에 전해오는 쉬운 격언이나 잠언임.\n•우리 민족의 지혜와 해학, 생활 방식과 (교훈)이/가 담겨 있음.",
+              "image_one": "5-1.jpg",
+              "mind_two": "속담을 사용하면 좋은 점",
+              "contents_two": "• 자신의 생각을 효과적으로 드러낼 수 있음.\n• 듣는 사람이 (흥미)을/를 느낄 수 있음.\n• 조상의 지혜와 슬기를 알 수 있음.\n• 주장의 논리를 뒷받침해 상대를 쉽게 (설득)할 수 있음.",
+              "image_two": "5-2.jpg",
+              "mind_three": "주제를 생각하며 글 읽기",
+              "contents_three": "•인물의 말이나 (행동)에서 인물의 마음을 짐작해 봄.\n•글 속에 속담이 사용된 상황을 살펴보고 뜻을 짐작해 봄.\n• 글에 사용된 속담을 사용할 수 있는 다른 상황을 생각해 봄.\n• 글의 교훈이나 주제를 친구들과 이야기해 봄.",
+              "image_three": "5-3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 6,
+        "title": "내용을 추론해요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m6.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v6.html"
+              }
+            ],
+            "mindmap": {
+              "title": "6. 내용을 추론해요",
+              "type": 3,
+              "mind_one": "이야기를 듣고 추론하는 방법",
+              "contents_one": "•자신의 (경험), 배경지식에서 찾을 수 있는 단서를 확인함.\n•국어사전에서 다의어와 (동형어)의 정확한 뜻을 찾아 추론함.",
+              "image_one": "6-1.jpg",
+              "mind_two": "내용을 추론하며 글을 읽는 방법",
+              "contents_two": "•모르는 낱말은 앞뒤 (문장)을/를 바탕으로 추론함.\n•글쓴이가 글을 쓴 까닭이 무엇인지, 글쓴이의 생각을 추론함.",
+              "image_two": "6-2.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 7,
+        "title": "우리말을 가꾸어요",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m7.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v7.html"
+              }
+            ],
+            "mindmap": {
+              "title": "7. 우리말을 가꾸어요",
+              "type": 2,
+              "mind_one": "우리말 사용 실태",
+              "contents_one": "•평범한 학생들이 욕설이나 (비속어)을/를 많이 사용함.\n•일상생활에서 외국어, 이해하기 어려운 줄임 말이나 신조어를 자주 사용함.",
+              "image_one": "7-1.jpg",
+              "mind_two": "긍정하는 말과 고운 우리말",
+              "contents_two": "•긍정하는 말을 하면 좋은 일이 생김.\n•긍정하는 말을 사용하면 말하는 사람과 듣는 사람 모두 기분이 좋아지고 (자신감)이/가 생김.\n•고운 우리말 사용은 자신과 상대의 마음을 (아름답게) 해 줌.",
+              "image_two": "7-2.jpg",
+              "mind_three": "올바른 우리말 사용 태도",
+              "contents_three": "•줄임 말, 신조어, 외국어를 계속 사용하다 보면 올바른 우리말이 점점 사라질 것임.\n•(긍정)하는 말과 고운 우리말을 사용해야 함.",
+              "image_three": "7-3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 8,
+        "title": "인물의 삶을 찾아서",
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m8.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v8.html"
+              }
+            ],
+            "mindmap": {
+              "title": "8. 인물의 삶을 찾아서",
+              "type": 2,
+              "mind_one": "인물이 추구하는 가치 파악",
+              "contents_one": "•가치란 정의, 행복, 책임 따위를 통틀어 이르는 말임.\n•인물이 처한 상황을 파악하고 생각이 잘 드러난 (표현)을/를 찾아봄.\n•인물이 처한 상황에서 인물이 한 말과 (행동)을/를 알아봄.",
+              "image_one": "8-1.jpg",
+              "mind_two": "이야기 속 인물이 추구하는 \n가치 비교",
+              "contents_two": "•인물을 따라 이야기 속 사건을 경험하며 사건 흐름을 살펴보면 이야기 (주제)을/를 파악할 수 있음.\n•인물들의 말과 행동에서 지은이가 말하고자 하는 생각을 찾고, 인물이 추구하는 가치를 파악함.\n• 이야기 속 인물의 선택과 자신의 선택을 비교해 봄.",
+              "image_two": "8-2.jpg",
+              "mind_three": "인물이 추구하는 가치를 자신의 삶과 관련짓기",
+              "contents_three": "•인물과 관련한 자신의 경험을 생각해 봄.\n•인물과 자신의 삶을 비교해 보고 느낀 점을 생각해 봄.\n•자신이 처한 문제나 (고민)을/를 해결하는 데 도움을 준 인물의 말과 행동을 생각해 봄.",
+              "image_three": "8-3.jpg"
+            },
+            "questions": []
+          }
+        ]
+      },
+      {
+        "unit": 9,
+        "title": "마음을 나누는 글을 써요",
+        "subs": []
+      }
+    ]
+  },
+  {
     "subject": "사회",
     "grade": 3,
     "semester": 1,
@@ -15,11 +1010,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_01.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_01.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -39,7 +1034,7 @@
               {
                 "num": 1,
                 "question": "여러 시설이 있고 놀이, 등산, 휴식 등의 활동이 이루어지는 곳은 (     )입니다.",
-                "answer": "장소입니다블라블라블라",
+                "answer": "장소",
                 "option_one": null,
                 "option_two": null,
                 "option_three": null
@@ -67,11 +1062,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_02.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_02.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -119,11 +1114,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_03.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_03.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -171,11 +1166,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_04.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_04.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -223,11 +1218,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_05.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_05.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -269,6 +1264,58 @@
                 "option_three": "③ 장소의 특징이 나타나도록 색칠하거나 그림 그리기"
               }
             ]
+          },
+          {
+            "sub": "2-➌",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "주요 장소",
+              "type": 1,
+              "mind_one": "주요 장소의 특징",
+              "contents_one": "• 자연이 아름다운 곳\n• 사람이 많이 모이는 곳\n• (문화유산)을 볼 수 있는 곳\n• 높은 건물이 있는 곳",
+              "image_one": "map3-1_06_01.jpg ",
+              "mind_two": "주요 장소에 관한 자료를 찾는 방법",
+              "contents_two": "• 시청·군청·구청 (누리집)에서 찾기 \n• 홍보 동영상, 안내 책자 등에서 찾기 \n• 고장에 관해 잘 아는 어른들께 여쭈어보기",
+              "image_two": null,
+              "mind_three": "주요 장소를 소개하는 방법",
+              "contents_three": "• 우리 고장 안내도\n• 우리 고장 소개 신문\n• 작은 책자",
+              "image_three": "map3-1_06_02.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "주요 장소의 특징으로 알맞지 않은 것은 무엇입니까?",
+                "answer": "①",
+                "option_one": "① 내가 자주 가는 곳",
+                "option_two": "② 자연이 아름다운 곳",
+                "option_three": "③ 문화유산을 볼 수 있는 곳"
+              },
+              {
+                "num": 2,
+                "question": "우리 고장의 주요 장소에 관한 자료를 찾는 방법으로 옳지 않은 것은 무엇입니까?",
+                "answer": "③",
+                "option_one": "① 시청·군청·구청 누리집 찾아보기",
+                "option_two": "② 홍보 동영상 보기",
+                "option_three": "③ 전학 온 친구에게 물어보기"
+              },
+              {
+                "num": 3,
+                "question": "우리 고장의 주요 장소를 소개하기 위해 백지도에 장소카드를 연결하여 만드는 것은 우리 고장 (      )입니다.",
+                "answer": "안내도",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
           }
         ]
       },
@@ -281,11 +1328,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_07.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_07.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -333,11 +1380,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_08.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_08.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -385,11 +1432,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_09.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_09.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -437,11 +1484,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_10.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_10.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -493,7 +1540,7 @@
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_11.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -541,11 +1588,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_12.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_12.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -593,11 +1640,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "링크"
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_13.html"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_13.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -639,6 +1686,58 @@
                 "option_three": null
               }
             ]
+          },
+          {
+            "sub": "2-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "링크"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "링크"
+              }
+            ],
+            "mindmap": {
+              "title": "문화유산 소개 방법",
+              "type": 4,
+              "mind_one": null,
+              "contents_one": "① 문화유산 사진을 활용해 (전시회)를 열기\n② 문화유산을 그림으로 그리기\n③ 문화유산 카드를 모아 (안내 책자)를 만들기\n④ 문화유산 모형을 만들기\n⑤ 문화유산 신문을 만들기\n⑥ 문화 관광 해설사가 되어 보기",
+              "image_one": "1)map3-1_14_01.jpg",
+              "mind_two": null,
+              "contents_two": null,
+              "image_two": null,
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "고장의 문화유산을 (     )할 때는 조사한 내용을 모아서 신문이나 안내 책자를 만들 수 있습니다.",
+                "answer": "소개 ",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "각 모둠이 만든 문화유산 카드를 모아 완성한 책자로 우리 고장의 문화유산을 소개하는 것은 어떠한 방법입니까?",
+                "answer": "②",
+                "option_one": "① 모형 만들기",
+                "option_two": "② 안내 책자 만들기",
+                "option_three": "③ 문화 관광 해설사 되어 보기"
+              },
+              {
+                "num": 3,
+                "question": "문화유산은 옛날 모습 그대로 보존되기도 하지만, 오늘날 새롭게 ( 보존, 활용 )되기도 합니다.",
+                "answer": "활용",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
           }
         ]
       },
@@ -651,11 +1750,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "링크"
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_15.html"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_15.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -703,11 +1802,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_16.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_16.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -755,11 +1854,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_17.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_17.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -807,11 +1906,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_18.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_18.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -859,11 +1958,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_19.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_19.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -911,7 +2010,7 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_20.html"
+                "btn_url": "링크"
               },
               {
                 "btn_name": "추가문제",
@@ -967,7 +2066,7 @@
               },
               {
                 "btn_name": "추가문제",
-                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_21.html"
+                "btn_url": "링크"
               }
             ],
             "mindmap": {
@@ -1492,6 +2591,58 @@
                 "option_three": null
               }
             ]
+          },
+          {
+            "sub": "2-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_10.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_10.html"
+              }
+            ],
+            "mindmap": {
+              "title": "중심지를 답사하는 과정",
+              "type": 2,
+              "mind_one": "[1단계] 답사 계획 세우기",
+              "contents_one": "• 답사 장소 정하기\n• 답사할 장소에 관한 자료 찾기\n• 답사할 내용과 방법 정하기\n• (준비물) 알아보기\n• 주의할 점 알아보기",
+              "image_one": "map4-1_10_01.jpg",
+              "mind_two": "[2단계] (답사하기)",
+              "contents_two": "• 중심지의 위치를 확인하고 모습 살펴보기\n• 중심지에 있는 시설과 기관에서 하는 일 조사하기",
+              "image_two": "map4-1_10_02.jpg",
+              "mind_three": "[3단계] 답사 결과 정리하기",
+              "contents_three": "• 답사한 내용 정리하기\n• (발표)하기",
+              "image_three": "map4-1_10_03.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "‘답사 계획 세우기’ 단계에서 할 일은 무엇입니까?",
+                "answer": "①",
+                "option_one": "① 답사할 중심지 정하기",
+                "option_two": "② 중심지의 모습 살펴보기",
+                "option_three": "③ 답사를 통해 알게 된 점 정리하기"
+              },
+              {
+                "num": 2,
+                "question": "중심지에서 사람들이 하는 일을 알아보기 위해서는 (  ) 방법을 이용합니다.",
+                "answer": "②",
+                "option_one": "① 관찰하기",
+                "option_two": "② 면담하기",
+                "option_three": "③ 사진 찍기"
+              },
+              {
+                "num": 3,
+                "question": "면담할 때는 미리 연락하여 약속을 정하고, 필요한 (  )을/를 미리 준비해야 합니다.",
+                "answer": "질문지",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
           }
         ]
       },
@@ -1860,6 +3011,58 @@
                 "option_one": "① 답사를 하면서 느낀 점 ",
                 "option_two": "② 답사 장소에서 해결할 질문",
                 "option_three": "③ 답사 장소에서 보아야 할 것"
+              }
+            ]
+          },
+          {
+            "sub": "2-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_18.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_18.html"
+              }
+            ],
+            "mindmap": {
+              "title": "우리 지역의 인물을 소개하는 방법",
+              "type": 3,
+              "mind_one": "(역할극)으로 소개하기",
+              "contents_one": "• 인물의 이야기 중 표현할 상황을 정해 소개할 수 있음.\n• 지역을 위해 한 일과 인물의 마음이 잘 표현되어야 함.",
+              "image_one": "map4-1_18_01.jpg",
+              "mind_two": "문화 관광 해설사가 되어 소개하기",
+              "contents_two": "•답사 장소에서 찍어 온 (사진)을 보며 해설할 수 있음.\n•인물의 생애와 지역을 위해 한 일을 소개해야 함.",
+              "image_two": "map4-1_18_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "답사를 다녀 온 뒤 ( 답사 보고서, 답사 계획서 )를 바탕으로 우리 지역의 인물을 다양한 방법으로 소개할 수 있습니다.",
+                "answer": "답사 보고서",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "참여하는 사람이 특정 역할을 담당하여 ( )(으)로 표현하는 방법으로 우리 지역의 인물을 소개할 수 있습니다.",
+                "answer": "역할극",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 3,
+                "question": "문화 관광 해설사가 되어 인물을 소개할 때는 발표할 ( 신문, 대본 )을 미리 작성해야 합니다.",
+                "answer": "대본",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
               }
             ]
           }
