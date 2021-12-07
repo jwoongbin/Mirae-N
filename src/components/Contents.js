@@ -66,27 +66,12 @@ function Contents({data}) {
     }else if(subject ==='사회') {
       return {
         background: '#5bd59a',
-        borderColor: '#5bd59a',
+        borderColor: '#00b05b ',
       }
     }else if(subject ==='수학'){
         return{
           background: '#8589eb',
-          borderColor: '#8589eb',
-        }
-    }
-  }
-  const border = (subject) => {
-    if(subject === '국어'){
-      return {
-        background: ' #ff4d64',
-      }
-    }else if(subject ==='사회') {
-      return {
-        background: '#00b05b',
-      }
-    }else if(subject ==='수학'){
-        return{
-          background: '#5460b5'
+          borderColor: '#5460b5',
         }
     }
   }
