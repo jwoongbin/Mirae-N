@@ -13,6 +13,7 @@ import cloud3 from "../images/web/cloud3.png";
 
 
 function Home({data}){
+  const book_title = '초등 ' + data.subject + ' '+  data.grade + '-' + data.semester;
   console.log(data);
   const onFullS = (isFull) => {
     console.log(isFull ? "We are full" : "We are small");
@@ -32,7 +33,7 @@ function Home({data}){
             <img src={cloud1} className="cloud1"/>
           </div>
           <div className="top">
-            <div className="book-title"><span>초등 사회 3-1</span></div>
+            <div className="book-title"><span>{book_title}</span></div>
             <img className="book-cover" src={book}/>
           </div>
           <div className="accordion-box">

@@ -46,7 +46,7 @@ function Common ({data, conindex, subindex, type}) {
         <img className="choco" src={choco} alt='' />
         <h1 className="book">{book_title}</h1>
       </div>
-      <Link to="/"><img className="exit" src={exit} alt=''/></Link>
+      <Link to={data.book_url.replace("https://edubook.mirae-n.com","")}><img className="exit" src={exit} alt=''/></Link>
     </div>
     <div className={"contents" + (type === 5 ? " q" : "")}>
       {returnvalue}

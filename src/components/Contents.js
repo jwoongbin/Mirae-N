@@ -55,7 +55,8 @@ function Contents({data}) {
                       {subs.sub != null ? circleParser(subs.sub) : ""}
                       <div key={subs.sub+index} className="img-container">
                         {subs.btns.map((btn, index) =>(
-                          <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name==="마인드맵"? <img src={mindmap_icon}/> : <img src={quiz_icon}/> }</Link>
+                          // <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name==="마인드맵"? <img src={mindmap_icon}/> : <img src={quiz_icon}/> }</Link>
+                          <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link>
                         ))}
                       </div>
                       {/* <img className="line" src={horizentaline}/> */}
