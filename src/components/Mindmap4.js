@@ -25,7 +25,7 @@ function Mindmap4({ data, conindex, subindex }) {
   function onClick() {
     setClick(click => !click);
   }
-  const book_title = data.subject + ' '+  data.grade + '-' + data.semester;
+  const book_image = data.subject +  data.grade + '-' + data.semester + '/';
 
   console.log(data, conindex ,subindex)
   return (
@@ -35,14 +35,14 @@ function Mindmap4({ data, conindex, subindex }) {
           <img className="background" src={background} alt='' />
           <div className="text">{mindmapData.title}</div>
         </div>
-        {(click && filelist[0] != '') ? <img className="artwork1" src={'/image/s3-1/'+filelist[0]} alt=''/> : null}
+        {(click && filelist[0] != '') ? <img className="artwork1" src={'/image/'+book_image+filelist[0]} alt=''/> : null}
         <div className="item1" style={{display : click? "" : "none"}}>
           {click ? <img className="arrow" src={arrow1} alt=''/> : null}
           <div className="content">
             {click ? mindContent(mindmapData.contents_one) : null}
-            {(click && filelist[1] != '') ? <img className="artwork2" src={'/image/s3-1/'+filelist[1]} alt=''/> : null}
-            {(click && filelist[2] != '') ? <img className="artwork3" src={'/image/s3-1/'+filelist[2]} alt=''/> : null}
-            {(click && filelist[3] != '') ? <img className="artwork4" src={'/image/s3-1/'+filelist[3]} alt=''/> : null}
+            {(click && filelist[1] != '') ? <img className="artwork2" src={'/image/'+book_image+filelist[1]} alt=''/> : null}
+            {(click && filelist[2] != '') ? <img className="artwork3" src={'/image/'+book_image+filelist[2]} alt=''/> : null}
+            {(click && filelist[3] != '') ? <img className="artwork4" src={'/image/'+book_image+filelist[3]} alt=''/> : null}
             </div>
         </div>
       </div>
