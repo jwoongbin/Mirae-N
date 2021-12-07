@@ -196,16 +196,10 @@ html, body {
                     width: 100%;
                     border: solid 0.1px #ddd;
                   }
-                  // hr{
-                  //   position: absolute;
-                  //   width: 30vw;
-                  //   background-color: black;
-                  //   margin-top: 6vh;
+                  // &:last-child::after {
+                  //   border: none;
                   // }
                 }
-                // ul:last-child hr{
-                //   margin-bottom: 0;
-                // }
                 ul div span{
                   display: inline-flex;
                   justify-content: center;
