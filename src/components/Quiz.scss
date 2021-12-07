@@ -32,9 +32,14 @@
           height: 100% !important;
           .Quiz-contents{
             margin-top: 15% !important;
-            >.answer >.imgbox > .img{
-              width: 6em !important;
-              height: 1.6em !important;
+            >.answer{ 
+              >.imgbox >.img{
+                width: 6em !important;
+                height: 1.6em !important;
+              }
+              >.textbox >.boxbox{
+                left: -4.8em;
+              }
             }
           }
         }
