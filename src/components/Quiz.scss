@@ -23,13 +23,13 @@
 @media (max-width: 767.98px), (max-height: 700px) {     
   .contents{
     &.q{
-      // height: 90vh !important;
+      height: 80vh !important;
       .quiz{
         height: 100%;
         font-size: 3.5em;
         overflow: scroll;
         .questions{
-          height: 100% !important;
+          height: 46.1vw !important;
           .Quiz-contents{
             margin-top: 15% !important;
             >.answer{ 
