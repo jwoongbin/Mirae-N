@@ -7,8 +7,8 @@ $sub-themes-font-size: 1.8em;
 $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
-$artwork-max-width: 67%;
-$artwork-max-height: 96%;
+$artwork-max-width: 14%;
+$artwork-max-height: 30%;
 $text-indent: -0.5em;
 $padding-left: 1em;    
 $text-padding-left: 0.5em;
@@ -122,40 +122,40 @@ $answer-animation-delay: 2s;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
-            > .arrow {
-              animation: forwards;
-              animation-duration: $animation-duration;
-              animation-name: item1arrow_3;
-              position: absolute;
-              width: 40%;
-              height: 49%;
-              bottom: -51%;
-              right: -30%;
-            }
-            > .dot_arrow {
-              opacity:0;
-              animation: forwards;
-              animation-delay: $animation-step2;
-              animation-duration: $animation-duration;
-              animation-name: item1dotarrow_3;
-              position: absolute;
-              width: 24%;
-              height: 64%;
-              left: 3%;
-              top: 101%;
-            }
-            > .artwork {
-              opacity:0;
-              animation: forwards;
-              animation-delay: $animation-step1;
-              animation-duration: $animation-duration;
-              animation-name: fadein;
-              position: absolute;
-              max-width: $artwork-max-width;
-              max-height: $artwork-max-height;
-              bottom: 80%;
-              right: 103%;
-            }
+          }
+          > .arrow {
+            animation: forwards;
+            animation-duration: $animation-duration;
+            animation-name: item1arrow_3;
+            position: absolute;
+            width: 6%;
+            height: 16%;
+            bottom: 50%;
+            right: -4%;
+          }
+          > .dot_arrow {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step2;
+            animation-duration: $animation-duration;
+            animation-name: item1dotarrow_3;
+            position: absolute;
+            width: 3%;
+            height: 26%;
+            right: 12%;
+            top: 36%;
+          }
+          > .artwork {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            position: absolute;
+            max-width: $artwork-max-width;
+            max-height: $artwork-max-height;
+            bottom: 105%;
+            right: 13%
           }
           > .content {
             opacity:0;
@@ -221,41 +221,41 @@ $answer-animation-delay: 2s;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
-            > .arrow{
-              animation: forwards;
-              animation-duration: $animation-duration;
-              animation-name: item2arrow_3;
-              position: absolute;
-              width: 49%;
-              height: 87%;
-              left: -25%;
-              bottom: -93%;
-            }
-            > .dot_arrow{
-              opacity:0;
-              animation: forwards;
-              animation-delay: $animation-step2;
-              animation-duration: $animation-duration;
-              animation-name: item2dotarrow_3;
-              z-index: -99;
-              position: absolute;
-              width: 49%;
-              height: 98%;
-              left: 104%;
-              top: 48%;
-            }
-            > .artwork {
-              opacity:0;
-              animation: forwards;
-              animation-delay: $animation-step1;
-              animation-duration: $animation-duration;
-              animation-name: fadein;
-              position: absolute;
-              max-width: $artwork-max-width;
-              max-height: $artwork-max-height;
-              bottom: 58%;
-              left: 115%; 
-            }
+          }
+          > .arrow{
+            animation: forwards;
+            animation-duration: $animation-duration;
+            animation-name: item2arrow_3;
+            position: absolute;
+            width: 7%;
+            height: 29%;
+            left: 86%;
+            bottom: 34%;
+          }
+          > .dot_arrow{
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step2;
+            animation-duration: $animation-duration;
+            animation-name: item2dotarrow_3;
+            z-index: -99;
+            position: absolute;
+            width: 7%;
+            height: 32%;
+            left: 105%;
+            top: 19%;
+          }
+          > .artwork {
+            opacity:0;
+            animation: forwards;
+            animation-delay: $animation-step1;
+            animation-duration: $animation-duration;
+            animation-name: fadein;
+            position: absolute;
+            max-width: $artwork-max-width;
+            max-height: $artwork-max-height;
+            bottom: 103%;
+            left: 105%; 
           }
           > .content {
             opacity:0;
