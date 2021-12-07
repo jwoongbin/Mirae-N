@@ -10,8 +10,6 @@ import cloud1 from "../images/web/cloud1.png";
 import cloud2 from "../images/web/cloud2.png";
 import cloud3 from "../images/web/cloud3.png";
 
-
-
 function Home({data}){
   const book_title = '초등 ' + data.subject + ' '+  data.grade + '-' + data.semester;
   console.log(data);
@@ -37,7 +35,7 @@ function Home({data}){
             <img className="book-cover" src={book}/>
           </div>
           <div className="accordion-box">
-            <Contents data={data.contents} />
+            <Contents data={data} />
           </div>
           <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
         </div>
