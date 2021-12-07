@@ -6,6 +6,20 @@ import icon from '../icon.png';
 import mindmap_icon from '../images/web/mindmap-icon.png';
 import quiz_icon from '../images/web/quiz-icon.png';
 import horizentaline from '../images/web/horizentaline.png';
+import styled, {css} from "styled-components";
+import { AccordionButton } from 'react-bootstrap';
+
+const AccordionColor = styled.div`
+${(data) => {
+  console.log('data',data)
+  if(data.subject === '국어'){
+    return css`background: red;`
+  } else if(data.subject === '사회'){
+    
+    return css`background: red;`
+  } else css`background: red;`
+}}
+`;
 function Contents({data}) {
   console.log(data);
   const circleParser = (subs) => {
@@ -39,14 +53,38 @@ function Contents({data}) {
       {newNumber}
     </div>)
   }
+  //국어: 막대:#ff4d64 동그라미: #ffa39c
+  //사회: 막대:#00b05b 동그라미: #5bd59a
+  //수학: 막대:#5460b5 동그라미 #8589eb
+
+  const circle = (subject) => {
+    if(subject === '국어'){
+      return {
+        background: ' #ffa39c',
+        borderColor: '#ff4d64',
+      }
+    }else if(subject ==='사회') {
+      return {
+        background: '#5bd59a',
+        borderColor: '#00b05b ',
+      }
+    }else if(subject ==='수학'){
+        return{
+          background: '#8589eb',
+          borderColor: '#5460b5',
+        }
+    }
+  }
 
   return(
     <div className="panel-group" id="accordion">
+      {/* <AccordionColor className="" subject={data}></AccordionColor> */}
           <Accordion>
-              {data.map((item, index) => (
+              {data.contents.map((item, index) => (
               <Accordion.Item eventKey={index} key={index}>
                 <Accordion.Header>
-                  <div className="number">{item.unit}</div>
+                  {/* <AccordionColor className="number" subject={data.subject}>{item.unit}</AccordionColor> */}
+                  <div className="number" style={circle(data.subject)}>{item.unit}</div>
                   <div className="title">{item.title}</div>
                 </Accordion.Header>
                 <Accordion.Body>
@@ -59,7 +97,6 @@ function Contents({data}) {
                           <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link>
                         ))}
                       </div>
-                      {/* <img className="line" src={horizentaline}/> */}
                     </ul>
                   ))}
                 </Accordion.Body>
