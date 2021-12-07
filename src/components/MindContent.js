@@ -78,6 +78,7 @@ function MindContent (content){
         console.log("spanlist : ",spanlist)
         var linetag = <div className={`line ${dotChecker(spanlist)? "circle" : ""}`}>{spanlist}</div>;
         linelist.push(linetag)
+        return true
     })
 
     var returnvalue = <div className={'mindcontent'}>{linelist}</div>

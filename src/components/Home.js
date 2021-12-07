@@ -13,8 +13,7 @@ import cloud3 from "../images/web/cloud3.png";
 
 
 function Home({data}){
-
-  console.log(newdata.contents);
+  console.log(data);
   const onFullS = (isFull) => {
     console.log(isFull ? "We are full" : "We are small");
   };
@@ -37,7 +36,7 @@ function Home({data}){
             <img className="book-cover" src={book}/>
           </div>
           <div className="accordion-box">
-            <Contents data={data} />
+            <Contents data={data.contents} />
           </div>
           <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
         </div>

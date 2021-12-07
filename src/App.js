@@ -11,12 +11,14 @@ import Quiz from './components/Quiz';
 import Common from './components/Common';
 
 import {BrowserRouter as Router, Route } from "react-router-dom";
+import React from 'react';
 function App() {
+  console.log(newdata);
   return (
     <Router>
-          <Route exact path={newdata[0].book_url.replace("https://edubook.mirae-n.com","")} render={() => <Home data={newdata[0].contents}/>}/>
-      {newdata.map((data) => (
-        <>
+      {newdata.map((data, index) => (
+        <React.Fragment key={index}>
+        <Route key={index} exact path={data.book_url.replace("https://edubook.mirae-n.com","")} render={() => <Home data={data}/>}/>
           {data.contents.map((content, indexa) => (
             content.subs.map((sub, indexb) => (
               sub.btns.map((btn, indexc) => {
@@ -35,7 +37,7 @@ function App() {
             ))
           ))}
 
-        </>
+        </React.Fragment>
       ))}
 
     </Router>

@@ -7,7 +7,7 @@ import mindmap_icon from '../images/web/mindmap-icon.png';
 import quiz_icon from '../images/web/quiz-icon.png';
 import horizentaline from '../images/web/horizentaline.png';
 function Contents({data}) {
-
+  console.log(data);
   const circleParser = (subs) => {
     let newNumber = "";
     console.log(newNumber);
@@ -41,7 +41,6 @@ function Contents({data}) {
   }
 
   return(
-
     <div className="panel-group" id="accordion">
           <Accordion>
               {data.map((item, index) => (

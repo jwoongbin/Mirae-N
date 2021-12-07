@@ -26,8 +26,6 @@ $answer-animation-delay: 2s;
 
 @import 'keyframe.scss';
 
-
-
 @media (min-aspect-ratio: 16/9) {    
     .contents{
       height: 82vh;
@@ -292,13 +290,13 @@ $answer-animation-delay: 2s;
           justify-content: space-between;
           align-items: flex-end;
           > .subject {
-            left: -1.5%;
-            top: 10%;
             opacity:0;
             animation: forwards;
             animation-delay: $animation-step1;
             animation-duration: $animation-duration;
             animation-name: fadein;
+            left: -1.5%;
+            top: 10%;
             text-align: center;
             position: relative;
             color: rgb(84, 84, 84);
@@ -406,7 +404,6 @@ $answer-animation-delay: 2s;
           padding-left: 1.5em;
         }
         >.line {
-        // text-indent: $text-indent;
            padding-left: 1em;
         >.answer {
           position: relative;
@@ -420,6 +417,22 @@ $answer-animation-delay: 2s;
         }
       }
      } 
+    }
+  }
+}
+/*
+##Device = Low Resolution Tablets, Mobiles (Landscape)
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+  .contents {
+    > .mindmap1-box{
+      .content{
+        >.mindcontent{
+          >.line.cricle{
+            text-indent: -1.2em;
+          }
+        }
+      }
     }
   }
 }
