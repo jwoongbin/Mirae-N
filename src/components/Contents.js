@@ -6,20 +6,8 @@ import icon from '../icon.png';
 import mindmap_icon from '../images/web/mindmap-icon.png';
 import quiz_icon from '../images/web/quiz-icon.png';
 import horizentaline from '../images/web/horizentaline.png';
-import styled, {css} from "styled-components";
 import { AccordionButton } from 'react-bootstrap';
 
-const AccordionColor = styled.div`
-${(data) => {
-  console.log('data',data)
-  if(data.subject === '국어'){
-    return css`background: red;`
-  } else if(data.subject === '사회'){
-    
-    return css`background: red;`
-  } else css`background: red;`
-}}
-`;
 function Contents({data}) {
   console.log(data);
   const circleParser = (subs) => {
