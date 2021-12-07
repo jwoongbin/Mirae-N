@@ -43,7 +43,7 @@ function Mindmap4({ data, conindex, subindex }) {
             {(click && filelist[1] != '') ? <img className="artwork2" src={'/image/s3-1/'+filelist[1]} alt=''/> : null}
             {(click && filelist[2] != '') ? <img className="artwork3" src={'/image/s3-1/'+filelist[2]} alt=''/> : null}
             {(click && filelist[3] != '') ? <img className="artwork4" src={'/image/s3-1/'+filelist[3]} alt=''/> : null}
-            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -23,13 +23,13 @@
 @media (max-width: 767.98px), (max-height: 700px) {     
   .contents{
     &.q{
-      height: 90vh !important;
+      // height: 90vh !important;
       .quiz{
         height: 100%;
         font-size: 3.5em;
         overflow: scroll;
         .questions{
-          height: 46.1vw !important;
+          height: 100% !important;
           .Quiz-contents{
             margin-top: 15% !important;
             >.answer >.imgbox > .img{
@@ -103,12 +103,14 @@
 
             > .question {
               display: flex;
-              width: 85%;
+              width: 100%;
               justify-content: space-between;
             }
             .options{
               width: 100%;
               display: inline-flex;
+              justify-content: space-between;
+              margin-bottom: 5%;
               &.off{
                 display: none;
               }
