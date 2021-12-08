@@ -434,16 +434,9 @@ $answer-animation-delay: 2s;
     }
     .content{
       >.mindcontent{
-        >.line.circle{
-          text-indent: -0.9em;
-          padding-left: 1.5em;
-        }
         >.line {
         // text-indent: $text-indent;
-           padding-left: 1em;
         >.answer {
-          position: relative;
-          text-indent: 0;
           &.ex{
             animation: forwards;
             animation-name: shake;

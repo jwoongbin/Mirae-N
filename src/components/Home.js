@@ -1,8 +1,6 @@
 import './Home.scss';
 import Contents from './Contents';
-import newdata from '../data.json'
 import useFullscreen from "./useFullscreen";
-import frame from "../images/web/frame.png";
 import book from "../images/web/book.png";
 import choco from "../images/web/choco.png";
 import logo from "../images/web/logo.png";
@@ -24,15 +22,15 @@ function Home({data}){
       <div className="content">
         <div className="frame">
           <div className="img-box">
-            <img src={logo} className="logo"/>
-            <img src={choco} className="choco"/>
-            <img src={cloud3} className="cloud3"/>
-            <img src={cloud2} className="cloud2"/>
-            <img src={cloud1} className="cloud1"/>
+            <img src={logo} className="logo" alt=""/>
+            <img src={choco} className="choco" alt=""/>
+            <img src={cloud3} className="cloud3" alt=""/>
+            <img src={cloud2} className="cloud2" alt=""/>
+            <img src={cloud1} className="cloud1" alt=""/>
           </div>
           <div className="top">
             <div className="book-title"><span>{book_title}</span></div>
-            <img className="book-cover" src={book}/>
+            <img className="book-cover" src={book} alt=""/>
           </div>
           <div className="accordion-box">
             <Contents data={data} />

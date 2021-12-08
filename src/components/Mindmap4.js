@@ -1,11 +1,6 @@
 import "./Mindmap4.scss"
-import exit from '../images/exit.png';
-import choco from '../images/choco.png';
-import logo from '../images/logo.png';
 import arrow1 from '../images/4arrow1.png';
 import background from '../images/background.png';
-import tugging from '../images/artwork/tugging.png';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import MindContent from "./MindContent";
 import { typeFourImage } from "../common/utils";

@@ -2,7 +2,7 @@ import "./Common.scss";
 import exit from '../images/exit.png';
 import choco from '../images/choco.png';
 import logo from '../images/logo.png';
-import { Router,Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Mindmap from './Mindmap';
 import Mindmap2 from './Mindmap2';
 import Mindmap3 from './Mindmap3';

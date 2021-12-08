@@ -154,8 +154,8 @@ $answer-animation-delay: 2s;
             position: absolute;
             max-width: $artwork-max-width;
             max-height: $artwork-max-height;
-            bottom: 105%;
-            right: 13%
+            bottom: 97%;
+            right: 14%
           }
           > .content {
             opacity:0;
@@ -254,7 +254,7 @@ $answer-animation-delay: 2s;
             position: absolute;
             max-width: $artwork-max-width;
             max-height: $artwork-max-height;
-            bottom: 103%;
+            bottom: 90%;
             left: 105%; 
           }
           > .content {
@@ -314,16 +314,9 @@ $answer-animation-delay: 2s;
     }
     .content{
       >.mindcontent{
-        >.line.circle{
-          text-indent: -0.9em;
-          padding-left: 1.5em;
-        }
         >.line {
         // text-indent: $text-indent;
-           padding-left: 1em;
         >.answer {
-          position: relative;
-          text-indent: 0;
           &.ex{
             animation: forwards;
             animation-name: shake;

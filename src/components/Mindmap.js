@@ -1,7 +1,4 @@
 import "./Mindmap.scss"
-import exit from '../images/exit.png';
-import choco from '../images/choco.png';
-import logo from '../images/logo.png';
 import arrow1 from '../images/arrow1.png';
 import arrow1_dot from '../images/arrow1_dot.png';
 import arrow2 from '../images/arrow2.png';
@@ -9,7 +6,6 @@ import arrow2_dot from '../images/arrow2_dot.png';
 import arrow3 from '../images/arrow3.png';
 import arrow3_dot from '../images/arrow3_dot.png';
 import background from '../images/background.png';
-import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import MindContent from "./MindContent";
 

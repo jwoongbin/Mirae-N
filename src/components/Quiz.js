@@ -1,13 +1,6 @@
 import './Quiz.scss';
-import exit from '../images/exit.png';
-import choco from '../images/choco.png';
-import logo from '../images/logo.png';
-import penfront from '../images/pen/penfront.svg'
-import penback from '../images/pen/penback.svg'
 import pen from '../images/pen/pen.png';
-import { Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import newdata from '../data.json'
 import { fillParentheses } from '../common/utils';
 
 function Quiz({data, conindex, subindex}){
