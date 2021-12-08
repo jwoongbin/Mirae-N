@@ -7,6 +7,7 @@ $sub-themes-font-size: 1.8em;
 $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
+$content-min-height: 50%;
 $artwork-max-width: 14%;
 $artwork-max-height: 30%;
 $text-indent: -0.5em;
@@ -158,6 +159,8 @@ $answer-animation-delay: 2s;
             right: 14%
           }
           > .content {
+            display: flex;
+            align-items: center;
             opacity:0;
             animation: forwards;
             animation-delay: $animation-step3;
@@ -169,6 +172,7 @@ $answer-animation-delay: 2s;
             font-weight: 800;
             padding: 0.5% 0.5%;
             width: 27%;
+            min-height: $content-min-height;
             // height: fit-content;
             top: 63%;
             right: 2%;
@@ -275,6 +279,7 @@ $answer-animation-delay: 2s;
             display: flex;
             align-items: center;
             width: 24%;
+            min-height: $content-min-height;
             // height: fit-content;
             background-color: #ffe0e0;
             border-width: medium;

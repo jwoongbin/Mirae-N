@@ -10,6 +10,11 @@ function dotChecker( spanlist ) {
   return spanlist.find( span=> span.props.children[0][0] === "•")? true : false;
 }
 
+function lineTag(spanlist){
+    dotChecker(spanlist)
+
+}
+
 function MindContent (content){
     var data = newlineToBr(content.content)
     
@@ -42,9 +47,11 @@ function MindContent (content){
         var spanlist = []
         var templine = line
         var mablelist = changeMarbleNum(line)
+        var lineTag = ""
         if(mablelist.length === 2){
             spanlist.push(mablelist[0])
             templine = mablelist[1]
+            lineTag = " marble"
         }
         var splitstring = templine.split(/[()]+/)
         console.log("splitstring : ", splitstring)
@@ -76,7 +83,8 @@ function MindContent (content){
             console.log("괄호 갯수가 이상한데...?")
         }
         console.log("spanlist : ",spanlist)
-        var linetag = <div className={`line ${dotChecker(spanlist)? "circle" : ""}`}>{spanlist}</div>;
+        lineTag = dotChecker(spanlist) ? " circle" : lineTag
+        var linetag = <div className={`line`+ lineTag}>{spanlist}</div>;
         linelist.push(linetag)
         return true
     })
