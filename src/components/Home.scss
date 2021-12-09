@@ -1,6 +1,24 @@
 @import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
 @import url('bootstrap/dist/css/bootstrap.min.css');
 
+$custom-red: #e44351;
+$custom-green: #3ce1cd;
+$custom-blue: #4524dd;
+$custom-dark: #161515;
+
+// 배경 컬러 설정 변수
+$bg-color: $custom-red;
+
+#demo {
+  @if $bg-color == $custom-red {
+    background-color: invert($custom-red); }
+  @else if $bg-color == $custom-green {
+    background-color: desaturate(fade-out($custom-green, 20%), 30%); }
+  @else if $bg-color == $custom-blue {
+    background-color: lighten($custom-blue, 32%); }
+  @else {
+    background-color: white; }
+}
 
 
 html, body {
@@ -126,6 +144,13 @@ html, body {
               border: none ;
               >.accordion-header{
                 margin-bottom: 4.1%;
+                >.accordion-button::after{
+                  width: 1.5vw;
+                  height: 1.5vw;
+                  background-size: 1.5vw;
+                  // background-image: url('../images/web/accordion-button.png');
+                }
+                
                 >.accordion-button{
                   // font-size: 25px;
                   height: 2.5vw;
@@ -144,10 +169,10 @@ html, body {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    background-color: #5bd59a;
                     border-radius: 50%;
                     border: 0.2vw solid;
-                    border-color: #00b05b;
+                    // background-color: #5bd59a;
+                    // border-color: #00b05b;
                   }
                   >.title{
                     font-size: 1.2vw;
@@ -155,13 +180,12 @@ html, body {
                     position: absolute;
                     left: 6%;
                   }
-                  
-                }
-                >.accordion-button::after{
-                  width: 1.5vw;
-                  height: 1.5vw;
-                  background-size: 1.5vw;
-                  background-image: url('../images/web/accordion-button.png');
+                  &.korean::after{
+                    background-image: url('../images/web/button-korean.png');
+                  }
+                  &.korean.collapsed::after{
+                    background-image: url('../images/web/button-korean.png');
+                  }
                 }
               }
               >.accordion-collapse >.accordion-body{

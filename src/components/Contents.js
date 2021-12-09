@@ -2,49 +2,14 @@ import React from 'react';
 import Accordion from 'react-bootstrap/Accordion'
 import {Link} from 'react-router-dom';
 import './Contents.scss'
-import icon from '../icon.png';
 import mindmap_icon from '../images/web/mindmap-icon.png';
 import quiz_icon from '../images/web/quiz-icon.png';
-import horizentaline from '../images/web/horizentaline.png';
-import { AccordionButton } from 'react-bootstrap';
+import { circleParser } from '../common/utils.js';
 
 function Contents({data}) {
-  console.log(data);
-  const circleParser = (subs) => {
-    let newNumber = "";
-    console.log(newNumber);
-    const number = subs.split('-');
-    switch(number[1]){
-      case '➊':
-        newNumber = <span>{'1'}</span>
-        break;
-      case '➋':{ 
-        newNumber = <span>{'2'}</span>
-        break;}
-      case '➌':{ 
-        newNumber = <span>{'3'}</span>
-        break;}
-      case '➍':{ 
-        newNumber = <span>{'4'}</span>
-        break;}
-      case '➎':{ 
-        newNumber = <span>{'5'}</span>
-        break;}
-      case '➏':{ 
-        newNumber = <span>{'6'}</span>
-        break;}
-      default : {
-        break;}
-    }
-    return (<div>
-      {number[0]}-
-      {newNumber}
-    </div>)
-  }
   //국어: 막대:#ff4d64 동그라미: #ffa39c
   //사회: 막대:#00b05b 동그라미: #5bd59a
   //수학: 막대:#5460b5 동그라미 #8589eb
-
   const circle = (subject) => {
     if(subject === '국어'){
       return {
@@ -64,16 +29,62 @@ function Contents({data}) {
     }
   }
 
+  const onSelect = (i) => {
+    const select_bar = document.querySelectorAll('.accordion-button');
+
+    if(data.subject === '국어'){
+      select_bar[i].style.background = '#ff4d64';
+      select_bar[i].classList.add('korean');
+      console.log(select_bar[i].classList);
+    }
+  }
+
+
+  React.useEffect(() => {
+    var select_bar = document.querySelectorAll('.accordion-button');
+    // var select_button = document.querySelectorAll('.accordion-button:after');
+    let select_button;
+    if(data.subject === '국어'){
+      {
+        for ( var i = 0; i< select_bar.length; i++){
+          select_bar[i].style.background = '#ff4d64';
+          select_bar[i].classList.add('korean');
+          console.log(select_bar[i].classList);
+          // select_button = window.getComputedStyle(select_bar[i], ':after');
+          console.log(select_button);
+          // select_button.classList.add('korean')
+          // console.log(select_button.getPropertyValue('background'));
+          // select_button.style.background = "url('../images/web/accordion-button.png')";
+        }
+      }
+    }else if(data.subject ==='사회') {
+      {
+
+        for ( var i = 0; i< select_bar.length; i++){
+          select_bar[i].style.background = '#00b05b';
+          select_bar[i].classList.add('society');
+        }
+      }
+    }else if(data.subject ==='수학'){
+        {
+
+          for ( var i = 0; i< select_bar.length; i++){
+            select_bar[i].style.background = '#5460b5';
+            select_bar[i].classList.add('math');
+          }
+        }
+    }
+  }, []);
+
   return(
     <div className="panel-group" id="accordion">
-      {/* <AccordionColor className="" subject={data}></AccordionColor> */}
           <Accordion>
               {data.contents.map((item, index) => (
               <Accordion.Item eventKey={index} key={index}>
-                <Accordion.Header>
-                  {/* <AccordionColor className="number" subject={data.subject}>{item.unit}</AccordionColor> */}
+                <Accordion.Header onClick={() => onSelect(index)}>
                   <div className="number" style={circle(data.subject)}>{item.unit}</div>
                   <div className="title">{item.title}</div>
+                  {/* <img src={quiz_icon} width="50"></img>> */}
                 </Accordion.Header>
                 <Accordion.Body>
                   {item.subs.map((subs, index) => (
