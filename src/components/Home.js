@@ -16,8 +16,24 @@ function Home({data}){
   };
   const { triggerFull } = useFullscreen(onFullS);
   triggerFull();
+
+  const background = (subject) => {
+    if(subject === '국어'){
+      return {
+        background: 'rgb(255, 163, 156, 0.4)',
+      }
+    }else if(subject ==='사회') {
+      return {
+        background: 'rgb(0, 176, 91, 0.4)',
+      }
+    }else if(subject ==='수학'){
+        return{
+          background: 'rgb(84, 96, 181,0.4)',
+        }
+    }
+  }
   return (
-    <div className="home-wrap">      
+    <div className="home-wrap" style={background(data.subject)}>      
       <div className="header"></div>
       <div className="content">
         <div className="frame">

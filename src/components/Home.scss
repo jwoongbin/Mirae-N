@@ -42,7 +42,7 @@ html, body {
 }
 
 .home-wrap {
-  background-image: url('../images/web/society-background.png');
+  // background-image: url('../images/web/society-background.png');
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
@@ -148,7 +148,7 @@ html, body {
                   width: 1.5vw;
                   height: 1.5vw;
                   background-size: 1.5vw;
-                  // background-image: url('../images/web/accordion-button.png');
+                  background-image: url('../images/web/accordion-button.png');
                 }    
                 >.accordion-button{
                   // font-size: 25px;
@@ -179,12 +179,10 @@ html, body {
                     position: absolute;
                     left: 6%;
                   }
-                  &.korean::after{
-                    background-image: url('../images/web/button-korean.png');
-                  }
-                  &.korean.collapsed::after{
-                    background-image: url('../images/web/button-korean.png');
-                  }
+                  // &.korean::after{
+                  //   background-image: url('../images/web/button-korean.png');
+                  // }
+
                 }
               }
               >.accordion-collapse >.accordion-body{
@@ -192,6 +190,9 @@ html, body {
                 padding: 0 0.5rem 0.5rem 0rem;
                 ul:last-child > hr{
                   display: none;
+                }
+                &.korean ul{
+                  justify-content: flex-end;
                 }
                 ul {
                   position: relative;

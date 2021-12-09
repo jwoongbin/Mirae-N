@@ -41,7 +41,7 @@ function Contents({data}) {
 
   React.useEffect(() => {
     var select_bar = document.querySelectorAll('.accordion-button');
-    var body = document.querySelectorAll('.accordion-collapse');
+    var body = document.querySelectorAll('.accordion-body');
     // var select_button = document.querySelectorAll('.accordion-button:after');
 
     let select_button;
@@ -49,15 +49,12 @@ function Contents({data}) {
       { 
         for ( var i = 0; i< select_bar.length; i++){
           select_bar[i].style.background = '#ff4d64';
-          select_bar[i].classList.add('korean');
-          console.log(select_bar[i].classList);
-          select_button = window.getComputedStyle(select_bar[i], ':after');
-          console.log(select_button);
+          // select_bar[i].classList.add('korean');
+          // console.log(select_bar[i].classList);
+          // select_button = window.getComputedStyle(select_bar[i], ':after');
+          // console.log(select_button);
 
           body[i].classList.add('korean');
-          // select_button.classList.add('koreano')
-          // console.log(select_button.getPropertyValue('background'));
-          // document,select_button.style.background = "url('../images/web/accordion-button.png')";
         }
       }
     }else if(data.subject ==='사회') {
@@ -69,7 +66,6 @@ function Contents({data}) {
       }
     }else if(data.subject ==='수학'){
         {
-
           for ( var i = 0; i< select_bar.length; i++){
             select_bar[i].style.background = '#5460b5';
             select_bar[i].classList.add('math');
