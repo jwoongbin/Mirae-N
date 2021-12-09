@@ -39,27 +39,29 @@ function Contents({data}) {
     }
   }
 
-
   React.useEffect(() => {
     var select_bar = document.querySelectorAll('.accordion-button');
+    var body = document.querySelectorAll('.accordion-collapse');
     // var select_button = document.querySelectorAll('.accordion-button:after');
+
     let select_button;
     if(data.subject === '국어'){
-      {
+      { 
         for ( var i = 0; i< select_bar.length; i++){
           select_bar[i].style.background = '#ff4d64';
           select_bar[i].classList.add('korean');
           console.log(select_bar[i].classList);
-          // select_button = window.getComputedStyle(select_bar[i], ':after');
+          select_button = window.getComputedStyle(select_bar[i], ':after');
           console.log(select_button);
-          // select_button.classList.add('korean')
+
+          body[i].classList.add('korean');
+          // select_button.classList.add('koreano')
           // console.log(select_button.getPropertyValue('background'));
-          // select_button.style.background = "url('../images/web/accordion-button.png')";
+          // document,select_button.style.background = "url('../images/web/accordion-button.png')";
         }
       }
     }else if(data.subject ==='사회') {
       {
-
         for ( var i = 0; i< select_bar.length; i++){
           select_bar[i].style.background = '#00b05b';
           select_bar[i].classList.add('society');
