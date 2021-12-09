@@ -1,5 +1,4 @@
-$common-border: 0.2em solid #ffb8b8;
-$background: rgb(237, 140, 140, 0.25);
+$common-border: 0.2em solid;
 $sub-themes-width: 14%;
 $sub-themes-height: 100%;
 $sub-themes-padding: 15% 5%;
@@ -116,7 +115,6 @@ $answer-animation-delay: 2s;
             justify-content: center;
             width: $sub-themes-width;
             height: $sub-themes-height;
-            background: $background;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
@@ -174,7 +172,6 @@ $answer-animation-delay: 2s;
             top: -45%;
             right: -53%;
             font-size: $content-font-size;
-            background: $background;
             border: $common-border;
             border-radius: $content-border-radius;
               > .contenttext{
@@ -223,7 +220,6 @@ $answer-animation-delay: 2s;
             justify-content: center;
             width: $sub-themes-width;
             height: $sub-themes-height;
-            background: $background;
             border-width: medium;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
@@ -284,22 +280,9 @@ $answer-animation-delay: 2s;
             align-items: center;
             width: 23%;
             min-height: 110%;
-            // height: fit-content;
-            background: $background;
             border-width: medium;
             border: $common-border;
             border-radius: $content-border-radius;
-            // >.mindcontent >.line{
-            //   text-indent: $text-indent;
-            //   padding-left: $text-padding-left;    
-            //   >.answer {
-            //     display: inline-block;
-            //     animation: forwards;
-            //     animation-delay: 4s;
-            //     animation-duration: 0.5s;
-            //     animation-name: shake_2;
-            //   }    
-            // }
           }
         }
         .item3 {
@@ -330,7 +313,6 @@ $answer-animation-delay: 2s;
             justify-content: center;
             width: $sub-themes-width;
             height: $sub-themes-height;
-            background: $background;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
@@ -389,22 +371,9 @@ $answer-animation-delay: 2s;
             align-items: center;
             width: 25%;
             min-height: 110%;
-            // height: fit-content;
-            background: $background;
             border-width: medium;
             border: $common-border;
             border-radius: $content-border-radius;
-            // >.mindcontent >.line{
-            //   text-indent: $text-indent;
-            //   padding-left: $text-padding-left;
-            //   >.answer {
-            //     display: inline-block;
-            //     animation: forwards;
-            //     animation-delay: 4s;
-            //     animation-duration: 0.5s;
-            //     animation-name: shake_2;
-            //   }        
-            // }
           }
         }
       }

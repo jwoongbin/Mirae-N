@@ -1,4 +1,4 @@
-$common-border: 0.2em solid #ffb8b8;
+$common-border: 0.2em solid;
 $sub-themes-width: 15%;
 $sub-themes-height: 38%;
 $sub-themes-padding: 15% 5%;
@@ -119,7 +119,6 @@ $answer-animation-delay: 2s;
             justify-content: center;
             width: $sub-themes-width;
             height: $sub-themes-height;
-            background-color: rgb(255, 224, 224);
             border: $common-border;
             border-radius: $sub-themes-border-radius;
             line-height: 1.2;
@@ -177,7 +176,6 @@ $answer-animation-delay: 2s;
             top: 63%;
             right: 2%;
             font-size: $content-font-size;
-            background-color: #ffe0e0;
             border-width: medium;
             border: $common-border;
             border-radius: $content-border-radius;
@@ -220,7 +218,6 @@ $answer-animation-delay: 2s;
             justify-content: center;
             width: $sub-themes-width;
             height: $sub-themes-height;
-            background-color: rgb(255, 224, 224);
             border-width: medium;
             border: $common-border;
             border-radius: $sub-themes-border-radius;
@@ -280,15 +277,9 @@ $answer-animation-delay: 2s;
             align-items: center;
             width: 24%;
             min-height: $content-min-height;
-            // height: fit-content;
-            background-color: #ffe0e0;
             border-width: medium;
             border: $common-border;
             border-radius: $content-border-radius;
-            // >.mindcontent >.line{
-            //   text-indent: $text-indent;
-            //   padding-left: $text-padding-left;    
-            // }
           }
         }
       }

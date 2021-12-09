@@ -1,4 +1,4 @@
-$common-border: 0.2em solid #ffb8b8;
+$common-border: 0.2em solid;
 $sub-themes-width: 14%;
 $sub-themes-height: 38%;
 $sub-themes-padding: 15% 5%;
@@ -7,7 +7,6 @@ $sub-themes-font-size: 1.8em;
 $content-font-size: 1.3em;
 $content-border-radius: 0.5em;
 $content-font-family: 'NanumGothic';
-$background: rgb(237, 140, 140, 0.25);
 $artwork-max-width: 35%;
 $artwork-max-height: 60%;
 $text-indent: -0.5;
@@ -138,17 +137,8 @@ $answer-animation-delay: 1s;
             left: 110%;
             transform: translate(0%, -20%);
             font-size: $content-font-size;
-            background: $background;
             border: $common-border;
             border-radius: $content-border-radius;
-              // > .contenttext{
-              //   display: flex;
-              // }
-              // >.mindcontent >.line{
-              //   text-indent: -1.4em;
-              //   padding-left: 2em;
-              //   ;
-              // }
               > .artwork2{
                 opacity:0;
                 animation: forwards;
