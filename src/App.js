@@ -2,12 +2,6 @@ import './App.css'
 import newdata from './data.json'
 import Home from './components/Home';
 import './components/Home.scss';
-import Mindmap from './components/Mindmap';
-import Mindmap2 from './components/Mindmap2';
-import Mindmap3 from './components/Mindmap3';
-import Mindmap4 from './components/Mindmap4';
-// import Mindmap2 from './components/Mindmap2';
-import Quiz from './components/Quiz';
 import Common from './components/Common';
 
 import {BrowserRouter as Router, Route } from "react-router-dom";

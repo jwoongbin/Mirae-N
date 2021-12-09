@@ -85,42 +85,6 @@ export function typeFourImage(content){
     return filelist
 }
 
-// export function circleParser(subs) {
-//     var number = subs.split('-');
-//     switch(number[1]){
-//         case '①':
-//             var returnvalue = '1';
-//             console.log(returnvalue);
-//             return (<div>
-//                 {number[0]}-
-//                 <span>{returnvalue}</span>
-//               </div>)
-//             break;
-//         case '②':{ 
-//             var returnvalue = <span>{' 2 '}</span>
-//             break;}
-//         case '③':{ 
-//             var returnvalue = <span>{' 3 '}</span>
-//             break;}
-//         case '④':{ 
-//             var returnvalue = <span>{' 4 '}</span>
-//             break;}
-//         case '⑤':{ 
-//             var returnvalue = <span>{' 5 '}</span>
-//             break;}
-//         case '⑥':{ 
-//             var returnvalue = <span>{' 6 '}</span>
-//             break;}
-//         default : {
-//             break;}
-//     }
-//     console.log(returnvalue);
-//     return (<div>
-//       {number[0]}-{returnvalue}
-//       {/* <span>{returnvalue}</span> */}
-//     </div>)
-//   }
-
   export function circleParser(subs){
     let newNumber = "";
     console.log(newNumber);
@@ -151,4 +115,37 @@ export function typeFourImage(content){
       {number[0]}-
       {newNumber}
     </div>)
+  }
+  export function titleStyle(subject) {
+    if(subject === '국어'){
+      return {
+        background: "url('')",
+      }
+    }else if(subject ==='사회') {
+      return {
+        background:  "url('../images/background-society.png')",
+      }
+    }else if(subject ==='수학'){
+        return{
+          background:  "url('')",
+        }
+    }
+  }
+  export function boxStyle(subject) {
+    if(subject === '국어'){
+      return {
+        background:  'rgb(66, 206, 138, 0.25)',
+        borderColor: '#42ce8a',
+      }
+    }else if(subject ==='사회') {
+      return {
+        background: 'rgb(239, 192, 194, 0.25)',
+        borderColor: '#efc0c2',
+      }
+    }else if(subject ==='수학'){
+        return{
+          background: 'rgb(109, 123, 219, 0.25)',
+          borderColor: '#6d7bdb',
+        }
+    }
   }
