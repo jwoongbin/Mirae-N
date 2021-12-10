@@ -131,9 +131,8 @@
               position: relative;
               float: right;
               display: flex;
-              width: fit-content;
-              width: 4.5em;
-              height: 1.2em;
+              width: 6em;
+              height: fit-content;
               >.imgbox{
                 // position: absolute;
                 top: 0;
@@ -144,8 +143,8 @@
                 background-color: white;
                 // visibility: visible;
                 >.img{
-                  width: 4.5em;
-                  height: 1.2em;
+                  width: 6em;
+                  height: 100%;
                 }
               }
               >.textbox{

@@ -4,10 +4,19 @@ import Home from './components/Home';
 import './components/Home.scss';
 import Common from './components/Common';
 
-import {BrowserRouter as Router, Route } from "react-router-dom";
+import {BrowserRouter as Router, Route, withRouter } from "react-router-dom";
 import React from 'react';
-function App() {
+function App(props) {
+  const current = decodeURI(window.location.href);
+  const search = current.split("?")[1];
+  const params = new URLSearchParams(search);
+  const keywords = params.get('keywords');
+  console.log("keywords : " , keywords)
+  if(keywords != null){
+    props.history.push(keywords)
+  }
   console.log(newdata);
+
   return (
     <Router>
       {newdata.map((data, index) => (
@@ -17,8 +26,8 @@ function App() {
             content.subs.map((sub, indexb) => (
               sub.btns.map((btn, indexc) => {
                 if(btn.btn_name === "마인드맵"){
-                  console.log(btn.btn_url.replace("https://edubook.mirae-n.com",""));
                   var mindurl = btn.btn_url.replace("https://edubook.mirae-n.com","");
+                  console.log(mindurl);
                   var returnvalue = <Route key={"" + indexa +""+ indexb + "" + indexc} path={mindurl} render={() => <Common data={data} conindex={indexa} subindex={indexb} type={sub.mindmap.type} />} />
                   return returnvalue;
                 }else if(btn.btn_name === "추가문제"){
@@ -38,4 +47,4 @@ function App() {
   )
 } 
  
-export default App;
+export default withRouter(App);

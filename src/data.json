@@ -3,7 +3,7 @@
     "subject": "국어",
     "grade": 3,
     "semester": 1,
-    "cover_img": "파일명",
+    "cover_img": "k3-1cover.png",
     "book_url": "https://edubook.mirae-n.com/korean/pre_open_ex2_k3-1.html",
     "contents": [
       {
@@ -19,7 +19,7 @@
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v1.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/미래엔_초코국어_3-1_1단원.mp4"
               }
             ],
             "mindmap": {
@@ -52,7 +52,7 @@
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v2.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/미래엔_초코국어_3-1_2단원.mp4"
               }
             ],
             "mindmap": {
@@ -85,7 +85,7 @@
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v3.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/미래엔_초코국어_3-1_3단원.mp4"
               }
             ],
             "mindmap": {
@@ -118,7 +118,7 @@
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v4.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/미래엔_초코국어_3-1_4단원.mp4"
               }
             ],
             "mindmap": {
@@ -151,7 +151,7 @@
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v5.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/미래엔_초코국어_3-1_5단원.mp4"
               }
             ],
             "mindmap": {
@@ -184,7 +184,7 @@
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v6.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/미래엔_초코국어_3-1_6단원.mp4"
               }
             ],
             "mindmap": {
@@ -217,7 +217,7 @@
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v7.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/미래엔_초코국어_3-1_7단원.mp4"
               }
             ],
             "mindmap": {
@@ -250,7 +250,7 @@
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v8.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/미래엔_초코국어_3-1_8단원.mp4"
               }
             ],
             "mindmap": {
@@ -283,7 +283,7 @@
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/pre_open_ex2_v9.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/미래엔_초코국어_3-1_9단원.mp4"
               }
             ],
             "mindmap": {
@@ -314,8 +314,8 @@
     "subject": "국어",
     "grade": 4,
     "semester": 1,
-    "cover_img": "파일이름",
-    "book_url": "http://edubook-miraen.cdn.x-cdn.com/korean/pre_open_ex2_k4-1.html",
+    "cover_img": "k4-1cover.png",
+    "book_url": "https://edubook.mirae-n.com/korean/pre_open_ex2_k4-1.html",
     "contents": [
       {
         "unit": 1,
@@ -326,11 +326,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_01.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/mindmap/pre_open_ex2_m1.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_01.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/video/lesson_4-1_01.mp4"
               }
             ],
             "mindmap": {},
@@ -347,11 +347,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_02.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/mindmap/pre_open_ex2_m2.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_02.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/video/lesson_4-1_02.mp4"
               }
             ],
             "mindmap": {},
@@ -368,11 +368,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_03.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/mindmap/pre_open_ex2_m3.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_03.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/video/lesson_4-1_03.mp4"
               }
             ],
             "mindmap": {},
@@ -389,11 +389,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_04.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/mindmap/pre_open_ex2_m4.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_04.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/video/lesson_4-1_04.mp4"
               }
             ],
             "mindmap": {},
@@ -410,11 +410,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_05.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/mindmap/pre_open_ex2_m5.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_05.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/video/lesson_4-1_05.mp4"
               }
             ],
             "mindmap": {},
@@ -431,11 +431,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_06.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/mindmap/pre_open_ex2_m6.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_06.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/video/lesson_4-1_06.mp4"
               }
             ],
             "mindmap": {},
@@ -452,11 +452,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_07.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/mindmap/pre_open_ex2_m7.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_07.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/video/lesson_4-1_07.mp4"
               }
             ],
             "mindmap": {},
@@ -473,11 +473,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_08.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/mindmap/pre_open_ex2_m8.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_08.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/video/lesson_4-1_08.mp4"
               }
             ],
             "mindmap": {},
@@ -494,11 +494,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/mindmap/mindmap_4-1_09.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/mindmap/pre_open_ex2_m9.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco4-1/video/lesson_4-1_09.html"
+                "btn_url": "https://edubook.miraen.com/korean/choco4-1/video/lesson_4-1_09.mp4"
               }
             ],
             "mindmap": {},
@@ -517,8 +517,8 @@
     "subject": "국어",
     "grade": 5,
     "semester": 1,
-    "cover_img": "파일명",
-    "book_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/pre_open_ex2_c5-1.html",
+    "cover_img": "k5-1cover.png",
+    "book_url": "https://edubook.mirae-n.com/korean/pre_open_ex2_k5-1.html",
     "contents": [
       {
         "unit": 1,
@@ -529,11 +529,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m1.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/mindmap/pre_open_ex2_m1.html.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_01.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 1단원.mp4"
               }
             ],
             "mindmap": {},
@@ -550,11 +550,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m2.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/mindmap/pre_open_ex2_m2.html.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_02.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 2단원.mp4"
               }
             ],
             "mindmap": {},
@@ -571,11 +571,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m3.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/mindmap/pre_open_ex2_m3.html.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_03.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 3단원.mp4"
               }
             ],
             "mindmap": {},
@@ -592,11 +592,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m4.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/mindmap/pre_open_ex2_m4.html.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_04.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 4단원.mp4"
               }
             ],
             "mindmap": {},
@@ -613,11 +613,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m5.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/mindmap/pre_open_ex2_m5.html.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_05.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 5단원.mp4"
               }
             ],
             "mindmap": {},
@@ -634,11 +634,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m6.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/mindmap/pre_open_ex2_m6.html.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_06.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 6단원.mp4"
               }
             ],
             "mindmap": {},
@@ -655,11 +655,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m7.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/mindmap/pre_open_ex2_m7.html.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_07.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 7단원.mp4"
               }
             ],
             "mindmap": {},
@@ -676,11 +676,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m8.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/mindmap/pre_open_ex2_m8.html.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_08.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 8단원.mp4"
               }
             ],
             "mindmap": {},
@@ -697,11 +697,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/mindmap/pre_open_ex2_m9.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/mindmap/pre_open_ex2_m9.html.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco5-1/video/lesson_5-1_09.html.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 9단원.mp4"
               }
             ],
             "mindmap": {},
@@ -720,8 +720,8 @@
     "subject": "국어",
     "grade": 6,
     "semester": 1,
-    "cover_img": "파일명",
-    "book_url": "http://edubook-miraen.cdn.x-cdn.com/korean/pre_open_ex2_k6-1.html",
+    "cover_img": "k6-1cover.png",
+    "book_url": "https://edubook.mirae-n.com/korean/pre_open_ex2_k6-1.html",
     "contents": [
       {
         "unit": 1,
@@ -732,11 +732,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m1.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/mindmap/pre_open_ex2_m1.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v1.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/video/6학년 1단원 1강.mp4"
               }
             ],
             "mindmap": {
@@ -765,11 +765,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m2.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/mindmap/pre_open_ex2_m2.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v2.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/video/6학년 2단원 2강.mp4"
               }
             ],
             "mindmap": {
@@ -798,11 +798,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m3.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/mindmap/pre_open_ex2_m3.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v3.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/video/6학년 3단원 3강.mp4"
               }
             ],
             "mindmap": {
@@ -831,11 +831,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m4.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/mindmap/pre_open_ex2_m4.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v4.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/video/6학년 4단원 4강.mp4"
               }
             ],
             "mindmap": {
@@ -864,11 +864,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m5.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/mindmap/pre_open_ex2_m5.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v5.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/video/6학년 5단원 5강.mp4"
               }
             ],
             "mindmap": {
@@ -897,11 +897,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m6.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/mindmap/pre_open_ex2_m6.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v6.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/video/6학년 6단원 6강.mp4"
               }
             ],
             "mindmap": {
@@ -930,11 +930,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m7.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/mindmap/pre_open_ex2_m7.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v7.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/video/6학년 7단원 7강.mp4"
               }
             ],
             "mindmap": {
@@ -963,11 +963,11 @@
             "btns": [
               {
                 "btn_name": "마인드맵",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/mindmap/pre_open_ex2_m8.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/mindmap/pre_open_ex2_m8.html"
               },
               {
                 "btn_name": "해설강의",
-                "btn_url": "http://edubook-miraen.cdn.x-cdn.com/korean/choco6-1/video/pre_open_ex2_v8.html"
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/video/6학년 8단원 8강.mp4"
               }
             ],
             "mindmap": {
@@ -998,7 +998,7 @@
     "subject": "사회",
     "grade": 3,
     "semester": 1,
-    "cover_img": "SOC_3-1_1,4.PDF\nSOC_3-1_1,4.ai",
+    "cover_img": "s3-1cover.png",
     "book_url": "https://edubook.mirae-n.com/socie/choco3-1/s3-1_index.html",
     "contents": [
       {
@@ -2117,7 +2117,7 @@
     "subject": "사회",
     "grade": 4,
     "semester": 1,
-    "cover_img": "SOC_4-1_1,4.PDF\nSOC_4-1_1,4.ai",
+    "cover_img": "s4-1cover.png",
     "book_url": "https://edubook.mirae-n.com/socie/choco4-1/s4-1_index.html",
     "contents": [
       {
