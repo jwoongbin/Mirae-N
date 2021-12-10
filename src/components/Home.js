@@ -1,7 +1,6 @@
 import './Home.scss';
 import Contents from './Contents';
 import useFullscreen from "./useFullscreen";
-import book from "../images/web/book.png";
 import choco from "../images/web/choco.png";
 import logo from "../images/web/logo.png";
 import cloud1 from "../images/web/cloud1.png";
@@ -46,7 +45,7 @@ function Home({data}){
           </div>
           <div className="top">
             <div className="book-title"><span>{book_title}</span></div>
-            <img className="book-cover" src={book} alt=""/>
+            {/* <img className="book-cover" src={book} alt=""/> */}
           </div>
           <div className="accordion-box">
             <Contents data={data} />
