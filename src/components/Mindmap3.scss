@@ -113,7 +113,6 @@ $answer-animation-delay: 2s;
             color: rgb(84, 84, 84);
             font-size: $sub-themes-font-size;
             font-weight: 800;
-            padding: 0 1%;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -169,23 +168,14 @@ $answer-animation-delay: 2s;
             position: absolute;
             color: #575252;
             font-weight: 800;
-            padding: 0.5% 0.5%;
             width: 27%;
             min-height: $content-min-height;
-            // height: fit-content;
             top: 63%;
             right: 2%;
             font-size: $content-font-size;
             border-width: medium;
             border: $common-border;
             border-radius: $content-border-radius;
-              // > .contenttext{
-              //   display: flex;
-              // }
-              // >.mindcontent >.line{
-              //   text-indent: $text-indent;
-              //   padding-left: $text-padding-left;    
-              // }
          }
 
         }
@@ -199,7 +189,6 @@ $answer-animation-delay: 2s;
           flex-direction: column;
           justify-content: space-between;
           align-items: flex-end;
-
           > .subject {
             opacity:0;
             animation: forwards;
@@ -212,7 +201,6 @@ $answer-animation-delay: 2s;
             color: rgb(84, 84, 84);
             font-size: $sub-themes-font-size;
             font-weight: 800;
-            padding: 0 10px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -266,13 +254,11 @@ $answer-animation-delay: 2s;
             animation-name: fadeinCo2_3;
             font-family: $content-font-family;
             position: absolute;
-            padding: 0 10px;
             left: 100%;
             top: 55%;
             color: #575252;
             font-size: $content-font-size;
             font-weight: 800;
-            padding: 0.5% 0.5%;
             display: flex;
             align-items: center;
             width: 24%;
