@@ -5,11 +5,48 @@ import './Contents.scss'
 import mindmap_icon from '../images/web/mindmap-icon.png';
 import quiz_icon from '../images/web/quiz-icon.png';
 import { circleParser } from '../common/utils.js';
+import styled, {css} from "styled-components";
+
+
+// 레드: #FF8A8A (개념, 추가문제, 해설강의)
+// 퍼플: #8A8AFF (유형, 마인드맵, )
+// 그린: #5BD59A (연산)
+  const StyledButton = styled.div`
+    display: flex;
+    border-radius: 17px;
+    margin-left: 0.5em;
+    padding: 0.5em 1em;
+    align-items: center;
+    justify-content: center;
+    `;
 
 function Contents({data}) {
-  //국어: 막대:#ff4d64 동그라미: #ffa39c
-  //사회: 막대:#00b05b 동그라미: #5bd59a
-  //수학: 막대:#5460b5 동그라미 #8589eb
+
+  const button = (btn_name) => {
+    console.log(btn_name);
+    switch(btn_name) {
+      case '개념' :
+      case '추가문제' :
+      case '해설강의' :
+        return {
+          backgroundColor: '#FF8A8A',
+          boxShadow: 'inset 0 -3px 6px 0px rgb(241, 81, 81)',
+        };
+      case '유형' :
+      case '마인드맵' :
+        return {
+          backgroundColor: '#8A8AFF',
+          boxShadow: 'inset 0 -3px 6px 0px rgb(102, 102, 255)',
+        };
+      case '연산':
+        return {
+          backgroundColor: '#5BD59A',
+          boxShadow: 'inset 0 -3px 6px 0px rgb(0, 176, 91)', 
+        }     
+
+    }
+    
+  }
   const circle = (subject) => {
     if(subject === '국어'){
       return {
@@ -26,16 +63,6 @@ function Contents({data}) {
           background: '#8589eb',
           borderColor: '#5460b5',
         }
-    }
-  }
-
-  const onSelect = (i) => {
-    const select_bar = document.querySelectorAll('.accordion-button');
-
-    if(data.subject === '국어'){
-      select_bar[i].style.background = '#ff4d64';
-      select_bar[i].classList.add('korean');
-      console.log(select_bar[i].classList);
     }
   }
 
@@ -71,7 +98,7 @@ function Contents({data}) {
           <Accordion>
               {data.contents.map((item, index) => (
               <Accordion.Item eventKey={index} key={index}>
-                <Accordion.Header onClick={() => onSelect(index)}>
+                <Accordion.Header>
                   <div className="number" style={circle(data.subject)}>{item.unit}</div>
                   <div className="title">{item.title}</div>
                   {/* <img src={quiz_icon} width="50"></img>> */}
@@ -82,8 +109,7 @@ function Contents({data}) {
                       {subs.sub != null ? circleParser(subs.sub) : ""}
                       <div key={subs.sub+index} className="img-container">
                         {subs.btns.map((btn, index) =>(
-                          <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name==="마인드맵"? <img src={mindmap_icon}/> : <img src={quiz_icon}/> }</Link>
-                          // <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link>
+                          <StyledButton style={button(btn.btn_name)}><Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link></StyledButton>
                         ))}
                       </div>
                     </ul>
