@@ -94,10 +94,9 @@ $animation-duration: 0.5s;
         width: 100%;
         padding: 5% 5%;
         .line{
-            padding-left: 1em;
             &.circle{
                 text-indent: -0.7em;
-                padding-left: 1.5em;
+                padding-left: 0.7em;
             }
             &.marble{
                 text-indent: -1.5em;
