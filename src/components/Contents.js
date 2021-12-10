@@ -23,7 +23,6 @@ import styled, {css} from "styled-components";
 function Contents({data}) {
 
   const button = (btn_name) => {
-    console.log(btn_name);
     switch(btn_name) {
       case '개념' :
       case '추가문제' :

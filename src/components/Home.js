@@ -31,6 +31,7 @@ function Home({data}){
         }
     }
   }
+  const bookUrl = data.subject + data.grade + '-' + data.semester;
   return (
     <div className="home-wrap" style={background(data.subject)}>      
       <div className="header"></div>
@@ -45,7 +46,7 @@ function Home({data}){
           </div>
           <div className="top">
             <div className="book-title"><span>{book_title}</span></div>
-            {/* <img className="book-cover" src={book} alt=""/> */}
+            <img className="book-cover" src={'/image/'+bookUrl+'/'+data.cover_img} alt=""/>
           </div>
           <div className="accordion-box">
             <Contents data={data} />

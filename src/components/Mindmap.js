@@ -33,7 +33,7 @@ function Mindmap({ data, conindex, subindex }) {
               <img className="background" src={background} alt='' />
               <div className="text">{mindmapData.title}</div>
             </div>
-
+            
             <div className="item1" style={{display : click? "" : "none"}}>
               <div className="subject" style={boxStyle(data.subject)}>
                 {click ? mindContent(mindmapData.mind_one) : null}
