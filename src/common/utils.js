@@ -10,8 +10,19 @@ export function newlineToBr(content){
 }
 
 export function fillParentheses(content){
-
+   
     var fillString = content.replace('( )','(        )')
+    // var returnvalue = []
+    // var split = content.split(/\((.*?)\)/g)
+    // console.log(split)
+    // var bracketsL =  <span className='brackets'>{'(        )'}</span>
+    // if(split.length === 3){
+    //   returnvalue.push(split[0])
+    //   returnvalue.push(bracketsL)
+    //   returnvalue.push(split[2])
+    // }else{
+    //   returnvalue.push(content)
+    // }
     return fillString
 }
 
