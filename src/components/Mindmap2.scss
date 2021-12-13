@@ -165,10 +165,10 @@ $answer-animation-delay: 2s;
             position: absolute;
             color: #575252;
             font-weight: 800;
-            width: 23%;
+            width: 25%;
             min-height: 110%;
-            top: -45%;
-            right: -53%;
+            top: -55%;
+            left: 130%;
             font-size: $content-font-size;
             background: $background;
             border: $common-border;
@@ -348,7 +348,7 @@ $answer-animation-delay: 2s;
             animation-name: fadeinCo3_2;
             font-family: $content-font-family;
             position: absolute;
-            top: 14%;
+            top: -33%;
             left: 136%;
             color: #575252;
             font-size: $content-font-size;
@@ -357,6 +357,7 @@ $answer-animation-delay: 2s;
             align-items: center;
             width: 25%;
             min-height: 110%;
+            max-height: 192%;
             // height: fit-content;
             background: $background;
             border-width: medium;
@@ -394,11 +395,10 @@ $answer-animation-delay: 2s;
       >.mindcontent{
         >.line.circle{
           text-indent: -0.9em;
-          padding-left: 1.5em;
         }
         >.line {
         // text-indent: $text-indent;
-           padding-left: 1em;
+           
         >.answer {
           position: relative;
           text-indent: 0;
