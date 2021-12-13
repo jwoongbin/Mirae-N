@@ -5,12 +5,11 @@ import arrow2 from '../images/2arrow2.png';
 import arrow2_dot from '../images/2arrow2_dot.png';
 import arrow3 from '../images/2arrow3.png';
 import arrow3_dot from '../images/2arrow3_dot.png';
-import background from '../images/background-society.png';
 import { useState } from 'react';
 import MindContent from "./MindContent";
 import { boxStyle, titleStyle } from '../common/utils.js';
 
-function Mindmap2({ data, conindex, subindex }) {
+function Mindmap2({ data, conindex, subindex, background }) {
   const [click, setClick] = useState(false);
   const mindmapData = data.contents[conindex].subs[subindex].mindmap
   console.log('마인드맵 데이타:',data, conindex);

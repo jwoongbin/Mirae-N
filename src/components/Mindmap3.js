@@ -3,12 +3,11 @@ import arrow1 from '../images/3arrow1.png';
 import arrow1_dot from '../images/3arrow1_dot.png';
 import arrow2 from '../images/3arrow2.png';
 import arrow2_dot from '../images/3arrow2_dot.png';
-import background from '../images/background-society.png';
 import { useState } from 'react';
 import MindContent from "./MindContent";
 import { boxStyle, titleStyle } from '../common/utils.js';
 
-function Mindmap3({ data, conindex, subindex }) {
+function Mindmap3({ data, conindex, subindex, background }) {
   const [click, setClick] = useState(false);
   const mindmapData = data.contents[conindex].subs[subindex].mindmap
   console.log('마인드맵 데이타:',data, conindex);

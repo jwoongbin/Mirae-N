@@ -1,13 +1,12 @@
 import "./Mindmap4.scss"
 import arrow1 from '../images/4arrow1.png';
-import background from '../images/background-society.png';
 import { useState } from 'react';
 import MindContent from "./MindContent";
 import { typeFourImage } from "../common/utils";
 import { boxStyle, titleStyle } from '../common/utils.js';
 
 
-function Mindmap4({ data, conindex, subindex }) {
+function Mindmap4({ data, conindex, subindex, background }) {
     console.log('마인드맵 데이타 : ',data," conindex : ", conindex, " subindex : ",subindex);
   const [click, setClick] = useState(false);
   const mindmapData = data.contents[conindex].subs[subindex].mindmap

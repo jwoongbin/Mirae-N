@@ -13,7 +13,7 @@ import styled, {css} from "styled-components";
 // 그린: #5BD59A (연산)
   const StyledButton = styled.div`
     display: flex;
-    border-radius: 17px;
+    border-radius: 1em;
     margin-left: 0.5em;
     padding: 0.5em 1em;
     align-items: center;
