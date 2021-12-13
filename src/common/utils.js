@@ -79,18 +79,18 @@ export function typeFourImage(content){
     var filelist = ['','','','']
     var splitlist = content.split('\n');
     splitlist.map((list, index)=>{
-        if(list.startsWith('1)')){
-            console.log("listtrimreplace : ",list.replace('1)','').trim())
-            filelist[0] = list.replace('1)','').trim()
-        }else if(list.startsWith('2)')){
-            console.log("listtrimreplace : ",list.replace('1)','').trim())
-            filelist[1] = list.replace('2)','').trim()
-        }else if(list.startsWith('3)')){
-            console.log("listtrimreplace : ",list.replace('1)','').trim())
-            filelist[2] = list.replace('3)','').trim()
-        }else if(list.startsWith('4)')){
-            console.log("listtrimreplace : ",list.replace('1)','').trim())
-            filelist[3] = list.replace('4)','').trim()
+        if(list.startsWith('1}')){
+            console.log("listtrimreplace : ",list.replace('1}','').trim())
+            filelist[0] = list.replace('1}','').trim()
+        }else if(list.startsWith('2}')){
+            console.log("listtrimreplace : ",list.replace('1}','').trim())
+            filelist[1] = list.replace('2}','').trim()
+        }else if(list.startsWith('3}')){
+            console.log("listtrimreplace : ",list.replace('1}','').trim())
+            filelist[2] = list.replace('3}','').trim()
+        }else if(list.startsWith('4}')){
+            console.log("listtrimreplace : ",list.replace('1}','').trim())
+            filelist[3] = list.replace('4}','').trim()
         }
     })
     return filelist

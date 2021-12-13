@@ -18,7 +18,7 @@ function lineTag(spanlist){
 function MindContent (content){
     var data = newlineToBr(content.content)
     
-    var pattern = /\(.+?\)/g;
+    var pattern = /\{.+?\}/g;
     var findanswer = data.match(pattern)
     if(findanswer === null){
         findanswer = []
@@ -53,7 +53,7 @@ function MindContent (content){
             templine = mablelist[1]
             lineTag = " marble"
         }
-        var splitstring = templine.split(/[()]+/)
+        var splitstring = templine.split(/[{}]+/)
         console.log("splitstring : ", splitstring)
         if(splitstring.length%2 === 1){
             splitstring.map((split, index)=>{
