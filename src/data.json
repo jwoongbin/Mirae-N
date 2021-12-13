@@ -306,7 +306,35 @@
       {
         "unit": 10,
         "title": "문학의 향기",
-        "subs": []
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/mindmap/pre_open_ex2_m10.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco3-1/video/미래엔_초코국어_3-1_10단원.mp4"
+              }
+            ],
+            "mindmap": {
+              "title": "10. 문학의 향기",
+              "type": 1,
+              "mind_one": "같은 책을 읽어도 느낌이 다른 까닭",
+              "contents_one": "사람마다 생각과 {경험}이/가 다 다르기 때문임.",
+              "image_one": "10_1.jpg",
+              "mind_two": "시에서 재미나 감동을 찾는 방법",
+              "contents_two": "• 시를 읽고 떠오르는 {장면}을/를 생각함.\n• 시 속 인물의 경험과 비슷한 경험을 떠올림.\n• 시 속 인물의 마음이 어떤지 생각해 봄.\n• 어떤 부분이 기억에 남는지 떠올려 봄.",
+              "image_two": "10_2.jpg",
+              "mind_three": "이야기에서 재미나 감동을 찾는 방법",
+              "contents_three": "• 주인공의 특이한 {말}(이)나 행동을 주의 깊게 살핌.\n• 인물의 한 경험과 비슷한 경험을 떠올림.\n• 흉내 내는 말이나 반복되는 말, 즐거운 기분이 드는 부분 등을 찾아봄.",
+              "image_three": "10_3.jpg"
+            },
+            "questions": []
+          }
+        ]
       }
     ]
   },
@@ -333,7 +361,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/video/lesson_4-1_01.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "생각과 느낌을 나누어요",
+              "type": 1,
+              "mind_one": "생각이나 느낌이 서로 다른 까닭",
+              "contents_one": "사람마다 {생각}(이)나 좋아하는 것 등이 다르기 때문에 같은 것을 보고도 다르게 생각할 수 있음.",
+              "image_one": "1-1.jpg",
+              "mind_two": "시나 이야기를 읽고 생각이나 느낌을 나누는 방법",
+              "contents_two": "• 시를 읽고 재미있었던 점이나 느낀 점 등을 다양한 방법으로 표현함.\n• 이야기를 읽고 인물의 말이나 행동에 대한 자신의 생각이나 느낌을 정리함.\n• 시나 이야기를 읽고 친구들과 생각이나 {느낌}을/를 나눔.",
+              "image_two": "1-2.jpg",
+              "mind_three": "일어난 일에 대한 의견을 분명하게 말하는 방법",
+              "contents_three": "• 의견을 말할 때에는 그런 생각을 하게 된 원인이나 근거인 {까닭}을/를 함께 말함.\n• 일어난 일에 대한 인물의 마음을 생각해 보고, 인물의 말이나 행동에 대한 자신의 생각을 말함.",
+              "image_three": "1-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -354,7 +394,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/video/lesson_4-1_02.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "내용을 간추려요",
+              "type": 3,
+              "mind_one": "글의 내용을 간추리는 방법",
+              "contents_one": "• 각 문단의 중심 문장을 찾고, ‘그리고, 그래서, 왜냐하면’ 등의 문장을 이어 주는 말을 생각함.\n• {중심 문장}을/를 연결해 전체 글의 내용을 간단하게 정리함.",
+              "image_one": "1} 2-1{1}.jpg\n1} 2-1{2}.jpg",
+              "mind_two": "이야기의 흐름에 따라 내용을 간추리는 방법",
+              "contents_two": "• 이야기에서 중요한 사건이 일어난 {시간}의 흐름에 따라 내용을 정리함.\n• 이야기에서 중요한 사건이 일어난 장소의 변화에 따라 내용을 정리함.",
+              "image_two": "2-2.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
             "questions": []
           }
         ]
@@ -375,7 +427,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/video/lesson_4-1_03.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "느낌을 살려 말해요",
+              "type": 2,
+              "mind_one": "표정, 몸짓, 말투를 사용해 말할 때 주의할 점",
+              "contents_one": "• 듣는 사람에 맞아야 함.\n• 표정, 몸짓, 말투가 서로 어울려야 함.\n• 사용하려는 {목적}을/를 생각해야 함.",
+              "image_one": "3-1.jpg",
+              "mind_two": "듣는 사람을 고려해 상황에 맞게 말하는 방법",
+              "contents_two": "• 듣는 사람의 나이, {관심} 등을 고려해서 말함.\n• 듣는 상황을 고려해서 말함.\n• 전하려는 내용에 알맞은 표정, 몸짓, 말투를 사용해서 말함.",
+              "image_two": "3-2.jpg",
+              "mind_three": "읽는 사람을 고려해 생각을 쓰는 방법",
+              "contents_three": "• 먼저, 읽는 사람을 누구로 할지 정함.\n• 읽는 사람의 처지를 생각하고 읽는 사람의 상황을 떠올림.\n• 읽는 사람의 나이를 고려해 {어휘}을/를 고름.",
+              "image_three": "3-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -396,7 +460,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/video/lesson_4-1_04.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "일에 대한 의견",
+              "type": 1,
+              "mind_one": "사실과 의견",
+              "contents_one": "• 사실: 실제로 있었던 일\n• 의견: 대상이나 일에 대한 {생각}  ",
+              "image_one": "4-1.jpg",
+              "mind_two": "여행을 다녀와 쓴 글에서 사실과 의견 구별하기",
+              "contents_two": "• 글쓴이가 ‘한 일’, ‘본 일’, ‘들은 일’이 나타난 부분 → {사실}\n• 글쓴이의 생각이나 느낌이 나타난 부분 → {의견}",
+              "image_two": "4-2.jpg",
+              "mind_three": "글을 읽고 사실에 대한 의견 말하기",
+              "contents_three": "• 글을 읽고 사실과 의견을 구별함.\n• 사실에 대한 자신의 의견을 말함.\n• 같은 사실에 대해서도 사람에 따라 경험, 생각, {배경지식} 등이 달라서 의견이 다를 수 있음.",
+              "image_three": "4-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -417,7 +493,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/video/lesson_4-1_05.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "내가 만든 이야기",
+              "type": 1,
+              "mind_one": "이야기를 읽고 사건의 흐름을 파악하는 방법",
+              "contents_one": "• 이야기에 나타난 {인물}, 장소, 일어난 일을 찾음.\n• 이야기에서 일어난 중요한 일을 찾음.\n• 일이 일어난 {차례}을/를 살펴봄.",
+              "image_one": "5-1.jpg",
+              "mind_two": "이야기의 흐름에 따라 일어난 일 정리하기",
+              "contents_two": "• 이야기를 읽고 일이 일어난 차례대로 정리함.\n• 일어난 일을 {처음}, 가운데, 끝의 흐름으로 정리함.",
+              "image_two": "5-2.jpg",
+              "mind_three": "이야기를 읽고 이어질 내용을 상상해 쓰는 방법",
+              "contents_three": "• 사건의 흐름에 맞게 이어질 내용을 상상함.\n• 이야기의 처음, 가운데, 끝을 생각하고 씀.\n• 사건들 사이에 {원인}와/과 결과 관계가 있도록 씀.",
+              "image_three": "5-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -438,7 +526,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/video/lesson_4-1_06.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "회의를 해요",
+              "type": 2,
+              "mind_one": "회의가 필요한 까닭",
+              "contents_one": "• 문제를 해결하는 좋은 방법을 찾을 수 있음.\n• 문제를 해결하기 위해 여러 사람의 {의견}을/를 듣고 같이 해야 할 일을 결정할 수 있음. ",
+              "image_one": "6-1.jpg",
+              "mind_two": "회의의 절차",
+              "contents_two": "• 개회: 회의의 시작을 알림.\n• 주제 선정: 회의 주제를 정함.\n• 주제 토의: 선정된 주제에 맞는 의견을 제시함.\n• {표결}: 찬성과 반대 의견을 헤아려 다수결로 결정함.\n• 결과 발표: 결정한 의견을 발표함.\n• 폐회: 회의의 마침을 알림.",
+              "image_two": "6-2.jpg",
+              "mind_three": "회의에서 지켜야 할 규칙",
+              "contents_three": "• {사회자}: 회의 절차를 안내하고, 회의 참여자에게 말할 기회를 골고루 줌.\n• 회의 참여자: 주제에 대한 의견을 발표하고, 다른 사람의 의견을 주의 깊게 들음.\n• 기록자: 회의 날짜, 시간, 장소를 기록하고, 중요한 내용을 요약해서 기록함.",
+              "image_three": "6-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -459,7 +559,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/video/lesson_4-1_07.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "사전은 내 친구",
+              "type": 1,
+              "mind_one": "국어사전에서 낱말의 뜻을 찾는 방법",
+              "contents_one": "• 국어사전에 낱말이 실리는 차례를 확인함.\n• 낱말의 첫 자음자, 모음자, 받침을 차례대로 찾음.\n• 낱말의 형태가 바뀔 때에는 형태가 바뀌지 않는 부분에 ‘-다’를 붙여 {기본형}{으}로 만들고, 이를 국어사전에서 찾음.",
+              "image_one": "7-1.jpg",
+              "mind_two": "낱말 사이의 관계",
+              "contents_two": "• ‘가다’와 ‘오다’처럼 뜻이 {반대}인 관계가 있음.\n• ‘책’과 ‘동화책, 만화책, 동시집’처럼 한 낱말이 다른 낱말을 포함하는 관계가 있음.",
+              "image_two": "7-2.jpg",
+              "mind_three": "낱말의 뜻을 사전에서 찾으며 글 읽는 방법",
+              "contents_three": "• 낱말의 뜻을 짐작하며 글을 읽음.\n• 글에 나오는 낱말을 뜻을 정확히 모르는 낱말, 처음 본 낱말, 다른 뜻을 더 알고 싶은 낱말로 나누어 봄.\n• 모르는 낱말의 뜻을 짐작해 봄.\n• 여러 가지 {사전}에서 낱말의 뜻을 알아봄.",
+              "image_three": "7-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -480,7 +592,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/video/lesson_4-1_08.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "이런 제안 어때요",
+              "type": 1,
+              "mind_one": "문장의 짜임",
+              "contents_one": "• {문장}: 생각을 담을 수 있는 말의 단위\n• 문장은 ‘누가+어찌하다’, ‘누가+어떠하다’, ‘무엇이+어찌하다’, ‘무엇이+어떠하다’와 같은 짜임으로 이루어짐.",
+              "image_one": "8-1.jpg",
+              "mind_two": "제안하는 글",
+              "contents_two": "•제안하는 글은 {문제 상황}, 제안하는 내용, 제안하는 까닭이 드러나게 쓴 글임.\n•제안하는 글을 쓰면 문제 상황과 해결 방법을 알릴 수 있고, 더 좋은 쪽으로 일을 해결할 수 있음.",
+              "image_two": "8-2.jpg",
+              "mind_three": "제안하는 글을 쓸 때 주의할 점",
+              "contents_three": "• 어떤 문제 상황인지 파악하여 자세히 씀.\n• 문제를 해결하기 위한 자신의 의견을 제안함.\n• {제안}에 알맞은 까닭을 씀.\n• 제안하는 내용이 잘 드러나게 제목을 붙임.",
+              "image_three": "8-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -501,7 +625,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/video/lesson_4-1_09.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "자랑스러운 한글",
+              "type": 2,
+              "mind_one": "한글을 만든 배경",
+              "contents_one": "• 한글이 만들어지기 전에는 문자를 읽지 못해 억울한 일을 겪는 백성이 많았음.\n• 세종 대왕은 백성의 어려움을 해결하기 위해 ‘{훈민정음}’ 28자를 만듦.\n• 한글이 만들어진 이후, 백성들은 훈민정음을 익혀 책을 읽거나 편지를 쓸 수 있게 됨.",
+              "image_one": "9-1.jpg",
+              "mind_two": "한글의 기본 문자를 만든 원리",
+              "contents_two": "• 모음자: 하늘, 땅, 사람을 본떠 ‘ㆍ’, ‘ㅡ’, ‘ㅣ’의 기본 문자를 만듦.\n• 자음자: {발음 기관}의 모양을 본떠 ‘ㄱ, ㄴ, ㅁ, ㅅ, ㅇ’의 기본 문자를 만듦. ",
+              "image_two": "9-2.jpg",
+              "mind_three": "한글을 쉽게 익힐 수 있는 까닭",
+              "contents_three": "• 한글은 일정한 {원리}에 따라 만들어져서, 기본 문자만 익히면 다른 문자도 쉽게 익힐 수 있음.\n• 기본 문자를 제외한 나머지 문자를 만든 원리\n  - {모음자}: 기본 문자를 서로 합침.\n  - 자음자: 기본 문자에 획을 더하거나 같은 문자를 하나 더 씀.",
+              "image_three": "9-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -509,7 +645,35 @@
       {
         "unit": 10,
         "title": "인물의 마음을 알아봐요",
-        "subs": []
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/mindmap/pre_open_ex2_m10.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco4-1/video/lesson_4-1_10.mp4"
+              }
+            ],
+            "mindmap": {
+              "title": "인물의 마음을 알아봐요",
+              "type": 2,
+              "mind_one": "인물의 마음을 짐작하기",
+              "contents_one": "• 인물의 표정이나 행동을 보고 인물의 마음을 짐작할 수 있음.\n• 인물이 어떤 상황에서 그림과 같은 표정을 짓거나 {행동}을/를 하는지 생각해 보고, 그때 인물의 마음이 어떠했을지 짐작할 수 있음.",
+              "image_one": "10-1.jpg",
+              "mind_two": "만화를 읽을 때 인물의 마음을 짐작하는 방법",
+              "contents_two": "• 인물의 표정이나 행동을 살펴봄.\n• 말풍선의 내용과 {모양}을/를 살펴봄.\n• 만화의 배경 색, 배경에 그려진 다양한 효과를 살펴봄.",
+              "image_two": "10-2.jpg",
+              "mind_three": "만화를 읽고 인물의 마음을 표현하는 방법",
+              "contents_three": "• {표정}을/를 실감 나게 흉내 냄.\n• 상황에 어울리는 말투와 몸짓으로 표현함.\n• 상황에 어울리는 소리도 함께 흉내 내면 좋음.",
+              "image_three": "10-3.jpg"
+            },
+            "questions": []
+          }
+        ]
       }
     ]
   },
@@ -536,7 +700,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 1단원.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "1. 대화와 공감",
+              "type": 1,
+              "mind_one": "대화의 특성",
+              "contents_one": "• 말은 상대를 직접 보면서 주고받아야 하며 다시 들을 수 없으므로 대화할 때에는 집중해야 함.\n• 상대의 { 표정 }, 몸짓, 말투에 따라 기분이나 생각을 짐작하고 상대의 마음을 살피며 말함.",
+              "image_one": "1-1.jpg",
+              "mind_two": "칭찬하는 방법",
+              "contents_two": "• 분명하고 자세하게 칭찬함.\n• 평가하지 말고 { 설명 }하는 칭찬을 함.\n• 상대가 잘한 점이나 장점을 칭찬하고 결과보다는 과정을 칭찬함. ",
+              "image_two": "1-2.jpg",
+              "mind_three": "공감하며 조언하는 방법",
+              "contents_three": "• 다른 사람의 감정, 의견, 주장 따위에 대해 자신도 그렇다고 느끼는 것을 { 공감 }(이)라고 함.\n• 상대의 처지를 생각해 도움이 되는 내용을 말하고, 진심을 담아 말함.",
+              "image_three": "1-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -557,7 +733,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 2단원.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "2. 작품을 감상해요",
+              "type": 2,
+              "mind_one": "경험을 떠올리며 작품 읽기의 좋은 점",
+              "contents_one": "• { 내용 }을/를 더 쉽게 이해하고, 실감 나고 생생하게 느낄 수 있음.\n• 등장인물의 마음을 더 잘 이해할 수 있음.",
+              "image_one": "2-1.jpg",
+              "mind_two": "경험을 떠올리며 시를 읽는 방법",
+              "contents_two": "• { 말하는 이 }이/가 겪은 일이나 한 일을 알아보고, 그때 어떤 마음이 들었을지 생각해 봄.\n• { 말하는 이 }와/과 비슷한 자신의 경험을 떠올리면 인물의 마음을 잘 이해할 수 있음.",
+              "image_two": "2-2-1.jpg 2-2-2.jpg",
+              "mind_three": "경험을 떠올리며 이야기를 읽는 방법",
+              "contents_three": "• 인물이 한 말과 행동을 파악하며 읽음.\n• 이야기에서 어떤 일이 일어났는지 파악하고 그와 비슷한 나의 { 경험 }을/를 떠올리며, 인물에게 일어날 일을 상상해 봄.\n• 주인공이 겪는 일과 현실 세계의 일을 비교하며 읽음.",
+              "image_three": "2-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -578,7 +766,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 3단원.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "3. 글을 요약해요",
+              "type": 2,
+              "mind_one": "설명하는 글을 읽는 방법",
+              "contents_one": "• 어떤 것을 설명하는지 생각하며 도움이 되는 정보를 찾아 읽음.\n• 글을 읽는 { 목적 }을/를 생각하고 설명이 정확한지 생각하며 읽음.\n• 설명하는 글을 읽으면 알고 싶은 것을 자세히 알 수 있음.",
+              "image_one": "3-1.jpg",
+              "mind_two": "여러 가지 설명 방법",
+              "contents_two": "• 비교와 대조는 두 가지 이상의 대상에서 { 공통점과 차이점 }을/를 찾아 설명하는 방법을 말함.\n• 열거는 설명하려는 대상의 특징을 나열해 설명하는 방법을 말함.",
+              "image_two": "3-2-1.jpg 3-2-2.jpg",
+              "mind_three": "글 구조에 따라 요약하면 좋은 점",
+              "contents_three": "• 글에서 중요한 내용을 쉽게 알 수 있음.\n• 내용을 { 기억 }하기 쉬워 많은 내용을 공부할 때 도움이 됨.",
+              "image_three": "3-3.jpg"
+            },
             "questions": []
           }
         ]
@@ -599,7 +799,19 @@
                 "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 4단원.mp4"
               }
             ],
-            "mindmap": {},
+            "mindmap": {
+              "title": "4. 글쓰기의 과정",
+              "type": 2,
+              "mind_one": "글을 쓰기 전 해야 할 일 ",
+              "contents_one": "• 글을 쓰는 목적, 읽을 사람, 글이 실릴 매체를 생각함.\n• 자신의 경험이나 느낀 점, 떠오르는 생각을 주제별로 묶어 { 생각그물 }{으}로 정리함.   ",
+              "image_one": "4-1.jpg",
+              "mind_two": "떠올린 내용을 조직하고 쓰는 방법",
+              "contents_two": "• 시간의 흐름과 장소의 변화에 따라 내용을 묶는 것을 { 다발 짓기 }(이)라고 함.\n• 글을 읽을 사람, 글을 쓰는 상황이나 목적을 계속 생각함.\n• 조직한 내용을 글로 쓸 때는 경험과 생각을 더 자세하고 실감 나게 씀.",
+              "image_two": "4-2.jpg",
+              "mind_three": "올바른 문장 표현",
+              "contents_three": "• 문장에서 앞에 어떤 말이 오고 짝인 말이 뒤따라오는 것을 { 호응 }(이)라고 함.\n• 시간을 나타내는 말, 높임의 대상을 나타내는 말, 동작을 당하는 주어와 서술어의 호응을 지켜 씀.\n• 고쳐 쓸 때는 문장 성분의 호응 관계가 올바른지 확인하고, 호응에 맞는 주어나 서술어를 넣어 문장을 고침.",
+              "image_three": "4-3-1.jpg    4-3-2.jpg"
+            },
             "questions": []
           }
         ]
@@ -712,7 +924,23 @@
       {
         "unit": 10,
         "title": "주인공이 되어",
-        "subs": []
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/mindmap/pre_open_ex2_m10.html.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco5-1/video/5학년 1학기 10단원.mp4"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          }
+        ]
       }
     ]
   },
@@ -990,7 +1218,35 @@
       {
         "unit": 9,
         "title": "마음을 나누는 글을 써요",
-        "subs": []
+        "subs": [
+          {
+            "sub": null,
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/mindmap/pre_open_ex2_m9.html"
+              },
+              {
+                "btn_name": "해설강의",
+                "btn_url": "https://edubook.mirae-n.com/korean/choco6-1/video/6학년 9단원 9강.mp4"
+              }
+            ],
+            "mindmap": {
+              "title": "9. 마음을 나누는 글을 써요",
+              "type": 3,
+              "mind_one": "글로 쓸 내용 계획하기",
+              "contents_one": "•일어난 사건을 떠올려 보고 글로 쓰는 상황과 {목적}을 정함.\n•어떤 내용과 마음을 나누느냐에 따라 편지, 학급 게시판, 누리집, 메일, 문자 메시지 같은 표현하는 방법을 정함.\n•누가, 어떤 사람에게 쓰는지에 따라 친근한 말, {공손한} 말과 같은 표현하는 방법을 정함.",
+              "image_one": "9-1.jpg",
+              "mind_two": "마음을 나누는 글 쓰기",
+              "contents_two": "•글을 쓰는 상황과 목적에 맞게 읽을 사람과 글을 쓸 방법을 정함.\n•일어난 사건과 일어난 사건에 대한 {생각}이나 행동을 떠올리고, 나눌 마음을 생각함.\n• 내용과 짜임에 맞게 글을 쓰고, 글을 쓴 뒤에는 점검하고 고쳐 씀.",
+              "image_two": "9-2.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": []
+          }
+        ]
       }
     ]
   },
@@ -2106,6 +2362,58 @@
                 "option_one": "① 파발꾼 ",
                 "option_two": "② 장사꾼 ",
                 "option_three": "③ 휴대 전화 판매원"
+              }
+            ]
+          },
+          {
+            "sub": "2-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/mindmap/map3-1_22.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco3-1/speedcheck/check3-1_22.html"
+              }
+            ],
+            "mindmap": {
+              "title": "고장의 통신수단과 미래의 통신수단",
+              "type": 1,
+              "mind_one": "하는 일에 따른 통신수단",
+              "contents_one": "•택시 기사: 휴대 전화\n•할인점 직원: 무선 마이크\n•학교 선생님: 컴퓨터 메신저\n•안전 요원: {무전기}",
+              "image_one": "map3-1_22_02.jpg",
+              "mind_two": "생활 환경에 따른 통신수단",
+              "contents_two": "•농촌: 마을 방송\n•아파트: {인터폰}",
+              "image_two": "map3-1_22_01.jpg",
+              "mind_three": "통신수단 발달로 달라질 미래의 생활 모습",
+              "contents_three": "•사람과 사람, 사람과 {사물}, 사물과 사물이 무선 인터넷으로 연결됨.\n•생활은 더욱 편리해지고, 소통도 쉬워질 것임.",
+              "image_three": "map3-1_22_03.jpg"
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "사람들이 논밭으로 일하러 나가는 농촌에서 이용하는 통신수단은 ( 인터폰, 마을 방송 )입니다. ",
+                "answer": "마을 방송",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "택시 기사가 손님의 부름 요청을 받기 위해 이용하는 통신수단은 무엇입니까? ",
+                "answer": "②",
+                "option_one": "① 무전기 ",
+                "option_two": "② 휴대 전화 ",
+                "option_three": "③ 무선 마이크"
+              },
+              {
+                "num": 3,
+                "question": "미래에는 사람과 사람, 사람과 사물, 사물과 사물이 (     )(으)로 연결되어 생활이 더욱 편리해질 것입니다.",
+                "answer": "무선 인터넷",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
               }
             ]
           }
@@ -3378,6 +3686,58 @@
                 "num": 3,
                 "question": "주민들의 의견을 모아 문제 해결 방안을 결정하고, 결정된 문제 해결 방안은 충실히 ( 개선, 실천 )합니다.",
                 "answer": "실천",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              }
+            ]
+          },
+          {
+            "sub": "2-➍",
+            "btns": [
+              {
+                "btn_name": "마인드맵",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/mindmap/map4-1_25.html"
+              },
+              {
+                "btn_name": "추가문제",
+                "btn_url": "https://edubook.mirae-n.com/socie/choco4-1/speedcheck/check4-1_25.html"
+              }
+            ],
+            "mindmap": {
+              "title": "주민 참여의 방법과 자세",
+              "type": 3,
+              "mind_one": "주민 참여 방법",
+              "contents_one": "• 공청회 참여하기\n• 주민 회의 참여하기\n• 시청 도청 누리집에 의견 올리기\n• {서명} 운동하기\n• 시민 단체 활동하기",
+              "image_one": "map4-1_25_01.jpg",
+              "mind_two": " 필요한 자세",
+              "contents_two": "•지역의 일에 {적극적}으로 참여하고 협력함.\n•대화와 타협으로 서로 다른 의견을 조정함.\n•주민 모두에게 도움이 되는지 배려함.",
+              "image_two": "map4-1_25_02.jpg",
+              "mind_three": null,
+              "contents_three": null,
+              "image_three": null
+            },
+            "questions": [
+              {
+                "num": 1,
+                "question": "공공 기관에서 어떤 일을 결정하기 전에 다양한 의견을 듣는 공개회의를 무엇이라고 합니까?",
+                "answer": "공청회",
+                "option_one": null,
+                "option_two": null,
+                "option_three": null
+              },
+              {
+                "num": 2,
+                "question": "주민 참여 방법으로 알맞지 않은 것은 어느 것입니까?",
+                "answer": "②",
+                "option_one": "① 주민 투표 참여하기",
+                "option_two": "② 조사 보고서 작성하기",
+                "option_three": "③ 시청·도청 누리집에 의견 올리기"
+              },
+              {
+                "num": 3,
+                "question": "지역의 일에 참여할 때는 소수의 의견도 ( 무시, 존중 )하면서 대화와 타협으로 의견을 조정합니다.",
+                "answer": "존중",
                 "option_one": null,
                 "option_two": null,
                 "option_three": null
