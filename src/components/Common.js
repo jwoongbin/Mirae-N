@@ -8,32 +8,39 @@ import Mindmap2 from './Mindmap2';
 import Mindmap3 from './Mindmap3';
 import Mindmap4 from './Mindmap4';
 import Quiz from './Quiz';
+import subject_sc from '../images/background-society.png';
+import subject_kr from '../images/background-korean.png';
+
 
 function Common ({data, conindex, subindex, type}) {
+  console.log(data);
+  //마인드맵 대주제 배경색 -> 국어(_green) or 사회(_red)
+  const subject_background = data.subject === '국어' ? subject_kr : subject_sc;
+  console.log(subject_background);
   var returnvalue;
   switch(type){
     case 1 : {
-      returnvalue = <Mindmap data={data} conindex={conindex} subindex={subindex}/>
+      returnvalue = <Mindmap data={data} conindex={conindex} subindex={subindex} background={subject_background}/>
       break;
     }
     case 2 : {
-      returnvalue = <Mindmap2 data={data} conindex={conindex} subindex={subindex}/>
+      returnvalue = <Mindmap2 data={data} conindex={conindex} subindex={subindex} background={subject_background}/>
       break;
     }
     case 3 : {
-      returnvalue = <Mindmap3 data={data} conindex={conindex} subindex={subindex}/>
+      returnvalue = <Mindmap3 data={data} conindex={conindex} subindex={subindex} background={subject_background}/>
       break;
     }
     case 4 : {
-      returnvalue = <Mindmap4 data={data} conindex={conindex} subindex={subindex}/>
+      returnvalue = <Mindmap4 data={data} conindex={conindex} subindex={subindex} background={subject_background}/>
       break;
     }
     case 5 : {
-      returnvalue = <Quiz data={data} conindex={conindex} subindex={subindex}/>
+      returnvalue = <Quiz data={data} conindex={conindex} subindex={subindex} />
       break;
     }
     default : {
-      returnvalue = <Mindmap data={data} conindex={conindex} subindex={subindex}/>
+      returnvalue = <Mindmap data={data} conindex={conindex} subindex={subindex} background={subject_background}/>
       console.log("오류");
     }
   }

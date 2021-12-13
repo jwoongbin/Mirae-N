@@ -11,7 +11,7 @@ import MindContent from "./MindContent";
 import { boxStyle, titleStyle } from '../common/utils.js';
 
 
-function Mindmap({ data, conindex, subindex }) {
+function Mindmap({ data, conindex, subindex, background }) {
   const [click, setClick] = useState(false);
   const mindmapData = data.contents[conindex].subs[subindex].mindmap
   console.log('마인드맵 데이타:',data, conindex);
