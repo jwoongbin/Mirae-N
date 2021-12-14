@@ -1,10 +1,10 @@
 import "./Mindmap4.scss"
 import arrow1 from '../images/4arrow1.png';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import MindContent from "./MindContent";
 import { typeFourImage } from "../common/utils";
 import { boxStyle, titleStyle } from '../common/utils.js';
-
+import AccordionContext from '../contexts/AccordionContext';
 
 function Mindmap4({ data, conindex, subindex, background }) {
     console.log('마인드맵 데이타 : ',data," conindex : ", conindex, " subindex : ",subindex);
@@ -22,6 +22,8 @@ function Mindmap4({ data, conindex, subindex, background }) {
   const book_image = data.subject +  data.grade + '-' + data.semester + '/';
 
   console.log(data, conindex ,subindex)
+  let context = useContext(AccordionContext);
+  context.setAcorindex(conindex)
   return (
     <div className="mindmap4-box">
       <div className="subject">

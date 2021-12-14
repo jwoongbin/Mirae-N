@@ -31,6 +31,7 @@ function Home({data}){
         }
     }
   }
+  
   const bookUrl = data.subject + data.grade + '-' + data.semester;
   return (
     <div className="home-wrap" style={background(data.subject)}>      

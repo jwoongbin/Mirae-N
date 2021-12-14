@@ -1,12 +1,11 @@
-import React from 'react';
+
 import Accordion from 'react-bootstrap/Accordion'
 import {Link} from 'react-router-dom';
 import './Contents.scss'
-import mindmap_icon from '../images/web/mindmap-icon.png';
-import quiz_icon from '../images/web/quiz-icon.png';
 import { circleParser } from '../common/utils.js';
 import styled, {css} from "styled-components";
-
+import React,{ useContext } from 'react';
+import ContextConsumer from '../contexts/AccordionContext';
 
 // 레드: #FF8A8A (개념, 추가문제, 해설강의)
 // 퍼플: #8A8AFF (유형, 마인드맵, )
@@ -20,6 +19,7 @@ import styled, {css} from "styled-components";
     justify-content: center;
     `;
 
+// const [activeId, setActiveId] = useState("2");
 function Contents({data}) {
 
   const button = (btn_name) => {
@@ -91,10 +91,12 @@ function Contents({data}) {
         }
     }
   }, []);
-
+  // const context = useContext(AccordionContext);
+  // console.log('컨슈머',context);
   return(
-    <div className="panel-group" id="accordion">
-          <Accordion>
+    <ContextConsumer>
+      { value => (<div className="panel-group" id="accordion">
+          <Accordion defaultActiveKey={value.acorindex}>
               {data.contents.map((item, index) => (
               <Accordion.Item eventKey={index} key={index}>
                 <Accordion.Header>
@@ -116,7 +118,8 @@ function Contents({data}) {
                 </Accordion.Body>
               </Accordion.Item>))}    
           </Accordion>  
-    </div>
+      </div>)}
+    </ContextConsumer>
   );
 }
 

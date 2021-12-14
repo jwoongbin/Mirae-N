@@ -5,11 +5,11 @@ import arrow2 from '../images/arrow2.png';
 import arrow2_dot from '../images/arrow2_dot.png';
 import arrow3 from '../images/arrow3.png';
 import arrow3_dot from '../images/arrow3_dot.png';
-import background from '../images/background-society.png';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import MindContent from "./MindContent";
 import { boxStyle, titleStyle } from '../common/utils.js';
-
+import { Accordion } from "react-bootstrap";
+import AccordionContext, { ContextConsumer } from '../contexts/AccordionContext';
 
 function Mindmap({ data, conindex, subindex, background }) {
   const [click, setClick] = useState(false);
@@ -19,14 +19,16 @@ function Mindmap({ data, conindex, subindex, background }) {
     return <MindContent content={content}/>
   }
 
-
   function onClick() {
     setClick(click => !click);
   }
   const book_image = data.subject +  data.grade + '-' + data.semester + '/';
   console.log(data, conindex ,subindex)
+  
+  let context = useContext(AccordionContext);
+  context.setAcorindex(conindex)
   return (
-        <div className="mindmap1-box">
+    <div className="mindmap1-box">
           <div className="subject">
             <div className="subject-wrap"onClick={() => onClick()} >
               {/* <div style={titleStyle}></div> */}
@@ -62,7 +64,7 @@ function Mindmap({ data, conindex, subindex, background }) {
               <div className="content" style={boxStyle(data.subject)}>{click ? mindContent(mindmapData.contents_three) : null}</div>
             </div>
           </div>
-        </div>
+        </div>     
   );
 
 }

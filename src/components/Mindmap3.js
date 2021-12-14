@@ -3,9 +3,10 @@ import arrow1 from '../images/3arrow1.png';
 import arrow1_dot from '../images/3arrow1_dot.png';
 import arrow2 from '../images/3arrow2.png';
 import arrow2_dot from '../images/3arrow2_dot.png';
-import { useState } from 'react';
+import { useState, useContext } from 'react';
 import MindContent from "./MindContent";
 import { boxStyle, titleStyle } from '../common/utils.js';
+import AccordionContext from '../contexts/AccordionContext';
 
 function Mindmap3({ data, conindex, subindex, background }) {
   const [click, setClick] = useState(false);
@@ -20,6 +21,8 @@ function Mindmap3({ data, conindex, subindex, background }) {
   const book_image = data.subject +  data.grade + '-' + data.semester + '/';
 
   console.log(data, conindex ,subindex)
+  let context = useContext(AccordionContext);
+  context.setAcorindex(conindex)
   return (
     <div className="mindmap3-box">
       <div className="subject">
