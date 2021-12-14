@@ -10,6 +10,10 @@ function dotChecker( spanlist ) {
   return spanlist.find( span => span.props.children[0][0] === "•")? true : false;
 }
 
+function pipeChecker( spanlist ) {
+    return spanlist.find( span => span.props.children[0][0] === "-")? true : false;
+  }
+
 function lineTag(spanlist){
     dotChecker(spanlist)
 
@@ -84,6 +88,7 @@ function MindContent (content){
         }
         console.log("spanlist : ",spanlist)
         lineTag = dotChecker(spanlist) ? " circle" : lineTag
+        lineTag = pipeChecker(spanlist) ? " pipe" : lineTag
         var linetag = <div className={`line`+ lineTag}>{spanlist}</div>;
         linelist.push(linetag)
         return true
