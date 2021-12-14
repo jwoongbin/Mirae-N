@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 @font-face{
     font-family: "NanumGothiccb";
-    src: url("./fonts/NanumGothic.ttf") format('truetype')
+    src: url("fonts/NanumGothic.ttf") format('truetype');
 }
