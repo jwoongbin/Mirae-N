@@ -57,6 +57,11 @@
     position: absolute;
   }
 }
+.contents{
+  &.q{
+    transform: translate(-50%, -50%);
+  }
+}
       .quiz {
         transform: translateZ(0);
         -webkit-transform: translateZ(0);
@@ -122,13 +127,14 @@
               width: 100%;
               display: inline-flex;
               justify-content: space-between;
-              margin-bottom: 5%;
               word-break: keep-all;
               &.off{
                 display: none;
               }
               >.option{
                 width: 28%;
+                text-indent: -1.35em;
+                padding-left: 1.35em;
               }
             }
             .answer{
@@ -142,7 +148,7 @@
                 top: 0;
                 left: 0;
                 width: 100%;
-                height: 100%;
+                height: 110%;
                 overflow: hidden;
                 background-color: white;
                 // visibility: visible;

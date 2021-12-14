@@ -95,8 +95,8 @@ $animation-duration: 0.5s;
         padding: 5% 1% 5% 5%;
         .line{
             &.circle{
-                text-indent: -0.7em;
-                padding-left: 0.7em;
+                text-indent: -0.47em;
+                padding-left: 0.47em;
             }
             &.marble{
                 text-indent: -1.5em;
@@ -148,7 +148,6 @@ $animation-duration: 0.5s;
                 white-space: nowrap;
                 color: transparent;
                 padding: 1% 3%;
-                font-family: 'NanumGothicExtraBold';
                 position: relative;
                 text-indent: 0;
                 &.on{

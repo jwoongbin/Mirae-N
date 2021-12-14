@@ -3,11 +3,11 @@ $sub-themes-width: 12.7%;
 $sub-themes-height: 37%;
 $sub-themes-padding: 0 1%;
 $sub-themes-border-radius: 46%;
-$sub-themes-font-size: 1.8em;
-$content-font-size: 1.3em;
+$sub-themes-font-size: 3.6em;
+$content-font-size: 2.6em;
 $content-border-radius: 0.5em;
 $content-padding: 0.5% 0.5%;
-$content-font-family: 'NanumGothic';
+$content-font-family: initial ;
 $content-min-height: 50%;
 $artwork-max-width: 10%;
 $artwork-max-height: 30%;
@@ -23,33 +23,15 @@ $answer-animation-delay: 2s;
 
 @import 'keyframe.scss';
 
-@media (min-aspect-ratio: 16/9) {    
-    .contents{
-      height: 82vh;
-      width: 177.77777vh;
-      position: absolute;
-    }
-}
-
-@media (max-aspect-ratio: 16/9) {
-    .contents{
-      height: 46.1vw;
-      width: 100vw;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-}
-
 .contents {
   > .mindmap1-box {
+    transform: scale(50%,50%);
     display: flex;
     align-items: center;
     white-space: pre-wrap;
     word-break: keep-all;
-    width: 100%;
-    height: 100%;
+    width: 200%;
+    height: 200%;
     > .subject {
       width: 100%;
       height: 100%;
@@ -80,7 +62,7 @@ $answer-animation-delay: 2s;
               width: 100%;
               color: rgb(255, 255, 255);
               font-weight: 800;
-              font-size: 2em;
+              font-size: 4em;
               position: absolute;
               left: 50%;
               top: 51%;
@@ -405,22 +387,6 @@ $answer-animation-delay: 2s;
         }
       }
      } 
-    }
-  }
-}
-/*
-##Device = Low Resolution Tablets, Mobiles (Landscape)
-*/
-@media (min-width: 481px) and (max-width: 767px) {
-  .contents {
-    > .mindmap1-box{
-      .content{
-        >.mindcontent{
-          >.line.circle{
-            text-indent: -0.7em;
-          }
-        }
-      }
     }
   }
 }

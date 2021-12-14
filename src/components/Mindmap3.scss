@@ -1,12 +1,13 @@
 $common-border: 0.2em solid;
+$center-font-size: 4em;
 $sub-themes-width: 15%;
 $sub-themes-height: 38%;
 $sub-themes-padding: 15% 5%;
 $sub-themes-border-radius: 46%;
-$sub-themes-font-size: 1.8em;
-$content-font-size: 1.3em;
+$sub-themes-font-size: 3.6em;
+$content-font-size: 2.6em;
 $content-border-radius: 0.5em;
-$content-font-family: 'NanumGothic';
+$content-font-family: initial ;
 $content-min-height: 50%;
 $artwork-max-width: 14%;
 $artwork-max-height: 30%;
@@ -23,34 +24,15 @@ $answer-animation-delay: 2s;
 
 @import 'keyframe3.scss';
 
-@media (min-aspect-ratio: 16/9) {
-  .contents{
-    height: 82vh;
-    width: 177.77777vh;
-    top: calc(10%);
-    position: absolute;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .contents{
-    height: 46.1vw;
-    width: 100vw;
-    position: absolute;
-    top: 51%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-}
-
 .contents {
   > .mindmap3-box {
+    transform: scale(50%,50%);
     display: flex;
     align-items: center;
     white-space: pre-wrap;
     word-break: keep-all;
-    width: 100%;
-    height: 100%;
+    width: 200%;
+    height: 200%;
     > .subject {
       width: 100%;
       height: 100%;
@@ -81,7 +63,7 @@ $answer-animation-delay: 2s;
               width: 100%;
               color: rgb(255, 255, 255);
               font-weight: 800;
-              font-size: 2em;
+              font-size: $center-font-size;
               position: absolute;
               left: 50%;
               top: 51%;
