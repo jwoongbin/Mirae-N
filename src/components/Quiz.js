@@ -22,6 +22,7 @@ function Quiz({data, conindex, subindex}){
   const questions = questionData.map((item, index) => {
     console.log(item.option_one)
     var optionable = item.option_one != null ? true : false;
+    
     return(
       <li className="questions" key={index}> 
         <div className="num">{"0"+item.num+" "}</div>

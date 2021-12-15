@@ -24,7 +24,8 @@ $answer-animation-delay: 2s;
 
 .contents {
   > .mindmap1-box {
-    transform: scale(50%,50%);
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
     display: flex;
     align-items: center;
     white-space: pre-wrap;

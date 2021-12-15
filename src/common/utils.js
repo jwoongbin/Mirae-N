@@ -10,8 +10,29 @@ export function newlineToBr(content){
 }
 
 export function fillParentheses(content){
-   
-    var fillString = content.replace('( )','(        )')
+  var spanlist = []
+  var fillString = content.replace('( )','(        )')
+  var splitstring = fillString.split(/[()]+/)
+  if(splitstring.length%2 === 1){
+      splitstring.map((split, index)=>{
+          if(index%2 === 0){
+              if(split.length !== 0){
+                  spanlist.push(<span>{split}</span>)
+              }
+          }else{
+              var spantag = (
+              <span className={'brackets'}>
+                  {"("+split+")"}
+              </span>
+              )
+              spanlist.push(spantag)
+          }
+          return true
+      })
+  }else{
+      console.log("괄호 갯수가 이상한데...?")
+  }
+    
     // var returnvalue = []
     // var split = content.split(/\((.*?)\)/g)
     // console.log(split)
@@ -23,7 +44,7 @@ export function fillParentheses(content){
     // }else{
     //   returnvalue.push(content)
     // }
-    return fillString
+    return spanlist
 }
 
 export function changeMarbleNum(content){

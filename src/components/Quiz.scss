@@ -28,10 +28,10 @@
         height: 100%;
         font-size: 3.5em;
         overflow: scroll;
+        padding-top: 15%;
         .questions{
           height: 46.1vw !important;
           .Quiz-contents{
-            margin-top: 15% !important;
             >.answer{ 
               width: 6em !important;
               height: 1.6em !important;
@@ -58,6 +58,8 @@
   }
 }
 .contents{
+  top: 50%;
+  left: 50%;
   &.q{
     transform: translate(-50%, -50%);
   }
@@ -116,11 +118,10 @@
             margin-top: 5%;
 
             > .question {
-              display: flex;
               width: 100%;
               justify-content: space-between;
               > .brackets{
-                white-space: nowrap;
+                white-space: pre;
               }
             }
             .options{
@@ -133,8 +134,8 @@
               }
               >.option{
                 width: 28%;
-                text-indent: -1.35em;
-                padding-left: 1.35em;
+                text-indent: -1.25em;
+                padding-left: 1.25em;
               }
             }
             .answer{
