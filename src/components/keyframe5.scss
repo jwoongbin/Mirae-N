@@ -1,0 +1,129 @@
+@keyframes item1arrow_5 {
+  from {
+      width: 0%;
+      height: 0%;
+  }
+  to {
+      width: 11.5%;
+      height: 58%;
+  }
+}
+@keyframes item1dotarrow_5 {
+  from {
+      opacity:1;
+      width: 0%;
+      height: 0%;
+  }
+  to {
+      opacity:1;
+      width: 29%;
+      height: 64%;
+  }
+}
+
+@keyframes item2arrow_5 {
+  from {
+      width: 0%;
+      height: 0%;
+  }
+  to {
+      width: 6%;
+      height: 20%;
+  }
+}
+@keyframes item2dotarrow_5 {
+  from {
+      opacity:1;
+      width: 0%;
+      height: 0%;
+  }
+  to {
+      opacity:1;
+      width: 6%;
+      height: 24%;
+  }
+}
+
+@keyframes item3arrow_5 {
+  from {
+      width: 0%;
+      height: 0%;
+  }
+  to {
+      width: 6%;
+      height: 46%;
+  }
+}
+@keyframes item3dotarrow_5 {
+  from {
+      opacity:1;
+      width: 0%;
+      height: 0%;
+  }
+  to {
+      opacity:1;
+      width: 36%;
+      height: 66%;
+  }
+}
+
+@keyframes shake {
+  from{
+      transform: rotate(0deg);
+  }
+  20%{
+      transform: rotate(10deg);
+  }
+  40%{
+      transform: rotate(-10deg);
+  }
+  60%{
+      transform: rotate(10deg);
+  }
+  80%{
+      transform: rotate(-10deg);
+  }
+  to{
+      transform: rotate(0deg);
+  }
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+
+@keyframes fadeinCo1_5{
+    from {
+        opacity:0;
+        right: -52%;
+    }
+    to {
+        opacity:1;
+        right: -53%
+    }
+}
+@keyframes fadeinCo2_5{
+    from {
+        opacity:0;
+        left: 133%;
+    }
+    to {
+        opacity:1;
+        left: 134%
+    }
+}
+@keyframes fadeinCo3_5{
+    from {
+        opacity:0;
+        left: 135%;
+    }
+    to {
+        opacity:1;
+        left: 136%
+    }
+}

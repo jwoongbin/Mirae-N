@@ -7,6 +7,7 @@ import Mindmap from './Mindmap';
 import Mindmap2 from './Mindmap2';
 import Mindmap3 from './Mindmap3';
 import Mindmap4 from './Mindmap4';
+import Mindmap5 from './Mindmap5';
 import Quiz from './Quiz';
 import subject_sc from '../images/background-society.png';
 import subject_kr from '../images/background-korean.png';
@@ -36,6 +37,10 @@ function Common ({data, conindex, subindex, type}) {
       break;
     }
     case 5 : {
+      returnvalue = <Mindmap5 data={data} conindex={conindex} subindex={subindex} background={subject_background}/>
+      break;
+    }
+    case 6 : {
       returnvalue = <Quiz data={data} conindex={conindex} subindex={subindex} />
       break;
     }
@@ -55,7 +60,7 @@ function Common ({data, conindex, subindex, type}) {
       </div>
       <Link to={data.book_url.replace("https://edubook.mirae-n.com","")}><img className="exit" src={exit} alt=''/></Link>
     </div>
-    <div className={"contents" + (type === 5 ? " q" : "")}>
+    <div className={"contents" + (type === 6 ? " q" : "")}>
       {returnvalue}
     </div>
     <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
