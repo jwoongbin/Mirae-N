@@ -91,6 +91,7 @@ $animation-duration: 0.5s;
 
 .content{
     >.mindcontent{
+        word-break: normal;
         width: 100%;
         padding: 5% 1% 5% 3%;
         .line{
@@ -99,8 +100,8 @@ $animation-duration: 0.5s;
                 padding-left: 1.25em;
             }
             &.pipe{
-                text-indent: -0.65em;
-                padding-left: 1.15em;
+                text-indent: -1.25em;
+                padding-left: 1.25em;
             }
             &.marble{
                 text-indent: -1.6em;
