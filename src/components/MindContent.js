@@ -7,11 +7,11 @@ function spanindex(index){
 }
 
 function dotChecker( spanlist ) {
-  return spanlist.find( span => span.props.children[0][0] === "•")? true : false;
+  return spanlist.find( span => span.props.children[0] === "•")? true : false;
 }
 
 function pipeChecker( spanlist ) {
-    return spanlist.find( span => span.props.children[1][0] === "-")? true : false;
+    return spanlist.find( span => span.props.children[1] === "-")? true : false;
   }
 
 function lineTag(spanlist){
