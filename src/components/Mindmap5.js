@@ -2,7 +2,7 @@ import "./Mindmap5.scss"
 import arrow1 from '../images/2arrow1.png';
 import arrow1_dot from '../images/2arrow1_dot.png';
 import arrow2 from '../images/2arrow2.png';
-import arrow2_dot from '../images/2arrow2_dot.png';
+import arrow2_dot from '../images/5arrow2_dot.png';
 import arrow3 from '../images/2arrow3.png';
 import arrow3_dot from '../images/2arrow3_dot.png';
 import { useState, useContext } from 'react';
