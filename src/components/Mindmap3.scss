@@ -9,7 +9,7 @@ $content-font-size: 2.6em;
 $content-border-radius: 0.5em;
 $content-min-height: 50%;
 $artwork-max-width: 14%;
-$artwork-max-height: 30%;
+$artwork-max-height: 50%;
 $text-indent: -0.5em;
 $padding-left: 1em;    
 $text-padding-left: 0.5em;
@@ -135,8 +135,8 @@ $answer-animation-delay: 2s;
             position: absolute;
             max-width: $artwork-max-width;
             max-height: $artwork-max-height;
-            bottom: 97%;
-            right: 14%
+            bottom: 79%;
+            right: 18%
           }
           > .content {
             display: flex;
@@ -224,8 +224,8 @@ $answer-animation-delay: 2s;
             position: absolute;
             max-width: $artwork-max-width;
             max-height: $artwork-max-height;
-            bottom: 90%;
-            left: 105%; 
+            bottom: 72%;
+            left: 110%; 
           }
           > .content {
             opacity:0;
