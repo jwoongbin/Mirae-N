@@ -33,7 +33,7 @@ function App(props) {
                     return returnvalue;
                   }else if(btn.btn_name === "추가문제"){
                     var quizurl = btn.btn_url.replace("https://edubook.mirae-n.com","");
-                    return <Route key={"" + indexa +""+ indexb + "" + indexc} path={quizurl} render={() => <Common data={data} conindex={indexa} subindex={indexb} type={5}/>} />
+                    return <Route key={"" + indexa +""+ indexb + "" + indexc} path={quizurl} render={() => <Common data={data} conindex={indexa} subindex={indexb} type={6}/>} />
                   }else{
                     return true
                   }
