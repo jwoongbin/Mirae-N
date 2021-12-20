@@ -11,7 +11,7 @@ export function newlineToBr(content){
 
 export function fillParentheses(content){
   var spanlist = []
-  var fillString = content.replace('( )','(        )').replace(')(',') (')
+  var fillString = content.replaceAll('( )','(        )').replaceAll(')(',') (')
   var splitstring = fillString.split(/[()]+/)
   if(splitstring.length%2 === 1){
       splitstring.map((split, index)=>{
