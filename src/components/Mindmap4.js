@@ -31,14 +31,14 @@ function Mindmap4({ data, conindex, subindex, background }) {
           <img className="background" src={background} alt='' />
           <div className="text">{mindmapData.title}</div>
         </div>
-        {(click && filelist[0] != '') ? <img className="artwork1" src={'/image/'+book_image+filelist[0]} alt=''/> : null}
+        {(click && filelist[0] != '') ? <div className="artwork1"><img className="artworkImg" src={'/image/'+book_image+filelist[0]} alt=''/></div> : null}
         <div className="item1" style={{display : click? "" : "none"}}>
           {click ? <img className="arrow" src={arrow1} alt=''/> : null}
           <div className="content" style={boxStyle(data.subject)}>
             {click ? mindContent(mindmapData.contents_one) : null}
-            {(click && filelist[1] != '') ? <img className="artwork2" src={'/image/'+book_image+filelist[1]} alt=''/> : null}
-            {(click && filelist[2] != '') ? <img className="artwork3" src={'/image/'+book_image+filelist[2]} alt=''/> : null}
-            {(click && filelist[3] != '') ? <img className="artwork4" src={'/image/'+book_image+filelist[3]} alt=''/> : null}
+            {(click && filelist[1] != '') ? <div className="artwork2"><img className="artworkImg" src={'/image/'+book_image+filelist[1]} alt=''/></div> : null}
+            {(click && filelist[2] != '') ? <div className="artwork3"><img className="artworkImg" src={'/image/'+book_image+filelist[2]} alt=''/></div> : null}
+            {(click && filelist[3] != '') ? <div className="artwork4"><img className="artworkImg" src={'/image/'+book_image+filelist[3]} alt=''/></div> : null}
             </div>
         </div>
       </div>

@@ -8,7 +8,7 @@ $content-font-size: 2.6em;
 $content-border-radius: 0.5em;
 $content-padding: 0.5% 0.5%;
 $content-min-height: 30%;
-$artwork-max-width: 10%;
+$artwork-max-width: 12%;
 $artwork-max-height: 30%;
 $text-padding-left: 0.5em;
 $text-indent: 0em;
@@ -59,7 +59,7 @@ $answer-animation-delay: 2s;
             }
 
             .text {
-              width: 100%;
+              width: 90%;
               color: rgb(255, 255, 255);
               font-weight: 800;
               font-size: 4em;
@@ -136,10 +136,15 @@ $answer-animation-delay: 2s;
             animation-duration: $animation-duration;
             animation-name: fadein;
             position: absolute;
-            max-width: $artwork-max-width;
-            max-height: $artwork-max-height;
+            width: $artwork-max-width;
+            height: $artwork-max-height;
             bottom: 36%;
             right: 17%;
+            >.artworkImg{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
           }
           > .content {
             display: flex;
@@ -152,7 +157,8 @@ $answer-animation-delay: 2s;
             position: absolute;
             color: #575252;
             font-weight: 800;
-            width: 25%;
+            min-width: 21%;
+            max-width: 27%;
             min-height: $content-min-height;
             // height: fit-content;
             top: 68%;
@@ -205,6 +211,7 @@ $answer-animation-delay: 2s;
             animation-name: item2arrow;
             position: absolute;
             width: 5.5%;
+            object-fit: contain;
             height: 18%;
             left: 93%;
             bottom: 44%;
@@ -229,10 +236,15 @@ $answer-animation-delay: 2s;
             animation-duration: $animation-duration;
             animation-name: fadein;
             position: absolute;
-            max-width: $artwork-max-width;
-            max-height: $artwork-max-height;
+            width: $artwork-max-width;
+            height: $artwork-max-height;
             bottom: 104%;
             right: 3%; 
+            >.artworkImg{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
           }
           > .content {
             opacity:0;
@@ -248,7 +260,7 @@ $answer-animation-delay: 2s;
             font-weight: 800;
             display: flex;
             align-items: center;
-            width: 23%;
+            width: 25%;
             min-height: $content-min-height;
             border: $common-border;
             border-radius: $content-border-radius;
@@ -321,8 +333,13 @@ $answer-animation-delay: 2s;
             position:absolute;
             top: 44%;
             right: 14%;
-            max-width: $artwork-max-width;
-            max-height: $artwork-max-height;
+            width: $artwork-max-width;
+            height: $artwork-max-height;
+            >.artworkImg{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
           }
           > .content {
             opacity:0;
@@ -338,7 +355,7 @@ $answer-animation-delay: 2s;
             font-weight: bold;
             display: flex;
             align-items: center;
-            width: 23%;
+            width: 25%;
             min-height: $content-min-height;
             // height: fit-content;
             border: $common-border;

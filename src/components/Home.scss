@@ -190,7 +190,7 @@ html, body {
                     display: flex;
                     align-items: center;
                     justify-content: center;
-                    font-size: 1vw;
+                    font-size: 1.5vw;
                     // margin-left: 0.5em;
                   }
                   &::after {
@@ -367,6 +367,9 @@ html, body {
                     font-size: 3.5vw;
                     // padding: 0 1em 1em 0em;
                     ul{
+                      >.img-container a{
+                        font-size: 3.5vw;
+                      }
                       >.img-container a img{
                         width: 15vw;
                       }

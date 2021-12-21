@@ -60,7 +60,7 @@ $answer-animation-delay: 2s;
             }
 
             .text {
-              width: 100%;
+              width: 90%;
               color: rgb(255, 255, 255);
               font-weight: 800;
               font-size: $center-font-size;
@@ -134,10 +134,15 @@ $answer-animation-delay: 2s;
             animation-duration: $animation-duration;
             animation-name: fadein;
             position: absolute;
-            max-width: $artwork-max-width;
-            max-height: $artwork-max-height;
+            width: $artwork-max-width;
+            height: $artwork-max-height;
             bottom: 79%;
-            right: 18%
+            right: 18%;
+            >.artworkImg{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
           }
           > .content {
             display: flex;
@@ -150,7 +155,8 @@ $answer-animation-delay: 2s;
             position: absolute;
             color: #575252;
             font-weight: 800;
-            width: 27%;
+            width: fit-content;
+            max-width: 29%;
             min-height: $content-min-height;
             top: 63%;
             right: 2%;
@@ -223,10 +229,15 @@ $answer-animation-delay: 2s;
             animation-duration: $animation-duration;
             animation-name: fadein;
             position: absolute;
-            max-width: $artwork-max-width;
-            max-height: $artwork-max-height;
+            width: $artwork-max-width;
+            height: $artwork-max-height;
             bottom: 72%;
             left: 110%; 
+            >.artworkImg{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
           }
           > .content {
             opacity:0;
@@ -235,14 +246,15 @@ $answer-animation-delay: 2s;
             animation-duration: $animation-duration;
             animation-name: fadeinCo2_3;
             position: absolute;
-            left: 100%;
+            left: 96%;
             top: 52%;
             color: #575252;
             font-size: $content-font-size;
             font-weight: 800;
             display: flex;
             align-items: center;
-            width: 24%;
+            width: fit-content;
+            max-width: 29%;
             min-height: $content-min-height;
             border-width: medium;
             border: $common-border;

@@ -131,10 +131,15 @@ $answer-animation-delay: 2s;
             animation-delay: $animation-step1;
             animation-duration: $animation-duration;
             animation-name: fadein;
-            max-width: $artwork-max-width;
-            max-height: $artwork-max-height;
+            width: $artwork-max-width;
+            height: $artwork-max-height;
             bottom: 75%;
             right: 15%;
+            >.artworkImg{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
           }
           > .content {         
             display: flex;
@@ -224,10 +229,15 @@ $answer-animation-delay: 2s;
             animation-delay: $animation-step1;
             animation-duration: $animation-duration;
             animation-name: fadein;
-            max-width: $artwork-max-width;
-            max-height: $artwork-max-height;
+            width: $artwork-max-width;
+            height: $artwork-max-height;
             top: 104%;
             left: 100%; 
+            >.artworkImg{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
           }
           > .content {
             display: flex;
@@ -316,8 +326,13 @@ $answer-animation-delay: 2s;
             animation-name: fadein;
             top: 26%;
             right: 15%;
-            max-width: $artwork-max-width;
-            max-height: $artwork-max-height;
+            width: $artwork-max-width;
+            height: $artwork-max-height;
+            >.artworkImg{
+              width: 100%;
+              height: 100%;
+              object-fit: contain;
+            }
           }
           > .content {
             display: flex;

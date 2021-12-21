@@ -55,7 +55,7 @@ $answer-animation-delay: 1s;
               width: 100%;
             }
             .text {
-              width: 100%;
+              width: 90%;
               color: rgb(255, 255, 255);
               font-weight: 800;
               font-size: $center-font-size;
@@ -77,8 +77,13 @@ $answer-animation-delay: 1s;
           position: absolute;
           bottom: 69%;
           left: 22%;
-          max-width: 9%;
-          max-height: 40%;
+          width: 9%;
+          height: 40%;
+          >.artworkImg{
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+          }
         }
         .item1 {
           position: absolute;
@@ -130,8 +135,13 @@ $answer-animation-delay: 1s;
                 top: 0%;
                 left: 0%;
                 transform: translate(0%, -110%);
-                max-width: $artwork-max-width;
-                max-height: $artwork-max-height;
+                width: $artwork-max-width;
+                height: $artwork-max-height;
+                >.artworkImg{
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                }
               }
               > .artwork3{
                 opacity:0;
@@ -143,8 +153,13 @@ $answer-animation-delay: 1s;
                 top: 10%;
                 right: 0%;
                 transform: translate(110%, 0%);
-                max-width: $artwork-max-width;
-                max-height: $artwork-max-height;
+                width: $artwork-max-width;
+                height: $artwork-max-height;
+                >.artworkImg{
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                }
               }
               > .artwork4{
                 position: absolute;
@@ -156,8 +171,13 @@ $answer-animation-delay: 1s;
                 bottom: 0%;
                 right: 60%;
                 transform: translate(0%, 110%);
-                max-width: $artwork-max-width;
-                max-height: $artwork-max-height;
+                width: $artwork-max-width;
+                height: $artwork-max-height;
+                >.artworkImg{
+                  width: 100%;
+                  height: 100%;
+                  object-fit: contain;
+                }
               }
           }
 
