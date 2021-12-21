@@ -166,13 +166,13 @@ export function typeFourImage(content){
   export function boxStyle(subject) {
     if(subject === '국어'){
       return {
-        background:  'rgb(66, 206, 138, 0.25)',
-        borderColor: '#42ce8a',
+        background:  'rgb(207, 242, 225)',
+        borderColor: '#abe8ca',
       }
     }else if(subject ==='사회') {
       return {
-        background: 'rgb(239, 192, 194, 0.25)',
-        borderColor: '#efc0c2',
+        background: 'rgb(245, 219, 219)',
+        borderColor: '#eec0c1',
       }
     }else if(subject ==='수학'){
         return{
