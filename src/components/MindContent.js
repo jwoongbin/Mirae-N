@@ -47,7 +47,8 @@ function MindContent (content){
 
     var splitline = data.split('<br>')
     console.log("splitline : ",splitline)
-    splitline.map((line) =>{
+    splitline.map((lineb) =>{
+        var line = lineb.trim()
         var spanlist = []
         var templine = line
         var mablelist = changeMarbleNum(line)
