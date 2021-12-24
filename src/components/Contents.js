@@ -23,6 +23,7 @@ import ContextConsumer from '../contexts/AccordionContext';
 function Contents({data}) {
 
   const button = (btn_name) => {
+    if (data.subject === '수학'){btn_name = btn_name[0]+btn_name[1]}
     switch(btn_name) {
       case '개념' :
       case '추가문제' :
@@ -34,17 +35,20 @@ function Contents({data}) {
       case '유형' :
       case '마인드맵' :
         return {
+          width: 'fit-content',
           backgroundColor: '#8A8AFF',
           boxShadow: 'inset 0 -3px 6px 0px rgb(102, 102, 255)',
         };
       case '연산':
         return {
+          width: 'fit-content',
           backgroundColor: '#5BD59A',
           boxShadow: 'inset 0 -3px 6px 0px rgb(0, 176, 91)', 
         }     
-
     }
     
+  }
+  const math_button = () => {
   }
   const circle = (subject) => {
     if(subject === '국어'){

@@ -1,5 +1,5 @@
 $common-border: 0.2em solid;
-$sub-themes-width: 12.7%;
+$sub-themes-width: 14%;
 $sub-themes-height: 37%;
 $sub-themes-padding: 0 1%;
 $sub-themes-border-radius: 46%;
@@ -141,7 +141,7 @@ $answer-animation-delay: 2s;
             width: $artwork-max-width;
             height: $artwork-max-height;
             bottom: 36%;
-            right: 17%;
+            right: 16%;
             >.artworkImg{
               width: 100%;
               height: 100%;
@@ -343,8 +343,8 @@ $answer-animation-delay: 2s;
             animation-duration: $animation-duration;
             animation-name: fadein;
             position:absolute;
-            top: 44%;
-            right: 14%;
+            top: 34%;
+            right: 15%;
             width: $artwork-max-width;
             height: $artwork-max-height;
             >.artworkImg{
