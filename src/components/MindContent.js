@@ -6,16 +6,20 @@ function spanindex(index){
     return Math.floor(index/2)
 }
 
-function dotChecker( spanlist ) {
-  return spanlist.find( span => span.props.children[0] === "•")? true : false;
+function dotChecker( line ) {
+  return line.startsWith("•");
 }
 
-function pipeChecker( spanlist ) {
-    return spanlist.find( span => span.props.children[1] === "-")? true : false;
-  }
+function pipeChecker( line ) {
+    return line.startsWith(" -");
+}
 
-function lineTag(spanlist){
-    dotChecker(spanlist)
+function pipeSpace( line ){
+    if(line.startsWith("-")){
+        return " " + line   
+    }else{
+        return line
+    }
 
 }
 
@@ -48,16 +52,20 @@ function MindContent (content){
     var splitline = data.split('<br>')
     console.log("splitline : ",splitline)
     splitline.map((lineb) =>{
-        var line = lineb.trim()
+        var lineTag = "" 
+        var line = pipeSpace(lineb.trim())
         var spanlist = []
         var templine = line
+        lineTag = dotChecker(line) ? " circle" : lineTag
+        lineTag = pipeChecker(line) ? " pipe" : lineTag
         var mablelist = changeMarbleNum(line)
-        var lineTag = ""
+        
         if(mablelist.length === 2){
             spanlist.push(mablelist[0])
             templine = mablelist[1]
             lineTag = " marble"
         }
+        
         var splitstring = templine.split(/[{}]+/)
         console.log("splitstring : ", splitstring)
         if(splitstring.length%2 === 1){
@@ -88,8 +96,6 @@ function MindContent (content){
             console.log("괄호 갯수가 이상한데...?")
         }
         console.log("spanlist : ",spanlist)
-        lineTag = dotChecker(spanlist) ? " circle" : lineTag
-        lineTag = pipeChecker(spanlist) ? " pipe" : lineTag
         var linetag = <div className={`line`+ lineTag}>{spanlist}</div>;
         linelist.push(linetag)
         return true
