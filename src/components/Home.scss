@@ -174,10 +174,10 @@ html, body {
                   position: relative;
                   display: flex;
                   justify-content: space-between;
-                  align-items: center;
                   margin-bottom: 4%;
                   padding-inline-start: 0;
                   >.division{
+                    margin-top: 2.5%;
                     white-space: nowrap;
                     font-size: 1.5em;
                   }
@@ -188,10 +188,6 @@ html, body {
                     justify-content: flex-end;
                     width: 80%;
                     margin-bottom: 1%;
-                    button::first-child{
-                      margin-left: 0 !important;
-
-                    }
                   }
                   >.img-container a{
                     color: white; 

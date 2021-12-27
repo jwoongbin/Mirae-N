@@ -14,7 +14,7 @@ import ContextConsumer from '../contexts/AccordionContext';
     display: flex;
     border-radius: 1em;
     margin-bottom: 0.5em;
-    margin-right: 0.2em;
+    margin-left: 0.22em;
     padding: 0.5em 1em;
     align-items: center;
     justify-content: center;
