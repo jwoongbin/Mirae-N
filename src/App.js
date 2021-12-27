@@ -10,8 +10,8 @@ function App(props) {
   const current = decodeURI(window.location.href);
   const search = current.split("?")[1];
   const params = new URLSearchParams(search);
-  const keywords = params.get('keywords');
-  console.log("keywords : " , keywords)
+  const keywords = params.get('q');
+  console.log("q : " , keywords)
   if(keywords != null){
     props.history.push(keywords)
   }

@@ -116,7 +116,11 @@ function Contents({data}) {
                       {subs.sub != null ? circleParser(subs.sub) : ""}
                       <div key={subs.sub+index} className="img-container">
                         {subs.btns.map((btn, index) =>(
-                          <StyledButton className="button" style={button(btn.btn_name)}><Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link></StyledButton>
+                          <StyledButton className="button" style={button(btn.btn_name)}>
+                            {
+                              (btn.btn_name === "마인드맵" || btn.btn_name === "추가문제") ? <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link> : <a key={subs.sub+index} href={btn.btn_url}>{btn.btn_name}</a>
+                            }
+                            </StyledButton>
                         ))}
                       </div>
                     </ul>
