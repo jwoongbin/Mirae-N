@@ -1,7 +1,8 @@
 import './Quiz.scss';
 import pen from '../images/pen/pen.png';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { fillParentheses } from '../common/utils';
+import AccordionContext from '../contexts/AccordionContext';
 
 function Quiz({data, conindex, subindex}){
   const questionData = data.contents[conindex].subs[subindex].questions
@@ -18,6 +19,9 @@ function Quiz({data, conindex, subindex}){
   useEffect(()=>{
     console.log(click,'상태 변경 감지')
   },[click])
+
+  let context = useContext(AccordionContext);
+  context.setAcorindex(conindex)
 
   const questions = questionData.map((item, index) => {
     console.log(item.option_one)

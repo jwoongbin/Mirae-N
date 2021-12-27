@@ -6,6 +6,7 @@ import { circleParser } from '../common/utils.js';
 import styled, {css} from "styled-components";
 import React,{ useContext } from 'react';
 import ContextConsumer from '../contexts/AccordionContext';
+import { propTypes } from 'react-bootstrap/esm/Image';
 
 // 레드: #FF8A8A (개념, 추가문제, 해설강의)
 // 퍼플: #8A8AFF (유형, 마인드맵, )
@@ -21,7 +22,7 @@ import ContextConsumer from '../contexts/AccordionContext';
     `;
 
 // const [activeId, setActiveId] = useState("2");
-function Contents({data}) {
+function Contents({history, data}) {
 
   const button = (btn_name) => {
     if (data.subject === '수학'){btn_name = btn_name[0]+btn_name[1]}
@@ -33,6 +34,7 @@ function Contents({data}) {
           width: '7em',
           backgroundColor: '#FF8A8A',
           boxShadow: 'inset 0 -3px 6px 0px rgb(241, 81, 81)',
+          cursor :'pointer',
         };
       case '유형' :
       case '마인드맵' :
@@ -40,12 +42,14 @@ function Contents({data}) {
           width: '7em',
           backgroundColor: '#8A8AFF',
           boxShadow: 'inset 0 -3px 6px 0px rgb(102, 102, 255)',
+          cursor :'pointer',
         };
       case '연산':
         return {
           width: '7em',
           backgroundColor: '#5BD59A',
           boxShadow: 'inset 0 -3px 6px 0px rgb(0, 176, 91)', 
+          cursor :'pointer',
         }     
     }
     
@@ -97,6 +101,12 @@ function Contents({data}) {
         }
     }
   }, []);
+
+  var link = (btn) =>{
+    var loc = () => window.location.href = btn.btn_url
+    btn.btn_name === "마인드맵" || btn.btn_name === "추가문제" ? history.push(btn.btn_url.replace("https://edubook.mirae-n.com","")) : loc()
+  }
+
   // const context = useContext(AccordionContext);
   // console.log('컨슈머',context);
   return(
@@ -116,9 +126,10 @@ function Contents({data}) {
                       {subs.sub != null ? circleParser(subs.sub) : ""}
                       <div key={subs.sub+index} className="img-container">
                         {subs.btns.map((btn, index) =>(
-                          <StyledButton className="button" style={button(btn.btn_name)}>
+                          <StyledButton className="button" style={button(btn.btn_name)} onClick={()=>link(btn)}>
                             {
-                              (btn.btn_name === "마인드맵" || btn.btn_name === "추가문제") ? <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link> : <a key={subs.sub+index} href={btn.btn_url}>{btn.btn_name}</a>
+                              <a key={subs.sub+index}>{btn.btn_name}</a>
+                              // (btn.btn_name === "마인드맵" || btn.btn_name === "추가문제") ? <Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link> : <a key={subs.sub+index} href={btn.btn_url}>{btn.btn_name}</a>
                             }
                             </StyledButton>
                         ))}

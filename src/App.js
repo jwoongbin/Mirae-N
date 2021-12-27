@@ -18,11 +18,11 @@ function App(props) {
   console.log(newdata);
   const [acorindex, setAcorindex] = useState();
   return (
-    <Router>
+    <>
       <ContextProvider value={{acorindex, setAcorindex}}>
         {newdata.map((data, index) => (
           <React.Fragment key={index}>
-          <Route key={index} exact path={data.book_url.replace("https://edubook.mirae-n.com","")} render={() => <Home data={data}/>}/>
+          <Route key={index} exact path={data.book_url.replace("https://edubook.mirae-n.com","")} render={() => <Home history={props.history} data={data}/>}/>
             {data.contents.map((content, indexa) => (
               content.subs.map((sub, indexb) => (
                 sub.btns.map((btn, indexc) => {
@@ -44,8 +44,7 @@ function App(props) {
           </React.Fragment>
         ))}
       </ContextProvider>
-
-    </Router>
+    </>
   )
 } 
 export default withRouter(App);

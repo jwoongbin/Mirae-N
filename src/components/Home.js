@@ -8,7 +8,7 @@ import cloud2 from "../images/web/cloud2.png";
 import cloud3 from "../images/web/cloud3.png";
 import { BASE_URL } from '../constants';
 
-function Home({data}){
+function Home({history , data}){
   const book_title = '초등 ' + data.subject + ' '+  data.grade + '-' + data.semester;
   console.log(data);
   const onFullS = (isFull) => {
@@ -51,7 +51,7 @@ function Home({data}){
             <img className="book-cover" src={`${BASE_URL}/image/`+bookUrl+'/'+data.cover_img} alt=""/>
           </div>
           <div className="accordion-box">
-            <Contents data={data} />
+            <Contents history={history} data={data} />
           </div>
           <div className="footer">Copyright ⓒ MIRAE N CO.LTD. All Rights Reserved</div>
         </div>
