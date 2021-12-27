@@ -177,15 +177,21 @@ html, body {
                   align-items: center;
                   margin-bottom: 4%;
                   padding-inline-start: 0;
+                  >.division{
+                    white-space: nowrap;
+                    font-size: 1.5em;
+                  }
                   >.img-container{
                     // margin-right: 2%;
                     display: flex;
+                    flex-wrap: wrap;
                     justify-content: flex-end;
                     width: 80%;
                     margin-bottom: 1%;
                   }
                   >.img-container a{
                     color: white; 
+                    white-space: nowrap;
                     text-decoration: none;
                     display: flex;
                     align-items: center;
@@ -367,6 +373,13 @@ html, body {
                     font-size: 3.5vw;
                     // padding: 0 1em 1em 0em;
                     ul{
+                      >.division{
+                        font-size: 1em;
+                      }
+                      >.img-container >.button{
+                        height: 2.5em;
+                        width: 5em !important;
+                      }
                       >.img-container a{
                         font-size: 3.5vw;
                       }

@@ -118,6 +118,10 @@ export function typeFourImage(content){
 }
 
   export function circleParser(subs){
+    console.log(subs);
+    if (subs === '응용유형' || '연산' || '개념'){
+      return (<div className="division">{subs}</div>)
+    }
     let newNumber = "";
     console.log(newNumber);
     const number = subs.split('-');

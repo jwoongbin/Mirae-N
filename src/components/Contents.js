@@ -13,6 +13,7 @@ import ContextConsumer from '../contexts/AccordionContext';
   const StyledButton = styled.div`
     display: flex;
     border-radius: 1em;
+    margin-bottom: 0.5em;
     margin-left: 0.5em;
     padding: 0.5em 1em;
     align-items: center;
@@ -29,19 +30,20 @@ function Contents({data}) {
       case '추가문제' :
       case '해설강의' :
         return {
+          width: '7em',
           backgroundColor: '#FF8A8A',
           boxShadow: 'inset 0 -3px 6px 0px rgb(241, 81, 81)',
         };
       case '유형' :
       case '마인드맵' :
         return {
-          width: 'fit-content',
+          width: '7em',
           backgroundColor: '#8A8AFF',
           boxShadow: 'inset 0 -3px 6px 0px rgb(102, 102, 255)',
         };
       case '연산':
         return {
-          width: 'fit-content',
+          width: '7em',
           backgroundColor: '#5BD59A',
           boxShadow: 'inset 0 -3px 6px 0px rgb(0, 176, 91)', 
         }     
@@ -114,7 +116,7 @@ function Contents({data}) {
                       {subs.sub != null ? circleParser(subs.sub) : ""}
                       <div key={subs.sub+index} className="img-container">
                         {subs.btns.map((btn, index) =>(
-                          <StyledButton style={button(btn.btn_name)}><Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link></StyledButton>
+                          <StyledButton className="button" style={button(btn.btn_name)}><Link key={subs.sub+index} to={btn.btn_url.replace("https://edubook.mirae-n.com","")}>{btn.btn_name}</Link></StyledButton>
                         ))}
                       </div>
                     </ul>
