@@ -13,8 +13,8 @@ import ContextConsumer from '../contexts/AccordionContext';
   const StyledButton = styled.div`
     display: flex;
     border-radius: 1em;
-    margin-bottom: 0.5em;
-    margin-left: 0.5em;
+    margin-bottom: 0.2em;
+    margin-right: 0.2em;
     padding: 0.5em 1em;
     align-items: center;
     justify-content: center;
