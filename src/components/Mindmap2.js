@@ -9,6 +9,7 @@ import { useState, useContext } from 'react';
 import MindContent from "./MindContent";
 import { boxStyle, titleStyle } from '../common/utils.js';
 import AccordionContext from '../contexts/AccordionContext';
+import { BASE_URL } from "../constants";
 
 function Mindmap2({ data, conindex, subindex, background }) {
   const [click, setClick] = useState(false);
@@ -39,7 +40,7 @@ function Mindmap2({ data, conindex, subindex, background }) {
           </div>
           {click ? <img className="arrow" src={arrow1} alt=''/> : null}
           {click ? <img className="dot_arrow" src={arrow1_dot} alt=''/> : null}
-          {(click && mindmapData.image_one != null) ? <div className="artwork"><img className="artworkImg" src={'/image/'+book_image+mindmapData.image_one} alt=''/></div> : null}
+          {(click && mindmapData.image_one != null) ? <div className="artwork"><img className="artworkImg" src={`${BASE_URL}/image/`+book_image+mindmapData.image_one} alt=''/></div> : null}
           <div className="content" style={boxStyle(data.subject)}>{click ? mindContent(mindmapData.contents_one) : null}</div>
         </div>
         <div className="item2" style={{display : click? "" : "none"}}>
@@ -48,7 +49,7 @@ function Mindmap2({ data, conindex, subindex, background }) {
           </div>
           {click ? <img className="arrow" src={arrow2} alt=''/> : null}
           {click ? <img className="dot_arrow" src={arrow2_dot} alt=''/> : null}
-          {(click && mindmapData.image_two != null) ? <div className="artwork"><img className="artworkImg" src={'/image/'+book_image+mindmapData.image_two} alt=''/></div> : null}
+          {(click && mindmapData.image_two != null) ? <div className="artwork"><img className="artworkImg" src={`${BASE_URL}/image/`+book_image+mindmapData.image_two} alt=''/></div> : null}
           <div className="content" style={boxStyle(data.subject)}>{click ?mindContent(mindmapData.contents_two) : null}</div>
         </div>
         <div className="item3" style={{display : click? "" : "none"}}>
@@ -57,7 +58,7 @@ function Mindmap2({ data, conindex, subindex, background }) {
           </div>
           {click ? <img className="arrow" src={arrow3} alt=''/> : null}
           {click ? <img className="dot_arrow" src={arrow3_dot} alt=''/> : null}
-          {(click && mindmapData.image_three != null) ? <div className="artwork"><img className="artworkImg" src={'/image/'+book_image+mindmapData.image_three} alt=''/></div> : null}
+          {(click && mindmapData.image_three != null) ? <div className="artwork"><img className="artworkImg" src={`${BASE_URL}/image/`+book_image+mindmapData.image_three} alt=''/></div> : null}
           <div className="content" style={boxStyle(data.subject)}>{click ? mindContent(mindmapData.contents_three) : null}</div>
         </div>
       </div>

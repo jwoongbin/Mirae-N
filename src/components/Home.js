@@ -6,6 +6,7 @@ import logo from "../images/web/logo.png";
 import cloud1 from "../images/web/cloud1.png";
 import cloud2 from "../images/web/cloud2.png";
 import cloud3 from "../images/web/cloud3.png";
+import { BASE_URL } from '../constants';
 
 function Home({data}){
   const book_title = '초등 ' + data.subject + ' '+  data.grade + '-' + data.semester;
@@ -47,7 +48,7 @@ function Home({data}){
           </div>
           <div className="top">
             <div className="book-title"><span>{book_title}</span></div>
-            <img className="book-cover" src={'/image/'+bookUrl+'/'+data.cover_img} alt=""/>
+            <img className="book-cover" src={`${BASE_URL}/image/`+bookUrl+'/'+data.cover_img} alt=""/>
           </div>
           <div className="accordion-box">
             <Contents data={data} />
