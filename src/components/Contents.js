@@ -24,6 +24,14 @@ import { propTypes } from 'react-bootstrap/esm/Image';
 // const [activeId, setActiveId] = useState("2");
 function Contents({history, data}) {
 
+  const button_order = (subject) => {
+    if(subject ==='수학'){
+        return{
+          justifyContent:'flex-start'
+        }
+    }
+  }
+
   const button = (btn_name) => {
     if (data.subject === '수학'){btn_name = btn_name[0]+btn_name[1]}
     switch(btn_name) {
@@ -124,7 +132,7 @@ function Contents({history, data}) {
                   {item.subs.map((subs, index) => (
                     <ul key={subs.sub+index}>
                       {subs.sub != null ? circleParser(subs.sub) : ""}
-                      <div key={subs.sub+index} className="img-container">
+                      <div key={subs.sub+index} className="img-container" style={button_order(data.subject)}>
                         {subs.btns.map((btn, index) =>(
                           <StyledButton className="button" style={button(btn.btn_name)} onClick={()=>link(btn)}>
                             {

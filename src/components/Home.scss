@@ -186,7 +186,7 @@ html, body {
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: flex-end;
-                    width: 80%;
+                    width: 75%;
                     margin-bottom: 1%;
                   }
                   >.img-container a{
@@ -281,13 +281,35 @@ html, body {
     overflow-x: hidden;
     >.content{
       >.frame{
-          width: 50vw
+          width: 50vw;
+          >.accordion-box{
+            >.panel-group{
+              top: 4%;
+              >.accordion{
+                >.accordion-item{
+                  >.accordion-header{
+                  }
+                  >.accordion-collapse{
+                    >.accordion-body{
+                      // padding: 0 1em 1em 0em;
+                      ul{
+                        >.img-container{
+                          width: 58%;
+                        }
+                      }
+                    }
+  
+                  }
+                }
+              }
+            }
+          }
       }
     }
   }   
 }
 
-@media (min-width: 320px) and (max-width: 479px) {
+@media (max-width: 700px) {
   .home-wrap{
     overflow-x: hidden;
     >.header{
@@ -373,6 +395,9 @@ html, body {
                     font-size: 3.5vw;
                     // padding: 0 1em 1em 0em;
                     ul{
+                      >.img-container{
+                        width: 81%;
+                      }
                       >.division{
                         font-size: 1em;
                       }
