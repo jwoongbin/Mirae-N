@@ -1,14 +1,3 @@
-import marble1 from '../images/marblenum/marble_num1.png'
-
-export function newlineToBr(content){
-    if(content === null){
-        return ""
-    }
-    console.log(content)
-    var replaceString = content.replace(/\n/g, '<br>');
-    return replaceString
-}
-
 export function fillParentheses(content){
   var spanlist = []
   var fillString = content.replaceAll('( )','(        )').replaceAll(')(',') (')

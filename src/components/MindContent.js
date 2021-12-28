@@ -1,6 +1,16 @@
 import { useState } from 'react';
-import { newlineToBr, changeMarbleNum } from '../common/utils.js';
+import { changeMarbleNum } from '../common/utils.js';
 import "./MindContent.scss"
+
+
+function newlineToBr(content){
+    if(content === null){
+        return ""
+    }
+    console.log(content)
+    var replaceString = content.replace(/\n/g, '<br>').replace(/(?! +‘| +')( +)/g,' ');
+    return replaceString
+}
 
 function spanindex(index){
     return Math.floor(index/2)
@@ -16,11 +26,10 @@ function pipeChecker( line ) {
 
 function pipeSpace( line ){
     if(line.startsWith("-")){
-        return " " + line   
+        return line.replace(/-/g," - ")
     }else{
         return line
     }
-
 }
 
 function MindContent (content){
