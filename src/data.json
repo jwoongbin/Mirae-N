@@ -11,6 +11,21 @@
         "title": "9까지의 수",
         "subs": [
           {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산1",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/1.html"
+              },
+              {
+                "btn_name": "연산2",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/2.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
             "sub": "응용유형",
             "btns": [
               {
@@ -60,21 +75,6 @@
               {
                 "btn_name": "유형4-2",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/1-1/unit1/Sol/미래엔_초코 수학 1-1_1단원 응용유형4-2_해설동영상.mp4"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산1",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/1.html"
-              },
-              {
-                "btn_name": "연산2",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/2.html"
               }
             ],
             "mindmap": {},
@@ -148,6 +148,25 @@
         "title": "덧셈과 뺄셈",
         "subs": [
           {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산3",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/3.html"
+              },
+              {
+                "btn_name": "연산4",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/4.html"
+              },
+              {
+                "btn_name": "연산5",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/5.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
             "sub": "응용유형",
             "btns": [
               {
@@ -197,25 +216,6 @@
               {
                 "btn_name": "유형4-2",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/1-1/unit3/Sol/미래엔_초코 수학 1-1_3단원 응용유형4-2_해설동영상.mp4"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산3",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/3.html"
-              },
-              {
-                "btn_name": "연산4",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/4.html"
-              },
-              {
-                "btn_name": "연산5",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/5.html"
               }
             ],
             "mindmap": {},
@@ -289,6 +289,25 @@
         "title": "50까지의 수",
         "subs": [
           {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산6",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/6.html"
+              },
+              {
+                "btn_name": "연산7",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/7.html"
+              },
+              {
+                "btn_name": "연산8",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/8.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
             "sub": "응용유형",
             "btns": [
               {
@@ -342,25 +361,6 @@
             ],
             "mindmap": {},
             "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산6",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/6.html"
-              },
-              {
-                "btn_name": "연산7",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/7.html"
-              },
-              {
-                "btn_name": "연산8",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/1-1/8.html"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
           }
         ]
       }
@@ -377,6 +377,21 @@
         "unit": 1,
         "title": "세 자리 수",
         "subs": [
+          {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산1",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/1.html"
+              },
+              {
+                "btn_name": "연산2",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/2.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
           {
             "sub": "응용유형",
             "btns": [
@@ -427,21 +442,6 @@
               {
                 "btn_name": "유형4-2",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/2-1/unit1/Sol/미래엔_초코 수학 2-1_1단원 응용유형4-2_해설동영상.mp4"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산1",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/1.html"
-              },
-              {
-                "btn_name": "연산2",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/2.html"
               }
             ],
             "mindmap": {},
@@ -503,6 +503,41 @@
         "title": "덧셈과 뺄셈",
         "subs": [
           {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산3",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/3.html"
+              },
+              {
+                "btn_name": "연산4",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/4.html"
+              },
+              {
+                "btn_name": "연산5",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/5.html"
+              },
+              {
+                "btn_name": "연산6",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/6.html"
+              },
+              {
+                "btn_name": "연산7",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/7.html"
+              },
+              {
+                "btn_name": "연산8",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/8.html"
+              },
+              {
+                "btn_name": "연산9",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/9.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
             "sub": "응용유형",
             "btns": [
               {
@@ -544,47 +579,12 @@
             ],
             "mindmap": {},
             "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산3",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/3.html"
-              },
-              {
-                "btn_name": "연산4",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/4.html"
-              },
-              {
-                "btn_name": "연산5",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/5.html"
-              },
-              {
-                "btn_name": "연산6",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/6.html"
-              },
-              {
-                "btn_name": "연산7",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/7.html"
-              },
-              {
-                "btn_name": "연산8",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/8.html"
-              },
-              {
-                "btn_name": "연산9",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/9.html"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
           }
         ]
       },
       {
         "unit": 4,
-        "title": "길이재기",
+        "title": "길이 재기",
         "subs": [
           {
             "sub": "응용유형",
@@ -697,6 +697,17 @@
         "title": "곱셈",
         "subs": [
           {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산10",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/10.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
             "sub": "응용유형",
             "btns": [
               {
@@ -722,17 +733,6 @@
               {
                 "btn_name": "유형2-2",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/2-1/unit6/Sol/미래엔_초코 수학 2-1_6단원 응용유형2-2_해설동영상.mp4"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산10",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/2-1/10.html"
               }
             ],
             "mindmap": {},
@@ -779,6 +779,29 @@
               {
                 "btn_name": "개념6",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/3-1/unit1/Lec/미래엔_초코 수학 3-1_1단원 개념6_개념동영상.mp4"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산1",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/1.html"
+              },
+              {
+                "btn_name": "연산2",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/2.html"
+              },
+              {
+                "btn_name": "연산3",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/3.html"
+              },
+              {
+                "btn_name": "연산4",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/4.html"
               }
             ],
             "mindmap": {},
@@ -834,29 +857,6 @@
               {
                 "btn_name": "유형4-2",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/3-1/unit1/Sol/미래엔_초코 수학 3-1_1단원 응용유형4-2_해설동영상.mp4"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산1",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/1.html"
-              },
-              {
-                "btn_name": "연산2",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/2.html"
-              },
-              {
-                "btn_name": "연산3",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/3.html"
-              },
-              {
-                "btn_name": "연산4",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/4.html"
               }
             ],
             "mindmap": {},
@@ -984,6 +984,17 @@
             "questions": []
           },
           {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산5",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/5.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
             "sub": "응용유형",
             "btns": [
               {
@@ -1037,17 +1048,6 @@
             ],
             "mindmap": {},
             "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산5",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/5.html"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
           }
         ]
       },
@@ -1077,6 +1077,25 @@
               {
                 "btn_name": "개념5",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/3-1/unit4/Lec/미래엔_초코 수학 3-1_4단원 개념5_개념동영상.mp4"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산6",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/6.html"
+              },
+              {
+                "btn_name": "연산7",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/7.html"
+              },
+              {
+                "btn_name": "연산8",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/8.html"
               }
             ],
             "mindmap": {},
@@ -1148,25 +1167,6 @@
             ],
             "mindmap": {},
             "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산6",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/6.html"
-              },
-              {
-                "btn_name": "연산7",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/7.html"
-              },
-              {
-                "btn_name": "연산8",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/8.html"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
           }
         ]
       },
@@ -1200,6 +1200,21 @@
               {
                 "btn_name": "개념6",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/3-1/unit5/Lec/미래엔_초코 수학 3-1_5단원 개념6_개념동영상.mp4"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산9",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/9.html"
+              },
+              {
+                "btn_name": "연산10",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/10.html"
               }
             ],
             "mindmap": {},
@@ -1259,21 +1274,6 @@
             ],
             "mindmap": {},
             "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산9",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/9.html"
-              },
-              {
-                "btn_name": "연산10",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/10.html"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
           }
         ]
       },
@@ -1315,6 +1315,21 @@
               {
                 "btn_name": "개념8",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/3-1/unit6/Lec/미래엔_초코 수학 3-1_6단원 개념8_개념동영상.mp4"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산11",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/11.html"
+              },
+              {
+                "btn_name": "연산12",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/12.html"
               }
             ],
             "mindmap": {},
@@ -1370,21 +1385,6 @@
               {
                 "btn_name": "유형4-2",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/3-1/unit6/Sol/미래엔_초코 수학 3-1_6단원 응용유형4-2_해설동영상.mp4"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산11",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/11.html"
-              },
-              {
-                "btn_name": "연산12",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/3-1/12.html"
               }
             ],
             "mindmap": {},
@@ -1537,6 +1537,25 @@
             "questions": []
           },
           {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산1",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/1.html"
+              },
+              {
+                "btn_name": "연산2",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/2.html"
+              },
+              {
+                "btn_name": "연산3",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/3.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
             "sub": "응용유형",
             "btns": [
               {
@@ -1590,25 +1609,6 @@
             ],
             "mindmap": {},
             "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산1",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/1.html"
-              },
-              {
-                "btn_name": "연산2",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/2.html"
-              },
-              {
-                "btn_name": "연산3",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/3.html"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
           }
         ]
       },
@@ -1646,6 +1646,37 @@
               {
                 "btn_name": "개념7",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/4-1/unit3/Lec/미래엔_초코 수학 4-1_3단원 개념7_개념동영상.mp4"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산4",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/4.html"
+              },
+              {
+                "btn_name": "연산5",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/5.html"
+              },
+              {
+                "btn_name": "연산6",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/6.html"
+              },
+              {
+                "btn_name": "연산7",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/7.html"
+              },
+              {
+                "btn_name": "연산8",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/8.html"
+              },
+              {
+                "btn_name": "연산9",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/9.html"
               }
             ],
             "mindmap": {},
@@ -1725,37 +1756,6 @@
               {
                 "btn_name": "유형6-2",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/4-1/unit3/Sol/미래엔_초코 수학 4-1_3단원 응용유형6-2_해설동영상.mp4"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산4",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/4.html"
-              },
-              {
-                "btn_name": "연산5",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/5.html"
-              },
-              {
-                "btn_name": "연산6",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/6.html"
-              },
-              {
-                "btn_name": "연산7",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/7.html"
-              },
-              {
-                "btn_name": "연산8",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/8.html"
-              },
-              {
-                "btn_name": "연산9",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/9.html"
               }
             ],
             "mindmap": {},
@@ -1943,6 +1943,17 @@
             "questions": []
           },
           {
+            "sub": "연산",
+            "btns": [
+              {
+                "btn_name": "연산10",
+                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/10.html"
+              }
+            ],
+            "mindmap": {},
+            "questions": []
+          },
+          {
             "sub": "응용유형",
             "btns": [
               {
@@ -1980,17 +1991,6 @@
               {
                 "btn_name": "유형3-2",
                 "btn_url": "https://edubook.mirae-n.com/math/choco/4-1/unit6/Sol/미래엔_초코 수학 4-1_6단원 응용유형3-2_해설동영상.mp4"
-              }
-            ],
-            "mindmap": {},
-            "questions": []
-          },
-          {
-            "sub": "연산",
-            "btns": [
-              {
-                "btn_name": "연산10",
-                "btn_url": "https://edubook.mirae-n.com/math/choco/Cal/4-1/10.html"
               }
             ],
             "mindmap": {},
@@ -2804,7 +2804,7 @@
               "title": "4. 글쓰기의 과정",
               "type": 2,
               "mind_one": "글을 쓰기 전 해야 할 일 ",
-              "contents_one": "• 글을 쓰는 목적, 읽을 사람, 글이 실릴 매체를 생각함.\n• 자신의 경험이나 느낀 점, 떠오르는 생각을 주제별로 묶어 { 생각그물 }(으)로 정리함.   ",
+              "contents_one": "• 글을 쓰는 목적, 읽을 사람, 글이 실릴 매체를 생각함.\n• 자신의 경험이나 느낀 점, 떠오르는 생각을 주제별로 묶어 { 생각그물 }(으)로 정리함.",
               "image_one": "4-1.jpg",
               "mind_two": "떠올린 내용을 조직하고 쓰는 방법",
               "contents_two": "• 시간의 흐름과 장소의 변화에 따라 내용을 묶는 것을 { 다발 짓기 }(이)라고 함.\n• 글을 읽을 사람, 글을 쓰는 상황이나 목적을 계속 생각함.\n• 조직한 내용을 글로 쓸 때는 경험과 생각을 더 자세하고 실감 나게 씀.",
@@ -2873,7 +2873,7 @@
               "contents_one": "• 토의 절차는 '{ 토의 주제 } 정하기 → 의견 마련하기 → 의견 모으기 → 의견 결정하기'임.",
               "image_one": "6-1.jpg",
               "mind_two": "토의하는 방법",
-              "contents_two": "\n• 의견을 마련할 때에는 토의 주제에 맞는 의견인지, 주장과 근거가 알맞은지, 실천할 수 있는 의견인지 생각함.                                     \n• 의견을 모을 때에는 여러 의견의 장단점을 찾고, 판단 기준을 세워 의견이 알맞은지 판단함. \n• 의견을 결정할 때에는 주제에 가장 알맞고 { 실천 }할 수 있는 의견으로 결정함.",
+              "contents_two": "\n• 의견을 마련할 때에는 토의 주제에 맞는 의견인지, 주장과 근거가 알맞은지, 실천할 수 있는 의견인지 생각함. \n• 의견을 모을 때에는 여러 의견의 장단점을 찾고, 판단 기준을 세워 의견이 알맞은지 판단함. \n• 의견을 결정할 때에는 주제에 가장 알맞고 { 실천 }할 수 있는 의견으로 결정함.",
               "image_two": "6-2.jpg",
               "mind_three": "토의할 때 지켜야 할 점",
               "contents_three": "• 다른 사람의 의견을 { 존중 }하고 상대방의 말을 끝까지 들음.\n• 알맞은 까닭을 들어 내 주장을 말하고, 토의 주제에서 벗어난 의견은 말하지 않음.\n• 소수의 의견도 도움이 된다면 받아들임.",
@@ -2936,10 +2936,10 @@
               "title": "8. 아는 것과 새롭게 안 것",
               "type": 3,
               "mind_one": "낱말의 짜임",
-              "contents_one": "• 뜻이 있는 두 낱말을 합하거나 뜻을 더해 주는 말과 뜻이 있는 낱말을 합해 새로운 낱말, { 복합어 } 을/를 만듦.\n• 낱말을 나누면 원래의 뜻이 사라져 나눌 수 없는 낱말, 단일어도 있음.\n• 낱말의 짜임을 알면 잘 모르는 낱말의 뜻을 짐작할 수 있음.                ",
+              "contents_one": "• 뜻이 있는 두 낱말을 합하거나 뜻을 더해 주는 말과 뜻이 있는 낱말을 합해 새로운 낱말, { 복합어 } 을/를 만듦.\n• 낱말을 나누면 원래의 뜻이 사라져 나눌 수 없는 낱말, 단일어도 있음.\n• 낱말의 짜임을 알면 잘 모르는 낱말의 뜻을 짐작할 수 있음.",
               "image_one": "8-1.jpg",
               "mind_two": "아는 지식 떠올리며 글 읽기의 좋은 점",
-              "contents_two": "• 글 내용에 더 { 흥미 }을/를 느낄 수 있고 쉽고 깊이 있게 이해할 수 있음.\n• 글을 읽을 때는 아는 내용과 비교하며 읽는 것이 좋음.                                             ",
+              "contents_two": "• 글 내용에 더 { 흥미 }을/를 느낄 수 있고 쉽고 깊이 있게 이해할 수 있음.\n• 글을 읽을 때는 아는 내용과 비교하며 읽는 것이 좋음.",
               "image_two": "8-2.jpg",
               "mind_three": null,
               "contents_three": null,
@@ -2969,13 +2969,13 @@
               "title": "9. 여러 가지 방법으로 읽어요",
               "type": 1,
               "mind_one": "설명하는 글 읽는 방법",
-              "contents_one": "• 글을 읽으며 설명하려는 대상이 무엇인지, 대상의 무엇을 자세히 설명하는지 생각하며 읽음.                                 \n• 설명하는 대상을 보고 이미 { 아는 것 } 을/를 떠올리고, 새롭게 안 것을 찾아보며 읽음. ",
+              "contents_one": "• 글을 읽으며 설명하려는 대상이 무엇인지, 대상의 무엇을 자세히 설명하는지 생각하며 읽음.\n• 설명하는 대상을 보고 이미 { 아는 것 } 을/를 떠올리고, 새롭게 안 것을 찾아보며 읽음. ",
               "image_one": "9-1.jpg",
               "mind_two": "주장하는 글 읽는 방법",
-              "contents_two": "• 주장하는 내용이 무엇인지, 주장에 타당한 근거를 들고 있는지를 따져 보며 읽음.\n• 자신의 생각과 비교해 같은 점을 찾고 {  비판  }하는 태도로 읽음.",
+              "contents_two": "• 주장하는 내용이 무엇인지, 주장에 타당한 근거를 들고 있는지를 따져 보며 읽음.\n• 자신의 생각과 비교해 같은 점을 찾고 { 비판 }하는 태도로 읽음.",
               "image_two": "9-2.jpg",
               "mind_three": "목적에 따른 글 읽기 방법",
-              "contents_three": "• 알고 싶은 내용이 있을 때는 제목을 먼저 읽고 글의 내용을 짐작하거나 중요한 { 낱말 }을/를 읽으면서 필요한 내용이 있는지 찾으며 읽음.  \n• 자세한 내용을 알고 싶을 때는 중요한 내용에 밑줄을 긋고 글 전체의 내용을 꼼꼼히 읽음.                       ",
+              "contents_three": "• 알고 싶은 내용이 있을 때는 제목을 먼저 읽고 글의 내용을 짐작하거나 중요한 { 낱말 }을/를 읽으면서 필요한 내용이 있는지 찾으며 읽음. \n• 자세한 내용을 알고 싶을 때는 중요한 내용에 밑줄을 긋고 글 전체의 내용을 꼼꼼히 읽음. ",
               "image_three": "9-3.jpg"
             },
             "questions": []
@@ -2999,7 +2999,7 @@
               }
             ],
             "mindmap": {
-              "title": "10.  주인공이 되어",
+              "title": "10. 주인공이 되어",
               "type": 1,
               "mind_one": "경험이 드러난 글의 종류와 특징",
               "contents_one": "• 일상생활의 경험을 표현한 글에는 일기, 생활문, 이야기로 꾸며 쓴 글 등이 있음.\n• 일기는 그날 있었던 일과 나의 생각을 씀.\n• 이야기로 꾸며 쓴 글은 { 긴 기간 }에 걸친 사건이 해결되는 과정이 잘 드러남.",
